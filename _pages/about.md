@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, Stanger! I’m Zhongyuan (you can also call me Jowan or ZY), an incoming Assistant Professor at Hitotsubashi University. I successfully defended his PhD in Management at the City University of Hong Kong in January 2026. My research sits at the intersection of organization theory, entrepreneurship and strategy, with a particular focus on the concept of authenticity. Empirically, my work centres on the arts and cultural industries, including film, painting, and other cultural fields.
+Hi, Stranger! I’m Zhongyuan (you can also call me Jowan or ZY), an incoming Assistant Professor at Hitotsubashi University. I successfully defended his PhD in Management at the City University of Hong Kong in January 2026. My research sits at the intersection of organization theory, entrepreneurship and strategy, with a particular focus on the concept of authenticity. Empirically, my work centres on the arts and cultural industries, including film, painting, and other cultural fields.
 
 Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
