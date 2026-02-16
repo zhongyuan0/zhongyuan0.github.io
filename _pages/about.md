@@ -7,7 +7,7 @@ subtitle: <a href='#'>Hitotsubashi University</a>. Address. Contacts. Motto. Etc
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,3 +24,5 @@ latest_posts:
 ---
 
 Hi, Stranger! I’m Zhongyuan (you can also call me Jowan or ZY), an incoming Assistant Professor at Hitotsubashi University. I successfully defended his PhD in Management at the City University of Hong Kong in January 2026. My research sits at the intersection of organization theory, entrepreneurship and strategy, with a particular focus on the concept of authenticity. Empirically, my work centres on the arts and cultural industries, including film, painting, and other cultural fields.
+
+If our interests align, I welcome the opportunity to collaborate. Please feel free to reach out to me at a253135r@r.hit-u.ac.jp.
