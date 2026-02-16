@@ -528,20 +528,6 @@ ninja.data = [{
           window.open("https://inspirehep.net/authors/false", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=P6aIVc0AAAAJ", "_blank");
-        },
-      },{
         id: 'social-custom_social',
         title: 'Custom_social',
         section: 'Socials',
