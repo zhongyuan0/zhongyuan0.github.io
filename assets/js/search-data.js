@@ -521,18 +521,11 @@ ninja.data = [{
           window.open("mailto:%61%32%35%33%31%33%35%72@%72.%68%69%74-%75.%61%63.%6A%70", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/false", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://scholar.google.com/citations?user=P6aIVc0AAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
