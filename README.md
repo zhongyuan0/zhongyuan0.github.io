@@ -9,7 +9,7 @@
 | 想改什么 | 改这个文件 |
 | --- | --- |
 | 首页：自我介绍、三个研究方向（真善美）、News、代表作、联系方式 | `index.html` |
-| Research 页：全部论文、在审、在写 | `research/index.html` |
+| Research 页：按「真善美」三个方向分组的全部论文（含在审、在写） | `research/index.html` |
 | CV 页（网页版简历） | `cv/index.html` |
 | 照片 | `assets/img/portrait.*`（桌面端，4:5 竖图）和 `assets/img/portrait-wide.*`（手机端） |
 | 颜色、字号、版式 | `assets/css/site.css` 顶部的 Tokens |
@@ -18,8 +18,8 @@
 
 **加一条 News**：在 `index.html` 里找到 `<h3>2026</h3>`，在下面的 `<ul>` 里复制一行 `<li>…</li>` 改文字即可。新的一年就复制整个 `<div class="news-year">…</div>` 块。
 
-**加一篇论文**：在审和在写的论文只写简短的主题，不写完整标题。在 `research/index.html` 对应栏目里复制一个 `<li>…</li>` 块，改标题、作者、期刊和 DOI 链接。作者里自己的名字用 `<span class="me">Zhongyuan Sun</span>` 包起来会稍微加深显示。获奖信息用 `<p class="pub-award">…</p>`。
-同时记得在 `cv/index.html` 的 Publications 里加上同一篇（CV 用 APA 格式）。如果是代表作，也可以放进首页的 Selected publications。
+**加一篇论文**：在 `research/index.html` 里找到它所属的方向（Authenticity / Social issues in management / Aesthetics，归不进去的放 Other work），复制一个 `<li>…</li>` 块，改标题、作者、状态和 DOI 链接。顺序是已发表在前，然后在审，最后在写。在审和在写的论文只写简短的主题，不写完整标题。自己的名字用 `<span class="me">Zhongyuan Sun</span>` 包起来会加粗；获奖信息用 `<p class="pub-award">…</p>`。
+同时在 `cv/index.html` 的 Publications 里按类型加上同一篇（CV 用 APA 格式，是完整的正式记录）。如果是代表作，也可以放进首页的 Selected publications。
 
 **CV 的 PDF**：目前网站上不放 PDF。以后想放的话，把 PDF 上传到 `assets/pdf/`，再在 `index.html` 的链接列表和 `cv/index.html` 顶部加一个下载链接即可。在浏览器里打开 CV 页按「打印 → 另存为 PDF」可以得到排好版的 PDF。
 

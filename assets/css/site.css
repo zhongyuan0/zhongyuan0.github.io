@@ -400,12 +400,29 @@ address {
 .stream-body {
   max-width: var(--measure);
 }
+.stream-body h2,
 .stream-body h3 {
   font-size: var(--step-1);
   font-weight: 400;
   line-height: 1.25;
   margin-bottom: 0.45rem;
 }
+.streams-full .stream + .stream {
+  margin-top: 4rem;
+}
+.streams-full .stream-mark {
+  font-size: 3.2rem;
+}
+.streams-full .stream-body h2 {
+  font-size: var(--step-2);
+}
+.streams-full .stream-body .pubs {
+  margin-top: 1.6rem;
+}
+.streams .more {
+  margin-top: 1.6rem;
+}
+
 .stream-body .ideal {
   display: block;
   font-size: var(--step--1);
@@ -456,6 +473,7 @@ address {
 }
 .pub-authors .me {
   color: var(--ink);
+  font-weight: 700;
 }
 
 .pub-award {
@@ -655,12 +673,21 @@ address {
   .stream-body {
     display: contents;
   }
-  .stream-body p {
+  .stream-body > :not(h2):not(h3) {
     grid-column: 1 / -1;
+  }
+  .stream-body > p {
     margin-top: 0.5rem;
   }
+  .stream-body h2,
   .stream-body h3 {
     margin-bottom: 0;
+  }
+  .streams-full .stream-mark {
+    font-size: 2.3rem;
+  }
+  .streams-full .stream-body h2 {
+    font-size: var(--step-1);
   }
   .stream-mark {
     font-size: 2.3rem;
