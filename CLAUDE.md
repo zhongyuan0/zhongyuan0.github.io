@@ -4,7 +4,7 @@
 - Pages: `index.html` (About), `research/index.html`, `cv/index.html`, `404.html`; `publications/` only redirects to `/research/`.
 - Header and footer markup is repeated in every page; change them everywhere at once.
 - All styling lives in `assets/css/site.css`; colours and type sizes are tokens at the top (light and dark mode).
-- Research page groups every paper by stream (真 authenticity, 善 social issues, 美 aesthetics, plus Other work), published first, then under review, then in progress. The CV lists the same papers by type (APA). Home has short stream summaries and Selected publications. Keep all of them in sync. Unpublished or in-preparation pieces the owner has not released (e.g. invited reviews) stay off the site.
+- Research page groups every paper by stream (真 authenticity, 善 social issues, 美 aesthetics, plus a Book review section at the end), published first, then under review, then in progress. The CV lists the same papers by type (APA). Home has short stream summaries and Selected publications. Keep all of them in sync. Unpublished or in-preparation pieces the owner has not released (e.g. invited reviews) stay off the site.
 - No CV PDF is published for now (owner's choice). `/cv/` still has print styles at the end of `site.css` if one is wanted later.
 - Papers under review and work in progress are listed by short topic only, never by full title (owner's choice). The name is Zhongyuan Sun, without "Jowan".
 - Fonts are self-hosted subsets (`assets/fonts/`); the CJK file only contains 孙中源 and 真善美; re-subset it if new characters are needed. Do not switch to Google Fonts (blocked in mainland China).
