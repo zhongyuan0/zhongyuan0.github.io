@@ -24,14 +24,14 @@
   font-style: normal;
   font-display: swap;
 }
-/* Only the three characters of 孙中源 are included in this file. */
+/* Only six characters are included in this file: 孙中源 and 真善美. */
 @font-face {
   font-family: "Name SC";
   src: url("/assets/fonts/noto-serif-sc-name.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+4E2D, U+5B59, U+6E90;
+  unicode-range: U+4E2D, U+5B59, U+6E90, U+771F, U+5584, U+7F8E;
 }
 
 /* ---------- Tokens ---------- */
@@ -365,10 +365,70 @@ address {
   }
 }
 
-/* ---------- Interests ---------- */
-.interests {
+/* ---------- Research streams: 真 善 美 ---------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.streams {
+  padding-top: 3.6rem;
+}
+
+.stream {
+  display: grid;
+  grid-template-columns: var(--margin-col) minmax(0, 1fr);
+  column-gap: var(--gap);
+}
+.stream + .stream {
+  margin-top: 2.2rem;
+}
+
+.stream-mark {
+  font-family: var(--cjk);
+  font-weight: 600;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--indigo);
+  padding-top: 0.2rem;
+}
+
+.stream-body {
+  max-width: var(--measure);
+}
+.stream-body h2,
+.stream-body h3 {
   font-size: var(--step-1);
-  line-height: 1.45;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-bottom: 0.45rem;
+}
+.streams-full .stream + .stream {
+  margin-top: 4rem;
+}
+.streams-full .stream-mark {
+  font-size: 3.2rem;
+}
+.streams-full .stream-body h2 {
+  font-size: var(--step-2);
+}
+.streams-full .stream-body .pubs {
+  margin-top: 1.6rem;
+}
+.streams .more {
+  margin-top: 1.6rem;
+}
+
+.stream-body .ideal {
+  display: block;
+  font-size: var(--step--1);
+  font-style: italic;
+  color: var(--ink-soft);
+  margin-bottom: 0.1rem;
 }
 
 /* ---------- News ---------- */
@@ -382,8 +442,18 @@ address {
   font-variant-numeric: lining-nums;
   margin-bottom: 0.4rem;
 }
+.news-year li {
+  display: grid;
+  grid-template-columns: 2.4rem minmax(0, 1fr);
+  column-gap: 0.6rem;
+  align-items: baseline;
+}
 .news-year li + li {
   margin-top: 0.55rem;
+}
+.news-year time {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
 }
 
 /* ---------- Publications ---------- */
@@ -413,6 +483,7 @@ address {
 }
 .pub-authors .me {
   color: var(--ink);
+  font-weight: 700;
 }
 
 .pub-award {
@@ -518,6 +589,10 @@ address {
   display: none;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 /* ---------- Footer ---------- */
 .site-footer {
   color: var(--ink-soft);
@@ -600,8 +675,37 @@ address {
   .site-footer .wrap {
     grid-template-columns: minmax(0, 1fr);
   }
-  .band {
+  .band,
+  .streams {
     padding-top: 2.6rem;
+  }
+  .stream {
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 0.9rem;
+    align-items: end;
+  }
+  .stream-body {
+    display: contents;
+  }
+  .stream-body > :not(h2):not(h3) {
+    grid-column: 1 / -1;
+  }
+  .stream-body > p {
+    margin-top: 0.5rem;
+  }
+  .stream-body h2,
+  .stream-body h3 {
+    margin-bottom: 0;
+  }
+  .streams-full .stream-mark {
+    font-size: 2.3rem;
+  }
+  .streams-full .stream-body h2 {
+    font-size: var(--step-1);
+  }
+  .stream-mark {
+    font-size: 2.3rem;
+    padding-top: 0;
   }
   .band > .label {
     margin-bottom: 0.7rem;
