@@ -199,6 +199,10 @@ address {
   letter-spacing: 0.01em;
 }
 
+.site-nav {
+  margin-left: auto; /* stays on the right on the home page, which has no site name */
+}
+
 .site-nav ul {
   display: flex;
   gap: 1.6rem;
@@ -757,6 +761,9 @@ address {
   }
   .print-only {
     display: inline;
+  }
+  .screen-only {
+    display: none;
   }
   .page-head {
     padding-top: 0;
