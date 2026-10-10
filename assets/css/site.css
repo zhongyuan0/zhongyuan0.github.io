@@ -27,7 +27,7 @@
 /* Only six characters are included in this file: 孙中源 and 真善美. */
 @font-face {
   font-family: "Name SC";
-  src: url("/assets/fonts/noto-serif-sc-name.woff") format("woff");
+  src: url("/assets/fonts/noto-serif-sc-name.woff?v=2") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
