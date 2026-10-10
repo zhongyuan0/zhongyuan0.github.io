@@ -1,0 +1,7 @@
+Fonts in this folder are subsets of fonts released under the SIL Open Font License 1.1
+(full text in CrimsonPro-OFL.txt; the same licence applies to both fonts).
+
+crimson-pro-*.woff        Crimson Pro, Copyright 2018 The Crimson Pro Project Authors
+                          (https://github.com/Fonthausen/CrimsonPro)
+noto-serif-sc-name.woff   Noto Serif CJK SC SemiBold, © 2017-2023 Adobe (http://www.adobe.com/),
+                          with Reserved Font Name 'Source'. Subset to the three characters 孙中源.

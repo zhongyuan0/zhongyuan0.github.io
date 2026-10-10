@@ -1,0 +1,677 @@
+/* ==========================================================================
+   Zhongyuan Sun — personal site
+   One stylesheet for every page. Colours and sizes live in the tokens below.
+   ========================================================================== */
+
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("/assets/fonts/crimson-pro-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("/assets/fonts/crimson-pro-italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url("/assets/fonts/crimson-pro-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* Only the three characters of 孙中源 are included in this file. */
+@font-face {
+  font-family: "Name SC";
+  src: url("/assets/fonts/noto-serif-sc-name.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+4E2D, U+5B59, U+6E90;
+}
+
+/* ---------- Tokens ---------- */
+:root {
+  --paper: #f5f7f9;
+  --ink: #1b2532;
+  --ink-soft: #4e5a69;
+  --rule: #d5dce4;
+  --indigo: #2c4877; /* 藍 — links, the name column */
+  --indigo-wash: #e3e9f2;
+  --ochre: #8a6116; /* golden-hour accent, used only for awards */
+
+  --serif: "Crimson Pro", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --cjk: "Name SC", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", serif;
+
+  --step--1: 0.85rem; /* 17px */
+  --step-0: 1rem; /* 20px body */
+  --step-1: 1.2rem; /* 24px */
+  --step-2: 1.5rem; /* 30px */
+  --step-3: 2.6rem; /* 52px */
+
+  --margin-col: 8.5rem; /* left column: the name, section labels */
+  --gap: 2.5rem;
+  --measure: 34em;
+  --page: 70rem;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0f1620;
+    --ink: #e3e8ef;
+    --ink-soft: #9ba7b6;
+    --rule: #263241;
+    --indigo: #9cb3dd;
+    --indigo-wash: #1a2433;
+    --ochre: #d6a956;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0f1620;
+  --ink: #e3e8ef;
+  --ink-soft: #9ba7b6;
+  --rule: #263241;
+  --indigo: #9cb3dd;
+  --indigo-wash: #1a2433;
+  --ochre: #d6a956;
+}
+
+/* ---------- Base ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 125%; /* 20px: Crimson Pro has a small x-height */
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: var(--step-0);
+  line-height: 1.6;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+dl,
+dd,
+figure {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--indigo);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, var(--indigo) 40%, transparent);
+  text-underline-offset: 0.18em;
+  transition: text-decoration-color 0.15s ease;
+}
+a:hover {
+  text-decoration-color: currentColor;
+}
+a:focus-visible {
+  outline: 2px solid var(--indigo);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+em,
+i,
+cite {
+  font-style: italic;
+}
+
+address {
+  font-style: normal;
+}
+
+::selection {
+  background: var(--indigo-wash);
+  color: var(--ink);
+}
+
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  padding: 0.4rem 0.8rem;
+  background: var(--ink);
+  color: var(--paper);
+  z-index: 10;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+.wrap {
+  max-width: var(--page);
+  margin: 0 auto;
+  padding: 0 clamp(16px, 4vw, 2.5rem);
+}
+
+/* ---------- Header ---------- */
+.site-header .wrap {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.site-name {
+  font-size: var(--step-1);
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.site-nav ul {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.site-nav a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid transparent;
+}
+.site-nav a:hover {
+  color: var(--ink);
+}
+.site-nav a[aria-current="page"] {
+  color: var(--indigo);
+  border-bottom-color: var(--indigo);
+}
+
+/* ---------- Page grid: margin column + main column ---------- */
+main {
+  padding-bottom: 4rem;
+}
+
+.band {
+  display: grid;
+  grid-template-columns: var(--margin-col) minmax(0, 1fr);
+  column-gap: var(--gap);
+  padding-top: 3.6rem;
+}
+
+.band > .label {
+  font-size: var(--step-0);
+  font-weight: 400;
+  font-style: italic;
+  color: var(--ink-soft);
+  line-height: 1.35;
+  padding-top: 0.1rem;
+}
+
+.band > .body {
+  max-width: var(--measure);
+}
+
+.band .lede {
+  margin-bottom: 1.4rem;
+}
+
+.note {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+
+/* ---------- Home: introduction ---------- */
+.intro {
+  display: grid;
+  grid-template-columns: var(--margin-col) minmax(0, 1fr) 15rem;
+  grid-template-areas:
+    "kanji head photo"
+    "kanji text photo";
+  grid-template-rows: auto 1fr;
+  column-gap: var(--gap);
+  padding-top: 2.4rem;
+}
+
+.kanji {
+  grid-area: kanji;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-family: var(--cjk);
+  font-weight: 600;
+  font-size: 4.2rem;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  color: var(--indigo);
+  justify-self: start;
+  margin-top: 0.35rem;
+}
+.kanji span {
+  display: inline-block;
+}
+
+.intro-head {
+  grid-area: head;
+}
+
+.intro h1 {
+  font-size: var(--step-3);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+
+.role {
+  margin-top: 0.9rem;
+  color: var(--ink-soft);
+  line-height: 1.45;
+}
+.role span {
+  display: block;
+}
+
+.intro-text {
+  grid-area: text;
+  max-width: var(--measure);
+  margin-top: 2rem;
+}
+.intro-text p + p {
+  margin-top: 0.9rem;
+}
+
+.intro-photo {
+  grid-area: photo;
+  margin-top: 0.4rem;
+}
+.intro-photo img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 2px;
+  background: var(--indigo-wash);
+}
+.intro-photo figcaption {
+  margin-top: 0.5rem;
+  font-size: var(--step--1);
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.links,
+address {
+  font-variant-numeric: lining-nums;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.6rem;
+  margin-top: 1.6rem;
+}
+
+/* One quiet moment: the name column inks in, character by character. */
+@media (prefers-reduced-motion: no-preference) {
+  .kanji span {
+    opacity: 0;
+    animation: ink 0.9s ease-out forwards;
+  }
+  .kanji span:nth-child(2) {
+    animation-delay: 0.25s;
+  }
+  .kanji span:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+  @keyframes ink {
+    from {
+      opacity: 0;
+      filter: blur(3px);
+    }
+    to {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
+}
+
+/* ---------- Interests ---------- */
+.interests {
+  font-size: var(--step-1);
+  line-height: 1.45;
+}
+
+/* ---------- News ---------- */
+.news-year + .news-year {
+  margin-top: 1.6rem;
+}
+.news-year h3 {
+  font-size: var(--step-0);
+  font-weight: 700;
+  color: var(--indigo);
+  font-variant-numeric: lining-nums;
+  margin-bottom: 0.4rem;
+}
+.news-year li + li {
+  margin-top: 0.55rem;
+}
+
+/* ---------- Publications ---------- */
+.pubs > li + li {
+  margin-top: 1.5rem;
+}
+
+.pub-title {
+  font-size: var(--step-1);
+  line-height: 1.3;
+}
+.pub-title a {
+  color: var(--ink);
+  text-decoration-color: var(--rule);
+}
+.pub-title a:hover {
+  color: var(--indigo);
+  text-decoration-color: currentColor;
+}
+
+.pub-authors,
+.pub-venue,
+.pub-status {
+  color: var(--ink-soft);
+  margin-top: 0.15rem;
+  line-height: 1.45;
+}
+.pub-authors .me {
+  color: var(--ink);
+}
+
+.pub-award {
+  margin-top: 0.3rem;
+  color: var(--ochre);
+  line-height: 1.45;
+}
+.pub-award::before {
+  content: "";
+  display: inline-block;
+  width: 0.45em;
+  height: 0.45em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  background: currentColor;
+  vertical-align: 0.12em;
+}
+
+.more {
+  margin-top: 1.8rem;
+}
+
+/* ---------- Page heading (Research, CV) ---------- */
+.page-head {
+  display: grid;
+  grid-template-columns: var(--margin-col) minmax(0, 1fr);
+  column-gap: var(--gap);
+  padding-top: 2.4rem;
+}
+.page-head > div {
+  grid-column: 2;
+  max-width: var(--measure);
+}
+.page-head h1 {
+  font-size: var(--step-3);
+  font-weight: 400;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+.page-head p {
+  margin-top: 1rem;
+  color: var(--ink-soft);
+}
+
+/* ---------- CV rows ---------- */
+.rows > li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 1.6rem;
+  align-items: baseline;
+}
+.rows > li + li {
+  margin-top: 0.7rem;
+}
+.rows .when {
+  color: var(--ink-soft);
+  font-variant-numeric: lining-nums tabular-nums;
+  font-size: var(--step--1);
+  white-space: nowrap;
+  text-align: right;
+}
+.rows .sub {
+  display: block;
+  color: var(--ink-soft);
+}
+
+.cv-group + .cv-group {
+  margin-top: 1.4rem;
+}
+.cv-group h3 {
+  font-size: var(--step-0);
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+}
+
+.cites > li + li {
+  margin-top: 0.8rem;
+}
+.cites li {
+  padding-left: 1.4em;
+  text-indent: -1.4em; /* hanging indent, as in a printed reference list */
+}
+
+.cites .sub {
+  display: block;
+  text-indent: 0;
+  color: var(--ink-soft);
+}
+.cites a {
+  font-variant-numeric: lining-nums;
+  word-break: break-word;
+}
+
+.plain-list li + li {
+  margin-top: 0.25rem;
+}
+
+.cv-contact {
+  font-variant-numeric: lining-nums;
+}
+
+.print-only {
+  display: none;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+.site-footer .wrap {
+  display: grid;
+  grid-template-columns: var(--margin-col) minmax(0, 1fr);
+  column-gap: var(--gap);
+  padding-top: 2rem;
+  padding-bottom: 2.4rem;
+}
+.site-footer p {
+  grid-column: 2;
+  border-top: 1px solid var(--rule);
+  padding-top: 1rem;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 960px) {
+  :root {
+    --margin-col: 6rem;
+    --gap: 1.8rem;
+  }
+  .intro {
+    grid-template-columns: var(--margin-col) minmax(0, 1fr) 12rem;
+  }
+  .kanji {
+    font-size: 3.4rem;
+  }
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 118.75%; /* 19px */
+  }
+  :root {
+    --step-3: 2.1rem;
+    --gap: 1.2rem;
+  }
+  .site-header .wrap {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+  .site-nav ul {
+    gap: 1.1rem;
+  }
+
+  .intro {
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas:
+      "kanji head"
+      "photo photo"
+      "text text";
+    grid-template-rows: auto;
+    padding-top: 1rem;
+  }
+  .kanji {
+    font-size: 2.6rem;
+    margin-top: 0.15rem;
+  }
+  .role {
+    font-size: var(--step--1);
+    margin-top: 0.6rem;
+  }
+  .intro-photo {
+    margin-top: 1.6rem;
+  }
+  .intro-photo img {
+    aspect-ratio: 960 / 858;
+    object-position: 50% 50%;
+  }
+  .intro-text {
+    margin-top: 1.4rem;
+  }
+
+  .band,
+  .page-head,
+  .site-footer .wrap {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .band {
+    padding-top: 2.6rem;
+  }
+  .band > .label {
+    margin-bottom: 0.7rem;
+  }
+  .page-head > div,
+  .site-footer p {
+    grid-column: 1;
+  }
+  .page-head {
+    padding-top: 1rem;
+  }
+
+  .rows > li {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .rows .when {
+    text-align: left;
+  }
+}
+
+/* ---------- Print (used for the CV PDF) ---------- */
+@media print {
+  @page {
+    size: A4;
+    margin: 18mm 18mm 20mm;
+  }
+  :root {
+    --paper: #fff;
+    --ink: #000;
+    --ink-soft: #333;
+    --indigo: #000;
+    --ochre: #333;
+    --rule: #bbb;
+    --margin-col: 30mm;
+    --gap: 6mm;
+    --measure: none;
+  }
+  html {
+    font-size: 10.5pt;
+  }
+  body {
+    line-height: 1.4;
+  }
+  .site-header,
+  .site-footer,
+  .skip-link,
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: inline;
+  }
+  .page-head {
+    padding-top: 0;
+  }
+  .band {
+    padding-top: 6mm;
+    break-inside: auto;
+  }
+  .band > .label {
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+  }
+  .rows > li,
+  .cites > li {
+    break-inside: avoid;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
