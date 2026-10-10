@@ -442,8 +442,18 @@ address {
   font-variant-numeric: lining-nums;
   margin-bottom: 0.4rem;
 }
+.news-year li {
+  display: grid;
+  grid-template-columns: 2.4rem minmax(0, 1fr);
+  column-gap: 0.6rem;
+  align-items: baseline;
+}
 .news-year li + li {
   margin-top: 0.55rem;
+}
+.news-year time {
+  color: var(--ink-soft);
+  font-size: var(--step--1);
 }
 
 /* ---------- Publications ---------- */
@@ -577,6 +587,10 @@ address {
 
 .print-only {
   display: none;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
 
 /* ---------- Footer ---------- */
