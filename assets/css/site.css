@@ -24,14 +24,14 @@
   font-style: normal;
   font-display: swap;
 }
-/* Only six characters are included in this file: 孙中源 and 真善美. */
+/* Only seven characters are included in this file: 孙中源, 真善美 and 影. */
 @font-face {
   font-family: "Name SC";
-  src: url("/assets/fonts/noto-serif-sc-name.woff?v=2") format("woff");
+  src: url("/assets/fonts/noto-serif-sc-name.woff?v=3") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+4E2D, U+5B59, U+6E90, U+771F, U+5584, U+7F8E;
+  unicode-range: U+4E2D, U+5B59, U+6E90, U+771F, U+5584, U+7F8E, U+5F71;
 }
 
 /* ---------- Tokens ---------- */
@@ -532,6 +532,55 @@ address {
   color: var(--ink-soft);
 }
 
+/* ---------- Afterimages (film stills) ---------- */
+.page-mark {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: var(--cjk);
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--indigo);
+  padding-top: 0.3rem;
+}
+
+.stills {
+  display: grid;
+  row-gap: 5rem;
+  padding-top: 4rem;
+}
+
+.still,
+.stills-note {
+  margin: 0 0 0 calc(var(--margin-col) + var(--gap));
+}
+
+.still img {
+  width: 100%;
+  background: var(--indigo-wash);
+}
+
+.still figcaption {
+  margin-top: 0.9rem;
+  max-width: var(--measure);
+  line-height: 1.45;
+}
+.still-title,
+.still-credits {
+  display: block;
+}
+.still-credits {
+  margin-top: 0.15rem;
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+
+.stills-note {
+  margin-top: 4.5rem;
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+
 /* ---------- CV rows ---------- */
 .rows > li {
   display: grid;
@@ -640,7 +689,12 @@ address {
   .site-header .wrap {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+  .site-nav {
+    margin-left: 0;
   }
   .site-nav ul {
     gap: 1.1rem;
@@ -720,6 +774,17 @@ address {
   }
   .page-head {
     padding-top: 1rem;
+  }
+  .page-mark {
+    display: none;
+  }
+  .stills {
+    row-gap: 3.2rem;
+    padding-top: 2.4rem;
+  }
+  .still,
+  .stills-note {
+    margin-left: 0;
   }
 
   .rows > li {
