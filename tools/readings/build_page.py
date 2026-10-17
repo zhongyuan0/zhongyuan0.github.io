@@ -262,7 +262,7 @@ main_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
         </div>
         <p class="rl-tree-note">
           Each box is a stream, with its number of readings; click a box to jump to its list. Arrows show which streams grew out of which; hover over an arrow
-          for a one-line explanation. Social theory, the root most streams draw on, has its readings on the <a href="/readings/more/#socialtheory">further readings page</a>, since each appears in one source.
+          for a one-line explanation. Most readings in Social theory, the root several streams draw on, appear in only one source, so they are on the <a href="/readings/more/#socialtheory">further readings page</a>.
           Outside the tree: <a href="#theory">Theory and theorizing</a> ({counts.get('theory', 0)}),
           <a href="#methods">Research methods</a> ({counts.get('methods', 0)}) and <a href="#profession">The academic profession</a> ({counts.get('profession', 0)}).
         </p>

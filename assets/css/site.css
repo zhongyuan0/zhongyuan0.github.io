@@ -713,13 +713,22 @@ address {
   color: var(--indigo);
   font-weight: 700;
 }
-.rl-subtoc {
-  margin: 0.15rem 0 0.4rem 1rem;
+.rl-toc .rl-subtoc {
+  columns: auto;
+  margin: 0.1rem 0 0.5rem;
   font-size: var(--step--1);
   line-height: 1.45;
+  color: var(--ink-soft);
 }
-.rl-subtoc li {
-  margin-bottom: 0.1rem;
+.rl-toc .rl-subtoc li {
+  display: inline;
+  margin: 0;
+}
+.rl-toc .rl-subtoc li:not(:last-child)::after {
+  content: "; ";
+}
+.rl-toc .rl-subtoc .rl-n {
+  font-size: inherit;
 }
 .rl-h + .rl-list {
   margin-top: 0.6rem;

@@ -9,7 +9,7 @@ from classify import TOPICS
 
 D = os.path.dirname(os.path.abspath(__file__)) + '/'
 STREAMS = {k for k, _, _ in TOPICS}
-REMAP = {'@networks:structure': '@networks:topology'}  # sub-stream renamed after assignment
+REMAP = {'@networks:structure': '@networks:topology', '@methods:quant': '@methods:mixed'}  # sub-stream renamed after assignment
 
 out = json.load(open(D + 'subtopics.json')) if os.path.exists(D + 'subtopics.json') else {}
 problems = collections.Counter()

@@ -134,7 +134,7 @@ def svg(counts, names, more=None):
         out.append(f'<path class="tree-edge" d="{edge_path(a, b, how)}" marker-end="url(#arrow)"><title>{e(LINEAGE[(a, b)])}</title></path>')
     for key, (rx, ry, label) in ROOTS.items():
         n = counts.get(key, 0)
-        href, sub = (f'#{key}', f'{n} readings') if n else (f'/readings/more/#{key}', f'{more.get(key, 0)} further readings')
+        href, sub = (f'#{key}', f'{n} reading' + ('s' if n != 1 else '')) if n else (f'/readings/more/#{key}', f'{more.get(key, 0)} further readings')
         out.append(f'<a href="{href}" class="tree-node tree-root"><rect x="{rx - 100}" y="{ry - 22}" width="200" height="44" rx="4"/>'
                    f'<text x="{rx}" y="{ry - 1}" text-anchor="middle">{e(label)}</text>'
                    f'<text class="tree-count" x="{rx}" y="{ry + 15}" text-anchor="middle">{sub}</text></a>')
