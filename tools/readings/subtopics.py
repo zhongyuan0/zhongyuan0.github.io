@@ -43,7 +43,8 @@ SUBTOPICS = {
         ('meaning', 'Meaning, boundaries and evaluation in social life'),
     ],
     'entre': [
-        ('theory', 'The entrepreneur and opportunity: theories'),
+        ('opportunity', 'Opportunity and the entrepreneurial process'),
+        ('who', 'Who becomes an entrepreneur'),
         ('founding', 'Founding and early growth of new ventures'),
         ('resources', 'Resources, social capital and founding teams'),
         ('finance', 'Entrepreneurial finance and venture capital'),
@@ -52,7 +53,8 @@ SUBTOPICS = {
         ('context', 'Entrepreneurship, institutions and the economy'),
     ],
     'evolution': [
-        ('evolutionary', 'Evolutionary economics and routines'),
+        ('evolutionary', 'Evolutionary theory and routines'),
+        ('industry', 'Industry evolution and life cycles'),
         ('techchange', 'Technological change and discontinuities'),
         ('innovation', 'Innovation in firms: search, knowledge and R&D'),
         ('creativity', 'Creativity in individuals and teams'),
@@ -88,8 +90,8 @@ SUBTOPICS = {
         ('ethnography', 'Ethnography and fieldwork'),
         ('interviewing', 'Interviewing and sampling'),
         ('archival', 'Archival, visual and online data'),
-        ('mixed', 'Mixed methods and data analysis'),
-        ('quant', 'Quantitative methods and experiments'),
+        ('ethics', 'Ethics, reflexivity and positionality'),
+        ('mixed', 'Mixed, quantitative and analytic methods'),
     ],
 }
 OTHER = ('other', 'Other readings')
