@@ -1,0 +1,1084 @@
+{
+ "file": "ea5c4b4c-Peer_C._Fiss_Macro_OT_from_USC_2012.txt",
+ "course": "MOR 602: Organization Theory",
+ "instructor": "Peer C. Fiss",
+ "institution": "University of Southern California, Marshall School of Business",
+ "term": "Spring 2012",
+ "readings": [
+  {
+   "session": "Session 1 (Jan. 10) – Introduction to the Course",
+   "authors": [
+    "Scott, W.R."
+   ],
+   "year": "1992",
+   "title": "Organizations: Rational, Natural, and Open Systems (Chapter 1)",
+   "venue": "",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 1 (Jan. 10) – Introduction to the Course",
+   "authors": [
+    "Perrow, C."
+   ],
+   "year": "1973",
+   "title": "The short and glorious history of organizational theory",
+   "venue": "Organizational Dynamics, 2: 3-15",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1 (Jan. 10) – Introduction to the Course",
+   "authors": [
+    "Scott, W.R."
+   ],
+   "year": "2004",
+   "title": "Reflections on a half-century of organizational sociology",
+   "venue": "Annual Review of Sociology, 30: 1-21",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 1 (Jan. 10) – Introduction to the Course",
+   "authors": [
+    "Baum, J.A.C.",
+    "Rowley, T.J."
+   ],
+   "year": "2002",
+   "title": "Companion to organizations: An introduction",
+   "venue": "Pp. 1-34 in Companion to Organizations, edited by J. Baum",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 1 (Jan. 10) – Introduction to the Course",
+   "authors": [
+    "Hinings, C.R.",
+    "Greenwood, R."
+   ],
+   "year": "2002",
+   "title": "Disconnects and Consequences in Organization Theory?",
+   "venue": "Administrative Science Quarterly, 47: 411-421",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2 (Jan. 17) – What is Theory (and Why Do We Care)?",
+   "authors": [
+    "Alexander, J.C."
+   ],
+   "year": "1987",
+   "title": "Lecture One: What is Theory?",
+   "venue": "In Twenty Lectures: Sociological Theory Since World War II",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 2 (Jan. 17) – What is Theory (and Why Do We Care)?",
+   "authors": [
+    "Turner, J.H."
+   ],
+   "year": "1986",
+   "title": "The Structure of Sociological Theory (Chapter 1)",
+   "venue": "",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 2 (Jan. 17) – What is Theory (and Why Do We Care)?",
+   "authors": [
+    "Stinchcombe, A."
+   ],
+   "year": "1986",
+   "title": "Should sociologists forget their mothers and fathers?",
+   "venue": "Chapter 19 in Stratification and Organization: Selected Papers",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 2 (Jan. 17) – What is Theory (and Why Do We Care)?",
+   "authors": [
+    "Sutton, R.I.",
+    "Staw, B.M."
+   ],
+   "year": "1995",
+   "title": "What theory is not",
+   "venue": "Administrative Science Quarterly, 40: 371-384",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 2 (Jan. 17) – What is Theory (and Why Do We Care)?",
+   "authors": [
+    "Weick, K.E."
+   ],
+   "year": "1995",
+   "title": "What theory is not, theorizing is",
+   "venue": "Administrative Science Quarterly, 40: 385-390",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 2 (Jan. 17) – What is Theory (and Why Do We Care)?",
+   "authors": [
+    "DiMaggio, P.J."
+   ],
+   "year": "1995",
+   "title": "Comments on 'What theory is not'",
+   "venue": "Administrative Science Quarterly, 40: 391-397",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 2 (Jan. 17) – What is Theory (and Why Do We Care)?",
+   "authors": [
+    "Bergh, D."
+   ],
+   "year": "2003",
+   "title": "From the Editors: Thinking strategically about contribution",
+   "venue": "Academy of Management Journal, 46(2): 135-136",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2 (Jan. 17) – What is Theory (and Why Do We Care)?",
+   "authors": [
+    "Rynes, S."
+   ],
+   "year": "2002",
+   "title": "Editor Comments: Some reflections on contribution",
+   "venue": "Academy of Management Journal, 45(2): 311-313",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2 (Jan. 17) – What is Theory (and Why Do We Care)?",
+   "authors": [
+    "Whetten, D.A."
+   ],
+   "year": "1989",
+   "title": "What constitutes a theoretical contribution?",
+   "venue": "Academy of Management Review, 14: 490-495",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 3 (Jan. 24) – Classical Management Theory",
+   "authors": [
+    "Taylor, F.W."
+   ],
+   "year": "1967",
+   "title": "The Principles of Scientific Management",
+   "venue": "New York: W.W. Norton & Co. (first published 1911)",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "Session 3 (Jan. 24) – Classical Management Theory",
+   "authors": [
+    "Barnard, C.I."
+   ],
+   "year": "1938",
+   "title": "The Functions of the Executive",
+   "venue": "Cambridge, MA: Harvard University Press. Pp. 82-123, 139-184",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "Session 3 (Jan. 24) – Classical Management Theory",
+   "authors": [
+    "Roethlisberger, F.H.",
+    "Dickson, W.J."
+   ],
+   "year": "1946",
+   "title": "Management and the Worker",
+   "venue": "Cambridge, MA: Harvard University Press. Chapter 8, 17-25",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "Session 3 (Jan. 24) – Classical Management Theory",
+   "authors": [
+    "Stinchcombe, A."
+   ],
+   "year": "1965",
+   "title": "Social Structure and Organizations",
+   "venue": "Pp. 142-164 in James G. March (ed.), Handbook of Organizations. Chicago, IL: Rand McNally",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 3 (Jan. 24) – Classical Management Theory",
+   "authors": [
+    "Selznick, P."
+   ],
+   "year": "1948",
+   "title": "Foundations of the Theory of Organization",
+   "venue": "American Sociological Review, 13: 25-35",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4 (Jan. 31) – Bureaucracy",
+   "authors": [
+    "Weber, M."
+   ],
+   "year": "",
+   "title": "Wirtschaft und Gesellschaft, part III, chap. 6",
+   "venue": "Pp. 650-78",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 4 (Jan. 31) – Bureaucracy",
+   "authors": [
+    "Merton, R.K."
+   ],
+   "year": "1957",
+   "title": "Bureaucratic Structure and Personality",
+   "venue": "Pp. 195-206 in Social Theory and Social Structure. Glencoe, IL: Free Press",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 4 (Jan. 31) – Bureaucracy",
+   "authors": [
+    "Crozier, M."
+   ],
+   "year": "1964",
+   "title": "The Bureaucratic Phenomenon",
+   "venue": "London: Tavistock",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "Session 4 (Jan. 31) – Bureaucracy",
+   "authors": [
+    "Garson, B."
+   ],
+   "year": "1988",
+   "title": "The Automated Social Worker",
+   "venue": "In The electronic sweatshop: how computers are transforming the office of the future into the factory of the past. New York: Simon & Schuster",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 4 (Jan. 31) – Bureaucracy",
+   "authors": [
+    "Adler, P.",
+    "Borys, B."
+   ],
+   "year": "1996",
+   "title": "Two Types of Bureaucracy: Enabling and Coercive",
+   "venue": "Administrative Science Quarterly, 41: 61-89",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4 (Jan. 31) – Bureaucracy",
+   "authors": [
+    "Selznick, P."
+   ],
+   "year": "1943",
+   "title": "An Approach to a Theory of Bureaucracy",
+   "venue": "American Sociological Review, 8: 47-54",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5 (Feb. 7) – Behavioral Decision Theory: The Carnegie School",
+   "authors": [
+    "March, J.G.",
+    "Simon, H.A."
+   ],
+   "year": "1958",
+   "title": "Organizations (Chapters 5-6)",
+   "venue": "",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 5 (Feb. 7) – Behavioral Decision Theory: The Carnegie School",
+   "authors": [
+    "Cohen, M.D.",
+    "March, J.G.",
+    "Olsen, J.P."
+   ],
+   "year": "1972",
+   "title": "A Garbage Can Model of Organizational Choice",
+   "venue": "Administrative Science Quarterly, 17: 1-25",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5 (Feb. 7) – Behavioral Decision Theory: The Carnegie School",
+   "authors": [
+    "Cyert, R.M.",
+    "March, J.G."
+   ],
+   "year": "1963",
+   "title": "A Summary of Basic Concepts in the Behavioral Theory of the Firm",
+   "venue": "Chapter 7 in A Behavioral Theory of the Firm",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 5 (Feb. 7) – Behavioral Decision Theory: The Carnegie School",
+   "authors": [
+    "March, J.G."
+   ],
+   "year": "1991",
+   "title": "Exploration and Exploitation in Organizational Learning",
+   "venue": "Organization Science, 2: 71-87",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5 (Feb. 7) – Behavioral Decision Theory: The Carnegie School",
+   "authors": [
+    "Kim, J.",
+    "Haleblian, J.",
+    "Finkelstein, S."
+   ],
+   "year": "2011",
+   "title": "When Firms are Desperate to Grow via Acquisition: The Effect of Growth Patterns and Acquisition Experience on Acquisition Premiums",
+   "venue": "Administrative Science Quarterly, 56: 26-60",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5 (Feb. 7) – Behavioral Decision Theory: The Carnegie School",
+   "authors": [
+    "Levinthal, D.A.",
+    "Rerup, C."
+   ],
+   "year": "2006",
+   "title": "Crossing an apparent chasm: bridging mindful and less-mindful perspectives on organizational learning",
+   "venue": "Organization Science, 17(4): 502-513",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5 (Feb. 7) – Behavioral Decision Theory: The Carnegie School",
+   "authors": [
+    "Levitt, B.",
+    "March, J.G."
+   ],
+   "year": "1988",
+   "title": "Organizational Learning",
+   "venue": "Annual Review of Sociology, 14: 319-340",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6 (Feb. 14) – Contingency and Configurational Theory",
+   "authors": [
+    "Thompson, J.D."
+   ],
+   "year": "1967",
+   "title": "Organizations in Action (Part I)",
+   "venue": "",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 6 (Feb. 14) – Contingency and Configurational Theory",
+   "authors": [
+    "Drazin, R.",
+    "Van de Ven, A.H."
+   ],
+   "year": "1985",
+   "title": "Alternative Forms of Fit in Contingency Theory",
+   "venue": "Administrative Science Quarterly, 30: 514-539",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 6 (Feb. 14) – Contingency and Configurational Theory",
+   "authors": [
+    "Lawrence, P.",
+    "Lorsch, J."
+   ],
+   "year": "1967",
+   "title": "Differentiation and integration in complex organizations",
+   "venue": "Administrative Science Quarterly, 12: 1-47",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 6 (Feb. 14) – Contingency and Configurational Theory",
+   "authors": [
+    "Meyer, A.D.",
+    "Tsui, A.S.",
+    "Hinings, C.R."
+   ],
+   "year": "1993",
+   "title": "Configurational approaches to organizational analysis",
+   "venue": "Academy of Management Journal, 36: 1175-1195",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 6 (Feb. 14) – Contingency and Configurational Theory",
+   "authors": [
+    "Fiss, P.C."
+   ],
+   "year": "2007",
+   "title": "A Set-theoretic Approach to Organizational Configurations",
+   "venue": "Academy of Management Review, 32: 1180-1198",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 6 (Feb. 14) – Contingency and Configurational Theory",
+   "authors": [
+    "Ketchen, D.J.",
+    "Thomas, J.B.",
+    "Snow, C.C."
+   ],
+   "year": "1993",
+   "title": "Organizational configurations and performance: A comparison of theoretical approaches",
+   "venue": "Academy of Management Journal, 36: 1278-1313",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7 (Feb. 21) – Resource Dependence Theory",
+   "authors": [
+    "Emerson, R.M."
+   ],
+   "year": "1962",
+   "title": "Power-dependence relations",
+   "venue": "American Sociological Review, 27: 31-41",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 7 (Feb. 21) – Resource Dependence Theory",
+   "authors": [
+    "Pfeffer, J.",
+    "Salancik, G.R."
+   ],
+   "year": "1978",
+   "title": "The external control of organizations (Chapters 1 & 3)",
+   "venue": "New York: Harper & Row",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "Session 7 (Feb. 21) – Resource Dependence Theory",
+   "authors": [
+    "March, J.G."
+   ],
+   "year": "1966",
+   "title": "The Power of Power",
+   "venue": "Pp. 39-70 in David Easton (ed.), Varieties of Political Theory. Englewood Cliffs, NJ: Prentice-Hall",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 7 (Feb. 21) – Resource Dependence Theory",
+   "authors": [
+    "Casciaro, T.",
+    "Piskorski, M.J."
+   ],
+   "year": "2005",
+   "title": "Power imbalance, mutual dependence and constraint absorption: A closer look at resource dependence theory",
+   "venue": "Administrative Science Quarterly, 50: 167-199",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 7 (Feb. 21) – Resource Dependence Theory",
+   "authors": [
+    "Santos, F.M.",
+    "Eisenhardt, K.M."
+   ],
+   "year": "2009",
+   "title": "Constructing markets and shaping boundaries: entrepreneurial agency in nascent fields",
+   "venue": "Academy of Management Journal, 52: 643-671",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 7 (Feb. 21) – Resource Dependence Theory",
+   "authors": [
+    "Palmer, D.",
+    "Barber, B.M.",
+    "Zhou, X.",
+    "Soysal, Y."
+   ],
+   "year": "1995",
+   "title": "The Friendly and Predatory Acquisition of Large U.S. Corporations in the 1960s: The Other Contested Terrain",
+   "venue": "American Sociological Review, 60: 469-499",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8 (Feb. 28) – Population Ecology",
+   "authors": [
+    "Hannan, M.T.",
+    "Freeman, J."
+   ],
+   "year": "1977",
+   "title": "The population ecology of organizations",
+   "venue": "American Journal of Sociology, 82: 929-964",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8 (Feb. 28) – Population Ecology",
+   "authors": [
+    "Hannan, M.T.",
+    "Freeman, J."
+   ],
+   "year": "1984",
+   "title": "Structural inertia and organizational change",
+   "venue": "American Sociological Review, 49: 149-164",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8 (Feb. 28) – Population Ecology",
+   "authors": [
+    "Carroll, G.",
+    "Swaminathan, A."
+   ],
+   "year": "2000",
+   "title": "Why the Microbrewery Movement? Organizational Dynamics of Resource Partitioning in the US Brewing Industry",
+   "venue": "American Journal of Sociology, 106: 715-762",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8 (Feb. 28) – Population Ecology",
+   "authors": [
+    "Dobrev, S.D.",
+    "Kim, T.Y."
+   ],
+   "year": "2006",
+   "title": "Positioning among Organizations in a Population: Moves between Market Segments and the Evolution of Industry Structure",
+   "venue": "Administrative Science Quarterly, 51(2): 230-261",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8 (Feb. 28) – Population Ecology",
+   "authors": [
+    "Hsu, G."
+   ],
+   "year": "2006",
+   "title": "Jacks of all trades and masters of none: Audiences' reactions to spanning genres in feature film production",
+   "venue": "Administrative Science Quarterly, 51: 420-450",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8 (Feb. 28) – Population Ecology",
+   "authors": [
+    "Hsu, G.",
+    "Hannan, M.T."
+   ],
+   "year": "2005",
+   "title": "Identities, genres, and organizational forms",
+   "venue": "Organization Science, 16: 474-490",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 9 (Mar. 6) – Organizational Economics",
+   "authors": [
+    "Coase, R.H."
+   ],
+   "year": "1937",
+   "title": "The nature of the firm",
+   "venue": "Economica, 4: 386-405",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 9 (Mar. 6) – Organizational Economics",
+   "authors": [
+    "Chandler, A.D."
+   ],
+   "year": "1977",
+   "title": "Introduction: The Visible Hand",
+   "venue": "In The Visible Hand: The Managerial Revolution in American Business. Cambridge, MA: Harvard University Press",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 9 (Mar. 6) – Organizational Economics",
+   "authors": [
+    "Williamson, O."
+   ],
+   "year": "1981",
+   "title": "The Economics of Organization: The Transaction Cost Approach",
+   "venue": "American Journal of Sociology, 87: 548-577",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 9 (Mar. 6) – Organizational Economics",
+   "authors": [
+    "Fama, E.F.",
+    "Jensen, M.L."
+   ],
+   "year": "1983",
+   "title": "Separation of Ownership from Control",
+   "venue": "Journal of Law and Economics, 26: 301-325",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 9 (Mar. 6) – Organizational Economics",
+   "authors": [
+    "Eisenhardt, K."
+   ],
+   "year": "1989",
+   "title": "Agency Theory: An Assessment and Review",
+   "venue": "Academy of Management Review, 14: 57-74",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 9 (Mar. 6) – Organizational Economics",
+   "authors": [
+    "Arthurs, J.D.",
+    "Hoskisson, R.E.",
+    "Busenitz, L.W.",
+    "Johnson, R.A."
+   ],
+   "year": "2008",
+   "title": "Managerial agents watching other agents: Multiple agency conflicts regarding the underpricing of IPO firms",
+   "venue": "Academy of Management Journal, 51: 277-294",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 9 (Mar. 6) – Organizational Economics",
+   "authors": [
+    "Alchian, A.A.",
+    "Demsetz, H."
+   ],
+   "year": "1972",
+   "title": "Production, information cost, and economic organization",
+   "venue": "American Economic Review, 62: 777-795",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10 (Mar. 20) – Institutional Theory I",
+   "authors": [
+    "Selznick, P."
+   ],
+   "year": "1957",
+   "title": "Leadership in Administration (Chapters 1 and 5)",
+   "venue": "Berkeley, CA: University of California Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "Session 10 (Mar. 20) – Institutional Theory I",
+   "authors": [
+    "DiMaggio, P.J.",
+    "Powell, W.W."
+   ],
+   "year": "1991",
+   "title": "Introduction",
+   "venue": "Pp. 1-38 in W.W. Powell and P.J. DiMaggio (eds.), The New Institutionalism in Organizational Analysis. Chicago: University of Chicago Press",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 10 (Mar. 20) – Institutional Theory I",
+   "authors": [
+    "DiMaggio, P.",
+    "Powell, W.W."
+   ],
+   "year": "1983",
+   "title": "The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields",
+   "venue": "American Sociological Review, 48: 147-160",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 10 (Mar. 20) – Institutional Theory I",
+   "authors": [
+    "Friedland, R.",
+    "Alford, R.R."
+   ],
+   "year": "1991",
+   "title": "Bringing Society Back in: Symbols, Practices, and Institutional Contradictions",
+   "venue": "Pp. 232-266 in W.W. Powell and P.J. DiMaggio (eds.), The New Institutionalism in Organizational Analysis. Chicago: University of Chicago Press",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 10 (Mar. 20) – Institutional Theory I",
+   "authors": [
+    "Meyer, J.W.",
+    "Rowan, B."
+   ],
+   "year": "1977",
+   "title": "Institutionalized Organizations: Formal Structure as Myth and Ceremony",
+   "venue": "American Journal of Sociology, 83: 340-363",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 10 (Mar. 20) – Institutional Theory I",
+   "authors": [
+    "Tolbert, P.S.",
+    "Zucker, L."
+   ],
+   "year": "1983",
+   "title": "Institutional sources of change in the formal structure of organizations: The diffusion of civil service reform, 1880-1935",
+   "venue": "Administrative Science Quarterly, 30: 22-39",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 10 (Mar. 20) – Institutional Theory I",
+   "authors": [
+    "Zucker, L.G."
+   ],
+   "year": "1987",
+   "title": "Institutional theories of organizations",
+   "venue": "Annual Review of Sociology, 13: 443-464",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 11 (Mar. 27) – Institutional Theory II",
+   "authors": [
+    "Heimer, C.A."
+   ],
+   "year": "1999",
+   "title": "Competing Institutions: Law, Medicine, and Family in Neonatal Intensive Care",
+   "venue": "Law & Society Review, 33: 17-66",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 11 (Mar. 27) – Institutional Theory II",
+   "authors": [
+    "Thornton, P.H.",
+    "Ocasio, W."
+   ],
+   "year": "2008",
+   "title": "Institutional Logics",
+   "venue": "Pp. 99-129 in R. Greenwood, C. Oliver, R. Suddaby, and K. Sahlin (eds.), The Sage Handbook of Organizational Institutionalism. Thousand Oaks, CA: Sage",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 11 (Mar. 27) – Institutional Theory II",
+   "authors": [
+    "Westphal, J.D.",
+    "Gulati, R.",
+    "Shortell, S.M."
+   ],
+   "year": "1997",
+   "title": "Customization or conformity? An institutional and network perspective on the content and consequences of TQM adoption",
+   "venue": "Administrative Science Quarterly, 42: 366-394",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 11 (Mar. 27) – Institutional Theory II",
+   "authors": [
+    "Kennedy, M.T.",
+    "Fiss, P.C."
+   ],
+   "year": "2009",
+   "title": "Institutionalization, Framing, and Diffusion: The Logic of TQM Adoption and Implementation Decisions among U.S. Hospitals",
+   "venue": "Academy of Management Journal, 52: 897-918",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 11 (Mar. 27) – Institutional Theory II",
+   "authors": [
+    "Suddaby, R.",
+    "Greenwood, R."
+   ],
+   "year": "2005",
+   "title": "Rhetorical Strategies of Legitimacy",
+   "venue": "Administrative Science Quarterly, 50: 35-67",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 11 (Mar. 27) – Institutional Theory II",
+   "authors": [
+    "Green, S.E.",
+    "Li, Y.",
+    "Nohria, N."
+   ],
+   "year": "2009",
+   "title": "Suspended in Self-Spun Webs of Significance: A Rhetorical Model of Institutionalization and Institutionally Embedded Agency",
+   "venue": "Academy of Management Journal, 52: 11-36",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 11 (Mar. 27) – Institutional Theory II",
+   "authors": [
+    "Heugens, P.P.M.A.R.",
+    "Lander, M.W."
+   ],
+   "year": "2009",
+   "title": "Structure! Agency! (and other quarrels): A meta-analysis of institutional theories of organization",
+   "venue": "Academy of Management Journal, 52: 61-85",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 11 (Mar. 27) – Institutional Theory II",
+   "authors": [
+    "Hirsch, P.M."
+   ],
+   "year": "1997",
+   "title": "Sociology without social structure: Neoinstitutional theory meets brave new world",
+   "venue": "American Journal of Sociology, 102: 1702-1723",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 12 (Apr. 3) – Sensemaking and Enactment",
+   "authors": [
+    "Daft, R.L.",
+    "Weick, K.E."
+   ],
+   "year": "1984",
+   "title": "Toward a model of organizations as interpretation systems",
+   "venue": "Academy of Management Review, 9: 284-295",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 12 (Apr. 3) – Sensemaking and Enactment",
+   "authors": [
+    "Barley, S.R."
+   ],
+   "year": "1986",
+   "title": "Technology as an occasion for structuring: Evidence from observations of CT scanners and the social order of radiology departments",
+   "venue": "Administrative Science Quarterly, 31: 78-108",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 12 (Apr. 3) – Sensemaking and Enactment",
+   "authors": [
+    "Weick, K.E."
+   ],
+   "year": "1993",
+   "title": "The Collapse of Sensemaking in Organizations: The Mann Gulch Disaster",
+   "venue": "Administrative Science Quarterly, 38: 628-652",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 12 (Apr. 3) – Sensemaking and Enactment",
+   "authors": [
+    "Porac, J.",
+    "Thomas, H.",
+    "Wilson, F.",
+    "Paton, D.",
+    "Kanfer, A."
+   ],
+   "year": "1995",
+   "title": "Rivalry and the Industry Model of Scottish Knitwear Producers",
+   "venue": "Administrative Science Quarterly, 40: 203-227",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 12 (Apr. 3) – Sensemaking and Enactment",
+   "authors": [
+    "Whiteman, G.",
+    "Cooper, W.H."
+   ],
+   "year": "2011",
+   "title": "Ecological sensemaking",
+   "venue": "Academy of Management Journal, 54: 889-911",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 12 (Apr. 3) – Sensemaking and Enactment",
+   "authors": [
+    "Rindova, V.P.",
+    "Becerra, M.",
+    "Contardo, I."
+   ],
+   "year": "2004",
+   "title": "Enacting Competitive Wars: Competitive Activity, Language Games, and Market Consequences",
+   "venue": "Academy of Management Review, 29: 670-686",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 13 (Apr. 10) – Networks",
+   "authors": [
+    "Coleman, J.S."
+   ],
+   "year": "1988",
+   "title": "Social capital in the creation of human capital",
+   "venue": "American Journal of Sociology, 94: 95-121",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 13 (Apr. 10) – Networks",
+   "authors": [
+    "Granovetter, M.S."
+   ],
+   "year": "1985",
+   "title": "Economic action and social structure: The problem of embeddedness",
+   "venue": "American Journal of Sociology, 91: 481-510",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 13 (Apr. 10) – Networks",
+   "authors": [
+    "Uzzi, B."
+   ],
+   "year": "1997",
+   "title": "Social structure and competition in interfirm networks: the paradox of embeddedness",
+   "venue": "Administrative Science Quarterly, 42: 35-67",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 13 (Apr. 10) – Networks",
+   "authors": [
+    "Davis, G.F.",
+    "Greve, H.R."
+   ],
+   "year": "1997",
+   "title": "Corporate elite networks and governance changes in the 1980s",
+   "venue": "American Journal of Sociology, 103: 1-37",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 13 (Apr. 10) – Networks",
+   "authors": [
+    "Jensen, M."
+   ],
+   "year": "2003",
+   "title": "The role of network resources in market entry: commercial banks' entry into investment banking, 1991-1997",
+   "venue": "Administrative Science Quarterly, 48: 466-497",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 13 (Apr. 10) – Networks",
+   "authors": [
+    "Gulati, R.",
+    "Dialdin, D.A.",
+    "Wang, L."
+   ],
+   "year": "2002",
+   "title": "Organizational Networks",
+   "venue": "Pp. 181-303 in J. Baum (ed.), Blackwell Companion to Organizations. Oxford, UK: Blackwell",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 14 (Apr. 17) – Where to? The Future of Organization Theory",
+   "authors": [
+    "Pfeffer, J."
+   ],
+   "year": "1993",
+   "title": "Barriers to the Advance of Organizational Science: Paradigm Development as a Dependent Variable",
+   "venue": "Academy of Management Review, 18: 599-620",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 14 (Apr. 17) – Where to? The Future of Organization Theory",
+   "authors": [
+    "Van Maanen, J."
+   ],
+   "year": "1995",
+   "title": "Style as theory",
+   "venue": "Organization Science, 6: 133-143",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 14 (Apr. 17) – Where to? The Future of Organization Theory",
+   "authors": [
+    "Davis, G.F.",
+    "Marquis, C."
+   ],
+   "year": "2005",
+   "title": "Prospects for Organization Theory in the Early Twenty-First Century: Institutional Fields and Mechanisms",
+   "venue": "Organization Science, 16: 332-343",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 14 (Apr. 17) – Where to? The Future of Organization Theory",
+   "authors": [
+    "Meyer, A.D.",
+    "Gaba, V.",
+    "Colwell, K.A."
+   ],
+   "year": "2005",
+   "title": "Organizing Far from Equilibrium: Nonlinear Change in Organizational Fields",
+   "venue": "Organization Science, 16: 456-473",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 14 (Apr. 17) – Where to? The Future of Organization Theory",
+   "authors": [
+    "Heugens, P.M.A.R."
+   ],
+   "year": "",
+   "title": "Organization theory: Bright prospects for a permanently failing field",
+   "venue": "Inaugural Addresses Research in Management Series, RSM, Rotterdam",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "Session 14 (Apr. 17) – Where to? The Future of Organization Theory",
+   "authors": [
+    "Thompson, M."
+   ],
+   "year": "2011",
+   "title": "Ontological Shift or Ontological Drift? Reality Claims, Epistemological Frameworks, and Theory Generation in Organization Studies",
+   "venue": "Academy of Management Review, 36: 754-773",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 14 (Apr. 17) – Where to? The Future of Organization Theory",
+   "authors": [
+    "Stern, R.N.",
+    "Barley, S.R."
+   ],
+   "year": "1996",
+   "title": "Organizations and Social Systems: Organization Theory's Neglected Mandate",
+   "venue": "Administrative Science Quarterly, 41: 146-162",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 14 (Apr. 17) – Where to? The Future of Organization Theory",
+   "authors": [
+    "Scott, W.R."
+   ],
+   "year": "1996",
+   "title": "The Mandate is Still Being Honored: In Defense of Weber's Disciples",
+   "venue": "Administrative Science Quarterly, 41: 163-171",
+   "type": "article",
+   "required": false
+  }
+ ]
+}

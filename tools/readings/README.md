@@ -1,0 +1,10 @@
+# Reading lists: how the /readings/ page is built
+
+1. `syllabi/*.json`: one file per syllabus, with every reading extracted (authors, year, title, venue, session heading).
+2. `merge.py`: merges all syllabi and deduplicates readings (same first author, similar title, close year). It also counts how many syllabi list each reading.
+3. `classify.py`: assigns each reading to a stream, based on the session headings it was listed under. `RULES` maps headings to streams, and `OVERRIDES` fixes individual readings.
+4. `build_page.py`: writes `readings/index.html`.
+
+To rebuild after adding or changing a syllabus JSON:
+
+    python3 tools/readings/merge.py && python3 tools/readings/classify.py && python3 tools/readings/build_page.py readings/index.html <css-version>

@@ -1,0 +1,2107 @@
+{
+ "file": "33168e4c-2020C_MGMT962001_Multinational_Firms_in_the_Global_Economy.txt",
+ "course": "Multinational Firms in the Global Economy (MGMT 962001 and MGMT 963001)",
+ "instructor": "Britta Glennon",
+ "institution": "The Wharton School, University of Pennsylvania",
+ "term": "Fall 2020",
+ "readings": [
+  {
+   "session": "Textbooks and Readings",
+   "authors": [
+    "Feenstra, R."
+   ],
+   "year": "",
+   "title": "Advanced International Trade: Theory and Evidence",
+   "venue": "",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Textbooks and Readings",
+   "authors": [
+    "Caves, R."
+   ],
+   "year": "",
+   "title": "Multinational Enterprise and Economic Analysis",
+   "venue": "",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Week 2: Horizontal FDI (Sept 9)",
+   "authors": [
+    "Brainard, S.L."
+   ],
+   "year": "1997",
+   "title": "An Empirical Assessment of the Proximity-Concentration Trade-off Between Multinational Sales and Trade",
+   "venue": "American Economic Review, 87(4): 520-544",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 2: Horizontal FDI (Sept 9)",
+   "authors": [
+    "Helpman, E.",
+    "Melitz, M.",
+    "Yeaple, S."
+   ],
+   "year": "2004",
+   "title": "Export Versus FDI with Heterogeneous Firms",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 3: Vertical FDI (Sept 16)",
+   "authors": [
+    "Keller, W.",
+    "Yeaple, S."
+   ],
+   "year": "2013",
+   "title": "The Gravity of Knowledge",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 3: Vertical FDI (Sept 16)",
+   "authors": [
+    "Yeaple, S."
+   ],
+   "year": "2003",
+   "title": "The Role of Skill Endowments in the Structure of U.S. Outward FDI",
+   "venue": "Review of Economics and Statistics, 85(3): 726-734",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 4: Mode of Entry (Sept 23)",
+   "authors": [
+    "Guadalupe, M.",
+    "Kuzmina, O.",
+    "Thomas, C."
+   ],
+   "year": "2012",
+   "title": "Innovation and Foreign Ownership",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 4: Mode of Entry (Sept 23)",
+   "authors": [
+    "Bertrand, O.",
+    "Capron, L."
+   ],
+   "year": "2015",
+   "title": "Productivity Enhancement at Home via Cross-Border Acquisitions: The Roles of Learning and Contemporaneous Domestic Investments",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 4: Mode of Entry (Sept 23)",
+   "authors": [
+    "Carluccio, J.",
+    "Bas, M."
+   ],
+   "year": "2015",
+   "title": "The Impact of Worker Bargaining Power on the Organization of Firms",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Weeks 5: Spillovers, Agglomeration, and Technology Transfer Part 1 (Sept 30)",
+   "authors": [
+    "Javorcik, B.S."
+   ],
+   "year": "2004",
+   "title": "Does Foreign Direct Investment Increase the Productivity of Domestic Firms? In Search of Spillovers Through Backward Linkages",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Weeks 5: Spillovers, Agglomeration, and Technology Transfer Part 1 (Sept 30)",
+   "authors": [
+    "Poole, J."
+   ],
+   "year": "2013",
+   "title": "Knowledge Transfers from Multinational to Domestic Firms: Evidence from Worker Mobility",
+   "venue": "The Review of Economics and Statistics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Weeks 5: Spillovers, Agglomeration, and Technology Transfer Part 1 (Sept 30)",
+   "authors": [
+    "Branstetter, L."
+   ],
+   "year": "2006",
+   "title": "Is Foreign Direct Investment a Channel of Knowledge Spillovers? Evidence from Japan's FDI in the United States",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 6: Spillovers, Agglomeration, and Technology Transfer Part 2 (Oct 7)",
+   "authors": [
+    "Branstetter, L.",
+    "Fisman, R.",
+    "Foley, F."
+   ],
+   "year": "2006",
+   "title": "Do Stronger Intellectual Property Rights Increase International Technology Transfer? Empirical Evidence from US Firm-Level Panel Data",
+   "venue": "Quarterly Journal of Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 6: Spillovers, Agglomeration, and Technology Transfer Part 2 (Oct 7)",
+   "authors": [
+    "Giroud, X."
+   ],
+   "year": "2013",
+   "title": "Proximity and Investment: Evidence from Plant-Level Data",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 6: Spillovers, Agglomeration, and Technology Transfer Part 2 (Oct 7)",
+   "authors": [
+    "Zhao, M."
+   ],
+   "year": "2006",
+   "title": "Conducting R&D in Countries with Weak IPR",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 8: Does Internationalization Improve Firm Performance? (Oct 21)",
+   "authors": [
+    "Bernard, A.",
+    "Jensen, J.B."
+   ],
+   "year": "1999",
+   "title": "Exceptional exporter performance: cause, effect, or both",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 8: Does Internationalization Improve Firm Performance? (Oct 21)",
+   "authors": [
+    "Garcia-Marin, A.",
+    "Voigtlander, N."
+   ],
+   "year": "2019",
+   "title": "Exporting and Plant-Level Efficiency Gains: It's in the Measure",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 8: Does Internationalization Improve Firm Performance? (Oct 21)",
+   "authors": [
+    "Lileeva, A.",
+    "Trefler, D."
+   ],
+   "year": "2010",
+   "title": "Improved Access to Foreign Markets Raises Plant-Level Productivity...for Some Plants",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 8: Does Internationalization Improve Firm Performance? (Oct 21)",
+   "authors": [
+    "Chang, S.",
+    "Kogut, B.",
+    "Yang, J.-S."
+   ],
+   "year": "2016",
+   "title": "Global Diversification Discount and its Discontents: A Bit of Self-Selection Makes a World of Difference",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 9: Trade Policy and Economic Development/Growth (Oct 28)",
+   "authors": [
+    "Frankel, J.",
+    "Romer, D."
+   ],
+   "year": "1999",
+   "title": "Does Trade Cause Growth?",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 9: Trade Policy and Economic Development/Growth (Oct 28)",
+   "authors": [
+    "Feyrer, J."
+   ],
+   "year": "2019",
+   "title": "Trade and Income - Exploiting Time Series in Geography",
+   "venue": "American Economic Journal: Applied Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 9: Trade Policy and Economic Development/Growth (Oct 28)",
+   "authors": [
+    "Donaldson, D."
+   ],
+   "year": "2018",
+   "title": "Railroads of the Raj: Estimating the Impact of Transportation Infrastructure",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 10: Trade and Inequality (Nov 4)",
+   "authors": [
+    "Autor, D.",
+    "Dorn, D.",
+    "Hanson, G."
+   ],
+   "year": "2013",
+   "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 10: Trade and Inequality (Nov 4)",
+   "authors": [
+    "Hummels, D.",
+    "Jørgensen, R.",
+    "Munch, J.",
+    "Xiang, C."
+   ],
+   "year": "2014",
+   "title": "The Wage Effects of Offshoring: Evidence from Danish Matched Worker-Firm Data",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 10: Trade and Inequality (Nov 4)",
+   "authors": [
+    "Trefler, D."
+   ],
+   "year": "2004",
+   "title": "The Long and Short of the Canada-US Free Trade Agreement",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 10: Trade and Inequality (Nov 4)",
+   "authors": [
+    "Pavcnik, N."
+   ],
+   "year": "2017",
+   "title": "The Impact of Trade on Inequality in Developing Countries",
+   "venue": "",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 11: Trade, Offshoring, and Innovation (Nov 11)",
+   "authors": [
+    "Autor, D.H.",
+    "Dorn, D.",
+    "Hanson, G.H.",
+    "Pisano, G.P.",
+    "Shu, P."
+   ],
+   "year": "forthcoming",
+   "title": "Foreign Competition and Domestic Innovation: Evidence from US Patents",
+   "venue": "AER: Insights",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 11: Trade, Offshoring, and Innovation (Nov 11)",
+   "authors": [
+    "Bloom, N.",
+    "Draca, M.",
+    "Van Reenen, J."
+   ],
+   "year": "2016",
+   "title": "Trade Induced Technical Change? The Impact of Chinese Imports on Innovation, IT and Productivity",
+   "venue": "Review of Economic Studies, 83: 87-117",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 11: Trade, Offshoring, and Innovation (Nov 11)",
+   "authors": [
+    "Branstetter, L.",
+    "Chen, J.-R.",
+    "Glennon, B.",
+    "Zolas, N."
+   ],
+   "year": "2020",
+   "title": "Does Offshoring Manufacturing Harm Innovation? Evidence from Taiwan and China",
+   "venue": "Working Paper",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "Week 11: Trade, Offshoring, and Innovation (Nov 11)",
+   "authors": [
+    "Campbell, D.",
+    "Mau, K."
+   ],
+   "year": "2020",
+   "title": "On 'Trade Induced Technical Change: The Impact of Chinese Imports on Innovation, IT, and Productivity'",
+   "venue": "Review of Economic Studies (forthcoming)",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 12: Immigration, Trade, and MNCs (Nov 18)",
+   "authors": [
+    "Burchardi, K.B.",
+    "Chaney, T.",
+    "Hassan, T.A."
+   ],
+   "year": "2019",
+   "title": "Migrants, ancestors, and foreign investments",
+   "venue": "The Review of Economic Studies, 86(4): 1448-1486",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 12: Immigration, Trade, and MNCs (Nov 18)",
+   "authors": [
+    "Cohen, L.",
+    "Gurun, U.",
+    "Malloy, C."
+   ],
+   "year": "2016",
+   "title": "Resident Networks and Corporate Connections: Evidence from World War II Internment Camps",
+   "venue": "Journal of Finance",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 12: Immigration, Trade, and MNCs (Nov 18)",
+   "authors": [
+    "Glennon, B."
+   ],
+   "year": "2020",
+   "title": "How do restrictions on high-skilled immigration affect offshoring? Evidence from the H-1B program",
+   "venue": "Working Paper",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "Week 12: Immigration, Trade, and MNCs (Nov 18)",
+   "authors": [
+    "Hernandez, E.",
+    "Kulchina, E."
+   ],
+   "year": "2020",
+   "title": "Immigrants and Foreign Firm Performance",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 13: MNCs, Trade, and Politics (Dec 2)",
+   "authors": [
+    "Kim, I.S.",
+    "Milner, H.V."
+   ],
+   "year": "2020",
+   "title": "Multinational Corporations and their Influence Through Lobbying on Foreign Policy",
+   "venue": "In Multinational Corporations in a Changing Global Economy. Washington, DC: The Brookings Institution",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Week 13: MNCs, Trade, and Politics (Dec 2)",
+   "authors": [
+    "Blonigen, B.",
+    "Figlio, D.N."
+   ],
+   "year": "1998",
+   "title": "Voting for Protection: Does Direct Foreign Investment Influence Legislator Behavior?",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 13: MNCs, Trade, and Politics (Dec 2)",
+   "authors": [
+    "Jensen, J.B.",
+    "Quinn, D.P.",
+    "Weymouth, S."
+   ],
+   "year": "2017",
+   "title": "Winners and Losers in International Trade: The Effects on US Presidential Voting",
+   "venue": "International Organization",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Week 13: MNCs, Trade, and Politics (Dec 2)",
+   "authors": [
+    "Autor, D.",
+    "Dorn, D.",
+    "Hanson, G.",
+    "Majlesi, K."
+   ],
+   "year": "2020",
+   "title": "Importing Political Polarization? The Electoral Consequences of Rising Trade Exposure",
+   "venue": "American Economic Review (forthcoming)",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Bureau of Economic Analysis",
+    "Hossiso, K."
+   ],
+   "year": "2019",
+   "title": "Activities of US Multinational Enterprises in 2017",
+   "venue": "Bureau of Economic Analysis",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Yeaple, S."
+   ],
+   "year": "2013",
+   "title": "The Multinational Firm",
+   "venue": "Annual Review of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Dunning, J.",
+    "Rugman, A."
+   ],
+   "year": "1985",
+   "title": "The Influence of Hymer's Dissertation on the Theory of Foreign Direct Investment",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Hymer, S.H."
+   ],
+   "year": "1960",
+   "title": "The International Operations of National Firms: A Study of Direct Foreign Investment",
+   "venue": "",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Caves, R."
+   ],
+   "year": "",
+   "title": "Multinational Enterprise and Economic Analysis, Chapter 1",
+   "venue": "",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Krugman, P."
+   ],
+   "year": "1980",
+   "title": "Scale Economies, Product Differentiation, and the Pattern of Trade",
+   "venue": "The American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Markusen, J."
+   ],
+   "year": "1984",
+   "title": "Multinationals, multi-plant economies, and the gains from trade",
+   "venue": "Journal of International Economics, 16(3-4): 205-226",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Melitz, M.J."
+   ],
+   "year": "2003",
+   "title": "The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry Productivity",
+   "venue": "",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Barba Navaretti, G.",
+    "Venables, A.J."
+   ],
+   "year": "2004",
+   "title": "Multinational Firms in the World Economy",
+   "venue": "Princeton University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Helpman, E."
+   ],
+   "year": "1984",
+   "title": "A Simple Theory of International Trade with Multinational Corporations",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Dunning, J.H."
+   ],
+   "year": "1988",
+   "title": "The Eclectic Paradigm of International Production: A Restatement and Some Possible Extensions",
+   "venue": "",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Markusen, J."
+   ],
+   "year": "1995",
+   "title": "The Boundaries of Multinational Enterprises and the Theory of International Trade",
+   "venue": "Journal of Economic Perspectives",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Antras, P.",
+    "Yeaple, S."
+   ],
+   "year": "2013",
+   "title": "Multinational Firms and the Structure of International Trade",
+   "venue": "",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Contractor, F."
+   ],
+   "year": "2012",
+   "title": "Why do Multinational Firms Exist?",
+   "venue": "Global Strategy Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Ramondo, N.",
+    "Rodriguez-Clare, A.",
+    "Tintelnot, F."
+   ],
+   "year": "2015",
+   "title": "Multinational Production: Data and Stylized Facts",
+   "venue": "American Economic Review: Papers and Proceedings",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Introduction and Trends in Multinational Activity",
+   "authors": [
+    "Flaaen, A."
+   ],
+   "year": "2014",
+   "title": "Multinational Firms in Context",
+   "venue": "Working Paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Horizontal FDI",
+   "authors": [
+    "Markusen, J.R.",
+    "Venables, A.J."
+   ],
+   "year": "2000",
+   "title": "The Theory of Endowment, Intra-industry and Multi-national Trade",
+   "venue": "Journal of International Economics, 52(2): 209-234",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Horizontal FDI",
+   "authors": [
+    "Caves, R."
+   ],
+   "year": "",
+   "title": "Multinational Enterprise and Economic Analysis, Chapters 1-2",
+   "venue": "",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Horizontal FDI",
+   "authors": [
+    "Yeaple, S.R."
+   ],
+   "year": "2009",
+   "title": "Firm Heterogeneity and the Structure of U.S. Multinational Activity",
+   "venue": "Journal of International Economics, 78(2): 206-215",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Horizontal FDI",
+   "authors": [
+    "Feenstra, R."
+   ],
+   "year": "",
+   "title": "Advanced International Trade: Theory and Evidence, Chapter 12",
+   "venue": "",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Horizontal FDI",
+   "authors": [
+    "Ramondo, N.",
+    "Rappoport, V.",
+    "Ruhl, K.J."
+   ],
+   "year": "2013",
+   "title": "The Proximity-Concentration Tradeoff Under Uncertainty",
+   "venue": "The Review of Economic Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Horizontal FDI",
+   "authors": [
+    "Davies, R.",
+    "Markusen, J.R."
+   ],
+   "year": "2020",
+   "title": "The Structure of Multinational Firms' International Activities",
+   "venue": "NBER Working Paper 26827",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Vertical FDI",
+   "authors": [
+    "Yi, K.-M."
+   ],
+   "year": "2003",
+   "title": "Can Vertical Specialization Explain the Growth of World Trade?",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Vertical FDI",
+   "authors": [
+    "Feenstra, R.C.",
+    "Hanson, G.H."
+   ],
+   "year": "1996",
+   "title": "Foreign Investment, Outsourcing and Relative Wages",
+   "venue": "In R.C. Feenstra, G.M. Grossman and D.A. Irwin (eds.), The Political Economy of Trade Policy: Papers in Honor of Jagdish Bhagwati. Cambridge, MA: The MIT Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Vertical FDI",
+   "authors": [
+    "Grossman, G.",
+    "Rossi-Hansberg, E."
+   ],
+   "year": "2008",
+   "title": "Trading Tasks: A Simple Theory of Offshoring",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Vertical FDI",
+   "authors": [
+    "Costinot, A.",
+    "Vogel, J.",
+    "Wang, S."
+   ],
+   "year": "2013",
+   "title": "An Elementary Theory of Global Supply Chains",
+   "venue": "Review of Economic Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Vertical FDI",
+   "authors": [
+    "Ramondo, N.",
+    "Rappoport, V.",
+    "Ruhl, K.J."
+   ],
+   "year": "2016",
+   "title": "Intrafirm Trade and Vertical Fragmentation in US Multinational Corporations",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Vertical FDI",
+   "authors": [
+    "Helpman, E."
+   ],
+   "year": "2006",
+   "title": "Trade, FDI, and the Organization of Firms",
+   "venue": "Journal of Economic Literature",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Vertical FDI",
+   "authors": [
+    "Ramondo, N.",
+    "Rappoport, V.",
+    "Ruhl, K.J."
+   ],
+   "year": "2012",
+   "title": "Horizontal vs. Vertical FDI: Revisiting Evidence from U.S. Multinationals",
+   "venue": "",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Vertical FDI",
+   "authors": [
+    "Hanson, G.",
+    "Mataloni, R.",
+    "Slaughter, M."
+   ],
+   "year": "2005",
+   "title": "Vertical Production Networks in Multinational Firms",
+   "venue": "Review of Economics and Statistics, 87(4): 664-678",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Harzing, A.-W."
+   ],
+   "year": "2002",
+   "title": "Acquisitions versus Greenfield Investments: International Strategy and Management of Entry Modes",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Nocke, V.",
+    "Yeaple, S."
+   ],
+   "year": "2008",
+   "title": "An Assignment Theory of Foreign Direct Investment",
+   "venue": "The Review of Economic Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Head, K.",
+    "Ries, J."
+   ],
+   "year": "2008",
+   "title": "FDI as an outcome of the market for corporate control",
+   "venue": "Journal of International Economics, 74: 2-20",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Arnold, F.",
+    "Javorcik, B."
+   ],
+   "year": "2009",
+   "title": "Gifted kids or pushy parents? Foreign direct investment and plant productivity in Indonesia",
+   "venue": "Journal of International Economics, 79: 42-53",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Blonigen, B.",
+    "Fontagne, L.",
+    "Sly, N.",
+    "Toubal, F."
+   ],
+   "year": "2014",
+   "title": "Cherries for Sale: The Incidence and Timing of Cross-Border M&A",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Horn, H.",
+    "Persson, L."
+   ],
+   "year": "2001",
+   "title": "The Equilibrium Ownership of an International Oligopoly",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Neary, J.P."
+   ],
+   "year": "2007",
+   "title": "Cross-Border Mergers as Instruments of Comparative Advantage",
+   "venue": "Review of Economic Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Hennart, J.-F.",
+    "Park, Y.-R."
+   ],
+   "year": "1993",
+   "title": "Greenfield vs Acquisition: The Strategy of Japanese Investors in the United States",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Kogut, B.",
+    "Singh, H."
+   ],
+   "year": "1988",
+   "title": "The Effect of National Culture on the Choice of Entry Mode",
+   "venue": "Journal of International Business Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Brouthers, K.",
+    "Brouthers, L."
+   ],
+   "year": "2000",
+   "title": "Acquisition or Greenfield Start-Up? Institutional, Cultural, and Transaction Cost Influences",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Meyer, K.",
+    "Estrin, S.",
+    "Bhaumik, S.",
+    "Peng, M."
+   ],
+   "year": "2009",
+   "title": "Institutions, Resources, and Entry Strategies in Emerging Economies",
+   "venue": "",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Shaver, J.M."
+   ],
+   "year": "1998",
+   "title": "Accounting for Endogeneity when Assessing Strategy Performance: Does Entry Mode Choice Affect FDI Survival?",
+   "venue": "Management Science, 44(4): 571-585",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Caves, R."
+   ],
+   "year": "",
+   "title": "Multinational Enterprise and Economic Analysis, Chapter 3",
+   "venue": "",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Nocke, V.",
+    "Yeaple, S."
+   ],
+   "year": "2007",
+   "title": "Cross-border mergers and acquisitions vs greenfield foreign direct investment: The role of firm heterogeneity",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Hennart, J.-F."
+   ],
+   "year": "1991",
+   "title": "The Transaction Costs Theory of Joint Ventures: An Empirical Study of Japanese Subsidiaries in the United States",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Ethier, W.J.",
+    "Markusen, J.R."
+   ],
+   "year": "1996",
+   "title": "Multinational firms, technology diffusion and trade",
+   "venue": "Journal of International Economics, 41(1-2): 1-28",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Feinberg, S.",
+    "Gupta, A."
+   ],
+   "year": "2009",
+   "title": "MNC Subsidiaries and Country Risk: Internalization as a Safeguard Against Weak Internal Institutions",
+   "venue": "",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Hennart, J.-F."
+   ],
+   "year": "1982",
+   "title": "The Model",
+   "venue": "In A Theory of the Multinational Enterprise. University of Michigan Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Fernandes, A.",
+    "Tang, H."
+   ],
+   "year": "2012",
+   "title": "Determinants of Vertical Integration in Export Processing: Theory and Evidence from China",
+   "venue": "Journal of Development Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Feenstra, R.",
+    "Hanson, G."
+   ],
+   "year": "2005",
+   "title": "Ownership and Control in Outsourcing to China: Estimating the Property-Rights Theory of the Firm",
+   "venue": "Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Anderson, E.",
+    "Gatignon, H."
+   ],
+   "year": "1986",
+   "title": "Modes of Foreign Entry: A Transaction Cost Analysis and Propositions",
+   "venue": "Journal of International Business Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Antras, P.",
+    "Helpman, E."
+   ],
+   "year": "2004",
+   "title": "Global Sourcing",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Antras, P."
+   ],
+   "year": "2003",
+   "title": "Firms, Contracts, and Trade Structure",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Antras, P."
+   ],
+   "year": "2005",
+   "title": "Incomplete Contracts and the Product Cycle",
+   "venue": "The American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Antras, P.",
+    "Chor, D."
+   ],
+   "year": "2012",
+   "title": "Organizing the Global Value Chain",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Grossman, G.",
+    "Helpman, E."
+   ],
+   "year": "2005",
+   "title": "Outsourcing in a Global Economy",
+   "venue": "Review of Economic Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Grossman, G.",
+    "Helpman, E."
+   ],
+   "year": "2004",
+   "title": "Managerial Incentives and the International Organization of Production",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Grossman, G.",
+    "Helpman, E."
+   ],
+   "year": "2002",
+   "title": "Integration versus Outsourcing in Industry Equilibrium",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Nunn, N.",
+    "Trefler, D."
+   ],
+   "year": "2008",
+   "title": "The Boundaries of the Multinational Firm: An Empirical Analysis",
+   "venue": "In E. Helpman, D. Marin, and T. Verdier (eds.), The Organization of Firms in a Global Economy",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Alfaro, L.",
+    "et al."
+   ],
+   "year": "2019",
+   "title": "Internalizing Global Value Chains",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Costinot, A.",
+    "Oldenski, L.",
+    "Rauch, J."
+   ],
+   "year": "2011",
+   "title": "Adaptation and the Boundary of Multinational Firms",
+   "venue": "The Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Yeaple, S.R."
+   ],
+   "year": "2006",
+   "title": "Offshoring, Foreign Direct Investment, and the Structure of U.S. Trade",
+   "venue": "Journal of the European Economic Association",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Corcos, G.",
+    "et al."
+   ],
+   "year": "2013",
+   "title": "The Determinants of Intrafirm Trade: Evidence from French Firms",
+   "venue": "The Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Mode of Entry",
+   "authors": [
+    "Bernard, A.",
+    "Jensen, J.B.",
+    "Redding, S.",
+    "Schott, P."
+   ],
+   "year": "2010",
+   "title": "Intrafirm Trade and Product Contractibility",
+   "venue": "American Economic Review: Papers and Proceedings",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Wheeler, D.",
+    "Mody, A."
+   ],
+   "year": "1992",
+   "title": "International investment location decisions: The case of US Firms",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Bilir, K."
+   ],
+   "year": "2014",
+   "title": "Patent Laws, Product Life-Cycle Lengths, and Multinational Activity",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Aitken, B.J.",
+    "Harrison, A.E."
+   ],
+   "year": "1999",
+   "title": "Do Domestic Firms Benefit from Direct Foreign Investment? Evidence from Venezuela",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Greenstone, M.",
+    "Hornbeck, R.",
+    "Moretti, E."
+   ],
+   "year": "2010",
+   "title": "Identifying Agglomeration Spillovers: Evidence from Winners and Losers of Large Plant Openings",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Audretsch, D.B.",
+    "Feldman, M.B."
+   ],
+   "year": "1996",
+   "title": "R&D spillovers and the geography of innovation and production",
+   "venue": "American Economic Review, 86(3): 630-640",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Alcacer, J.",
+    "Zhao, M."
+   ],
+   "year": "2012",
+   "title": "Local R&D Strategies and Multilocation Firms: The Role of Internal Linkages",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Haskel, J.E.",
+    "Pereira, S.",
+    "Slaughter, M."
+   ],
+   "year": "2007",
+   "title": "Does Inward Foreign Direct Investment Boost the Productivity of Domestic Firms?",
+   "venue": "The Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Keller, W.",
+    "Yeaple, S."
+   ],
+   "year": "2009",
+   "title": "Multinational Enterprises, International Trade, and Productivity Growth: Firm-Level Evidence from the United States",
+   "venue": "Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Keller, W."
+   ],
+   "year": "2010",
+   "title": "International Trade, Foreign Direct Investment, and Technology Spillovers",
+   "venue": "",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Mansfield, E.",
+    "Romeo, A."
+   ],
+   "year": "1980",
+   "title": "Technology Transfer to Overseas Subsidiaries by US-Based Firms",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Fosfuri, A.",
+    "Motta, M.",
+    "Ronde, T."
+   ],
+   "year": "2001",
+   "title": "Foreign Direct Investment and Spillovers through Workers Mobility",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Balsvik, R."
+   ],
+   "year": "2011",
+   "title": "Is Labor Mobility a Channel for Spillovers from Multinationals? Evidence from Norwegian Manufacturing",
+   "venue": "The Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Caves, R."
+   ],
+   "year": "",
+   "title": "Multinational Enterprise and Economic Analysis, Chapter 7",
+   "venue": "",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Hernandez, E.",
+    "Sanders, W.M.G.",
+    "Tuschke, A."
+   ],
+   "year": "2016",
+   "title": "Network Defense: Pruning, Grafting and Closing to Prevent Leakage of Strategic Knowledge to Rivals",
+   "venue": "Academy of Management Journal, 58(4): 1233-1260",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Berry, H."
+   ],
+   "year": "2015",
+   "title": "Knowledge Inheritance in Global Industries: The Impact of Parent Firm Knowledge on the Performance of Foreign Subsidiaries",
+   "venue": "Academy of Management Journal, 58(5): 1438-1458",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
+   "authors": [
+    "Alcacer, J.",
+    "Chung, W."
+   ],
+   "year": "2007",
+   "title": "Location Strategies and Knowledge Spillovers",
+   "venue": "Management Science, 53(5): 76-776",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Atkin, D.",
+    "Khandelwal, A.",
+    "Osman, A."
+   ],
+   "year": "2017",
+   "title": "Exporting and Firm Performance: Evidence from a Randomized Experiment",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Shaver, J.M."
+   ],
+   "year": "2011",
+   "title": "The benefits of geographic sales diversification: How exporting facilitates capital investment",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Blalock, G.",
+    "Gertler, P."
+   ],
+   "year": "2004",
+   "title": "Learning from exporting revisited in a less developed setting",
+   "venue": "Journal of Development Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Clerides, S.",
+    "Lach, S.",
+    "Tybout, J."
+   ],
+   "year": "1998",
+   "title": "Is Learning by Exporting Important? Micro-Dynamic Evidence from Colombia, Mexico, and Morocco",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Van Biesebroeck, J."
+   ],
+   "year": "2005",
+   "title": "Exporting raises productivity in sub-Saharan African manufacturing firms",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "De Loecker, J."
+   ],
+   "year": "2013",
+   "title": "Detecting Learning by Exporting",
+   "venue": "American Economic Journal: Microeconomics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Berry, H.",
+    "Kaul, A."
+   ],
+   "year": "2015",
+   "title": "Global Sourcing and Foreign Knowledge Seeking",
+   "venue": "Management Science, 61(5): 1052-1071",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Salomon, R.",
+    "Shaver, J.M."
+   ],
+   "year": "2005",
+   "title": "Learning by Exporting: New Insights from Examining Firm Innovation",
+   "venue": "Journal of Economics and Management Strategy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Johanson, J.",
+    "Vahlne, J.-E."
+   ],
+   "year": "",
+   "title": "The Internationalization Process of the Firm - A Model of Knowledge Development and Increasing Foreign Market Commitments",
+   "venue": "",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Zaheer, S."
+   ],
+   "year": "1995",
+   "title": "Overcoming the Liability of Foreignness",
+   "venue": "Academy of Management Journal, 38(2): 341-363",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Does Internationalization Improve Firm Performance?",
+   "authors": [
+    "Perkins, S."
+   ],
+   "year": "2014",
+   "title": "When Does Prior Experience Pay? Institutional Experience and the Multinational Corporation",
+   "venue": "Administrative Science Quarterly, 59(1): 145-18",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Harrison, A.",
+    "Rodriguez-Clare, A."
+   ],
+   "year": "2009",
+   "title": "Trade, Foreign Investment, and Industrial Policy for Developing Countries",
+   "venue": "",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Rodriguez, F.",
+    "Rodrik, D."
+   ],
+   "year": "2001",
+   "title": "Trade Policy and Economic Growth: A Skeptic's Guide to the Cross-National Evidence",
+   "venue": "NBER Macroeconomics Annual",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Nunn, N.",
+    "Trefler, D."
+   ],
+   "year": "2010",
+   "title": "The Structure of Tariffs and Long-Term Growth",
+   "venue": "American Economic Journal: Macroeconomics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Estevadeordal, A.",
+    "Taylor, A."
+   ],
+   "year": "2013",
+   "title": "Is the Washington Consensus Dead? Growth, Openness, and the Great Liberalization, 1970s-2000s",
+   "venue": "The Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Alcala, F.",
+    "Ciccone, A."
+   ],
+   "year": "2004",
+   "title": "Trade and Productivity",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Romalis, J."
+   ],
+   "year": "2007",
+   "title": "Market access, openness and growth",
+   "venue": "NBER Working Paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Khandelwal, A.",
+    "Schott, P.",
+    "Wei, S.-J."
+   ],
+   "year": "2013",
+   "title": "Trade Liberalization and Embedded Institutional Reform: Evidence from Chinese Exporters",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Pavcnik, N."
+   ],
+   "year": "2002",
+   "title": "Trade Liberalization, Exit, and Productivity Improvements: Evidence from Chilean Plants",
+   "venue": "Review of Economic Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Caves, R."
+   ],
+   "year": "",
+   "title": "Multinational Enterprise and Economic Analysis, Chapter 9",
+   "venue": "",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Brandt, L.",
+    "Van Biesebroeck, J.",
+    "Wang, L.",
+    "Zhang, Y."
+   ],
+   "year": "2017",
+   "title": "WTO Accession and Performance of Chinese Manufacturing Firms",
+   "venue": "American Economic Review, 107(9): 2784-2820",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade Policy and Economic Development/Growth",
+   "authors": [
+    "Bustos, P."
+   ],
+   "year": "2011",
+   "title": "Trade Liberalization, Exports, and Technology Upgrading: Evidence on the Impact of MERCOSUR on Argentinian Firms",
+   "venue": "American Economic Review, 101(1): 304-340",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Autor, D.",
+    "Dorn, D.",
+    "Hanson, G.",
+    "Song, J."
+   ],
+   "year": "2014",
+   "title": "Trade Adjustment: Worker-Level Evidence",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Goldberg, P.K.",
+    "Pavcnik, N."
+   ],
+   "year": "2007",
+   "title": "Distributional Effects of Globalization in Developing Countries",
+   "venue": "Journal of Economic Literature",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Dorn, D."
+   ],
+   "year": "",
+   "title": "Commentary: The Impact of Trade on Inequality in Developed Countries",
+   "venue": "",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Pierce, J.",
+    "Schott, P.K."
+   ],
+   "year": "2016",
+   "title": "The Surprisingly Swift Decline of US Manufacturing Employment",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Pierce, J.",
+    "Schott, P.K."
+   ],
+   "year": "2020",
+   "title": "Trade Liberalization and Mortality: Evidence from US Counties",
+   "venue": "AER: Insights",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Feenstra, R.C.",
+    "Ma, H.",
+    "Xu, Y."
+   ],
+   "year": "2017",
+   "title": "US Exports and Employment",
+   "venue": "NBER Working Paper No. 24056",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Feenstra, R.C.",
+    "Sasahara, A."
+   ],
+   "year": "2018",
+   "title": "The 'China shock,' exports and U.S. employment: A global input-output analysis",
+   "venue": "Review of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Caliendo, L.",
+    "Dvorkin, M.",
+    "Parro, F."
+   ],
+   "year": "forthcoming",
+   "title": "Trade and Labor Market Dynamics: General Equilibrium Analysis of the China Trade Shock",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Acemoglu, D.",
+    "Autor, D.",
+    "Dorn, D.",
+    "Hanson, G."
+   ],
+   "year": "2014",
+   "title": "Import Competition and the Great U.S. Employment Sag of the 2000s",
+   "venue": "Journal of Labor Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Dix-Carneiro, R.",
+    "Kovak, B."
+   ],
+   "year": "2017",
+   "title": "Trade liberalisation and regional dynamics",
+   "venue": "American Economic Review, 107(10): 2908-2946",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Feenstra, R."
+   ],
+   "year": "2007",
+   "title": "Globalization and its Impact on Labor",
+   "venue": "Global Economy Lecture",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Amiti, M.",
+    "Davis, D."
+   ],
+   "year": "2012",
+   "title": "Trade, Firms, and Wages: Theory and Evidence",
+   "venue": "Review of Economic Studies, 79(1): 1-36",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Cosar, K.",
+    "Guner, N.",
+    "Tybout, J."
+   ],
+   "year": "2016",
+   "title": "Firm Dynamics, Job Turnover, and Wage Distributions in an Open Economy",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Helpman, E.",
+    "Itskhoki, O.",
+    "Muendler, M.-A.",
+    "Redding, S."
+   ],
+   "year": "2017",
+   "title": "Trade and Inequality: From Theory to Estimation",
+   "venue": "The Review of Economic Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Helpman, E.",
+    "Itskhoki, O.",
+    "Redding, S."
+   ],
+   "year": "2010",
+   "title": "Inequality and unemployment in a global economy",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Helpman, E."
+   ],
+   "year": "2016",
+   "title": "Globalization and Wage Inequality",
+   "venue": "NBER Working Paper 22944",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Caves, R."
+   ],
+   "year": "",
+   "title": "Multinational Enterprise and Economic Analysis, Chapter 5",
+   "venue": "",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade and Inequality",
+   "authors": [
+    "Feenstra, R."
+   ],
+   "year": "",
+   "title": "Advanced International Trade: Theory and Evidence, Chapter 4",
+   "venue": "",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade, Offshoring, and Innovation",
+   "authors": [
+    "Fuchs, E.R.H."
+   ],
+   "year": "2014",
+   "title": "Global Manufacturing and the Future of Technology",
+   "venue": "Science, 345: 519-520",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade, Offshoring, and Innovation",
+   "authors": [
+    "Glass, A.J.",
+    "Saggi, K."
+   ],
+   "year": "2001",
+   "title": "Innovation and Wage Effects of International Outsourcing",
+   "venue": "European Economic Review, 45: 67-86",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade, Offshoring, and Innovation",
+   "authors": [
+    "Shu, P.",
+    "Steinwender, C."
+   ],
+   "year": "2019",
+   "title": "The impact of trade liberalization on firm productivity and innovation",
+   "venue": "Innovation Policy and the Economy, 19(1): 39-68",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade, Offshoring, and Innovation",
+   "authors": [
+    "Yang, C.H.",
+    "Nugent, R.",
+    "Fuchs, E.R.H."
+   ],
+   "year": "2016",
+   "title": "Gains from Others' Losses: Technology Trajectories and the Global Division of Firms",
+   "venue": "Research Policy, 45(3): 724-745",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade, Offshoring, and Innovation",
+   "authors": [
+    "Aghion, P.",
+    "Bergeaud, A.",
+    "Lequien, M.",
+    "Melitz, M."
+   ],
+   "year": "2018",
+   "title": "The Impact of Exports on Innovation: Theory and Evidence",
+   "venue": "Working Paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Trade, Offshoring, and Innovation",
+   "authors": [
+    "Pisano, G.P.",
+    "Shih, W.C."
+   ],
+   "year": "2009",
+   "title": "Restoring American Competitiveness",
+   "venue": "Harvard Business Review, 87(July)",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Immigration and MNCs",
+   "authors": [
+    "Morales, N."
+   ],
+   "year": "2019",
+   "title": "High-skill migration, multinational companies and the location of economic activity",
+   "venue": "Working Paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Immigration and MNCs",
+   "authors": [
+    "Li, Y.",
+    "Hernandez, E.",
+    "Gwon, S."
+   ],
+   "year": "2019",
+   "title": "When do Ethnic Communities Affect Foreign Location Choice? Dual Entry Strategies of Korean Banks in China",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Immigration and MNCs",
+   "authors": [
+    "Gould, D.M."
+   ],
+   "year": "1994",
+   "title": "Immigrant Links to the Home Country: Empirical Implications for U.S. Bilateral Trade Flows",
+   "venue": "The Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Immigration and MNCs",
+   "authors": [
+    "Hernandez, E."
+   ],
+   "year": "2014",
+   "title": "Finding a Home away from Home: Effects of Immigrants on Firms' Foreign Location Choice and Performance",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Immigration and MNCs",
+   "authors": [
+    "Mata, J.",
+    "Alves, C."
+   ],
+   "year": "2018",
+   "title": "The Survival of Firms Founded by Immigrants: Institutional Distance Between Home and Host Country, and Experience in the Host Country",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Immigration and MNCs",
+   "authors": [
+    "Mayda, A.M.",
+    "Parsons, C.",
+    "Pham, H.",
+    "Vezina, P.-L."
+   ],
+   "year": "2020",
+   "title": "Refugees and Foreign Direct Investment: Quasi-Experimental Evidence from US Resettlements",
+   "venue": "Working Paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): Immigration and MNCs",
+   "authors": [
+    "Foley, F.",
+    "Kerr, W."
+   ],
+   "year": "2013",
+   "title": "Ethnic Innovation and US Multinational Firm Activity",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): MNCs, Trade, and Politics",
+   "authors": [
+    "Bombardini, M."
+   ],
+   "year": "2008",
+   "title": "Firm Heterogeneity and Lobby Participation",
+   "venue": "Journal of International Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): MNCs, Trade, and Politics",
+   "authors": [
+    "Gawande, K.",
+    "Krishna, P.",
+    "Robbins, M."
+   ],
+   "year": "2006",
+   "title": "Foreign Lobbies and US Trade Policy",
+   "venue": "The Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): MNCs, Trade, and Politics",
+   "authors": [
+    "Hansen, W.",
+    "Mitchell, N."
+   ],
+   "year": "2000",
+   "title": "Disaggregating and Explaining Corporate Political Activity: Domestic and Foreign Corporations in National Politics",
+   "venue": "American Political Science Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Additional (Optional): MNCs, Trade, and Politics",
+   "authors": [
+    "Osgood, I.",
+    "Tingley, D.",
+    "Bernauer, T.",
+    "Kim, I.S.",
+    "Milner, H.",
+    "Spilker, G."
+   ],
+   "year": "2017",
+   "title": "The Charmed Life of Superstar Exporters: Survey Evidence on Firms and Trade Policy",
+   "venue": "Journal of Politics, 47(1): 133-152",
+   "type": "article",
+   "required": false
+  }
+ ]
+}

@@ -1,0 +1,819 @@
+{
+ "file": "9a6d0c1e-___________.txt",
+ "course": "Organization theory classics: recommended reading list (课程推荐书单：组织理论经典书单)",
+ "instructor": "",
+ "institution": "",
+ "term": "",
+ "readings": [
+  {
+   "session": "Section 1: Research on organizational theory",
+   "authors": [
+    "Sutton, R. I.",
+    "Staw, B. M."
+   ],
+   "year": "1995",
+   "title": "What a theory is not",
+   "venue": "Administrative Science Quarterly, 40(3): 371-384",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 1: Research on organizational theory",
+   "authors": [
+    "Weick, K. E."
+   ],
+   "year": "1995",
+   "title": "What theory is not, theorizing is",
+   "venue": "Administrative Science Quarterly, 40(3): 385-390",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 1: Research on organizational theory",
+   "authors": [
+    "DiMaggio, P. J."
+   ],
+   "year": "1995",
+   "title": "Comments on \"What theory is not\"",
+   "venue": "Administrative Science Quarterly, 40(3): 391-397",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 1: Research on organizational theory",
+   "authors": [
+    "Shapira, Z."
+   ],
+   "year": "2011",
+   "title": "\"I've got a theory paper—Do you?\": Conceptual, empirical, and theoretical contributions to knowledge in the organizational sciences",
+   "venue": "Organization Science, 22: 1312-1321",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 1: Research on organizational theory",
+   "authors": [
+    "Colquitt, J. A.",
+    "Zapata-Phelan, C. P."
+   ],
+   "year": "2007",
+   "title": "Trends in theory building and theory testing: A five-decade study of the Academy of Management Journal",
+   "venue": "Academy of Management Journal, 50: 1281-1303",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 1: Research on organizational theory",
+   "authors": [
+    "Davis, M. S."
+   ],
+   "year": "1971",
+   "title": "That is interesting",
+   "venue": "Philosophy of Social Sciences, 1: 309-344",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 1: Research on organizational theory",
+   "authors": [
+    "Davis, G. F.",
+    "Powell, W. W."
+   ],
+   "year": "1992",
+   "title": "Organization-environment relations",
+   "venue": "In M. D. Dunette and L. M. Hough (Eds.), Handbook of industrial and organizational psychology: 315-376. Palo Alto, CA: Consulting Psychologists Press",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Session 2: Resource Dependence and Power I",
+   "authors": [
+    "Emerson, R. M."
+   ],
+   "year": "1962",
+   "title": "Power-dependence relations",
+   "venue": "American Sociological Review, 27: 31-41",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 2: Resource Dependence and Power I",
+   "authors": [
+    "Pfeffer, J."
+   ],
+   "year": "1972",
+   "title": "Merger as a response to organizational interdependence",
+   "venue": "Administrative Science Quarterly, 17: 218-228",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 2: Resource Dependence and Power I",
+   "authors": [
+    "Finkelstein, S."
+   ],
+   "year": "1997",
+   "title": "Interindustry merger patterns and resource dependence: A replication and extension of Pfeffer (1972)",
+   "venue": "Strategic Management Journal, 18: 787-810",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 2: Resource Dependence and Power I",
+   "authors": [
+    "Casciaro, T.",
+    "Piskorski, M. J."
+   ],
+   "year": "2005",
+   "title": "Power imbalance, mutual dependence and constraint absorption: A closer look at resource dependence theory",
+   "venue": "Administrative Science Quarterly, 50: 167-199",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 2: Resource Dependence and Power I",
+   "authors": [
+    "Gulati, R.",
+    "Sytch, M."
+   ],
+   "year": "2007",
+   "title": "Dependence asymmetry and joint dependence in interorganizational relationships: effects of embeddedness on a manufacturer's performance in procurement relationships",
+   "venue": "Administrative Science Quarterly, 52: 32-69",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 3: Resource Dependence and Power II",
+   "authors": [
+    "Cowen, A. P.",
+    "Marcel, J. J."
+   ],
+   "year": "2011",
+   "title": "Damaged Goods: Board decisions to dismiss reputationally compromised directors",
+   "venue": "Academy of Management Journal, 54(3): 509-527",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 3: Resource Dependence and Power II",
+   "authors": [
+    "Hillman, A. J.",
+    "Shropshire, C.",
+    "Cannella, A. A."
+   ],
+   "year": "2007",
+   "title": "Organizational predictors of women on corporate boards",
+   "venue": "Academy of Management Journal, 50: 941-952",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 3: Resource Dependence and Power II",
+   "authors": [
+    "Finkelstein, S."
+   ],
+   "year": "1992",
+   "title": "Power in top management teams: Dimensions, measurement, and validation",
+   "venue": "Academy of Management Journal, 35: 505-538",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 3: Resource Dependence and Power II",
+   "authors": [
+    "Pfeffer, J."
+   ],
+   "year": "2003",
+   "title": "Introduction to the classic edition",
+   "venue": "In J. Pfeffer & G. R. Salancik, The external control of organizations: A resource dependence perspective (pp. xi-xxx). Stanford, CA: Stanford University Press",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Session 3: Resource Dependence and Power II",
+   "authors": [
+    "Hillman, A. J.",
+    "Withers, M. C.",
+    "Collins, B. J."
+   ],
+   "year": "2009",
+   "title": "Resource dependence theory: A review",
+   "venue": "Journal of Management, 35: 1404-1427",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 3: Resource Dependence and Power II",
+   "authors": [
+    "Boyd, B."
+   ],
+   "year": "1990",
+   "title": "Corporate linkages and organizational environment: A test of the resource dependence model",
+   "venue": "Strategic Management Journal, 11: 419-430",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 4: Institutional Theory I",
+   "authors": [
+    "Meyer",
+    "Rowan"
+   ],
+   "year": "1977",
+   "title": "Institutionalized Organizations: Formal Structure as Myth and Ceremony",
+   "venue": "American Journal of Sociology, 83: 340-363",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 4: Institutional Theory I",
+   "authors": [
+    "DiMaggio, P.",
+    "Powell, W. W."
+   ],
+   "year": "1983",
+   "title": "The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields",
+   "venue": "American Sociological Review, 48: 147-160",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 4: Institutional Theory I",
+   "authors": [
+    "Tolbert, P. S.",
+    "Zucker, L."
+   ],
+   "year": "1983",
+   "title": "Institutional sources of change in the formal structure of organizations: The diffusion of civil service reform, 1880-1935",
+   "venue": "Administrative Science Quarterly, 30: 22-39",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 4: Institutional Theory I",
+   "authors": [
+    "Heugens, P. P. M. A. R.",
+    "Lander, M. W."
+   ],
+   "year": "2009",
+   "title": "Structure! Agency! (and other quarrels): A meta-analysis of institutional theories of organization",
+   "venue": "Academy of Management Journal, 52(1): 61-85",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 4: Institutional Theory I",
+   "authors": [
+    "Mizruchi, M. S.",
+    "Fein, L. C."
+   ],
+   "year": "1999",
+   "title": "The social construction of organizational knowledge: a study of the uses of coercive, mimetic, and normative isomorphism",
+   "venue": "Administrative Science Quarterly, 44: 653-683",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 5: Institutional Theory II (institutionalization and deinstitutionalization)",
+   "authors": [
+    "Haunschild, P. R."
+   ],
+   "year": "1993",
+   "title": "Interorganizational imitation: The impact of interlocks on corporate acquisition activity",
+   "venue": "Administrative Science Quarterly, 38: 564-592",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 5: Institutional Theory II (institutionalization and deinstitutionalization)",
+   "authors": [
+    "Fiss, P. C.",
+    "Zajac, E. J."
+   ],
+   "year": "2004",
+   "title": "The diffusion of ideas over contested terrain: the (non)adoption of a shareholder value orientation among German firms",
+   "venue": "Administrative Science Quarterly, 49: 501-534",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 5: Institutional Theory II (institutionalization and deinstitutionalization)",
+   "authors": [
+    "Sanders, W. G.",
+    "Tuschke, A."
+   ],
+   "year": "2007",
+   "title": "The adoption of institutionally contested organizational practices: The emergence of stock option pay in Germany",
+   "venue": "Academy of Management Journal, 50(1): 33-56",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 5: Institutional Theory II (institutionalization and deinstitutionalization)",
+   "authors": [
+    "Davis, G. F.",
+    "Diekmann, K. A.",
+    "Tinsley, C. H."
+   ],
+   "year": "1994",
+   "title": "The decline and fall of the conglomerate firm in the 1980s: The deinstitutionalization of an organizational form",
+   "venue": "Administrative Science Quarterly, 59: 547-570",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 5: Institutional Theory II (institutionalization and deinstitutionalization)",
+   "authors": [
+    "Ahmadjian, C. L.",
+    "Robinson, P."
+   ],
+   "year": "2001",
+   "title": "Safety in numbers: downsizing and the deinstitutionalization of permanent employment in Japan",
+   "venue": "Administrative Science Quarterly, 46: 622-654",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 6: Institutional Theory III (change and logic)",
+   "authors": [
+    "Greenwood, R.",
+    "Suddaby, R.",
+    "Hinings, C. R."
+   ],
+   "year": "2002",
+   "title": "Theorizing change: the role of professional associations in the transformation of institutionalized fields",
+   "venue": "Academy of Management Journal, 45(1): 58-80",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 6: Institutional Theory III (change and logic)",
+   "authors": [
+    "Kraatz, M. S.",
+    "Moore, J. H."
+   ],
+   "year": "2002",
+   "title": "Executive migration and institutional change",
+   "venue": "Academy of Management Journal, 45(1): 120-143",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 6: Institutional Theory III (change and logic)",
+   "authors": [
+    "Thornton, P. H."
+   ],
+   "year": "2002",
+   "title": "The rise of the corporation in a craft industry: Conflict and conformity in institutional logics",
+   "venue": "Academy of Management Journal, 45: 81-101",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 6: Institutional Theory III (change and logic)",
+   "authors": [
+    "Lounsbury, M."
+   ],
+   "year": "2007",
+   "title": "A tale of two cities: Competing logics and practice variation in the professionalizing of mutual funds",
+   "venue": "Academy of Management Journal, 50: 289-307",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 6: Institutional Theory III (change and logic)",
+   "authors": [
+    "Henisz, W. J.",
+    "Delios, A."
+   ],
+   "year": "2001",
+   "title": "Uncertainty, imitation, and plant location: Japanese multinational corporations, 1990-1996",
+   "venue": "Administrative Science Quarterly, 46(3): 443-475",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 7: Population Ecology",
+   "authors": [
+    "Hannan, M. T.",
+    "Freeman, J."
+   ],
+   "year": "1984",
+   "title": "Structural inertia and organizational change",
+   "venue": "American Sociological Review, 49: 149-164",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 7: Population Ecology",
+   "authors": [
+    "Amburgey, T.",
+    "Kelly, D.",
+    "Barnett, B."
+   ],
+   "year": "1993",
+   "title": "Resetting the clock: The dynamics of organizational change and failure",
+   "venue": "Administrative Science Quarterly, 38: 51-73",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 7: Population Ecology",
+   "authors": [
+    "Baum, J.",
+    "Mezias, S."
+   ],
+   "year": "1992",
+   "title": "Localized competition and organizational failure in the Manhattan hotel industry, 1898-1990",
+   "venue": "Administrative Science Quarterly, 37: 580-604",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 7: Population Ecology",
+   "authors": [
+    "Li, J.",
+    "Yang, J. Y.",
+    "Yue, D. R."
+   ],
+   "year": "2007",
+   "title": "Identity, community, and audience: How wholly owned foreign subsidiaries gain legitimacy in China",
+   "venue": "Academy of Management Journal, 50(1): 175-190",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 7: Population Ecology",
+   "authors": [
+    "Xu, D.",
+    "Lu, J. W.",
+    "Gu, Q."
+   ],
+   "year": "2014",
+   "title": "Organizational forms and multi-population dynamics",
+   "venue": "Administrative Science Quarterly, 59(3): 517-547",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 7: Population Ecology",
+   "authors": [
+    "Martin, X.",
+    "Swaminathan, A.",
+    "Mitchell, W."
+   ],
+   "year": "1998",
+   "title": "Organizational evolution in the interorganizational environment: Incentives and constraints on international expansion strategy",
+   "venue": "Administrative Science Quarterly, 43: 566-601",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 7: Population Ecology",
+   "authors": [
+    "Fischer, H. M.",
+    "Pollock, T. G."
+   ],
+   "year": "2004",
+   "title": "Effects of social capital and power on surviving transformational change: The case of initial public offerings",
+   "venue": "Academy of Management Journal, 47: 463-481",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 8: Transaction Cost and Agency Problem",
+   "authors": [
+    "Williamson, O. E."
+   ],
+   "year": "1979",
+   "title": "Transaction-cost economics: The governance of contractual relations",
+   "venue": "Journal of Law and Economics, 22(2): 233-261",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 8: Transaction Cost and Agency Problem",
+   "authors": [
+    "David, R.",
+    "Han, S. K."
+   ],
+   "year": "2004",
+   "title": "A systematic assessment of the empirical support for transaction cost economics",
+   "venue": "Strategic Management Journal, 25: 39-58",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 8: Transaction Cost and Agency Problem",
+   "authors": [
+    "Eisenhardt, K."
+   ],
+   "year": "1989",
+   "title": "Agency theory: An assessment and review",
+   "venue": "Academy of Management Review, 14: 57-74",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 8: Transaction Cost and Agency Problem",
+   "authors": [
+    "Davis, G. F."
+   ],
+   "year": "1991",
+   "title": "Agents without principles? The spread of the poison pill through the intercorporate network",
+   "venue": "Administrative Science Quarterly, 36: 583-613",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 8: Transaction Cost and Agency Problem",
+   "authors": [
+    "Hillman, A. J.",
+    "Dalziel, T."
+   ],
+   "year": "2003",
+   "title": "Boards of directors and firm performance: Integrating agency and resource dependence perspectives",
+   "venue": "Academy of Management Review, 28: 383-396",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 9: Stakeholder, Stewardship, and Contingency Theory",
+   "authors": [
+    "Donaldson, T.",
+    "Preston, L."
+   ],
+   "year": "1995",
+   "title": "The stakeholder theory of the modern corporation: Concepts, evidence and implications",
+   "venue": "Academy of Management Review, 20: 65-91",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 9: Stakeholder, Stewardship, and Contingency Theory",
+   "authors": [
+    "Li, J.",
+    "Xia, J.",
+    "Zajac, E."
+   ],
+   "year": "2018",
+   "title": "On the duality of political and economic stakeholder influence on firm innovation performance: Theory and evidence from Chinese firms",
+   "venue": "Strategic Management Journal, 39(1): 193-216",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 9: Stakeholder, Stewardship, and Contingency Theory",
+   "authors": [
+    "Frooman, J."
+   ],
+   "year": "1999",
+   "title": "Stakeholder influence strategies",
+   "venue": "Academy of Management Review, 24: 191-205",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 9: Stakeholder, Stewardship, and Contingency Theory",
+   "authors": [
+    "Davis, J. H.",
+    "Schoorman, F. D.",
+    "Donaldson, L."
+   ],
+   "year": "1997",
+   "title": "Toward a stewardship theory of management",
+   "venue": "Academy of Management Review, 22: 20-47",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 9: Stakeholder, Stewardship, and Contingency Theory",
+   "authors": [
+    "Schoonhoven, C. B."
+   ],
+   "year": "1981",
+   "title": "Problems with contingency theory: Testing assumptions hidden within the language of contingency theory",
+   "venue": "Administrative Science Quarterly, 26: 349-377",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 10: Learning, Information, Signaling, and Stigma Theories",
+   "authors": [
+    "Gupta, A. K.",
+    "Smith, K. G.",
+    "Shalley, C. E."
+   ],
+   "year": "2006",
+   "title": "The interplay between exploration and exploitation",
+   "venue": "Academy of Management Journal, 49: 693-706",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 10: Learning, Information, Signaling, and Stigma Theories",
+   "authors": [
+    "Zhang, Y.",
+    "Li, Y.",
+    "Li, H."
+   ],
+   "year": "2014",
+   "title": "FDI spillovers over time in an emerging market: The role of entry tenure and barriers to imitation",
+   "venue": "Academy of Management Journal, 57(3): 698-722",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 10: Learning, Information, Signaling, and Stigma Theories",
+   "authors": [
+    "Lieberman, M. B.",
+    "Asaba, S."
+   ],
+   "year": "2006",
+   "title": "Why Do Firms Imitate Each Other?",
+   "venue": "Academy of Management Review, 31: 366-385",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 10: Learning, Information, Signaling, and Stigma Theories",
+   "authors": [
+    "Haunschild, P. R.",
+    "Beckman, C. M."
+   ],
+   "year": "1998",
+   "title": "When do interlocks matter? Alternate sources of information and interlock influence",
+   "venue": "Administrative Science Quarterly, 43(4): 815-844",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 10: Learning, Information, Signaling, and Stigma Theories",
+   "authors": [
+    "Connelly, B. L.",
+    "Certo, S. T.",
+    "Ireland, R. D.",
+    "Reutzel, C. R."
+   ],
+   "year": "2011",
+   "title": "Signaling theory: A review and assessment",
+   "venue": "Journal of Management, 37(1): 39-67",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Session 10: Learning, Information, Signaling, and Stigma Theories",
+   "authors": [
+    "Devers, C. E.",
+    "Dewett, T.",
+    "Mishina, Y.",
+    "Belsito, C. A."
+   ],
+   "year": "2009",
+   "title": "A general theory of organizational stigma",
+   "venue": "Organization Science, 20: 154-171",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Colquitt, J. A.",
+    "George, G."
+   ],
+   "year": "2011",
+   "title": "Publishing in AMJ – Part 1: Topic choice",
+   "venue": "Academy of Management Journal, 54(3): 432-435",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Bono, J. E.",
+    "McNamara, G."
+   ],
+   "year": "2011",
+   "title": "Publishing in AMJ – Part 2: Research design",
+   "venue": "Academy of Management Journal, 54(4): 657-660",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Grant, A. M.",
+    "Pollock, T. G."
+   ],
+   "year": "2011",
+   "title": "Publishing in AMJ – Part 3: Setting the hook",
+   "venue": "Academy of Management Journal, 54: 873-879",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Sparrow, R. T.",
+    "Mayer, K. J."
+   ],
+   "year": "2011",
+   "title": "Publishing in AMJ – Part 4: Grounding hypotheses",
+   "venue": "Academy of Management Journal, 54(6): 1098-1102",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Zhang, Y.",
+    "Shaw, J. R."
+   ],
+   "year": "2012",
+   "title": "Publishing in AMJ – Part 5: Crafting the methods and results",
+   "venue": "Academy of Management Journal, 55: 8-12",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Geletkanycz, M.",
+    "Tepper, B. J."
+   ],
+   "year": "2012",
+   "title": "Publishing in AMJ – Part 6: Discussing the implications",
+   "venue": "Academy of Management Journal, 55(2): 256-260",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Kilduff, M."
+   ],
+   "year": "2007",
+   "title": "The top ten reasons why your paper might not be sent out for review",
+   "venue": "Academy of Management Review, pp. 700-702",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Rose, R. B."
+   ],
+   "year": "2012",
+   "title": "Reflections on the craft of clear writing",
+   "venue": "Academy of Management Review, 37(4): 493-501",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Colquitt, J. A.",
+    "Ireland, R. D."
+   ],
+   "year": "2009",
+   "title": "Taking the mystery out of AMJ's reviewer evaluation form",
+   "venue": "Academy of Management Journal, 52(2): 224-228",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Ireland, R. D."
+   ],
+   "year": "2008",
+   "title": "Revisiting AMJ's revise-and-resubmit process",
+   "venue": "Academy of Management Journal, 51(6): 1049-1050",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Shaw, J. D."
+   ],
+   "year": "2012",
+   "title": "From the editors: Responding to reviewers",
+   "venue": "Academy of Management Journal, 55(6): 1261-1263",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Section 11: Academic publishing",
+   "authors": [
+    "Pollock, T.",
+    "Bono, J."
+   ],
+   "year": "2013",
+   "title": "Being Scheherazade: The importance of storytelling in academic writing",
+   "venue": "Academy of Management Journal, 56(3): 629-634",
+   "type": "article",
+   "required": null
+  }
+ ]
+}

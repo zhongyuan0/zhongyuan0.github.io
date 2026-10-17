@@ -11,6 +11,7 @@
 | 首页：自我介绍、三个研究方向（真善美）、News | `index.html` |
 | Research 页：按「真善美」三个方向分组的全部论文（含在审、在写） | `research/index.html` |
 | CV 页（网页版简历） | `cv/index.html` |
+| Readings 页：从各校 PhD syllabus 汇总、按流派分组的阅读清单 | 由程序生成，见 `tools/readings/README.md`，不要直接改 `readings/index.html` |
 | 照片 | `assets/img/portrait.*`（桌面端，4:5 竖图）和 `assets/img/portrait-wide.*`（手机端） |
 | 颜色、字号、版式 | `assets/css/site.css` 顶部的 Tokens |
 

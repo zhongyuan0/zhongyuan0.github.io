@@ -1,0 +1,4924 @@
+{
+ "file": "1c44d512-IESE_OT_Massimo_Maoret.txt",
+ "course": "Organization Theory",
+ "instructor": "Massimo Maoret",
+ "institution": "IESE Business School",
+ "term": "Winter 2018",
+ "readings": [
+  {
+   "session": "Final paper",
+   "authors": [
+    "Zuckerman, E. W."
+   ],
+   "year": "",
+   "title": "Tips to Article-Writers",
+   "venue": "",
+   "type": "other",
+   "required": null
+  },
+  {
+   "session": "Final paper",
+   "authors": [
+    "Zuckerman, E. W."
+   ],
+   "year": "",
+   "title": "On Genre: A Few More Tips to Article-Writers",
+   "venue": "",
+   "type": "other",
+   "required": null
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Williamson, O. E."
+   ],
+   "year": "1981",
+   "title": "The economics of organization: The transaction cost approach",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Granovetter, M."
+   ],
+   "year": "1985",
+   "title": "Economic action and social structure: The problem of embeddedness",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Zuckerman, E. W."
+   ],
+   "year": "2010",
+   "title": "Speaking with one voice: A 'Stanford School' approach to organizational hierarchy",
+   "venue": "Research in the Sociology of Organizations",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Ashford, S. J."
+   ],
+   "year": "2013",
+   "title": "Having scholarly impact: The art of hitting academic home runs",
+   "venue": "Academy of Management Learning & Education",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Davis, G. F.",
+    "Marquis, C."
+   ],
+   "year": "2005",
+   "title": "Prospects for organization theory in the early twenty-first century: Institutional fields and mechanisms",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Hedstrom, P.",
+    "Swedberg, R."
+   ],
+   "year": "1998",
+   "title": "Social mechanisms: An introductory essay",
+   "venue": "Social mechanisms: An analytical approach to social theory",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Sutton, R. I.",
+    "Staw, B. M."
+   ],
+   "year": "1995",
+   "title": "What theory is not",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Lounsbury, M.",
+    "Beckman, C. M."
+   ],
+   "year": "2015",
+   "title": "Celebrating Organization Theory",
+   "venue": "Journal of Management Studies",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Davis, G. F."
+   ],
+   "year": "2015",
+   "title": "Celebrating Organization Theory: The After-party",
+   "venue": "Journal of Management Studies",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Davis, G. F."
+   ],
+   "year": "2015",
+   "title": "What is Organizational Research For?",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Turco, C."
+   ],
+   "year": "2011",
+   "title": "Notes on a doctoral student exercise in deconstructing scholarly work",
+   "venue": "Unpublished document",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Davis, G. F."
+   ],
+   "year": "2017",
+   "title": "Organization theory and the dilemmas of a post-corporate economy",
+   "venue": "Research in the Sociology of Organizations",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Pfeffer, J."
+   ],
+   "year": "1997",
+   "title": "New directions for organization theory: Problems and prospects (Chapt. 1)",
+   "venue": "Oxford University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Coleman, J. S."
+   ],
+   "year": "1994",
+   "title": "Foundations of social theory (Chapter 1)",
+   "venue": "Harvard University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Shenhav, Y."
+   ],
+   "year": "2003",
+   "title": "The Historical and Epistemological Foundations of Organization Theory: Fusing sociological theory with engineering discourse",
+   "venue": "In Tsoukas, H., Mavros, G. D., & Knudsen, C. (Eds.), The Oxford Handbook of Organization Theory, Oxford University Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Parsons, T."
+   ],
+   "year": "1956",
+   "title": "Suggestions for a Sociological Approach to the Theory of Organizations-I",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Parsons, T."
+   ],
+   "year": "1956",
+   "title": "Suggestions for a Sociological Approach to the Theory of Organizations-II",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 1. Introduction to Organization Theory",
+   "authors": [
+    "Fligstein, N."
+   ],
+   "year": "2001",
+   "title": "Organizations: Theoretical Debates and the Scope of Organizational Theory",
+   "venue": "In Calhoun, C., Rojek, C., & Turner, B. (Eds.), International Handbook of Sociology, Sage Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Uzzi, B."
+   ],
+   "year": "1997",
+   "title": "Social structure and competition in interfirm networks: The paradox of embeddedness",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Ingram, P.",
+    "Roberts, P. W."
+   ],
+   "year": "2000",
+   "title": "Friendships among competitors in the Sydney hotel industry",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Aral, S.",
+    "Walker, D."
+   ],
+   "year": "2013",
+   "title": "Tie strength, embeddedness and social influence: Evidence from a large-scale networked experiment",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Samila, S.",
+    "Sorenson, O."
+   ],
+   "year": "2017",
+   "title": "Community and Capital in Entrepreneurship and Economic Growth",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Azoulay, P.",
+    "Repenning, N. P.",
+    "Zuckerman, E. W."
+   ],
+   "year": "2010",
+   "title": "Nasty, brutish, and short: Embeddedness failure in the pharmaceutical industry",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Briscoe, F.",
+    "Murphy, C."
+   ],
+   "year": "2012",
+   "title": "Sleight of hand? Practice opacity, third-party responses, and the interorganizational diffusion of controversial practices",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Aral, S.",
+    "Muchnik, L.",
+    "Sundararajan, A."
+   ],
+   "year": "2009",
+   "title": "Distinguishing influence-based contagion from homophily-driven diffusion in dynamic networks",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Fowler, J. H.",
+    "Christakis, N. A."
+   ],
+   "year": "2010",
+   "title": "Cooperative Behavior Cascades in Human Social Networks",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Centola, D.",
+    "Macy, M."
+   ],
+   "year": "2007",
+   "title": "Complex Contagions and the Weakness of Long Ties",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Fiss, P. C.",
+    "Kennedy, M. T.",
+    "Davis, G. F."
+   ],
+   "year": "2012",
+   "title": "How Golden Parachutes Unfolded: Diffusion and Variation of a Controversial Practice",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Mizruchi, M."
+   ],
+   "year": "1996",
+   "title": "What do interlocks do? An analysis, critique, and assessment of research on interlocking directorates",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Chu, J. S. G.",
+    "Davis, G. F."
+   ],
+   "year": "2016",
+   "title": "Who Killed the Inner Circle? The Decline of the American Corporate Interlock Network",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Coleman, J. S."
+   ],
+   "year": "1988",
+   "title": "Social capital in the creation of human capital",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Inkpen, A. C.",
+    "Tsang, E. W. K."
+   ],
+   "year": "2005",
+   "title": "Social Capital, Networks, and Knowledge Transfer",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Sytch, M.",
+    "Kim, Y. H."
+   ],
+   "year": "2013",
+   "title": "Embeddedness",
+   "venue": "In Teece, D., & Augier, M. (Eds.), Palgrave Encyclopedia of Strategic Management",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Sorenson, O.",
+    "Rogan, M."
+   ],
+   "year": "2014",
+   "title": "(When) Do Organizations Have Social Capital?",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Abraham, M."
+   ],
+   "year": "2015",
+   "title": "Explaining Unequal Returns to Social Capital among Entrepreneurs",
+   "venue": "Academy of Management Proceedings",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Rowley, T.",
+    "Behrens, D.",
+    "Krackhardt, D."
+   ],
+   "year": "2000",
+   "title": "Redundant Governance Structures: An Analysis of Structural and Relational Embeddedness in the Steel and Semiconductor Industries",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Uzzi, B."
+   ],
+   "year": "1999",
+   "title": "Embeddedness in the Making of Financial Capital",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Sorenson, O.",
+    "Stuart, T."
+   ],
+   "year": "2001",
+   "title": "Syndication Networks and the Spatial Distribution of Venture Capital",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Casciaro, T.",
+    "Piskorski, M. J."
+   ],
+   "year": "2005",
+   "title": "Power Imbalance, Mutual Dependence, and Constraint Absorption: A Closer Look at Resource Dependence Theory",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Cook, K.",
+    "Whitmeyer, J. M."
+   ],
+   "year": "1992",
+   "title": "Two Approaches to Social Structure: Exchange Theory and Network Analysis",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Lawler, E.",
+    "Thye, S.",
+    "Yoon, J."
+   ],
+   "year": "2008",
+   "title": "Social Exchange and Micro Social Order",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Lawler, E.",
+    "Thye, S."
+   ],
+   "year": "1999",
+   "title": "Bringing Emotions into Social Exchange Theory",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Molm, L."
+   ],
+   "year": "2010",
+   "title": "The Structure of Reciprocity",
+   "venue": "Social Psychology Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Willer, R.",
+    "Flynn, F.",
+    "Zak, S."
+   ],
+   "year": "2012",
+   "title": "Structure, Identity, and Solidarity: A Comparative Field Study of Generalized and Direct Exchange",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Kuwabara, K."
+   ],
+   "year": "2011",
+   "title": "Cohesion, Cooperation, and the Value of Doing Things Together: How Economic Exchange Creates Relational Bonds",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Allison, G."
+   ],
+   "year": "1969",
+   "title": "Conceptual Models and the Cuban Missile Crisis",
+   "venue": "American Political Science Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Jones, C.",
+    "Hesterly, W. S.",
+    "Borgatti, S. P."
+   ],
+   "year": "1997",
+   "title": "A General Theory of Network Governance: Exchange Conditions and Social Mechanisms",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Podolny, J. M.",
+    "Page, K. L."
+   ],
+   "year": "1998",
+   "title": "Network Forms of Organization",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Lincoln, J. R.",
+    "Gerlach, M. L.",
+    "Ahmadjian, C. L."
+   ],
+   "year": "1996",
+   "title": "Keiretsu networks and corporate performance in Japan",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Powell, W. W.",
+    "Koput, K.",
+    "Smith-Doerr, L."
+   ],
+   "year": "1996",
+   "title": "Interorganizational Collaboration and the Locus of Innovation",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Tatarynowicz, A.",
+    "Sytch, M.",
+    "Gulati, R."
+   ],
+   "year": "2016",
+   "title": "Environmental Demands and the Emergence of Social Structure: Technological Dynamism and Interorganizational Network Forms",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Walker, G.",
+    "Kogut, B.",
+    "Shan, W."
+   ],
+   "year": "1997",
+   "title": "Social Capital, Structural Holes and the Formation of an Industry Network",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Ozmel, U.",
+    "Reuer, J. J.",
+    "Gulati, R."
+   ],
+   "year": "2013",
+   "title": "Signals across Multiple Networks: How Venture Capital and Alliance Networks Affect Interorganizational Collaboration",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Gulati, R.",
+    "Sytch, M.",
+    "Tatarynowicz, A."
+   ],
+   "year": "2012",
+   "title": "The Rise and Fall of Small Worlds: Exploring the Dynamics of Social Structure",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Diekmann, A.",
+    "Ben, J.",
+    "Przepiorka, W.",
+    "Wehrli, S."
+   ],
+   "year": "2013",
+   "title": "Reputation Formation and the Evolution of Cooperation in Anonymous Online Markets",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 2. Network embeddedness, Organizations and Inter-organizational networks",
+   "authors": [
+    "Powell, W. W.",
+    "White, D.",
+    "Koput, K.",
+    "Owen-Smith, J."
+   ],
+   "year": "2004",
+   "title": "Network Dynamics and Field Evolution: The Growth of Interorganizational Collaboration in the Biotechnology Industry",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Gould, R. V."
+   ],
+   "year": "2002",
+   "title": "The origins of status hierarchies: A formal theory and empirical test",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Phillips, D. J.",
+    "Zuckerman, E. W."
+   ],
+   "year": "2001",
+   "title": "Middle-Status Conformity: Theoretical Restatement and Empirical Demonstration in Two Markets",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Podolny, J. P."
+   ],
+   "year": "2005",
+   "title": "Status Signals: A Sociological Study of Market Competition (Chapters 1, 2, 3)",
+   "venue": "Princeton University Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Malter, D."
+   ],
+   "year": "2014",
+   "title": "On the causality and cause of returns to organizational status: Evidence from the Grands Crus classes of the Medoc",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Sorenson, O."
+   ],
+   "year": "2014",
+   "title": "Status and Reputation: Synonyms or Separate Concepts?",
+   "venue": "Strategic Organization",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Jensen, M.",
+    "Roy, A."
+   ],
+   "year": "2008",
+   "title": "Staging Exchange Partner Choices: When Do Status and Reputation Matter?",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Sharkey, A.",
+    "Kovacs, B."
+   ],
+   "year": "2017",
+   "title": "The Many Gifts of Status: How Attending to Audience Reactions Drives the Use of Status",
+   "venue": "Management Science (forthcoming)",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Washington, M.",
+    "Zajac, E. J."
+   ],
+   "year": "2005",
+   "title": "Status Evolution and Competition: Theory and Evidence",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Phillips, D. J.",
+    "Turco, C. J.",
+    "Zuckerman, E. W."
+   ],
+   "year": "2013",
+   "title": "Betrayal as Market Barrier: Identity-Based Limits to Diversification among High-Status Corporate Law Firms",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Lynn, F. B.",
+    "Podolny, J. M.",
+    "Tao, L."
+   ],
+   "year": "2009",
+   "title": "A Sociological (De)Construction of the Relationship between Status and Quality",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Rider, C. I.",
+    "Negro, G."
+   ],
+   "year": "2015",
+   "title": "Organizational failure and intraprofessional status loss",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Bothner, M. S.",
+    "Podolny, J. M.",
+    "Smith, E. B."
+   ],
+   "year": "2011",
+   "title": "Organizing Contests for Status: The Matthew Effect vs. the Mark Effect",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 3. Competing for status: Foundations",
+   "authors": [
+    "Sauder, M.",
+    "Lynn, F.",
+    "Podolny, J. M."
+   ],
+   "year": "2012",
+   "title": "Status: Insights from Organizational Sociology",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Burt, R. S."
+   ],
+   "year": "2004",
+   "title": "Structural Holes and Good Ideas",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Obstfeld, D."
+   ],
+   "year": "2005",
+   "title": "Social Networks, the Tertius Iungens Orientation, and Involvement in Innovation",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Reagans, R.",
+    "McEvily, B."
+   ],
+   "year": "2003",
+   "title": "Network Structure and Knowledge Transfer: The Effects of Cohesion and Range",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Hasan, S.",
+    "Bagde, S."
+   ],
+   "year": "2015",
+   "title": "Peers and Network Growth: Evidence from a Natural Experiment",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Fonti, F.",
+    "Maoret, M."
+   ],
+   "year": "2016",
+   "title": "The direct and indirect effects of core and peripheral social capital on organizational performance",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Granovetter, M. S."
+   ],
+   "year": "1973",
+   "title": "The Strength of Weak Ties",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Ryall, M. D.",
+    "Sorenson, O."
+   ],
+   "year": "2007",
+   "title": "Brokers and competitive advantage",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Kleinbaum, A. M."
+   ],
+   "year": "2012",
+   "title": "Organizational Misfits and the Origins of Brokerage in Intrafirm Networks",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Shipilov, A. V.",
+    "Li, S. X.",
+    "Greve, H. R."
+   ],
+   "year": "2011",
+   "title": "The Prince and the Pauper: Search and Brokerage in the Initiation of Status-Heterophilous Ties",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Lingo, L. E.",
+    "O'Mahony, S."
+   ],
+   "year": "2010",
+   "title": "Nexus Work: Brokerage on Creative Projects",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Burt, R. S."
+   ],
+   "year": "2007",
+   "title": "Secondhand Brokerage: Evidence on the Importance of Local Structure for Managers, Bankers, and Analysts",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Valderes, B.",
+    "Stark, D."
+   ],
+   "year": "2010",
+   "title": "Structural folds",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Reagans, R.",
+    "Zuckerman, E. W."
+   ],
+   "year": "",
+   "title": "Why Knowledge Does Not Equal Power: The Network Redundancy Tradeoff (Symposium on Structural Holes, with comments by Burt, Podolny, van de Rijt et al., and reply 'All in the Family' by Reagans and Zuckerman)",
+   "venue": "Industrial and Corporate Change",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Stovel, K.",
+    "Shaw, L."
+   ],
+   "year": "2012",
+   "title": "Brokerage",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Podolny, J. M."
+   ],
+   "year": "2001",
+   "title": "Networks as the Pipes and Prisms of the Market",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Kleinbaum, A.",
+    "Stuart, T. E.",
+    "Tushman, M. L."
+   ],
+   "year": "2013",
+   "title": "Discretion within Constraint: Homophily and Structure in a Formal Organization",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "McPherson, M.",
+    "Smith-Lovin, L.",
+    "Cook, J. M."
+   ],
+   "year": "2001",
+   "title": "Birds of a Feather: Homophily in Social Networks",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Ibarra, H."
+   ],
+   "year": "1992",
+   "title": "Homophily and Differential Returns: Sex Differences in Network Structure and Access in an Advertising Firm",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Reagans, R."
+   ],
+   "year": "2005",
+   "title": "Preferences, Identity, and Competition: Predicting Tie Strength from Demographic Data",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Bacharach, S. B.",
+    "Bamberger, P. A.",
+    "Vashdi, D."
+   ],
+   "year": "2005",
+   "title": "Diversity and Homophily at Work: Supportive Relations among White and African-American Peers",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Dahlander, L.",
+    "McFarland, D. A."
+   ],
+   "year": "2013",
+   "title": "Ties That Last: Tie Formation and Persistence in Research Collaborations over Time",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Srivastava, S. B."
+   ],
+   "year": "2015",
+   "title": "Intraorganizational Network Dynamics in Times of Ambiguity",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Walter, J.",
+    "Levin, D. Z.",
+    "Murnighan, J. K."
+   ],
+   "year": "2015",
+   "title": "Reconnection Choices: Selecting the Most Valuable (vs. Most Preferred) Dormant Ties",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Aral, S.",
+    "Van Alstyne, M."
+   ],
+   "year": "2011",
+   "title": "The Diversity-Bandwidth Trade-Off",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Hansen, M. T."
+   ],
+   "year": "1999",
+   "title": "The search-transfer problem: The role of weak ties in sharing knowledge across organization subunits",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Biancani, S.",
+    "McFarland, D. A.",
+    "Dahlander, L."
+   ],
+   "year": "2014",
+   "title": "The Semiformal Organization",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Tortoriello, M.",
+    "Reagans, R.",
+    "McEvily, B."
+   ],
+   "year": "2012",
+   "title": "Bridging the Knowledge Gap: The Influence of Strong Ties, Network Cohesion, and Network Range on the Transfer of Knowledge Between Organizational Units",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Reagans, R.",
+    "Zuckerman, E. W."
+   ],
+   "year": "2001",
+   "title": "Networks, Diversity, and Productivity: The Social Capital of Corporate R&D Teams",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Reagans, R.",
+    "Zuckerman, E.",
+    "McEvily, B."
+   ],
+   "year": "2004",
+   "title": "How to Make the Team: Social Networks Vs. Demography as Criteria for Designing Effective Teams",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Perry-Smith, J. E.",
+    "Mannucci, P. V."
+   ],
+   "year": "2017",
+   "title": "From Creativity to Innovation: The Social Network Drivers of the Four Phases of the Idea Journey",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Tortoriello, M.",
+    "Krackhardt, D."
+   ],
+   "year": "2010",
+   "title": "Activating Cross-Boundary Knowledge: The Role of Simmelian Ties in the Generation of Innovations",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Borgatti, S. P.",
+    "Cross, R."
+   ],
+   "year": "2003",
+   "title": "A Relational View of Information Seeking and Learning in Social Networks",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Smith, E. B.",
+    "Menon, T.",
+    "Thompson, L."
+   ],
+   "year": "2012",
+   "title": "Status Differences in the Cognitive Activation of Social Networks",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Krackhardt, D."
+   ],
+   "year": "1990",
+   "title": "Assessing the Political Landscape: Structure, Cognition, and Power in Organizations",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Kilduff, M.",
+    "Krackhardt, D."
+   ],
+   "year": "1994",
+   "title": "Bringing the Individual Back in: A Structural Analysis of the Internal Market for Reputation in Organizations",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Krackhardt, D."
+   ],
+   "year": "1992",
+   "title": "The Strength of Strong Ties: The Importance of Philos in Organizations",
+   "venue": "Networks and Organizations: Structure, Form, and Action",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Borgatti, S. P.",
+    "Everett, M. G."
+   ],
+   "year": "2000",
+   "title": "Models of Core/periphery Structures",
+   "venue": "Social Networks",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Cattani, G.",
+    "Ferriani, S."
+   ],
+   "year": "2008",
+   "title": "A Core/Periphery Perspective on Individual Creative Performance: Social Networks and Cinematic Achievements in the Hollywood Film Industry",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Cattani, G.",
+    "Ferriani, S.",
+    "Allison, P. D."
+   ],
+   "year": "2014",
+   "title": "Insiders, Outsiders, and the Struggle for Consecration in Cultural Fields: A Core-Periphery Perspective",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Casciaro, T.",
+    "Lobo, M. S."
+   ],
+   "year": "2008",
+   "title": "When Competence Is Irrelevant: The Role of Interpersonal Affect in Task-Related Ties",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Casciaro, T.",
+    "Carley, K. M.",
+    "Krackhardt, D."
+   ],
+   "year": "1999",
+   "title": "Positive Affectivity and Accuracy in Social Network Perception",
+   "venue": "Motivation and Emotion",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Casciaro, T.",
+    "Lobo, M. S."
+   ],
+   "year": "2014",
+   "title": "Affective Primacy in Intraorganizational Task Networks",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Fernandez, R. M.",
+    "Castilla, E. J.",
+    "Moore, P."
+   ],
+   "year": "2000",
+   "title": "Social Capital at Work: Networks and Employment at a Phone Center",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Krackhardt, D.",
+    "Brass, D. J."
+   ],
+   "year": "1994",
+   "title": "Intraorganizational Networks",
+   "venue": "Thousand Oaks, CA: Sage",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Session 4. Intra-organizational networks: Brokerage and performance",
+   "authors": [
+    "Saavedra, S.",
+    "Hagerty, K.",
+    "Uzzi, B."
+   ],
+   "year": "2011",
+   "title": "Synchronicity, Instant Messaging, and Performance among Financial Traders",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Gavetti, G.",
+    "Greve, H. R.",
+    "Levinthal, D. A.",
+    "Ocasio, W."
+   ],
+   "year": "2012",
+   "title": "The Behavioral Theory of the Firm: Assessment and Prospects",
+   "venue": "Academy of Management Annals",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Feldman, M. S."
+   ],
+   "year": "2000",
+   "title": "Organization routines as sources of continuous change",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Greve, H. R."
+   ],
+   "year": "1998",
+   "title": "Performance, Aspirations, and Risky Organizational Change",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Bouquet, C.",
+    "Birkinshaw, J."
+   ],
+   "year": "2008",
+   "title": "Weight versus Voice: How Foreign Subsidiaries Gain Attention from Corporate Headquarters",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Ocasio, W."
+   ],
+   "year": "1994",
+   "title": "Political Dynamics and the Circulation of Power: CEO Succession in U.S. Industrial Corporations, 1960-1990",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Tripsas, M.",
+    "Gavetti, G."
+   ],
+   "year": "2000",
+   "title": "Capabilities, Cognition, and Inertia: Evidence from Digital Imaging",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Argote, L.",
+    "Greve, H. R."
+   ],
+   "year": "2007",
+   "title": "A Behavioral Theory of the Firm: 40 Years and Counting: Introduction and Impact",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Gavetti, G.",
+    "Levinthal, D.",
+    "Ocasio, W."
+   ],
+   "year": "2007",
+   "title": "Neo-Carnegie: The Carnegie School's past, present, and reconstructing for the future",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "March, J. G."
+   ],
+   "year": "1991",
+   "title": "Exploration and Exploitation in Organizational Learning",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Audia, P. G.",
+    "Greve, H. R."
+   ],
+   "year": "2006",
+   "title": "Less likely to fail: Low performance, firm size, and factory expansion in the shipbuilding industry",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Barnett, W. P.",
+    "Hansen, M. T."
+   ],
+   "year": "1996",
+   "title": "The Red Queen in Organizational Evolution",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Baum, J. A. C.",
+    "Dahlin, K. B."
+   ],
+   "year": "2007",
+   "title": "Aspiration Performance and Railroads' Patterns of Learning from Train Wrecks and Crashes",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Barnett, W. P.",
+    "Pontikes, E. G."
+   ],
+   "year": "2008",
+   "title": "The Red Queen, Success Bias, and Organizational Inertia",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Cohen, W. S.",
+    "Levinthal, D. A."
+   ],
+   "year": "1990",
+   "title": "Absorptive capacity: A New Perspective on Learning and Innovation",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Eggers, J. P.",
+    "Kaplan, S."
+   ],
+   "year": "2009",
+   "title": "Cognition and Renewal: Comparing CEO and Organizational Effects on Incumbent Adaptation to Technical Change",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Ethiraj, S. K.",
+    "Levinthal, D."
+   ],
+   "year": "2004",
+   "title": "Bounded Rationality and the Search for Organizational Architecture: An Evolutionary Perspective on the Design of Organizations and Their Evolvability",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Greve, H. R."
+   ],
+   "year": "2002",
+   "title": "Sticky Aspirations: Organizational Time Perspective and Competitiveness",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Kaplan, S."
+   ],
+   "year": "2008",
+   "title": "Cognition, Capabilities, and Incentives: Assessing Firm Response to the Fiber-Optic Revolution",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Levinthal, D. A."
+   ],
+   "year": "1997",
+   "title": "Adaptation on rugged landscapes",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Levinthal, D. A.",
+    "March, J. G."
+   ],
+   "year": "1993",
+   "title": "The Myopia of Learning",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Levitt, B.",
+    "March, J. G."
+   ],
+   "year": "1988",
+   "title": "Organization Learning",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "March, J. G."
+   ],
+   "year": "1996",
+   "title": "Continuity and change in theories of organizational action",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "March, J. G."
+   ],
+   "year": "1981",
+   "title": "Footnotes to Organizational Change",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Padgett, J. F."
+   ],
+   "year": "1980",
+   "title": "Bounded Rationality in Budgetary Research",
+   "venue": "American Political Science Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Rivkin, J. W.",
+    "Siggelkow, N."
+   ],
+   "year": "2003",
+   "title": "Balancing Search and Stability: Interdependencies among Elements of Organizational Design",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Gavetti, G.",
+    "Levinthal, D."
+   ],
+   "year": "2000",
+   "title": "Looking Forward and Looking Backward: Cognitive and Experiential Search",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Cho, T. S.",
+    "Hambrick, D. C."
+   ],
+   "year": "2006",
+   "title": "Attention as the Mediator Between Top Management Team Characteristics and Strategic Change: The Case of Airline Deregulation",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Rosenkopf, L.",
+    "Metiu, A.",
+    "George, V. P."
+   ],
+   "year": "2001",
+   "title": "From the Bottom up? Technical Committee Activity and Alliance Formation",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Ocasio, W."
+   ],
+   "year": "2011",
+   "title": "Attention to Attention",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Jacobides, M. G."
+   ],
+   "year": "2007",
+   "title": "The Inherent Limits of Organizational Structure and the Unfulfilled Role of Hierarchy: Lessons from a near-War",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Ocasio, W."
+   ],
+   "year": "1997",
+   "title": "Towards an attention-based view of the firm",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Zhang, Y."
+   ],
+   "year": "2006",
+   "title": "The Presence of a Separate COO/President and Its Impact on Strategic Change and CEO Dismissal",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Shen, W.",
+    "Cannella, A. A."
+   ],
+   "year": "2002",
+   "title": "Power Dynamics within Top Management and Their Impacts on CEO Dismissal Followed by inside Succession",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Bourgeois, L. J.",
+    "Eisenhardt, K. M."
+   ],
+   "year": "1988",
+   "title": "Politics of Strategic Decision Making in High-Velocity Environments: Toward a Midrange Theory",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "March, J. G."
+   ],
+   "year": "1962",
+   "title": "The Business Firm as a Political Coalition",
+   "venue": "The Journal of Politics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Salvato, C.",
+    "Rerup, C."
+   ],
+   "year": "2017",
+   "title": "Routine Regulation: Balancing Conflicting Goals in Organizational Routines",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Zbaracki, M. J.",
+    "Bergen, M."
+   ],
+   "year": "2010",
+   "title": "When Truces Collapse: A Longitudinal Study of Price-Adjustment Routines",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Gavetti, G."
+   ],
+   "year": "2005",
+   "title": "Cognition and Hierarchy: Rethinking the Microfoundations of Capabilities' Development",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Gavetti, G.",
+    "Rivkin, J. W."
+   ],
+   "year": "2007",
+   "title": "On the Origin of Strategy: Action and Cognition over Time",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Cohen, M. D.",
+    "March, J. G.",
+    "Olsen, J. P."
+   ],
+   "year": "1972",
+   "title": "A garbage can model of organizational choice",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Levitt, B.",
+    "Nass, C."
+   ],
+   "year": "1989",
+   "title": "The lid on the garbage can: Institutional constraints on decision making in the technical core of college-text publishers",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Bendor, J.",
+    "Moe, T.",
+    "Shotts, K."
+   ],
+   "year": "2001",
+   "title": "Recycling the Garbage Can: An Assessment of the Research Program",
+   "venue": "American Political Science Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Olsen, J."
+   ],
+   "year": "2001",
+   "title": "Garbage Cans, New Institutionalism, and the Study of Politics",
+   "venue": "American Political Science Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 5. The Carnegie School: Towards a Neo-Behavioral Theory of the Firm",
+   "authors": [
+    "Padgett, J. F."
+   ],
+   "year": "1980",
+   "title": "Managing Garbage Can Hierarchies",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Greenwood, R.",
+    "Suddaby, R."
+   ],
+   "year": "2006",
+   "title": "Institutional Entrepreneurship in Mature Fields: The Big Five Accounting Firms",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Etzion, D.",
+    "Ferraro, F."
+   ],
+   "year": "2010",
+   "title": "The Role of Analogy in the Institutionalization of Sustainability Reporting",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Lounsbury, M."
+   ],
+   "year": "2007",
+   "title": "A Tale of Two Cities: Competing Logics and Practice Variation in the Professionalizing of Mutual Funds",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Almandoz, J."
+   ],
+   "year": "2012",
+   "title": "Arriving at the Starting Line: The Impact of Community and Financial Logics on New Banking Ventures",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Pache, A.-C.",
+    "Santos, F."
+   ],
+   "year": "2013",
+   "title": "Inside the Hybrid Organization: Selective Coupling as a Response to Competing Institutional Logics",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Tolbert, P. S.",
+    "Zucker, L. G."
+   ],
+   "year": "1983",
+   "title": "Institutional Sources of Change in the Formal Structure of Organizations: The Diffusion of Civil Service Reform, 1880-1935",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Westphal, J. D.",
+    "Gulati, R.",
+    "Shortell, S. M."
+   ],
+   "year": "1997",
+   "title": "Customization or Conformity? An Institutional and Network Perspective on the Content and Consequences of TQM Adoption",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Jones, C.",
+    "Massa, F."
+   ],
+   "year": "2013",
+   "title": "From Novel Practice to Consecrated Exemplar: Unity Temple as a Case of Institutional Evangelizing",
+   "venue": "Organization Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Zucker, L. G."
+   ],
+   "year": "1977",
+   "title": "The Role of Institutionalization in Cultural Persistence",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Ansari, S. M.",
+    "Fiss, P. C.",
+    "Zajac, E. J."
+   ],
+   "year": "2010",
+   "title": "Made to Fit: How Practices Vary As They Diffuse",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Colyvas, J. A.",
+    "Jonsson, S."
+   ],
+   "year": "2011",
+   "title": "Ubiquity and Legitimacy: Disentangling Diffusion and Institutionalization",
+   "venue": "Sociological Theory",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Fligstein, N."
+   ],
+   "year": "1985",
+   "title": "The Spread of the Multidivisional Form Among Large Firms, 1919-1979",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Briscoe, F.",
+    "Safford, S."
+   ],
+   "year": "2008",
+   "title": "The Nixon-in-China Effect: Activism, Imitation, and the Institutionalization of Contentious Practices",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Battilana, J.",
+    "Dorado, S."
+   ],
+   "year": "2010",
+   "title": "Building Sustainable Hybrid Organizations: The Case of Commercial Microfinance Organizations",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Greenwood, R.",
+    "Raynard, M.",
+    "Kodeih, F.",
+    "Micelotta, E. R.",
+    "Lounsbury, M."
+   ],
+   "year": "2011",
+   "title": "Institutional Complexity and Organizational Responses",
+   "venue": "Academy of Management Annals",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Oliver, C."
+   ],
+   "year": "1991",
+   "title": "Strategic responses to institutional processes",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Kellogg, K."
+   ],
+   "year": "2009",
+   "title": "Operating Room: Relational Spaces and Microinstitutional Change in Surgery",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "DiMaggio, P. J."
+   ],
+   "year": "1988",
+   "title": "Interest and agency in institutional theory",
+   "venue": "In L. G. Zucker (Ed.), Institutional patterns and organizations: Culture and environment, pp. 3-21. Cambridge, MA: Ballinger",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Emirbayer, M.",
+    "Mische, A."
+   ],
+   "year": "1998",
+   "title": "What is agency?",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Seo, M.-G.",
+    "Creed, W. E. D."
+   ],
+   "year": "2002",
+   "title": "Institutional contradictions, Praxis and Institutional change: A dialectical perspective",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Stinchcombe, A. L."
+   ],
+   "year": "2002",
+   "title": "New sociological microfoundations for organizational theory: A postscript",
+   "venue": "In M. Lounsbury & M. J. Ventresca (Eds.), Research in the Sociology of Organizations 19: 415-433. Bingley, UK: Emerald Group Publishing",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Rao, H.",
+    "Monin, P.",
+    "Durand, R."
+   ],
+   "year": "2003",
+   "title": "Institutional change in Toque Ville: Nouvelle cuisine as an identity movement in French gastronomy",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Smets, M.",
+    "Morris, T.",
+    "Greenwood, R."
+   ],
+   "year": "2012",
+   "title": "From Practice to Field: A Multilevel Model of Practice-Driven Institutional Change",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Colyvas, J. A.",
+    "Powell, W. W."
+   ],
+   "year": "2006",
+   "title": "Roads to institutionalization: The remaking of boundaries between public and private science",
+   "venue": "Research in Organizational Behavior",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Leblebici, H.",
+    "Salancik, G. R.",
+    "Copay, A.",
+    "King, T."
+   ],
+   "year": "1991",
+   "title": "Institutional change and the transformation of interorganizational fields: An organizational history of the U.S. radio broadcasting industry",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Heugens, P. P. M. A. R.",
+    "Lander, M. W."
+   ],
+   "year": "2009",
+   "title": "Structure! Agency! (And other quarrels): A meta-analysis of institutional theories of organization",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Lawrence, T. B.",
+    "Suddaby, R."
+   ],
+   "year": "2006",
+   "title": "Institutions and institutional work",
+   "venue": "In S. R. Clegg, C. Hardy, T. B. Lawrence, & W. R. Nord (Eds.), pp. 215-254",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Maguire, S.",
+    "Hardy, C.",
+    "Lawrence, T. B."
+   ],
+   "year": "2004",
+   "title": "Institutional Entrepreneurship in Emerging Fields: HIV/AIDS Treatment Advocacy in Canada",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Dunn, M. B.",
+    "Jones, C."
+   ],
+   "year": "2010",
+   "title": "Institutional logics and institutional pluralism: The contestation of care and science logics in medical education, 1967-2005",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Thornton, P. H.",
+    "Ocasio, W."
+   ],
+   "year": "2008",
+   "title": "Institutional logics",
+   "venue": "In R. Greenwood, C. Oliver, R. Suddaby & K. Sahlin-Andersson (Eds.), Handbook of Institutional Theory, pp. 99-129. London: Sage Publications",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "McPherson, C. M.",
+    "Sauder, M."
+   ],
+   "year": "2013",
+   "title": "Logics in Action: Managing Institutional Complexity in a Drug Court",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Thornton, P. H.",
+    "Ocasio, W."
+   ],
+   "year": "1999",
+   "title": "Institutional Logics and the Historical Contingency of Power in Organizations: Executive Succession in the Higher Education Publishing Industry, 1958-1990",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Suddaby, R.",
+    "Bitektine, A.",
+    "Haack, P."
+   ],
+   "year": "2017",
+   "title": "Legitimacy",
+   "venue": "Academy of Management Annals",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Suddaby, R.",
+    "Greenwood, R."
+   ],
+   "year": "2005",
+   "title": "Rhetorical strategies of legitimacy",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Schneiberg, M.",
+    "Clemens, E. S."
+   ],
+   "year": "2006",
+   "title": "The Typical Tools for the Job: Research Strategies in Institutional Analysis",
+   "venue": "Sociological Theory",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Suchman, M. C."
+   ],
+   "year": "1995",
+   "title": "Managing Legitimacy: Strategic and Institutional Approaches",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Graffin, S. D.",
+    "Ward, A. J."
+   ],
+   "year": "2010",
+   "title": "Certifications and Reputation: Determining the Standard of Desirability Amidst Uncertainty",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Sine, W. D.",
+    "David, R. J.",
+    "Mitsuhashi, H."
+   ],
+   "year": "2007",
+   "title": "From Plan to Plant: Effects of Certification on Operational Start-up in the Emergent Independent Power Sector",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Maguire, S.",
+    "Hardy, C."
+   ],
+   "year": "2009",
+   "title": "Discourse and Deinstitutionalization: The Decline of DDT",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Oliver, C."
+   ],
+   "year": "1992",
+   "title": "The Antecedents of Deinstitutionalization",
+   "venue": "Organization Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 6. Institutional logics and institutional entrepreneurship",
+   "authors": [
+    "Davis, G. F.",
+    "Diekmann, K. A.",
+    "Tinsley, C. H."
+   ],
+   "year": "1994",
+   "title": "The decline and fall of the conglomerate firm in the 1980s: The deinstitutionalization of an organizational form",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Kennedy, M. T."
+   ],
+   "year": "2008",
+   "title": "Getting Counted: Markets, Media, and Reality",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Zbaracki, M. J."
+   ],
+   "year": "1998",
+   "title": "The Rhetoric and Reality of Total Quality Management",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Fiss, P. C.",
+    "Zajac, E. J."
+   ],
+   "year": "2006",
+   "title": "The symbolic management of strategic change: Sensegiving via framing and decoupling",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Granqvist, N.",
+    "Grodal, S.",
+    "Woolley, J. L."
+   ],
+   "year": "2013",
+   "title": "Hedging your bets: Explaining executives' market labeling strategies in nanotechnology",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "McDonnell, M.-H.",
+    "King, B."
+   ],
+   "year": "2013",
+   "title": "Keeping up Appearances: Reputational Threat and Impression Management after Social Movement Boycotts",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Abolafia, M.",
+    "Kilduff, M."
+   ],
+   "year": "1988",
+   "title": "Enacting market crisis: The social construction of a speculative bubble",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Porac, J. F.",
+    "Thomas, H.",
+    "Wilson, F.",
+    "Paton, D.",
+    "Kanfer, A."
+   ],
+   "year": "1995",
+   "title": "Rivalry and the Industry Model of Scottish Knitwear Producers",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Porac, J. F.",
+    "Wade, J. B.",
+    "Pollock, T. G."
+   ],
+   "year": "1999",
+   "title": "Industry categorizations and the politics of the comparable firm in CEO compensation",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Porac, J. F.",
+    "Thomas, H.",
+    "Baden-Fuller, C."
+   ],
+   "year": "1989",
+   "title": "Competitive Groups as Cognitive Communities: The Case of Scottish Knitwear Manufacturers",
+   "venue": "Journal of Management Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Balogun, J.",
+    "Johnson, G."
+   ],
+   "year": "2004",
+   "title": "Organizational Restructuring and Middle Manager Sensemaking",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Barley, S."
+   ],
+   "year": "1986",
+   "title": "Technology as an occasion for structuring",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Garud, R.",
+    "Rappa, M. A."
+   ],
+   "year": "1994",
+   "title": "A Socio-Cognitive Model of Technology Evolution: The Case of Cochlear Implants",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Orlikowski, W. J."
+   ],
+   "year": "1992",
+   "title": "The Duality of Technology: Rethinking the Concept of Technology in Organizations",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Orlikowski, W. J."
+   ],
+   "year": "2000",
+   "title": "Using Technology and Constituting Structures: A Practice Lens for Studying Technology in Organizations",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Crilly, D.",
+    "Zollo, M.",
+    "Hansen, M. T."
+   ],
+   "year": "2012",
+   "title": "Faking it or muddling through? Understanding decoupling in response to stakeholder pressures",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Fiss, P. C.",
+    "Hirsch, P. M."
+   ],
+   "year": "2005",
+   "title": "The discourse of globalization: Framing and sensemaking of an emerging concept",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Durand, R.",
+    "Vergne, J. P."
+   ],
+   "year": "2014",
+   "title": "Asset divestment as a response to media attacks in stigmatized industries",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Goffman, E."
+   ],
+   "year": "1974",
+   "title": "Frame Analysis: An Essay on the Organization of Experience (Chapters 1-3; 5; 7; 9-10; 14)",
+   "venue": "Cambridge, MA: Harvard University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Diehl, D.",
+    "McFarland, D."
+   ],
+   "year": "2010",
+   "title": "Toward a Historical Sociology of Social Situations",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Fiss, P. C.",
+    "Zajac, E. J."
+   ],
+   "year": "2004",
+   "title": "The diffusion of ideas over contested terrain: The (non)adoption of a shareholder value orientation among German firms",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Benford, R. D.",
+    "Snow, D. A."
+   ],
+   "year": "2000",
+   "title": "Framing Processes and Social Movements: An Overview and Assessment",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Ingram, P."
+   ],
+   "year": "1996",
+   "title": "Organizational Form as a Solution to the Problem of Credible Commitment: The Evolution of Naming Strategies among U.S. Hotel Chains, 1896-1980",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Phillips, D. J.",
+    "Kim, Y.-K."
+   ],
+   "year": "2009",
+   "title": "Why Pseudonyms? Deception as Identity Preservation among Jazz Record Companies, 1920-1929",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Kaplan, S.",
+    "Orlikowski, W. J."
+   ],
+   "year": "2013",
+   "title": "Temporal Work in Strategy Making",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Orlikowski, W. J."
+   ],
+   "year": "1996",
+   "title": "Improvising Organizational Transformation over Time: A Situated Change Perspective",
+   "venue": "Information Systems Research",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 7. Sense-Making, Framing, and Symbolic Management",
+   "authors": [
+    "Tsoukas, H.",
+    "Chia, R."
+   ],
+   "year": "2002",
+   "title": "On organizational becoming: Rethinking organizational change",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Zuckerman, E. W."
+   ],
+   "year": "1999",
+   "title": "The Categorical Imperative: Securities Analysts and the Illegitimacy Discount",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Leung, M. D.",
+    "Sharkey, A. J."
+   ],
+   "year": "2014",
+   "title": "Out of Sight, Out of Mind? The Audience side Effect of Multi-category Membership in Markets",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Deephouse, D. L."
+   ],
+   "year": "1999",
+   "title": "To Be Different, or to Be the Same? It's a Question (and Theory) of Strategic Balance",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Pontikes, E. G."
+   ],
+   "year": "2012",
+   "title": "Two Sides of the Same Coin: How Ambiguous Classification Affects Multiple Audiences' Evaluations",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Jones, C.",
+    "Maoret, M.",
+    "Massa, F. G.",
+    "Svejenova, S."
+   ],
+   "year": "2011",
+   "title": "Rebels with a Cause: Formation, Contestation, and Expansion of the De Novo Category 'Modern Architecture,' 1870-1975",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Bitektine, A."
+   ],
+   "year": "2011",
+   "title": "Toward a Theory of Social Judgments of Organizations: The Case of Legitimacy, Reputation, and Status",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Botelho, T. L.",
+    "Abraham, M."
+   ],
+   "year": "2017",
+   "title": "Pursuing Quality: How Search Costs and Uncertainty Magnify Gender-Based Double Standards in a Multistage Evaluation Process",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Kovacs, B.",
+    "Sharkey, A."
+   ],
+   "year": "2014",
+   "title": "The Paradox of Publicity: How Awards Can Negatively Affect the Evaluation of Quality",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Goldberg, A.",
+    "Hannan, M.",
+    "Kovacs, B."
+   ],
+   "year": "2016",
+   "title": "What Does It Mean to Span Cultural Boundaries? Variety and Atypicality in Cultural Consumption",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Carnabuci, G.",
+    "Operti, E.",
+    "Kovacs, B."
+   ],
+   "year": "2015",
+   "title": "Categorical imperative and structural reproduction: Insights from the global semiconductor industry",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Zuckerman, E. W."
+   ],
+   "year": "2017",
+   "title": "The Categorical Imperative Revisited: Implications of Categorization as a Theoretical Tool",
+   "venue": "In From Categories to Categorization: Studies in Sociology, Organizations and Strategy at the Crossroads, Research in the Sociology of Organizations 51: 31-68. Emerald Publishing Limited",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Hsu, G.",
+    "Hannan, M. T."
+   ],
+   "year": "2005",
+   "title": "Identities, Genres, and Organizational Forms",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Negro, G.",
+    "Leung, M. D."
+   ],
+   "year": "2013",
+   "title": "'Actual' and Perceptual Effects of Category Spanning",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Hannan, M. T."
+   ],
+   "year": "2010",
+   "title": "Partiality of Memberships in Categories and Audiences",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Hsu, G.",
+    "Grodal, S."
+   ],
+   "year": "2015",
+   "title": "Category Taken-for-Grantedness as a Strategic Opportunity: The Case of Light Cigarettes, 1964 to 1993",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Hsu, G."
+   ],
+   "year": "2006",
+   "title": "Jacks of all trades and masters of none: Audiences' reactions to spanning genres in feature film production",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Fleischer, A."
+   ],
+   "year": "2009",
+   "title": "Ambiguity and the Equity Rating Systems: United States Brokerage Firms, 1995-2000",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Rao, H.",
+    "Monin, P.",
+    "Durand, R."
+   ],
+   "year": "2005",
+   "title": "Border crossing: Bricolage and erosion of categorical boundaries in French gastronomy",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Ruef, M.",
+    "Patterson, K."
+   ],
+   "year": "2009",
+   "title": "Credit and classification: The impact of industry boundaries in 19th century America",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Zuckerman, E. W.",
+    "Kim, T.-Y.",
+    "Ukanwa, K.",
+    "von Rittmann, J."
+   ],
+   "year": "2003",
+   "title": "Robust Identities or Non-Entities? Typecasting in the Feature Film Labor Market",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Sharkey, A. J."
+   ],
+   "year": "2014",
+   "title": "Categories and Organizational Status: The Role of Industry Status in the Response to Organizational Deviance",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Navis, C.",
+    "Glynn, M. A."
+   ],
+   "year": "2010",
+   "title": "How New Market Categories Emerge: Temporal Dynamics of Legitimacy, Identity, and Entrepreneurship in Satellite Radio, 1990-2005",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 8. Categories and evaluation processes",
+   "authors": [
+    "Rosa, J. A.",
+    "Porac, J. F.",
+    "Runser-Spanjol, J.",
+    "Saxon, M."
+   ],
+   "year": "1999",
+   "title": "Sociocognitive Dynamics in a Product Market",
+   "venue": "Journal of Marketing",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Padgett, J. F.",
+    "Ansell, C. K."
+   ],
+   "year": "1993",
+   "title": "Robust Action and the Rise of the Medici, 1400-1434",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Tripsas, M."
+   ],
+   "year": "2009",
+   "title": "Technology, Identity, and Inertia through the Lens of 'The Digital Photography Company'",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Hahl, O.",
+    "Kim, M.",
+    "Zuckerman Sivan, E. W."
+   ],
+   "year": "2017",
+   "title": "The Authentic Appeal of the Lying Demagogue: Proclaiming the Deeper Truth About Political Illegitimacy",
+   "venue": "SocArXiv",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Hahl, O."
+   ],
+   "year": "2016",
+   "title": "Turning Back the Clock in Baseball: The Increased Prominence of Extrinsic Rewards and Demand for Authenticity",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Kovács, B.",
+    "Carroll, G. R.",
+    "Lehman, D. W."
+   ],
+   "year": "2013",
+   "title": "Authenticity and Consumer Value Ratings: Empirical Tests from the Restaurant Domain",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Lehman, D. W.",
+    "Kovács, B.",
+    "Carroll, G. R."
+   ],
+   "year": "2014",
+   "title": "Conflicting Social Codes and Organizations: Hygiene and Authenticity in Consumer Evaluations of Restaurants",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Hannan, M.",
+    "Negro, G.",
+    "Rao, H.",
+    "Leung, M. D."
+   ],
+   "year": "2007",
+   "title": "No Barrique, No Berlusconi: Collective Identity, Contention, and Authenticity in the Making of Barolo and Barbaresco Wines",
+   "venue": "",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Hsu, G.",
+    "Kovacs, B.",
+    "Kocak, O."
+   ],
+   "year": "2017",
+   "title": "Co-opt or co-exist? A study of medical cannabis dispensaries identity-based responses to recreational use legalization in Colorado and Washington",
+   "venue": "Organization Science (forthcoming)",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "O'Connor, K.",
+    "Carroll, G.",
+    "Kovacs, B."
+   ],
+   "year": "2017",
+   "title": "Disambiguating authenticity: Testing for patterned choice among authentic items",
+   "venue": "PLOS One",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Kovacs, B.",
+    "Carroll, G. R.",
+    "Lehman, D. W."
+   ],
+   "year": "2017",
+   "title": "The Perils Of Proclaiming An Authentic Organizational Identity",
+   "venue": "Sociological Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Brubaker, R.",
+    "Cooper, F."
+   ],
+   "year": "2000",
+   "title": "Beyond Identity",
+   "venue": "Theory and Society",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 9. Identity and authenticity",
+   "authors": [
+    "Cerulo, K. A."
+   ],
+   "year": "1997",
+   "title": "Identity Construction: New Issues, New Direction",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Emirbayer, M.",
+    "Goodwin, J."
+   ],
+   "year": "1994",
+   "title": "Network Analysis, Culture, and the Problem of Agency",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "DellaPosta, D.",
+    "Shi, Y.",
+    "Macy, M."
+   ],
+   "year": "2015",
+   "title": "Why Do Liberals Drink Lattes?",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Srivastava, S. B.",
+    "Goldberg, A.",
+    "Manian, V. G.",
+    "Potts, C."
+   ],
+   "year": "2017",
+   "title": "Enculturation Trajectories: Language, Cultural Adaptation, and Individual Outcomes in Organizations",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Hahl, O.",
+    "Zuckerman, E. W.",
+    "Kim, M."
+   ],
+   "year": "2017",
+   "title": "Why Elites Love Authentic Lowbrow Culture: Overcoming High-Status Denigration with Outsider Art",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Corritore, M.",
+    "Goldberg, A.",
+    "Srivastava, S. B."
+   ],
+   "year": "2017",
+   "title": "Duality in Diversity: Cultural Heterogeneity, Language, and Firm Performance",
+   "venue": "Working paper",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Mohr, J. W.",
+    "Wagner-Pacifici, R.",
+    "Breiger, R. L.",
+    "Bogdanov, P."
+   ],
+   "year": "2013",
+   "title": "Graphing the Grammar of Motives in National Security Strategies: Cultural Interpretation, Automated Text Analysis and the Drama of Global Politics",
+   "venue": "Poetics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Bryson, B."
+   ],
+   "year": "2001",
+   "title": "Symbolic Exclusion and Musical Dislikes",
+   "venue": "In L. Spillman (Ed.), Cultural Sociology, pp. 108-119. New York: Blackwell",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Carroll, G. R.",
+    "Harrison, J. R."
+   ],
+   "year": "1998",
+   "title": "Organizational demography and culture: Insights from a formal model and simulation",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Danescu-Niculescu-Mizil, C.",
+    "Lee, L.",
+    "Pang, B.",
+    "Kleinberg, J."
+   ],
+   "year": "2012",
+   "title": "Echoes of Power: Language Effects and Power Differences in Social Interaction",
+   "venue": "Proceedings of the 21st International World Wide Web Conference",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "DiMaggio, P."
+   ],
+   "year": "1994",
+   "title": "Culture and Economy",
+   "venue": "In N. J. Smelser & R. Swedberg (Eds.), The Handbook of Economic Sociology, pp. 27-57. Princeton, NJ: Princeton University Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Goffman, E."
+   ],
+   "year": "1986",
+   "title": "Stigma: Notes on the Management of Spoiled Identity (Chapters 1, 2, and 5)",
+   "venue": "New York: Simon & Schuster",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Kunda, G."
+   ],
+   "year": "1992",
+   "title": "Engineering Culture: Control and Commitment in a High-Tech Corporation",
+   "venue": "Philadelphia: Temple University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Lieberson, S."
+   ],
+   "year": "2000",
+   "title": "A Matter of Taste: How Names, Fashion and Culture Change",
+   "venue": "New Haven: Yale University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Lamont, M.",
+    "Small, M."
+   ],
+   "year": "2008",
+   "title": "How Culture Explains Poverty: Thickening our Understanding",
+   "venue": "In D. Harris & A. Lin (Eds.), The Colors of Poverty, pp. 76-102. New York: Russell Sage Foundation",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Lizardo, O."
+   ],
+   "year": "2006",
+   "title": "How Cultural Tastes Shape Personal Networks",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "DiMaggio, P."
+   ],
+   "year": "1997",
+   "title": "Culture and Cognition",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Peterson, R. A.",
+    "Berger, D. G."
+   ],
+   "year": "1975",
+   "title": "Cycles in symbol production: The case of popular music",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Polavieja, J. G."
+   ],
+   "year": "2015",
+   "title": "Capturing Culture: A New Method to Estimate Exogenous Cultural Effects Using Migrant Populations",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Srivastava, S. B.",
+    "Banaji, M. R."
+   ],
+   "year": "2011",
+   "title": "Culture, Cognition, and Collaborative Networks in Organizations",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Stets, J. E.",
+    "Burke, P. J."
+   ],
+   "year": "2000",
+   "title": "Identity Theory and Social Identity Theory",
+   "venue": "Social Psychology Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Swidler, A."
+   ],
+   "year": "1986",
+   "title": "Culture in action: Symbols and strategies",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Session 10. Culture and Cognition",
+   "authors": [
+    "Yeung, K.-T.",
+    "Martin, J. L."
+   ],
+   "year": "2003",
+   "title": "The Looking Glass Self: An Empirical Test and Elaboration",
+   "venue": "Social Forces",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Davis, G.",
+    "Morrill, C.",
+    "Rao, H.",
+    "Soule, S."
+   ],
+   "year": "2008",
+   "title": "Introduction: Social Movements in Organizations and Markets",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Jung, W.",
+    "King, B.",
+    "Soule, S."
+   ],
+   "year": "2014",
+   "title": "Issue Bricolage: Explaining the Configuration of the Social Movement Sector",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Wang, D.",
+    "Soule, S. A."
+   ],
+   "year": "2012",
+   "title": "Social Movement Organizational Collaboration: Networks of Learning and the Diffusion of Protest Tactics",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Yue, L.",
+    "Rao, H.",
+    "Ingram, P."
+   ],
+   "year": "2013",
+   "title": "Informational Spillovers from Protests against Corporations: A Tale of Walmart and Target",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Hiatt, S. R.",
+    "Sine, W. D.",
+    "Tolbert, P. S."
+   ],
+   "year": "2009",
+   "title": "From Pabst to Pepsi: The deinstitutionalization of social practices and the creation of entrepreneurial opportunities",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Campbell, J. L."
+   ],
+   "year": "2005",
+   "title": "Where Do We Stand? Common mechanisms in organizations and social movement research",
+   "venue": "In G. Davis, D. McAdam, R. Scott & M. Zald (Eds.), Social Movements and Organization Theory (Chapter 2). New York: Cambridge University Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Sine, W.",
+    "Lee, B."
+   ],
+   "year": "2009",
+   "title": "Tilting at Windmills? The Environmental Movement and the Emergence of the US Wind Energy Sector",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Weber, K.",
+    "Rao, H.",
+    "Thomas, L. G."
+   ],
+   "year": "2009",
+   "title": "From Streets to Suites: How the Anti-Biotech Movement Affected German Pharmaceutical Firms",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Schneiberg, M.",
+    "King, M.",
+    "Smith, T."
+   ],
+   "year": "2008",
+   "title": "Social Movements and Organizational Form: Cooperative Alternatives to Corporations in the American Insurance, Dairy, and Grain Industries",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Soule, S. A."
+   ],
+   "year": "2012",
+   "title": "Social Movements and Markets, Industries, and Firms",
+   "venue": "Organization Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "King, B."
+   ],
+   "year": "2008",
+   "title": "A Political Mediation Model of Corporate Response to Social Movement Activism",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "McAdam, D.",
+    "Scott, R."
+   ],
+   "year": "2005",
+   "title": "Organizations and movements",
+   "venue": "In G. Davis, D. McAdam, R. Scott & M. Zald (Eds.), Social Movements and Organization Theory (Chapter 1). New York: Cambridge University Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Rao, H.",
+    "Dutta, S."
+   ],
+   "year": "2012",
+   "title": "Free Spaces as Organizational Weapons of the Weak: Religious Festivals and Regimental Mutinies in the Bengal Native Army, 1857",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Davis, G.",
+    "Zald, M."
+   ],
+   "year": "2005",
+   "title": "Social Change, Social Theory, and the Convergence of Movements and Organizations",
+   "venue": "In G. F. Davis, D. McAdam, W. R. Scott & M. N. Zald (Eds.), Social Movements and Organization Theory (Chapter 12). New York: Cambridge University Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Soule, S. A."
+   ],
+   "year": "2012",
+   "title": "Targeting Organizations: Private and Contentious Politics",
+   "venue": "Research in the Sociology of Organizations",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "Soule, S.",
+    "King, B."
+   ],
+   "year": "2008",
+   "title": "Competition and Resource Partitioning in Three Social Movement Industries",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Social Movements and Organizations",
+   "authors": [
+    "McCarthy, J. D.",
+    "Zald, M. N."
+   ],
+   "year": "1977",
+   "title": "Resource Mobilization and Social Movements: A Partial Theory",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Hawley, A."
+   ],
+   "year": "1992",
+   "title": "The Logic of Macrosociology",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Hannan, M. T.",
+    "Freeman, J."
+   ],
+   "year": "1977",
+   "title": "The population ecology of organizations",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "McPherson, J. M."
+   ],
+   "year": "1983",
+   "title": "An ecology of affiliation",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Stinchcombe, A."
+   ],
+   "year": "1965",
+   "title": "Social structure and organizations",
+   "venue": "In J. G. March (Ed.), Handbook of Organizations, pp. 142-169. Chicago: Rand McNally",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Baum, J. A. C.",
+    "Powell, W. W."
+   ],
+   "year": "1995",
+   "title": "Cultivating an Institutional Ecology of Organizations: Comment on Hannan, Carroll, Dundon, and Torres",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Carroll, G. R.",
+    "Hannan, M. T."
+   ],
+   "year": "1995",
+   "title": "Theory Building and Cheap Talk About Legitimation: Reply to Baum and Powell",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Podolny, J. M.",
+    "Stuart, T. E.",
+    "Hannan, M. T."
+   ],
+   "year": "1996",
+   "title": "Networks, knowledge, and niches: competition in the worldwide semiconductor industry 1984-1991",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Dobrev, S. D.",
+    "Kim, T. Y.",
+    "Hannan, M. T."
+   ],
+   "year": "2000",
+   "title": "Dynamics of Niche Width and Resource Partitioning",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Carroll, G. R."
+   ],
+   "year": "1985",
+   "title": "Concentration and Specialization: Dynamics of Niche Width in Populations of Organizations",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Freeman, J.",
+    "Hannan, M. T."
+   ],
+   "year": "1983",
+   "title": "Niche width and the dynamics of organizational populations",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Baum, J. A. C.",
+    "Singh, J. V."
+   ],
+   "year": "1994",
+   "title": "Organizational Niches and the Dynamics of Organizational Mortality",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Hannan, M. T.",
+    "Freeman, J."
+   ],
+   "year": "1984",
+   "title": "Structural Inertia and Organizational Change",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Freeman, J.",
+    "Carroll, G. R.",
+    "Hannan, M. T."
+   ],
+   "year": "1983",
+   "title": "The liability of newness: age-dependence in organizational death rates",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Sørensen, J. B.",
+    "Stuart, T. E."
+   ],
+   "year": "2000",
+   "title": "Aging, Obsolescence, and Organizational Innovation",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Barnett, W. P.",
+    "Carroll, G. R."
+   ],
+   "year": "1987",
+   "title": "Competition and mutualism among early telephone companies",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Haveman, H.",
+    "Rao, H."
+   ],
+   "year": "1997",
+   "title": "Structuring a theory of moral sentiments: Institutional and organizational coevolution in the early thrift industry",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Haveman, H. A."
+   ],
+   "year": "1992",
+   "title": "Between a Rock and a Hard Place: Organizational Change and Performance Under Conditions of Fundamental Environmental Transformation",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: The population ecology of organizations",
+   "authors": [
+    "Carroll, G.",
+    "Swaminathan, A."
+   ],
+   "year": "2000",
+   "title": "Why the Microbrewery Movement?: Organizational Dynamics of Resource Partitioning in the U.S. Brewing Industry",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Alcacer, J.",
+    "Oxley, J."
+   ],
+   "year": "2014",
+   "title": "Learning by supplying",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Azoulay, P."
+   ],
+   "year": "2003",
+   "title": "Acquiring knowledge within and across firm boundaries: Evidence from clinical development",
+   "venue": "Working paper, Columbia University",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Baker, G.",
+    "Hubbard, T."
+   ],
+   "year": "2003",
+   "title": "Make versus buy in trucking: Asset ownership, job design, and information",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Baker, G.",
+    "Gibbons, R.",
+    "Murphy, K. J."
+   ],
+   "year": "2002",
+   "title": "Relational contracts and the theory of the firm",
+   "venue": "Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Banerjee, A.",
+    "Duflo, E."
+   ],
+   "year": "2000",
+   "title": "Reputation effects and the limits of contracting: A study of the Indian software industry",
+   "venue": "Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Brusoni, S.",
+    "Prencipe, A.",
+    "Pavitt, K."
+   ],
+   "year": "2001",
+   "title": "Knowledge specialization, organizational coupling, and the boundaries of the firm: why do firms know more than they make?",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Casadesus-Masanell, R.",
+    "Spulber, D."
+   ],
+   "year": "2000",
+   "title": "The fable of Fisher Body",
+   "venue": "Journal of Law and Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Coase, R."
+   ],
+   "year": "2000",
+   "title": "The acquisition of Fisher Body by General Motors",
+   "venue": "Journal of Law and Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "David, R. J.",
+    "Han, S.-K."
+   ],
+   "year": "2003",
+   "title": "A systematic assessment of the empirical support for transaction cost economics",
+   "venue": "Strategic Management Journal (forthcoming)",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Freeland, R."
+   ],
+   "year": "2000",
+   "title": "Creating holdup through vertical integration: Fisher Body revisited",
+   "venue": "Journal of Law and Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Hart, O."
+   ],
+   "year": "1995",
+   "title": "Firms, Contracts, and Financial Structure (especially chapters 1-3)",
+   "venue": "Oxford: Oxford University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Holmström, B.",
+    "Roberts, J."
+   ],
+   "year": "1998",
+   "title": "The boundaries of the firm revisited",
+   "venue": "Journal of Economic Perspectives",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Holmström, B."
+   ],
+   "year": "1999",
+   "title": "The firm as a subeconomy",
+   "venue": "Journal of Law, Economics, and Organization",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Jacobides, M. G.",
+    "Billinger, S."
+   ],
+   "year": "2006",
+   "title": "Designing the boundaries of the firm: From 'make, buy, or ally' to the dynamic benefits of vertical architecture",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Joskow, P."
+   ],
+   "year": "1987",
+   "title": "Contract duration and relationship-specific investment: Empirical evidence from coal markets",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Kapoor, R.",
+    "Adner, R."
+   ],
+   "year": "2012",
+   "title": "What firms make vs. what they know: how firms' production and knowledge boundaries affect competitive advantage in the face of technological change",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Klein, B."
+   ],
+   "year": "2000",
+   "title": "Fisher-General Motors and the nature of the firm",
+   "venue": "Journal of Law and Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Monteverde, K.",
+    "Teece, D."
+   ],
+   "year": "1982",
+   "title": "Supplier switching costs and vertical integration in the automobile industry",
+   "venue": "Bell Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Mullin, J.",
+    "Mullin, W."
+   ],
+   "year": "1997",
+   "title": "United States Steel's acquisition of Great Northern Ore Properties: Vertical foreclosure or efficient contractual governance?",
+   "venue": "Journal of Law, Economics, and Organization",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Pisano, G. P."
+   ],
+   "year": "1990",
+   "title": "The R&D boundaries of the firm: An empirical analysis",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Whinston, M."
+   ],
+   "year": "2003",
+   "title": "On the transaction cost determinants of vertical integration",
+   "venue": "Journal of Law, Economics, and Organization",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Williamson, O. E."
+   ],
+   "year": "1975",
+   "title": "Markets and Hierarchies: Analysis and Anti-Trust Implications (especially chapters 1, 2, 5-8)",
+   "venue": "New York: Free Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Boundaries of the firm and TCE",
+   "authors": [
+    "Williamson, O. E."
+   ],
+   "year": "1991",
+   "title": "Comparative economic organization: The analysis of discrete structural alternatives",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Aldrich, H. E."
+   ],
+   "year": "1999",
+   "title": "Organizations Evolving",
+   "venue": "Thousand Oaks, CA: Sage",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Anderson, P.",
+    "Tushman, M. L."
+   ],
+   "year": "1990",
+   "title": "Technological discontinuities and dominant designs: A cyclical model of technological change",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Arthur, W. B."
+   ],
+   "year": "1989",
+   "title": "Competing technologies, increasing returns, and lock-in by historical events",
+   "venue": "Economic Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Benner, M. J.",
+    "Tushman, M. L."
+   ],
+   "year": "2002",
+   "title": "Process management and technological innovation: A longitudinal study of the photography and paint industries",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Campbell, D. T."
+   ],
+   "year": "1965",
+   "title": "Variation and selective retention in socio-cultural evolution",
+   "venue": "In H. R. Barringer, G. I. Blanksten & R. W. Mack (Eds.), Social Change in Developing Areas: A Reinterpretation of Evolutionary Theory, pp. 19-48. Cambridge, MA: Schenkman",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Carroll, G. R.",
+    "Harrison, J. R."
+   ],
+   "year": "1994",
+   "title": "On the historical efficiency of competition between organizational populations",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "David, P. A."
+   ],
+   "year": "1985",
+   "title": "Clio and the economics of QWERTY",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Gersick, C. J. G."
+   ],
+   "year": "1991",
+   "title": "Revolutionary change theories: A multilevel exploration of the punctuated equilibrium paradigm",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Nelson, R. R."
+   ],
+   "year": "1994",
+   "title": "The Co-Evolution of Technology, Industrial Structure, and Supporting Institutions",
+   "venue": "Industrial and Corporate Change",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Nelson, R. R.",
+    "Winter, S. G."
+   ],
+   "year": "1982",
+   "title": "An Evolutionary Theory of Economic Change",
+   "venue": "Cambridge, MA: Belknap Press of Harvard University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Tushman, M. L.",
+    "Romanelli, E."
+   ],
+   "year": "1985",
+   "title": "Organizational evolution: A metamorphosis model of convergence and reorientation",
+   "venue": "In L. Cummings & B. Staw (Eds.), Research in Organizational Behavior, 7: 171-222. Greenwich, CT: JAI Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Tushman, M. L.",
+    "Anderson, P."
+   ],
+   "year": "1986",
+   "title": "Technological discontinuities and organizational environments",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Evolutionary theory, technology and innovation",
+   "authors": [
+    "Van de Ven, A.",
+    "Garud, R."
+   ],
+   "year": "1994",
+   "title": "The Coevolution of technical and Institutional Events in the Development of Innovation",
+   "venue": "In J. A. C. Baum & J. Singh (Eds.), Evolutionary Dynamics of Organizations, pp. 425-443. New York: Oxford University Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Aldrich, H. E.",
+    "Fiol, M."
+   ],
+   "year": "1994",
+   "title": "Fools rush in? The institutional context of industry creation",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Baum, J. A. C.",
+    "Haveman, H. A."
+   ],
+   "year": "1997",
+   "title": "Love thy neighbor? Differentiation and agglomeration in the Manhattan hotel industry",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Burton, M. D.",
+    "Sørensen, J. B.",
+    "Beckman, C. M."
+   ],
+   "year": "2002",
+   "title": "Coming from good stock: Career histories and new venture formation",
+   "venue": "Research in the Sociology of Organizations",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Chinoy, E."
+   ],
+   "year": "1955/1992",
+   "title": "Automobile Workers and the American Dream",
+   "venue": "Urbana: University of Illinois Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Dobbin, F. R.",
+    "Dowd, T."
+   ],
+   "year": "1997",
+   "title": "How policy shapes competition: Early railroad foundings in Massachusetts",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Ruef, M.",
+    "Aldrich, H. E.",
+    "Carter, N. M."
+   ],
+   "year": "2003",
+   "title": "The structure of founding teams: Homophily, strong ties, and isolation among U.S. entrepreneurs",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Ruef, M."
+   ],
+   "year": "2000",
+   "title": "The emergence of organizational forms: A community ecology approach",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Sorenson, O.",
+    "Audia, P. G."
+   ],
+   "year": "2000",
+   "title": "The social structure of entrepreneurial activity: Geographic concentration of footwear production in the United States, 1940-1989",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Wiewel, W.",
+    "Hunter, A."
+   ],
+   "year": "1985",
+   "title": "The interorganizational network as a resource: A comparative case study of organizational genesis",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Entrepreneurship and organizational founding",
+   "authors": [
+    "Zucker, L.",
+    "Darby, M.",
+    "Brewer, M."
+   ],
+   "year": "1998",
+   "title": "Intellectual capital and the birth of U.S. biotechnology enterprises",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Blau, P. M."
+   ],
+   "year": "1977",
+   "title": "Inequality and Heterogeneity: A Primitive Theory of Social Structure (chapters 1-4)",
+   "venue": "New York: Free Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Cohen, L. E.",
+    "Broschak, J. P.",
+    "Haveman, H. A."
+   ],
+   "year": "1998",
+   "title": "And then there were more? The effect of organizational sex composition on the hiring and promotion of managers",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Gusfield, J. R."
+   ],
+   "year": "1957",
+   "title": "The problem of generations in an organizational structure",
+   "venue": "Social Forces",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Lawrence, B."
+   ],
+   "year": "1997",
+   "title": "The black box of organizational demography",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "McPherson, J. M.",
+    "Popielarz, P. A.",
+    "Drobnic, S."
+   ],
+   "year": "1992",
+   "title": "Social networks and organizational dynamics",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Pfeffer, J."
+   ],
+   "year": "1983",
+   "title": "Organizational demography",
+   "venue": "In L. Cummings & B. Staw (Eds.), Research in Organizational Behavior, 5: 299-357. Greenwich, CT: JAI Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Reed, T."
+   ],
+   "year": "1978",
+   "title": "Organizational change in the American Foreign Service, 1925-1965: The utility of cohort analysis",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Reskin, B. F.",
+    "McBrier, D. B.",
+    "Kmec, J. A."
+   ],
+   "year": "1999",
+   "title": "The determinants and consequences of workplace sex and race composition",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Ryder, N. B."
+   ],
+   "year": "1964",
+   "title": "Notes on the concept of a population",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Ryder, N. B."
+   ],
+   "year": "1965",
+   "title": "The cohort as a concept in the study of social change",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Shenhav, Y.",
+    "Haberfeld, Y."
+   ],
+   "year": "1992",
+   "title": "Organizational demography and inequality",
+   "venue": "Social Forces",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Sørensen, J. B."
+   ],
+   "year": "1999",
+   "title": "The ecology of organizational demography: Managerial tenure distributions and organizational competition",
+   "venue": "Industrial and Corporate Change",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Organizational Demography",
+   "authors": [
+    "Williams, K. Y.",
+    "O'Reilly, C. A."
+   ],
+   "year": "1998",
+   "title": "Demography and diversity in organizations: A review of 40 years of research",
+   "venue": "In B. Staw & L. Cummings (Eds.), Research in Organizational Behavior, 20: 77-140",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Baron, J. N.",
+    "Bielby, W. T."
+   ],
+   "year": "1980",
+   "title": "Bringing the firms back in: Stratification, segmentation, and the organization of work",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Baron, J. N.",
+    "Bielby, W. T."
+   ],
+   "year": "1984",
+   "title": "The organization of work in a segmented economy",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Bendix, R."
+   ],
+   "year": "1956",
+   "title": "Work and Authority in Industry: Ideologies of Management in the Course of Industrialization",
+   "venue": "Berkeley: University of California Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Faulkner, R. R.",
+    "Anderson, A. B."
+   ],
+   "year": "1987",
+   "title": "Short-term projects and emergent careers: Evidence from Hollywood",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Guillén, M. F."
+   ],
+   "year": "1994",
+   "title": "Models of Management: Work, Authority, and Organization in a Comparative Perspective",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Haveman, H. A.",
+    "Cohen, L. E."
+   ],
+   "year": "1994",
+   "title": "The ecological dynamics of careers: The impact of organizational founding, dissolution, and merger on job mobility",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Kalleberg, A. L.",
+    "Reskin, B. F.",
+    "Hudson, K."
+   ],
+   "year": "2000",
+   "title": "Bad jobs in America: Standard and non-standard employment relations and job quality in the United States",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Miner, A. S."
+   ],
+   "year": "1987",
+   "title": "Idiosyncratic jobs in formalized organizations",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Petersen, T.",
+    "Saporta, I.",
+    "Seidel, M.-D."
+   ],
+   "year": "2000",
+   "title": "Offering a job: Meritocracy and social networks",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Podolny, J. M.",
+    "Baron, J. N."
+   ],
+   "year": "1997",
+   "title": "Resources and relationships: Social networks and mobility in the workplace",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Stolzenberg, R. M."
+   ],
+   "year": "1978",
+   "title": "Bringing the boss back in: Employer size, employee schooling, and socioeconomic achievement",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Stovel, K.",
+    "Savage, M.",
+    "Bearman, P."
+   ],
+   "year": "1996",
+   "title": "Ascription into achievement: Models of career systems at Lloyds Bank, 1890-1970",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Taylor, F. W."
+   ],
+   "year": "1911",
+   "title": "The Principles of Scientific Management",
+   "venue": "New York: W.W. Norton and Co.",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Jobs and Careers",
+   "authors": [
+    "Whyte, W. H., Jr."
+   ],
+   "year": "1956",
+   "title": "The Organization Man",
+   "venue": "New York: Simon and Schuster",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Abbott, A."
+   ],
+   "year": "1988",
+   "title": "The System of Professions: An Essay on the Division of Expert Labor",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Abbott, A."
+   ],
+   "year": "2001",
+   "title": "Chaos of Disciplines",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Freidson, E."
+   ],
+   "year": "1970",
+   "title": "Profession of Medicine: A Study of the Sociology of Applied Knowledge",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Freidson, E."
+   ],
+   "year": "1986",
+   "title": "Professional Powers: A Study in the Institutionalization of Formal Knowledge",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Galanter, M.",
+    "Palay, T."
+   ],
+   "year": "1991",
+   "title": "Tournament of Lawyers: The Transformation of the Big Law Firm",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Goldner, F. H.",
+    "Ritti, R. R."
+   ],
+   "year": "1967",
+   "title": "Professionalization as career immobility",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Hall, R. H."
+   ],
+   "year": "1968",
+   "title": "Professionalization and bureaucratization",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Heinz, J. P.",
+    "Laumann, E. O."
+   ],
+   "year": "1994 [1982]",
+   "title": "Chicago Lawyers: The Social Structure of the Bar, Rev. Ed.",
+   "venue": "Evanston, IL: Northwestern University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Starr, P."
+   ],
+   "year": "1982",
+   "title": "The Social Transformation of American Medicine",
+   "venue": "New York: Basic Books",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Professions",
+   "authors": [
+    "Wilensky, H. L."
+   ],
+   "year": "1965",
+   "title": "The professionalization of everyone?",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Bernhardt, A.",
+    "Morris, M.",
+    "Handcock, M. S."
+   ],
+   "year": "1995",
+   "title": "Women's gains or men's losses? A closer look at the shrinking gender gap in earnings",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Bielby, W. T.",
+    "Baron, J. N."
+   ],
+   "year": "1986",
+   "title": "Men and women at work: Sex segregation and statistical discrimination",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "England, P."
+   ],
+   "year": "1992",
+   "title": "Comparable Worth: Theories and Evidence",
+   "venue": "New York: Aldine de Gruyter",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Jacobs, J."
+   ],
+   "year": "1989",
+   "title": "Revolving Doors: Sex Segregation and Women's Careers",
+   "venue": "Stanford, CA: Stanford University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Kanter, R. M."
+   ],
+   "year": "1977",
+   "title": "Men and Women of the Corporation",
+   "venue": "New York: Basic Books",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Nelson, R. L.",
+    "Bridges, W. P."
+   ],
+   "year": "1999",
+   "title": "Legalizing Gender Inequality: Courts, Markets, and Unequal Pay for Women in the United States",
+   "venue": "Cambridge: Cambridge University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Petersen, T.",
+    "Morgan, L. A."
+   ],
+   "year": "1995",
+   "title": "Separate and unequal: Occupation-establishment sex segregation and the gender wage gap",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Pfeffer, J.",
+    "Davis-Blake, A."
+   ],
+   "year": "1987",
+   "title": "The effect of the proportion of women on salaries: The case of college administrators",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Reskin, B. F.",
+    "McBrier, D. B."
+   ],
+   "year": "2000",
+   "title": "Why not ascription? Organizations' employment of male and female managers",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Spain, D.",
+    "Bianchi, S. M."
+   ],
+   "year": "1996",
+   "title": "Balancing Act: Motherhood, Marriage, and Employment among American Women",
+   "venue": "New York: Russell Sage Foundation",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Topics not covered: Gender & Organizations",
+   "authors": [
+    "Wharton, A. S.",
+    "Baron, J. N."
+   ],
+   "year": "1987",
+   "title": "So happy together? The psychological impact of gender segregation on women at work",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  }
+ ]
+}
