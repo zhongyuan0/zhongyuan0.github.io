@@ -637,6 +637,21 @@ address {
 .tree-root rect {
   fill: var(--indigo-wash);
 }
+.tree-node .tree-tab {
+  fill: var(--indigo);
+  stroke: none;
+}
+.tree-node .tree-num {
+  font-size: 11px;
+  font-weight: 700;
+  fill: var(--paper);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.tree-node:hover .tree-tab,
+.tree-node:focus-visible .tree-tab {
+  fill: var(--indigo);
+  stroke-width: 0;
+}
 .tree-node:hover rect,
 .tree-node:focus-visible rect {
   fill: var(--indigo-wash);
@@ -664,12 +679,25 @@ address {
 /* ---------- Reading lists ---------- */
 .rl-toc ol {
   columns: 2;
-  column-gap: 2rem;
-  max-width: none;
+  column-gap: 2.5rem;
+}
+.rl-toc > .body {
+  max-width: none; /* the list of streams uses the full width, unlike the reading lists */
 }
 .rl-toc li {
+  display: grid;
+  grid-template-columns: 1.6rem minmax(0, 1fr);
+  column-gap: 0.4rem;
+  align-items: baseline;
   break-inside: avoid;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.3rem;
+}
+.rl-no,
+.rl-num {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.rl-toc .rl-no {
+  color: var(--ink-soft);
 }
 .rl-n {
   color: var(--ink-soft);
@@ -714,21 +742,35 @@ address {
   font-weight: 700;
 }
 .rl-toc .rl-subtoc {
+  grid-column: 2;
   columns: auto;
-  margin: 0.1rem 0 0.5rem;
+  margin: 0.2rem 0 0.4rem;
   font-size: var(--step--1);
-  line-height: 1.45;
-  color: var(--ink-soft);
+  line-height: 1.35;
 }
 .rl-toc .rl-subtoc li {
-  display: inline;
-  margin: 0;
-}
-.rl-toc .rl-subtoc li:not(:last-child)::after {
-  content: "; ";
+  grid-template-columns: 2.3rem minmax(0, 1fr);
+  column-gap: 0.2rem;
+  margin: 0 0 0.2rem;
 }
 .rl-toc .rl-subtoc .rl-n {
   font-size: inherit;
+}
+.band > .label .rl-num {
+  display: block;
+  font-style: normal;
+  font-size: var(--step-1);
+  color: var(--indigo);
+  line-height: 1.2;
+  margin-bottom: 0.15rem;
+}
+.rl-h .rl-num {
+  margin-right: 0.35em;
+  color: var(--indigo);
+}
+.rl-doi {
+  font-size: var(--step--1);
+  overflow-wrap: anywhere;
 }
 .rl-h + .rl-list {
   margin-top: 0.6rem;

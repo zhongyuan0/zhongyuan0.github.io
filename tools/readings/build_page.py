@@ -3,7 +3,7 @@
 Usage: python3 tools/readings/build_page.py <site-root> <css-version>
 """
 import os
-import json, html, re, sys, collections
+import json, html, re, sys, collections, urllib.parse
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from classify import TOPICS
 from subtopics import SUBTOPICS, OTHER, reading_key
@@ -63,6 +63,17 @@ def fmt_authors(a):
     return ', '.join(esc(x) for x in a[:-1]) + ', &amp; ' + esc(a[-1])
 
 
+DOIS = {k: v for k, v in json.load(open(D + 'dois.json')).items() if v} if os.path.exists(D + 'dois.json') else {}
+
+
+def fmt_doi(r):
+    doi = DOIS.get(reading_key(r))
+    if not doi:
+        return ''
+    url = 'https://doi.org/' + urllib.parse.quote(doi, safe="/()._-:;")
+    return f' <a class="rl-doi" href="{html.escape(url, quote=True)}">https://doi.org/{esc(doi)}</a>'
+
+
 def fmt_ref(r):
     au = fmt_authors(r['authors'])
     y = esc(r['year']) or 'n.d.'
@@ -73,7 +84,7 @@ def fmt_ref(r):
         body = f'<cite>{t}</cite>{end}' + (f' {v}.' if v else '')
     else:
         body = f'{t}{end}' + (f' <cite>{v}</cite>.' if v else '')
-    return f'{au} ({y}). {body}' if au else f'{body} ({y}).'
+    return (f'{au} ({y}). {body}' if au else f'{body} ({y}).') + fmt_doi(r)
 
 
 readings = [r for r in d['readings'] if not r.get('drop')]
@@ -106,24 +117,51 @@ for r in readings:
     by_topic[r['topic']].append(r)
 
 names = {k: n for k, n, _ in TOPICS}
+descs = {k: d for k, _, d in TOPICS}
+# Display order, which also gives each stream its number: theory first, then the two roots of the tree,
+# then the tree's columns left to right (each top to bottom), then the streams outside the tree.
+ORDER = (['theory', 'socialtheory', 'classics'] + sorted(tree.NODES, key=lambda k: tree.NODES[k][:2])
+         + ['methods', 'profession'])
+assert sorted(ORDER) == sorted(names), set(names) ^ set(ORDER)
+NUM = {k: i + 1 for i, k in enumerate(ORDER)}
+
 main_sections, more_sections, toc, more_toc = [], [], [], []
 counts, more_counts = {}, {}
 def groups(key, rs):
-    """Split a stream's readings into (sub-key, label, readings); a single unnamed group if the stream isn't subdivided."""
+    """Split a stream's readings into (sub-key, label, readings, number); one unnamed group if the stream isn't subdivided.
+
+    Sub-streams are numbered N.1, N.2 ... in the order they appear on the page."""
     if key not in SUBTOPICS:
-        return [(None, None, rs)]
+        return [(None, None, rs, None)]
     by = collections.defaultdict(list)
     valid = {k for k, _ in SUBTOPICS[key]}
     for r in rs:
         by[r['sub'] if r['sub'] in valid else 'other'].append(r)
-    return [(k, lab, by[k]) for k, lab in SUBTOPICS[key] + [OTHER] if by.get(k)]
+    gs = [(k, lab, by[k]) for k, lab in SUBTOPICS[key] + [OTHER] if by.get(k)]
+    return [(k, lab, g, f'{NUM[key]}.{i}') for i, (k, lab, g) in enumerate(gs, 1)]
 
 
 def ol(rs, count=True):
     return '          <ol class="rl-list">\n' + ''.join(li(r, count) for r in rs) + '          </ol>\n'
 
 
-for key, name, desc in TOPICS:
+def toc_item(key, n, gs):
+    sub = ''.join(f'              <li><span class="rl-no">{no}</span><span><a href="#{key}-{k}">{esc(lab)}</a> '
+                  f'<span class="rl-n">{len(g)}</span></span></li>\n' for k, lab, g, no in gs if k)
+    return (f'          <li><span class="rl-no">{NUM[key]}</span><span><a href="#{key}">{esc(names[key])}</a> <span class="rl-n">{n}</span></span>'
+            + (f'\n            <ol class="rl-subtoc">\n{sub}            </ol>\n          ' if sub else '') + '</li>\n')
+
+
+def h2(key):
+    return f'        <h2 class="label" id="{key}-h"><span class="rl-num">{NUM[key]}</span> {esc(names[key])}</h2>\n'
+
+
+def h3(key, k, lab, no):
+    return f'          <h3 class="rl-h" id="{key}-{k}"><span class="rl-num">{no}</span> {esc(lab)}</h3>\n'
+
+
+for key in ORDER:
+    name, desc = names[key], descs[key]
     rs = sorted(by_topic.get(key, []), key=sortkey)
     main = [r for r in rs if r['n'] >= 2]
     single = [r for r in rs if r['n'] < 2]
@@ -133,12 +171,9 @@ for key, name, desc in TOPICS:
         src = collections.Counter(c for r in main for c in r['courses'])
         src_txt = '; '.join(dict.fromkeys(credit(courses[c]) for c, _ in src.most_common()))
         gs = groups(key, main)
-        sub_toc = ''.join(f'            <li><a href="#{key}-{k}">{esc(lab)}</a> <span class="rl-n">{len(g)}</span></li>\n'
-                          for k, lab, g in gs if k)
-        toc.append(f'          <li><a href="#{key}">{esc(name)}</a> <span class="rl-n">{counts[key]}</span>'
-                   + (f'\n            <ol class="rl-subtoc">\n{sub_toc}            </ol>\n          ' if sub_toc else '') + '</li>\n')
+        toc.append(toc_item(key, counts[key], gs))
         s = [f'      <section class="band rl-topic" id="{key}" aria-labelledby="{key}-h">\n',
-             f'        <h2 class="label" id="{key}-h">{esc(name)}</h2>\n',
+             h2(key),
              '        <div class="body">\n',
              f'          <p class="rl-desc">{esc(desc)}</p>\n',
              f'          <p class="rl-src">Drawn from: {esc(src_txt)}.</p>\n']
@@ -150,20 +185,20 @@ for key, name, desc in TOPICS:
             if multi:
                 s.append(f'          <h3 class="rl-h">Also assigned, in 2 to {CORE - 1} sources</h3>\n' + ol(multi))
         else:
-            for k, lab, g in gs:
-                s.append(f'          <h3 class="rl-h" id="{key}-{k}">{esc(lab)}</h3>\n' + ol(g))
+            for k, lab, g, no in gs:
+                s.append(h3(key, k, lab, no) + ol(g))
         if single:
             s.append(f'          <p class="more"><a href="/readings/more/#{key}">{len(single)} further '
                      f'{"reading" if len(single) == 1 else "readings"} listed in one source</a></p>\n')
         s.append('        </div>\n      </section>\n\n')
         main_sections.append(''.join(s))
     if single:
-        more_toc.append(f'          <li><a href="#{key}">{esc(name)}</a> <span class="rl-n">{len(single)}</span></li>\n')
-        body = ''.join((f'          <h3 class="rl-h" id="{key}-{k}">{esc(lab)}</h3>\n' if k else '') + ol(g, count=False)
-                       for k, lab, g in groups(key, single))
+        gs = groups(key, single)
+        more_toc.append(toc_item(key, len(single), gs))
+        body = ''.join((h3(key, k, lab, no) if k else '') + ol(g, count=False) for k, lab, g, no in gs)
         more_sections.append(
             f'      <section class="band rl-topic" id="{key}" aria-labelledby="{key}-h">\n'
-            f'        <h2 class="label" id="{key}-h">{esc(name)}</h2>\n'
+            + h2(key) +
             '        <div class="body">\n'
             f'          <p class="rl-src"><a href="/readings/#{key}">Back to the main list for this stream</a></p>\n'
             + body + '        </div>\n      </section>\n\n')
@@ -258,18 +293,19 @@ main_head = f'''          <h1>Reading lists</h1>
 main_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
         <h2 class="visually-hidden" id="tree-h">Theory tree</h2>
         <div class="rl-tree-figure">
-          {tree.svg(counts, tree_names, more_counts)}
+          {tree.svg(counts, tree_names, more_counts, NUM)}
         </div>
         <p class="rl-tree-note">
-          Each box is a stream, with its number of readings; click a box to jump to its list. Arrows show which streams grew out of which; hover over an arrow
-          for a one-line explanation. Most readings in Social theory, the root several streams draw on, appear in only one source, so they are on the <a href="/readings/more/#socialtheory">further readings page</a>.
-          Outside the tree: <a href="#theory">Theory and theorizing</a> ({counts.get('theory', 0)}),
-          <a href="#methods">Research methods</a> ({counts.get('methods', 0)}) and <a href="#profession">The academic profession</a> ({counts.get('profession', 0)}).
+          Each box is a stream, with its number in the list below and its number of readings; click a box to jump to its list. Arrows show which streams grew
+          out of which; hover over an arrow for a one-line explanation. Most readings in Social theory, the root several streams draw on, appear in only one source,
+          so they are on the <a href="/readings/more/#socialtheory">further readings page</a>. Three streams sit outside the tree:
+          {NUM['theory']} <a href="#theory">{esc(names['theory'])}</a>, {NUM['methods']} <a href="#methods">{esc(names['methods'])}</a>
+          and {NUM['profession']} <a href="#profession">{esc(names['profession'])}</a>.
         </p>
         <details class="rl-more rl-lineage">
           <summary>Lineage, in words</summary>
           <ul class="plain-list">
-{tree.lineage_list(tree_names)}          </ul>
+{tree.lineage_list(tree_names, NUM)}          </ul>
         </details>
       </section>
 
