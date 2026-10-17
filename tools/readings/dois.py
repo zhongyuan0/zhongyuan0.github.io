@@ -32,8 +32,17 @@ OK_TYPES = {
     'article': {'journal-article', 'proceedings-article', 'book-chapter', 'posted-content', 'report'},
     'book': BOOKISH,
     'chapter': {'book-chapter', 'book-part', 'book-section', 'reference-entry', 'journal-article', 'other'},
-    'other': None,  # anything
+    'other': None,  # anything except the types in NEVER
 }
+NEVER = {'component', 'peer-review', 'dataset', 'grant', 'database', 'standard', 'journal-issue', 'journal-volume', 'journal'}
+# Preferred record type when several match: the published journal version over a conference paper or preprint.
+PREF = {
+    'article': ['journal-article', 'book-chapter', 'proceedings-article', 'report', 'posted-content'],
+    'chapter': ['book-chapter', 'book-part', 'book-section', 'reference-entry', 'journal-article'],
+    'book': ['book', 'monograph', 'edited-book', 'reference-book'],
+    'other': ['journal-article', 'book-chapter', 'report', 'posted-content'],
+}
+NOTICE = re.compile(r'^(erratum|errata|correction|corrigendum|addendum|retraction|retracted|expression of concern|reply|rejoinder|comment on)\b')
 
 
 def ascii_lower(s):
@@ -100,6 +109,8 @@ def title_score(rt, it):
 def judge(r, it):
     """Return (score, verdict, reason): verdict is 'accept', 'review' or None."""
     s = title_score(r.get('title', ''), it)
+    if it.get('type') in NEVER or (NOTICE.match(norm_title((it.get('title') or [''])[0])) and not NOTICE.match(norm_title(r.get('title', '')))):
+        return s, None, 'notice'
     if s < 0.75:
         return s, None, 'title'
     sn, names = surname(r), item_names(it)
@@ -139,7 +150,9 @@ def best_match(r, items):
         elif v == 'review':
             rev.append((s, exact, it, why))
     if acc:
-        acc.sort(key=lambda x: (x[0], x[1]), reverse=True)
+        pref = PREF.get(r.get('type'), [])
+        rank = lambda t: pref.index(t) if t in pref else len(pref)
+        acc.sort(key=lambda x: (rank(x[2].get('type')), -x[1], -x[0]))
         return acc[0][2]['DOI'].lower(), None
     if rev:
         rev.sort(key=lambda x: (x[0], x[1]), reverse=True)
@@ -193,6 +206,9 @@ def selftest():
           'subtitle': ['The Paradox of Embeddedness'], 'author': [{'family': 'Uzzi'}], 'issued': {'date-parts': [[1997, 3]]},
           'type': 'journal-article'}
     assert best_match(sub, [it])[0] == '10.2307/2393808'
+    proc = dict(it, DOI='10.5465/proc', type='proceedings-article', issued={'date-parts': [[1996, 8]]})
+    err = dict(it, DOI='10.2307/err', title=['Erratum: Social Structure and Competition in Interfirm Networks'])
+    assert best_match(sub, [proc, err, it])[0] == '10.2307/2393808'
     print('selftest ok')
 
 
