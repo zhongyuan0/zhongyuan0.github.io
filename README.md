@@ -11,7 +11,6 @@
 | 首页：自我介绍、三个研究方向（真善美）、News | `index.html` |
 | Research 页：按「真善美」三个方向分组的全部论文（含在审、在写） | `research/index.html` |
 | CV 页（网页版简历） | `cv/index.html` |
-| Afterimages 页：电影画面 | `afterimages/index.html`，图片放在 `assets/img/afterimages/` |
 | 照片 | `assets/img/portrait.*`（桌面端，4:5 竖图）和 `assets/img/portrait-wide.*`（手机端） |
 | 颜色、字号、版式 | `assets/css/site.css` 顶部的 Tokens |
 
@@ -24,8 +23,6 @@
 
 **CV 的 PDF**：目前网站上不放 PDF。以后想放的话，把 PDF 上传到 `assets/pdf/`，再在 `index.html` 的链接列表和 `cv/index.html` 顶部加一个下载链接即可。在浏览器里打开 CV 页按「打印 → 另存为 PDF」可以得到排好版的 PDF。
 
-**加一张电影画面**：图片处理成宽度不超过 1600 像素，存成 `片名-年份.jpg`（再加一份同名 `.webp` 更好）放进 `assets/img/afterimages/`。在 `afterimages/index.html` 里复制一个 `<figure>…</figure>` 块，改图片路径、宽高、片名、年份、导演和摄影指导，按电影年份排序。
-
 **换照片**：把新照片按同样文件名放进 `assets/img/`。桌面端显示为 4:5 竖图，手机端显示原比例。
 
 **改了样式之后**：如果改了 `assets/css/site.css`，记得把四个 HTML 文件里 `site.css?v=` 后面的版本号也改一下（比如改成当天日期），否则访问过网站的人浏览器里还是旧样式。只改文字不需要。
@@ -34,4 +31,4 @@
 
 ## 字体
 
-正文是 Crimson Pro；竖排的「孙中源」、研究方向前的「真善美」和 Afterimages 页的「影」用的是思源宋体（Noto Serif CJK SC），字体文件里只含这七个字。字体文件都放在网站本身（`assets/fonts/`），不依赖 Google Fonts，所以在中国大陆也能正常加载。授权见 `assets/fonts/NOTICE.txt`。
+正文是 Crimson Pro；竖排的「孙中源」和研究方向前的「真善美」用的是思源宋体（Noto Serif CJK SC），字体文件里只含这七个字。字体文件都放在网站本身（`assets/fonts/`），不依赖 Google Fonts，所以在中国大陆也能正常加载。授权见 `assets/fonts/NOTICE.txt`。

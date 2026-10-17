@@ -1,8 +1,7 @@
 # Notes for editing this site
 
 - Plain static HTML/CSS. No Jekyll, no build step, no JavaScript. `.nojekyll` keeps GitHub Pages from processing files.
-- Pages: `index.html` (About), `research/index.html`, `cv/index.html`, `afterimages/index.html` (film stills), `404.html`; `publications/` only redirects to `/research/`.
-- Afterimages: one or two stills per film, at most 1600px wide (jpg + webp in `assets/img/afterimages/`), ordered by film year; caption = title (year), director, cinematographer. No commentary per still (owner's choice); the page intro carries the idea.
+- Pages: `index.html` (About), `research/index.html`, `cv/index.html`, `404.html`; `publications/` only redirects to `/research/`.
 - Header and footer markup is repeated in every page; change them everywhere at once.
 - All styling lives in `assets/css/site.css`; colours and type sizes are tokens at the top (light and dark mode).
 - Cache busting: pages link `site.css?v=…`. Bump that version in every HTML page whenever site.css changes, and add/bump `?v=` on any font or image URL whose file is replaced; otherwise returning visitors see stale styles.
