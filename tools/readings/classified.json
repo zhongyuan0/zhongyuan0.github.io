@@ -313,12 +313,13 @@
    "title": "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Behavior",
    "venue": "American Sociological Review",
    "type": "article",
-   "n": 13,
+   "n": 14,
    "courses": [
     2,
     4,
     5,
     6,
+    9,
     10,
     13,
     16,
@@ -342,7 +343,8 @@
     "2|Key Concepts and Themes",
     "4|Week #15: D. Networks and Fields — 1) Theory",
     "5|5. Institutional Perspective I",
-    "6|Week 7 (Oct. 30th 2018) - Institutional theory"
+    "6|Week 7 (Oct. 30th 2018) - Institutional theory",
+    "9|Session 7 \"New\" Institutional Theory"
    ],
    "topic": "institutional",
    "how": "session"
@@ -426,6 +428,45 @@
     "9|Session 8 Organizational Ecology"
    ],
    "topic": "ecology",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Burt, R.S."
+   ],
+   "year": "2001",
+   "title": "Structural Holes vs. Network Closure as Social Capital",
+   "venue": "In N. Lin, K.S. Cook & R.S. Burt (eds.), Social Capital: Theory and Research, Aldine de Gruyter",
+   "type": "chapter",
+   "n": 11,
+   "courses": [
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    17,
+    19,
+    27,
+    28
+   ],
+   "sessions": [
+    "10|8. Week of November 15: Contingency Theory and Resource Dependence",
+    "13|4: February 19: Network Approaches",
+    "13|Further Reading: Network Approaches",
+    "17|Session #10 Structuralist theory & social networks 2",
+    "19|2. Networks I: Theories Relating Brokerage to Success",
+    "27|Session 9: Networks and Organizations",
+    "28|2. Social Networks",
+    "4|Week #10: B. Networking — 1) Strategic Tie Construction",
+    "6|Week 5 (Oct. 16th 2018) – Power (I): Resource dependency and social networks",
+    "7|Week 4 (February 26): Individualism and rational choice",
+    "8|Session 4. Intra-organizational networks: Brokerage and performance",
+    "9|Course Materials: Recommended Books"
+   ],
+   "topic": "networks",
    "how": "session"
   },
   {
@@ -614,6 +655,41 @@
     "6|Week 5 (Oct. 16th 2018) – Power (I): Resource dependency and social networks"
    ],
    "topic": "rdt",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Aldrich, H. E.",
+    "Ruef, M."
+   ],
+   "year": "2006",
+   "title": "Organizations evolving, second edition",
+   "venue": "SAGE Publications",
+   "type": "book",
+   "n": 9,
+   "courses": [
+    2,
+    7,
+    8,
+    9,
+    10,
+    13,
+    17,
+    18,
+    27
+   ],
+   "sessions": [
+    "10|9. Week of November 22: Population Ecology",
+    "13|Further Reading: Organizational Ecology",
+    "17|Session #6 Evolutionary theory",
+    "18|Appendix 1: Management Foundation Books",
+    "27|Recommended Books",
+    "2|Interfaces: Entrepreneurship and Neo-institutional Theory",
+    "7|Week 10 (April 16): Evolutionary Theory",
+    "8|Topics not covered: Evolutionary theory, technology and innovation",
+    "9|Course Materials: Recommended Books"
+   ],
+   "topic": "evolution",
    "how": "session"
   },
   {
@@ -1187,37 +1263,6 @@
   },
   {
    "authors": [
-    "Aldrich, H. E.",
-    "Ruef, M."
-   ],
-   "year": "2006",
-   "title": "Organizations Evolving",
-   "venue": "London: SAGE",
-   "type": "book",
-   "n": 7,
-   "courses": [
-    2,
-    7,
-    8,
-    10,
-    13,
-    18,
-    27
-   ],
-   "sessions": [
-    "10|9. Week of November 22: Population Ecology",
-    "13|Further Reading: Organizational Ecology",
-    "18|Appendix 1: Management Foundation Books",
-    "27|Recommended Books",
-    "2|Interfaces: Entrepreneurship and Neo-institutional Theory",
-    "7|Week 10 (April 16): Evolutionary Theory",
-    "8|Topics not covered: Evolutionary theory, technology and innovation"
-   ],
-   "topic": "ecology",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Carroll, G.",
     "Swaminathan, A."
    ],
@@ -1372,6 +1417,36 @@
   },
   {
    "authors": [
+    "Penrose, E."
+   ],
+   "year": "1959",
+   "title": "Theory of the Growth of the Firm, Chapter V: 'Inherited' Resources and the Direction of Expansion",
+   "venue": "Oxford University Press",
+   "type": "book",
+   "n": 7,
+   "courses": [
+    15,
+    17,
+    18,
+    19,
+    21,
+    25,
+    27
+   ],
+   "sessions": [
+    "15|Books For Your Knowledge",
+    "17|Session #8 Firm boundaries and Transaction Cost Economics",
+    "18|Appendix 1: Management Foundation Books",
+    "19|10. Organizational Capabilities",
+    "21|Week 5 (10/5): The Resource-Based View of the Firm (RBV) and Dynamic Capabilities",
+    "25|4. Resource-Based View of the Firm",
+    "27|Recommended Books"
+   ],
+   "topic": "rbv",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Podolny, J.M."
    ],
    "year": "1993",
@@ -1429,6 +1504,36 @@
     "5|7. Resource Based View I"
    ],
    "topic": "rbv",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Thompson, J. D."
+   ],
+   "year": "1967",
+   "title": "Organizations in Action: Social Science Bases of Administrative Theory",
+   "venue": "New York: McGraw-Hill",
+   "type": "book",
+   "n": 7,
+   "courses": [
+    6,
+    9,
+    10,
+    13,
+    17,
+    27,
+    28
+   ],
+   "sessions": [
+    "10|8. Week of November 15: Contingency Theory and Resource Dependence",
+    "13|2: February 5: Contingency Theory",
+    "17|Session #1 Introduction + Philosophy of science + What is theory?",
+    "27|Session 2: Contingency Theory",
+    "28|1. Early Classics: Contingency Theory & Resource Dependence",
+    "6|Week 4 (Oct. 2nd 2018) - Contingency theory (the first open-system model) and population ecology",
+    "9|Session 5 Contingency Theory"
+   ],
+   "topic": "contingency",
    "how": "session"
   },
   {
@@ -1546,34 +1651,6 @@
     "5|7. Resource Based View I"
    ],
    "topic": "rbv",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Burt, R. S."
-   ],
-   "year": "1992",
-   "title": "Structural Holes: The Social Structure of Competition",
-   "venue": "Cambridge, MA: Harvard University Press",
-   "type": "book",
-   "n": 6,
-   "courses": [
-    6,
-    7,
-    10,
-    13,
-    17,
-    19
-   ],
-   "sessions": [
-    "10|8. Week of November 15: Contingency Theory and Resource Dependence",
-    "13|4: February 19: Network Approaches",
-    "17|Session #10 Structuralist theory & social networks 2",
-    "19|2. Networks I: Theories Relating Brokerage to Success",
-    "6|Week 5 (Oct. 16th 2018) – Power (I): Resource dependency and social networks",
-    "7|Week 4 (February 26): Individualism and rational choice"
-   ],
-   "topic": "networks",
    "how": "session"
   },
   {
@@ -1776,34 +1853,6 @@
     "8|Session 8. Categories and evaluation processes"
    ],
    "topic": "categories",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Penrose, E."
-   ],
-   "year": "1959",
-   "title": "The Theory of the Growth of the Firm",
-   "venue": "Oxford: Oxford University Press",
-   "type": "book",
-   "n": 6,
-   "courses": [
-    15,
-    17,
-    18,
-    19,
-    21,
-    27
-   ],
-   "sessions": [
-    "15|Books For Your Knowledge",
-    "17|Session #8 Firm boundaries and Transaction Cost Economics",
-    "18|Appendix 1: Management Foundation Books",
-    "19|10. Organizational Capabilities",
-    "21|Week 5 (10/5): The Resource-Based View of the Firm (RBV) and Dynamic Capabilities",
-    "27|Recommended Books"
-   ],
-   "topic": "rbv",
    "how": "session"
   },
   {
@@ -2457,32 +2506,6 @@
   },
   {
    "authors": [
-    "Thompson, J. D."
-   ],
-   "year": "1967",
-   "title": "Organizations in Action: Social Science Bases of Administrative Theory",
-   "venue": "New York: McGraw-Hill",
-   "type": "book",
-   "n": 5,
-   "courses": [
-    6,
-    9,
-    10,
-    13,
-    17
-   ],
-   "sessions": [
-    "10|8. Week of November 15: Contingency Theory and Resource Dependence",
-    "13|2: February 5: Contingency Theory",
-    "17|Session #1 Introduction + Philosophy of science + What is theory?",
-    "6|Week 4 (Oct. 2nd 2018) - Contingency theory (the first open-system model) and population ecology",
-    "9|Session 5 Contingency Theory"
-   ],
-   "topic": "contingency",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Thornton, P. H.",
     "Ocasio, W."
    ],
@@ -2741,30 +2764,6 @@
   },
   {
    "authors": [
-    "Burt, R. S."
-   ],
-   "year": "2004",
-   "title": "Structural Holes and Good Ideas",
-   "venue": "American Journal of Sociology",
-   "type": "article",
-   "n": 4,
-   "courses": [
-    8,
-    13,
-    17,
-    28
-   ],
-   "sessions": [
-    "13|Further Reading: Network Approaches",
-    "17|Session #10 Structuralist theory & social networks 2",
-    "28|2. Social Networks",
-    "8|Session 4. Intra-organizational networks: Brokerage and performance"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Darr, E.D.",
     "Argote, L.",
     "Epple, D."
@@ -2837,6 +2836,31 @@
     "10|4. Week of October 18: The Modern Corporation and Power",
     "13|Further Reading: Institutional Theory",
     "8|Session 6. Institutional logics and institutional entrepreneurship",
+    "9|Session 7 \"New\" Institutional Theory"
+   ],
+   "topic": "institutional",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "DiMaggio, P. J.",
+    "Powell, W. W."
+   ],
+   "year": "1991",
+   "title": "Introduction to the New Institutionalism",
+   "venue": "Pp. 1-38 in The New Institutionalism in Organizational Analysis, edited by W. W. Powell and P. J. DiMaggio. Chicago: University of Chicago Press",
+   "type": "chapter",
+   "n": 4,
+   "courses": [
+    2,
+    9,
+    13,
+    29
+   ],
+   "sessions": [
+    "13|Further Reading: Institutional Theory",
+    "29|Session 10 (Mar. 20) – Institutional Theory I",
+    "2|Key Concepts and Themes",
     "9|Session 7 \"New\" Institutional Theory"
    ],
    "topic": "institutional",
@@ -3167,6 +3191,30 @@
   },
   {
    "authors": [
+    "Perrow, C."
+   ],
+   "year": "1986",
+   "title": "Complex Organizations: A Critical Essay",
+   "venue": "New York: McGraw-Hill",
+   "type": "book",
+   "n": 4,
+   "courses": [
+    2,
+    6,
+    9,
+    27
+   ],
+   "sessions": [
+    "27|Recommended Books",
+    "2|Key Concepts and Themes: Critiques and Challenges",
+    "6|Week 1 (Sept. 11th 2018) - Introduction and overview: Rational models",
+    "9|Course Materials: Recommended Books"
+   ],
+   "topic": "institutional",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Pfeffer, J."
    ],
    "year": "1997",
@@ -3338,6 +3386,31 @@
     "9|Session 14 Categories and Categorization"
    ],
    "topic": "categories",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Roethlisberger, F. J.",
+    "Dickson, W. J."
+   ],
+   "year": "1939",
+   "title": "Management and the Worker (Chapters 1, 17, 21, 22, 23, 24)",
+   "venue": "Cambridge, MA: Harvard University Press",
+   "type": "book",
+   "n": 4,
+   "courses": [
+    6,
+    9,
+    10,
+    29
+   ],
+   "sessions": [
+    "10|6. Week of November 1: Human Relations and Theory Z: Natural System Redux",
+    "29|Session 3 (Jan. 24) – Classical Management Theory",
+    "6|Week 2 (Sept. 18th 2018) - Natural models of organizing",
+    "9|Session 3 Natural System Approaches"
+   ],
+   "topic": "classics",
    "how": "session"
   },
   {
@@ -3593,6 +3666,28 @@
   },
   {
    "authors": [
+    "Abbott, A."
+   ],
+   "year": "1988",
+   "title": "The System of Professions: An Essay on the Division of Expert Labor",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "n": 3,
+   "courses": [
+    6,
+    8,
+    19
+   ],
+   "sessions": [
+    "19|4. Models of Competition I: Ecological",
+    "6|Week 11 (Nov. 27th 2018) - Selected topics: Professions and Occupations",
+    "8|Topics not covered: Professions"
+   ],
+   "topic": "work",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Adler, P.",
     "Borys, B."
    ],
@@ -3729,6 +3824,29 @@
   },
   {
    "authors": [
+    "Baum, J. A.",
+    "Rowley, T. J."
+   ],
+   "year": "2002",
+   "title": "Companion to organizations: An introduction",
+   "venue": "The Blackwell companion to organizations",
+   "type": "chapter",
+   "n": 3,
+   "courses": [
+    9,
+    17,
+    29
+   ],
+   "sessions": [
+    "17|Session #1 Introduction + Philosophy of science + What is theory?",
+    "29|Session 1 (Jan. 10) – Introduction to the Course",
+    "9|Course Materials: Recommended Books"
+   ],
+   "topic": "theory",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Baum, J. A. C.",
     "Singh, J. V."
    ],
@@ -3821,28 +3939,6 @@
   },
   {
    "authors": [
-    "Burt, R."
-   ],
-   "year": "",
-   "title": "Structural Holes",
-   "venue": "Intro, Chapter 1",
-   "type": "book",
-   "n": 3,
-   "courses": [
-    4,
-    9,
-    27
-   ],
-   "sessions": [
-    "27|Session 9: Networks and Organizations",
-    "4|Week #10: B. Networking — 1) Strategic Tie Construction",
-    "9|Course Materials: Recommended Books"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Burton, M. D.",
     "Sørensen, J. B.",
     "Beckman, C. M."
@@ -3908,6 +4004,28 @@
     "27|Session 10: Additional Foundation Theories of Strategy I"
    ],
    "topic": "stratecon",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Chandler, A.D., Jr."
+   ],
+   "year": "1962",
+   "title": "Strategy and Structure: Chapters in the History of the American Industrial Enterprise",
+   "venue": "Cambridge: MIT Press",
+   "type": "book",
+   "n": 3,
+   "courses": [
+    10,
+    18,
+    28
+   ],
+   "sessions": [
+    "10|3. Week of October 4: The Modern Corporation and Rationalization",
+    "18|Appendix 1: Management Foundation Books",
+    "28|1. Early Classics: Contingency Theory & Resource Dependence"
+   ],
+   "topic": "classics",
    "how": "session"
   },
   {
@@ -4096,29 +4214,6 @@
   },
   {
    "authors": [
-    "DiMaggio, P. J.",
-    "Powell, W. W."
-   ],
-   "year": "1991",
-   "title": "Introduction",
-   "venue": "The New Institutionalism in Organizational Analysis. Edited by Walter W. Powell and Paul J. DiMaggio, 1–40. Chicago: University of Chicago Press",
-   "type": "chapter",
-   "n": 3,
-   "courses": [
-    2,
-    9,
-    29
-   ],
-   "sessions": [
-    "29|Session 10 (Mar. 20) – Institutional Theory I",
-    "2|Key Concepts and Themes",
-    "9|Session 7 \"New\" Institutional Theory"
-   ],
-   "topic": "institutional",
-   "how": "session"
-  },
-  {
-   "authors": [
     "DiMaggio, P. J."
    ],
    "year": "1988",
@@ -4204,6 +4299,28 @@
     "3|Week 2: Culture in Organizations, Communities and Networks"
    ],
    "topic": "institutional",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Douglas, M."
+   ],
+   "year": "1966",
+   "title": "Purity and Danger: An Analysis of the Concepts of Pollution and Taboo",
+   "venue": "London: Routledge & Kegan Paul, pp. 94-128",
+   "type": "book",
+   "n": 3,
+   "courses": [
+    3,
+    7,
+    19
+   ],
+   "sessions": [
+    "19|6. Models of Competition III: Role and Category-based",
+    "3|Week 2: Culture in Organizations, Communities and Networks",
+    "7|Week 7 (March 26): Bourdieu and Douglas"
+   ],
+   "topic": "categories",
    "how": "session"
   },
   {
@@ -4901,6 +5018,29 @@
   },
   {
    "authors": [
+    "Lawrence, P.D.",
+    "Lorsch, J.W."
+   ],
+   "year": "1967",
+   "title": "Organization and Environment: Managing Differentiation and Integration",
+   "venue": "Boston: Harvard Business School Press. Chapter 8, pages 185-210",
+   "type": "book",
+   "n": 3,
+   "courses": [
+    9,
+    10,
+    13
+   ],
+   "sessions": [
+    "10|8. Week of November 15: Contingency Theory and Resource Dependence",
+    "13|Further Reading: Resource Dependence",
+    "9|Session 5 Contingency Theory"
+   ],
+   "topic": "rdt",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Leblebici, H.",
     "Salancik, G. R.",
     "Copay, A.",
@@ -5287,29 +5427,6 @@
     "25|9. Social and Cognitive Processes"
    ],
    "topic": "stratproc",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Roethlisberger, F. J.",
-    "Dickson, W. J."
-   ],
-   "year": "1939",
-   "title": "Management and the Worker",
-   "venue": "Cambridge: Harvard University Press (via online exhibit on the Human Relations Movement)",
-   "type": "book",
-   "n": 3,
-   "courses": [
-    6,
-    10,
-    29
-   ],
-   "sessions": [
-    "10|6. Week of November 1: Human Relations and Theory Z: Natural System Redux",
-    "29|Session 3 (Jan. 24) – Classical Management Theory",
-    "6|Week 2 (Sept. 18th 2018) - Natural models of organizing"
-   ],
-   "topic": "classics",
    "how": "session"
   },
   {
@@ -5842,6 +5959,28 @@
   },
   {
    "authors": [
+    "Weber, M."
+   ],
+   "year": "1978",
+   "title": "Economy and Society: An Outline of Interpretive Sociology",
+   "venue": "Berkeley: University of California Press",
+   "type": "book",
+   "n": 3,
+   "courses": [
+    2,
+    9,
+    10
+   ],
+   "sessions": [
+    "10|1. Week of September 20: The Division of Labor and Rationalization",
+    "2|Key Concepts and Themes",
+    "9|Session 2 Rational System Approaches"
+   ],
+   "topic": "classics",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Westphal, J.D.",
     "Zajac, E.J."
    ],
@@ -5883,6 +6022,50 @@
     "5|2. What is Theory and Theoretical Contribution?"
    ],
    "topic": "theory",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "White, H.C."
+   ],
+   "year": "1992",
+   "title": "Identity and Control: A Structural Theory of Social Action",
+   "venue": "Princeton: Princeton Univ. Press",
+   "type": "book",
+   "n": 3,
+   "courses": [
+    3,
+    4,
+    7
+   ],
+   "sessions": [
+    "3|Week 6: Taking Stock -- Programs and Prescriptions",
+    "4|Required Books",
+    "7|Week 12 (April 30): Society as a Complex System"
+   ],
+   "topic": "culture",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Williamson, O. E."
+   ],
+   "year": "1975",
+   "title": "Markets and Hierarchies: Analysis and Anti-Trust Implications (especially chapters 1, 2, 5-8)",
+   "venue": "New York: Free Press",
+   "type": "book",
+   "n": 3,
+   "courses": [
+    8,
+    17,
+    18
+   ],
+   "sessions": [
+    "17|Session #8 Firm boundaries and Transaction Cost Economics",
+    "18|Appendix 1: Management Foundation Books",
+    "8|Topics not covered: Boundaries of the firm and TCE"
+   ],
+   "topic": "orgecon",
    "how": "session"
   },
   {
@@ -6002,26 +6185,6 @@
   },
   {
    "authors": [
-    "Abbott, A."
-   ],
-   "year": "1988",
-   "title": "The System of Professions: An Essay on the Division of Expert Labor",
-   "venue": "Chicago: University of Chicago Press",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    6,
-    8
-   ],
-   "sessions": [
-    "6|Week 11 (Nov. 27th 2018) - Selected topics: Professions and Occupations",
-    "8|Topics not covered: Professions"
-   ],
-   "topic": "work",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Abolafia, M.",
     "Kilduff, M."
    ],
@@ -6122,27 +6285,6 @@
    "sessions": [
     "12|Additional (Optional): Spillovers, Agglomeration, and Technology Transfer",
     "25|8. Innovation Processes"
-   ],
-   "topic": "evolution",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Aldrich, H. E.",
-    "Ruef, M."
-   ],
-   "year": "2006",
-   "title": "Organizations evolving, second edition",
-   "venue": "SAGE Publications",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    9,
-    17
-   ],
-   "sessions": [
-    "17|Session #6 Evolutionary theory",
-    "9|Course Materials: Recommended Books"
    ],
    "topic": "evolution",
    "how": "session"
@@ -6781,27 +6923,6 @@
   },
   {
    "authors": [
-    "Baum, J. A.",
-    "Rowley, T. J."
-   ],
-   "year": "2002",
-   "title": "Companion to organizations: An introduction",
-   "venue": "The Blackwell companion to organizations",
-   "type": "chapter",
-   "n": 2,
-   "courses": [
-    17,
-    29
-   ],
-   "sessions": [
-    "17|Session #1 Introduction + Philosophy of science + What is theory?",
-    "29|Session 1 (Jan. 10) – Introduction to the Course"
-   ],
-   "topic": "theory",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Baum, J.A.C.",
     "Haveman, H.A."
    ],
@@ -6819,6 +6940,48 @@
     "8|Topics not covered: Entrepreneurship and organizational founding"
    ],
    "topic": "entre",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Bearman, P. S.",
+    "Moody, J.",
+    "Stovel, K."
+   ],
+   "year": "2004",
+   "title": "Chains of Affection: The Structure of Adolescent Romantic and Sexual Networks",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "n": 2,
+   "courses": [
+    0,
+    4
+   ],
+   "sessions": [
+    "0|I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+    "4|Week #6: B. Properties of Networks — 1) Connectedness and Span"
+   ],
+   "topic": "networks",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Bendix, R."
+   ],
+   "year": "1956",
+   "title": "Work and Authority in Industry: Ideologies of Management in the Course of Industrialization",
+   "venue": "Berkeley: University of California Press",
+   "type": "book",
+   "n": 2,
+   "courses": [
+    8,
+    10
+   ],
+   "sessions": [
+    "10|7. Week of November 8: National Institutions and the Corporation",
+    "8|Topics not covered: Jobs and Careers"
+   ],
+   "topic": "institutional",
    "how": "session"
   },
   {
@@ -7030,6 +7193,26 @@
     "9|Session 12 - Status, Reputation and Celebrity"
    ],
    "topic": "status",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Braverman, H."
+   ],
+   "year": "1974",
+   "title": "Labor and monopoly capital; the degradation of work in the twentieth century",
+   "venue": "New York: Monthly Review Press",
+   "type": "book",
+   "n": 2,
+   "courses": [
+    6,
+    10
+   ],
+   "sessions": [
+    "10|2. Week of September 27: The Division of Labor and Control",
+    "6|Week 6 (Oct. 23rd 2018) - Power relations (II): Conflict, control, and critical theory"
+   ],
+   "topic": "classics",
    "how": "session"
   },
   {
@@ -7407,26 +7590,6 @@
     "18|Appendix 1: Management Foundation Books"
    ],
    "topic": "international",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Chandler, A.D., Jr."
-   ],
-   "year": "1962",
-   "title": "Strategy and Structure: Chapters in the History of the American Industrial Enterprise",
-   "venue": "Cambridge: MIT Press",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    10,
-    28
-   ],
-   "sessions": [
-    "10|3. Week of October 4: The Modern Corporation and Rationalization",
-    "28|1. Early Classics: Contingency Theory & Resource Dependence"
-   ],
-   "topic": "classics",
    "how": "session"
   },
   {
@@ -8093,26 +8256,6 @@
     "7|Week 7 (March 26): Bourdieu and Douglas"
    ],
    "topic": "culture",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Douglas, M."
-   ],
-   "year": "1966",
-   "title": "Purity and Danger: An Analysis of the Concepts of Pollution and Taboo",
-   "venue": "London: Routledge & Kegan Paul, pp. 94-128",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    7,
-    19
-   ],
-   "sessions": [
-    "19|6. Models of Competition III: Role and Category-based",
-    "7|Week 7 (March 26): Bourdieu and Douglas"
-   ],
-   "topic": "categories",
    "how": "session"
   },
   {
@@ -9389,6 +9532,26 @@
   },
   {
    "authors": [
+    "Hofstede, G."
+   ],
+   "year": "1980",
+   "title": "Culture's Consequences: International Differences in Work Values",
+   "venue": "Beverly Hills: Sage",
+   "type": "book",
+   "n": 2,
+   "courses": [
+    10,
+    18
+   ],
+   "sessions": [
+    "10|7. Week of November 8: National Institutions and the Corporation",
+    "18|Appendix 1: Management Foundation Books"
+   ],
+   "topic": "institutional",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Holmström, B.",
     "Roberts, J."
    ],
@@ -9910,23 +10073,22 @@
   },
   {
    "authors": [
-    "Lawrence, P.D.",
-    "Lorsch, J.W."
+    "Lamont, M."
    ],
-   "year": "1967",
-   "title": "Organization and Environment: Managing Differentiation and Integration",
-   "venue": "Boston: Harvard Business School Press. Chapter 8, pages 185-210",
+   "year": "1992",
+   "title": "Money, Morals, and Manners: The Culture of the French and the American Upper-Middle Class",
+   "venue": "Chicago: University of Chicago Press",
    "type": "book",
    "n": 2,
    "courses": [
-    10,
-    13
+    3,
+    4
    ],
    "sessions": [
-    "10|8. Week of November 15: Contingency Theory and Resource Dependence",
-    "13|Further Reading: Resource Dependence"
+    "3|Week 5: The Macro-Sociology of Culture",
+    "4|Week #14: C. Networks and Culture — 2) Culture in Networks: Boundaries and Niches"
    ],
-   "topic": "rdt",
+   "topic": "culture",
    "how": "session"
   },
   {
@@ -11106,46 +11268,6 @@
   },
   {
    "authors": [
-    "Perrow"
-   ],
-   "year": "1986",
-   "title": "Complex Organizations",
-   "venue": "",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    9,
-    27
-   ],
-   "sessions": [
-    "27|Recommended Books",
-    "9|Course Materials: Recommended Books"
-   ],
-   "topic": "classics",
-   "how": "keyword"
-  },
-  {
-   "authors": [
-    "Perrow, C."
-   ],
-   "year": "1986",
-   "title": "Complex Organizations: A Critical Essay",
-   "venue": "New York: McGraw-Hill",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    2,
-    6
-   ],
-   "sessions": [
-    "2|Key Concepts and Themes: Critiques and Challenges",
-    "6|Week 1 (Sept. 11th 2018) - Introduction and overview: Rational models"
-   ],
-   "topic": "institutional",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Peterson, R.A.",
     "Berger, D."
    ],
@@ -11270,6 +11392,26 @@
   },
   {
    "authors": [
+    "Podolny, J. P."
+   ],
+   "year": "2005",
+   "title": "Status Signals: A Sociological Study of Market Competition (Chapters 1, 2, 3)",
+   "venue": "Princeton University Press",
+   "type": "book",
+   "n": 2,
+   "courses": [
+    8,
+    27
+   ],
+   "sessions": [
+    "27|Recommended Books",
+    "8|Session 3. Competing for status: Foundations"
+   ],
+   "topic": "status",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Podolny, J.M.",
     "Stuart, T.E."
    ],
@@ -11287,6 +11429,26 @@
     "19|4. Models of Competition I: Ecological"
    ],
    "topic": "ecology",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Polanyi, K."
+   ],
+   "year": "1944",
+   "title": "The Great Transformation",
+   "venue": "New York, NY: Farrar & Rinehart",
+   "type": "book",
+   "n": 2,
+   "courses": [
+    17,
+    19
+   ],
+   "sessions": [
+    "17|Session #9 Structuralist theory & social networks 1",
+    "19|3. Networks II: Networks as Competitive Advantage"
+   ],
+   "topic": "networks",
    "how": "session"
   },
   {
@@ -12149,12 +12311,12 @@
    "type": "book",
    "n": 2,
    "courses": [
-    18,
-    24
+    9,
+    18
    ],
    "sessions": [
     "18|Required texts",
-    "24|Recommended books"
+    "9|Course Materials: Recommended Books"
    ],
    "topic": "theory",
    "how": "keyword"
@@ -12389,26 +12551,6 @@
   },
   {
    "authors": [
-    "Thompson, J. D."
-   ],
-   "year": "1967",
-   "title": "Organizations in Action",
-   "venue": "McGraw-Hill",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    27,
-    28
-   ],
-   "sessions": [
-    "27|Session 2: Contingency Theory",
-    "28|1. Early Classics: Contingency Theory & Resource Dependence"
-   ],
-   "topic": "contingency",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Tripsas, M."
    ],
    "year": "2009",
@@ -12619,6 +12761,47 @@
   },
   {
    "authors": [
+    "Wasserman, S.",
+    "Faust, K."
+   ],
+   "year": "1994",
+   "title": "Social Network Analysis: Methods and Applications",
+   "venue": "Cambridge, UK: Cambridge University Press",
+   "type": "book",
+   "n": 2,
+   "courses": [
+    2,
+    4
+   ],
+   "sessions": [
+    "2|Interfaces: Networks and Neo-institutional Theory",
+    "4|Required Books"
+   ],
+   "topic": "institutional",
+   "how": "session"
+  },
+  {
+   "authors": [
+    "Watts, D. J."
+   ],
+   "year": "1999",
+   "title": "Small worlds: The dynamics of networks between order and randomness",
+   "venue": "Princeton University Press",
+   "type": "book",
+   "n": 2,
+   "courses": [
+    0,
+    4
+   ],
+   "sessions": [
+    "0|III. Network Formation: Random networks",
+    "4|Week #9: A. Friendship and Acquaintance — 2) The Idea of Small Worlds"
+   ],
+   "topic": "networks",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Watts, D. J."
    ],
    "year": "1999",
@@ -12635,26 +12818,6 @@
     "7|Week 12 (April 30): Society as a Complex System"
    ],
    "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Weber, M."
-   ],
-   "year": "1978",
-   "title": "Economy and Society",
-   "venue": "pp. 212-254, 956-975",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    9,
-    10
-   ],
-   "sessions": [
-    "10|1. Week of September 20: The Division of Labor and Rationalization",
-    "9|Session 2 Rational System Approaches"
-   ],
-   "topic": "classics",
    "how": "session"
   },
   {
@@ -12740,26 +12903,6 @@
   },
   {
    "authors": [
-    "White, H.C."
-   ],
-   "year": "1992",
-   "title": "Identity and Control: A Structural Theory of Social Action",
-   "venue": "Princeton: Princeton Univ. Press",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    3,
-    7
-   ],
-   "sessions": [
-    "3|Week 6: Taking Stock -- Programs and Prescriptions",
-    "7|Week 12 (April 30): Society as a Complex System"
-   ],
-   "topic": "culture",
-   "how": "session"
-  },
-  {
-   "authors": [
     "White, H.C.",
     "Boorman, S.A.",
     "Breiger, R.L."
@@ -12803,6 +12946,26 @@
   },
   {
    "authors": [
+    "Williamson, O."
+   ],
+   "year": "1985",
+   "title": "Contractual man (Chp 2) and The governance of contractual relations (Chp 3)",
+   "venue": "The Economic Institutions of Capitalism. New York: Free Press",
+   "type": "chapter",
+   "n": 2,
+   "courses": [
+    1,
+    16
+   ],
+   "sessions": [
+    "16|S2. Transaction cost economics (TCE)",
+    "1|10. Questions of Markets and Hierarchies (11/6)"
+   ],
+   "topic": "orgecon",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Williamson, O. E."
    ],
    "year": "1979",
@@ -12837,26 +13000,6 @@
    "sessions": [
     "14|WEEK 4 September 11 (NJ): Property Rights Theory & Transaction Cost Economics",
     "25|6. Market Competition"
-   ],
-   "topic": "orgecon",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Williamson, O. E."
-   ],
-   "year": "1975",
-   "title": "Markets and hierarchies",
-   "venue": "New York",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    17,
-    18
-   ],
-   "sessions": [
-    "17|Session #8 Firm boundaries and Transaction Cost Economics",
-    "18|Appendix 1: Management Foundation Books"
    ],
    "topic": "orgecon",
    "how": "session"
@@ -13374,24 +13517,6 @@
     "10|13. Week of December 20: Networks"
    ],
    "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Abbott, A."
-   ],
-   "year": "1988",
-   "title": "The System of Professions",
-   "venue": "Chicago, IL: University of Chicago Press, Chapters 1-4",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    19
-   ],
-   "sessions": [
-    "19|4. Models of Competition I: Ecological"
-   ],
-   "topic": "ecology",
    "how": "session"
   },
   {
@@ -17370,24 +17495,6 @@
   },
   {
    "authors": [
-    "Baum"
-   ],
-   "year": "2002",
-   "title": "Companion to Organizations",
-   "venue": "",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    9
-   ],
-   "sessions": [
-    "9|Course Materials: Recommended Books"
-   ],
-   "topic": "classics",
-   "how": "keyword"
-  },
-  {
-   "authors": [
     "Baum, J. A.",
     "Rowley, T. J.",
     "Shipilov, A. V.",
@@ -17654,46 +17761,6 @@
    ],
    "topic": "networks",
    "how": "session"
-  },
-  {
-   "authors": [
-    "Bearman, P.",
-    "Stovel, K.",
-    "Moody, J."
-   ],
-   "year": "",
-   "title": "Chains of Affection",
-   "venue": "",
-   "type": "article",
-   "n": 1,
-   "courses": [
-    4
-   ],
-   "sessions": [
-    "4|Week #6: B. Properties of Networks — 1) Connectedness and Span"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Bearman, P. S.",
-    "Moody, J.",
-    "Stovel, K."
-   ],
-   "year": "2004",
-   "title": "Chains of Affection: The Structure of Adolescent Romantic and Sexual Networks",
-   "venue": "American Journal of Sociology",
-   "type": "article",
-   "n": 1,
-   "courses": [
-    0
-   ],
-   "sessions": [
-    "0|I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements"
-   ],
-   "topic": "networks",
-   "how": "keyword"
   },
   {
    "authors": [
@@ -18048,42 +18115,6 @@
     "6|Course Requirements: Final paper resources"
    ],
    "topic": "profession",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Bendix, R."
-   ],
-   "year": "1956",
-   "title": "Work and Authority in Industry: Ideologies of Management in the Course of Industrialization",
-   "venue": "Berkeley: University of California Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    8
-   ],
-   "sessions": [
-    "8|Topics not covered: Jobs and Careers"
-   ],
-   "topic": "work",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Bendix, R."
-   ],
-   "year": "1956",
-   "title": "Work and Authority in Industry",
-   "venue": "New York: John Wiley and Sons. Pages 1-46 and 254-281",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    10
-   ],
-   "sessions": [
-    "10|7. Week of November 8: National Institutions and the Corporation"
-   ],
-   "topic": "institutional",
    "how": "session"
   },
   {
@@ -20529,42 +20560,6 @@
   },
   {
    "authors": [
-    "Braverman, H."
-   ],
-   "year": "1974",
-   "title": "Labor and monopoly capital; the degradation of work in the twentieth century",
-   "venue": "New York: Monthly Review Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    6
-   ],
-   "sessions": [
-    "6|Week 6 (Oct. 23rd 2018) - Power relations (II): Conflict, control, and critical theory"
-   ],
-   "topic": "movements",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Braverman, H."
-   ],
-   "year": "1974",
-   "title": "Labor and Monopoly Capital",
-   "venue": "New York: Monthly Review Press. Chapters 5 and 6, pages 124-152",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    10
-   ],
-   "sessions": [
-    "10|2. Week of September 27: The Division of Labor and Control"
-   ],
-   "topic": "classics",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Breiger, R.",
     "Boorman, S.",
     "Arabie, P."
@@ -21643,24 +21638,6 @@
    "year": "1983",
    "title": "Range",
    "venue": "In R.S. Burt & M.J. Minor (eds.), Applied Network Analysis",
-   "type": "chapter",
-   "n": 1,
-   "courses": [
-    19
-   ],
-   "sessions": [
-    "19|2. Networks I: Theories Relating Brokerage to Success"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Burt, R.S."
-   ],
-   "year": "2001",
-   "title": "Structural Holes vs. Network Closure as Social Capital",
-   "venue": "In N. Lin, K.S. Cook & R.S. Burt (eds.), Social Capital: Theory and Research, Aldine de Gruyter",
    "type": "chapter",
    "n": 1,
    "courses": [
@@ -23040,24 +23017,6 @@
    ],
    "topic": "stratecon",
    "how": "session"
-  },
-  {
-   "authors": [
-    "Chandler, A."
-   ],
-   "year": "1962",
-   "title": "Strategy and structure",
-   "venue": "Cambridge, MA: MIT Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    18
-   ],
-   "sessions": [
-    "18|Appendix 1: Management Foundation Books"
-   ],
-   "topic": "stratecon",
-   "how": "keyword"
   },
   {
    "authors": [
@@ -26072,25 +26031,6 @@
   },
   {
    "authors": [
-    "DiMaggio",
-    "Powell"
-   ],
-   "year": "1983",
-   "title": "The Iron Cage Revisited",
-   "venue": "American Sociological Review",
-   "type": "article",
-   "n": 1,
-   "courses": [
-    9
-   ],
-   "sessions": [
-    "9|Session 7 \"New\" Institutional Theory"
-   ],
-   "topic": "institutional",
-   "how": "session"
-  },
-  {
-   "authors": [
     "DiMaggio, P.",
     "Mohr, J."
    ],
@@ -26216,25 +26156,6 @@
     "2|Key Concepts and Themes: Institutional Entrepreneurship"
    ],
    "topic": "entre",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "DiMaggio, P. J.",
-    "Powell, W. W."
-   ],
-   "year": "1991",
-   "title": "Introduction to the New Institutionalism",
-   "venue": "Pp. 1-38 in The New Institutionalism in Organizational Analysis, edited by W. W. Powell and P. J. DiMaggio. Chicago: University of Chicago Press",
-   "type": "chapter",
-   "n": 1,
-   "courses": [
-    13
-   ],
-   "sessions": [
-    "13|Further Reading: Institutional Theory"
-   ],
-   "topic": "institutional",
    "how": "session"
   },
   {
@@ -26923,24 +26844,6 @@
     "22|5) Creativity in Organizations – Management of Innovation (March 6, 2013)"
    ],
    "topic": "evolution",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Douglas, M."
-   ],
-   "year": "1966",
-   "title": "Purity and Danger",
-   "venue": "London: Routledge and Kegan Paul",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    3
-   ],
-   "sessions": [
-    "3|Week 2: Culture in Organizations, Communities and Networks"
-   ],
-   "topic": "networks",
    "how": "session"
   },
   {
@@ -37462,42 +37365,6 @@
   },
   {
    "authors": [
-    "Hofstede, G."
-   ],
-   "year": "1980",
-   "title": "Culture's Consequences: International Differences in Work Values",
-   "venue": "Beverly Hills: Sage",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    10
-   ],
-   "sessions": [
-    "10|7. Week of November 8: National Institutions and the Corporation"
-   ],
-   "topic": "institutional",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Hofstede, G."
-   ],
-   "year": "1980",
-   "title": "Culture's consequences",
-   "venue": "Thousand Oaks, CA: Sage",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    18
-   ],
-   "sessions": [
-    "18|Appendix 1: Management Foundation Books"
-   ],
-   "topic": "culture",
-   "how": "keyword"
-  },
-  {
-   "authors": [
     "Holland, P.",
     "Leinhardt, S."
    ],
@@ -41651,42 +41518,6 @@
    "authors": [
     "Lamont, M."
    ],
-   "year": "1992",
-   "title": "Money, Morals, and Manners: The Culture of the French and the American Upper-Middle Class",
-   "venue": "Chicago: University of Chicago Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    3
-   ],
-   "sessions": [
-    "3|Week 5: The Macro-Sociology of Culture"
-   ],
-   "topic": "culture",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Lamont, M."
-   ],
-   "year": "",
-   "title": "Money, Morals and Manners",
-   "venue": "",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    4
-   ],
-   "sessions": [
-    "4|Week #14: C. Networks and Culture — 2) Culture in Networks: Boundaries and Niches"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Lamont, M."
-   ],
    "year": "1987",
    "title": "How to Become a Dominant French Philosopher: The Case of Jacques Derrida",
    "venue": "American Journal of Sociology",
@@ -42112,25 +41943,6 @@
     "8|Topics not covered: Organizational Demography"
    ],
    "topic": "ecology",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Lawrence, P. R.",
-    "Lorsch, J. W."
-   ],
-   "year": "1967",
-   "title": "Organization and environment",
-   "venue": "Boston, MA: Harvard Business School",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    9
-   ],
-   "sessions": [
-    "9|Session 5 Contingency Theory"
-   ],
-   "topic": "contingency",
    "how": "session"
   },
   {
@@ -50052,24 +49864,6 @@
   },
   {
    "authors": [
-    "Penrose, E."
-   ],
-   "year": "1959",
-   "title": "Theory of the Growth of the Firm, Chapter V: 'Inherited' Resources and the Direction of Expansion",
-   "venue": "Oxford University Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    25
-   ],
-   "sessions": [
-    "25|4. Resource-Based View of the Firm"
-   ],
-   "topic": "rbv",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Penrose, M."
    ],
    "year": "2003",
@@ -50962,24 +50756,6 @@
   },
   {
    "authors": [
-    "Podolny"
-   ],
-   "year": "2005",
-   "title": "Status Signals",
-   "venue": "",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    27
-   ],
-   "sessions": [
-    "27|Recommended Books"
-   ],
-   "topic": "status",
-   "how": "keyword"
-  },
-  {
-   "authors": [
     "Podolny, J. M.",
     "Page, K. L."
    ],
@@ -51013,24 +50789,6 @@
     "17|Session #9 Structuralist theory & social networks 1"
    ],
    "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Podolny, J. P."
-   ],
-   "year": "2005",
-   "title": "Status Signals: A Sociological Study of Market Competition (Chapters 1, 2, 3)",
-   "venue": "Princeton University Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    8
-   ],
-   "sessions": [
-    "8|Session 3. Competing for status: Foundations"
-   ],
-   "topic": "status",
    "how": "session"
   },
   {
@@ -51096,24 +50854,6 @@
    "authors": [
     "Polanyi, K."
    ],
-   "year": "1944",
-   "title": "The great transformation: Economic and political origins of our time",
-   "venue": "",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    17
-   ],
-   "sessions": [
-    "17|Session #9 Structuralist theory & social networks 1"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Polanyi, K."
-   ],
    "year": "1957",
    "title": "The economy as instituted process",
    "venue": "Trade and market in the early empires",
@@ -51124,24 +50864,6 @@
    ],
    "sessions": [
     "17|Session #9 Structuralist theory & social networks 1"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Polanyi, K."
-   ],
-   "year": "1944",
-   "title": "The Great Transformation",
-   "venue": "New York, NY: Farrar & Rinehart",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    19
-   ],
-   "sessions": [
-    "19|3. Networks II: Networks as Competitive Advantage"
    ],
    "topic": "networks",
    "how": "session"
@@ -53558,25 +53280,6 @@
    "topic": "international",
    "how": "session",
    "drop": true
-  },
-  {
-   "authors": [
-    "Roethlisberger, F. J.",
-    "Dickson, W. J."
-   ],
-   "year": "1939",
-   "title": "Management and the Worker (Chapters 1, 17, 21, 22, 23, 24)",
-   "venue": "Cambridge, MA: Harvard University Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    9
-   ],
-   "sessions": [
-    "9|Session 3 Natural System Approaches"
-   ],
-   "topic": "classics",
-   "how": "session"
   },
   {
    "authors": [
@@ -56618,25 +56321,6 @@
   },
   {
    "authors": [
-    "Smith",
-    "Hitt"
-   ],
-   "year": "2005",
-   "title": "Great Minds in Management",
-   "venue": "",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    9
-   ],
-   "sessions": [
-    "9|Course Materials: Recommended Books"
-   ],
-   "topic": "theory",
-   "how": "keyword"
-  },
-  {
-   "authors": [
     "Smith, A."
    ],
    "year": "1970 [1776]",
@@ -56826,6 +56510,25 @@
    ],
    "topic": "evolution",
    "how": "session"
+  },
+  {
+   "authors": [
+    "Smith, K. G.",
+    "Hitt, M. A."
+   ],
+   "year": "2007",
+   "title": "Great Minds in Management: The Process of Theory Development",
+   "venue": "Oxford University Press (eds.)",
+   "type": "book",
+   "n": 1,
+   "courses": [
+    24
+   ],
+   "sessions": [
+    "24|Recommended books"
+   ],
+   "topic": "classics",
+   "how": "keyword"
   },
   {
    "authors": [
@@ -60626,44 +60329,6 @@
   {
    "authors": [
     "Wasserman, S.",
-    "Faust, K."
-   ],
-   "year": "1994",
-   "title": "Social Network Analysis: Methods and Applications",
-   "venue": "Cambridge, UK: Cambridge University Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    2
-   ],
-   "sessions": [
-    "2|Interfaces: Networks and Neo-institutional Theory"
-   ],
-   "topic": "institutional",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Wasserman, S.",
-    "Faust, K."
-   ],
-   "year": "",
-   "title": "Social Network Analysis",
-   "venue": "",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    4
-   ],
-   "sessions": [
-    "4|Required Books"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Wasserman, S.",
     "Iacobucci, D."
    ],
    "year": "1986",
@@ -60800,24 +60465,6 @@
   },
   {
    "authors": [
-    "Watts, D."
-   ],
-   "year": "",
-   "title": "Small Worlds",
-   "venue": "",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    4
-   ],
-   "sessions": [
-    "4|Week #9: A. Friendship and Acquaintance — 2) The Idea of Small Worlds"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Watts, D. J.",
     "Strogatz, S. H."
    ],
@@ -60825,25 +60472,6 @@
    "title": "Collective dynamics of small-world networks",
    "venue": "Nature",
    "type": "article",
-   "n": 1,
-   "courses": [
-    0
-   ],
-   "sessions": [
-    "0|III. Network Formation: Random networks"
-   ],
-   "topic": "networks",
-   "how": "session",
-   "drop": true
-  },
-  {
-   "authors": [
-    "Watts, D. J."
-   ],
-   "year": "1999",
-   "title": "Small worlds: The dynamics of networks between order and randomness",
-   "venue": "Princeton University Press",
-   "type": "book",
    "n": 1,
    "courses": [
     0
@@ -60931,24 +60559,6 @@
     "14|WEEK 6 September 25 (Kyle Mayer & NJ): Cognition in Contracting and Interfirm Relationships"
    ],
    "topic": "culture",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Weber, M."
-   ],
-   "year": "1978",
-   "title": "Economy and Society: An Outline of Interpretive Sociology",
-   "venue": "Berkeley: University of California Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    2
-   ],
-   "sessions": [
-    "2|Key Concepts and Themes"
-   ],
-   "topic": "institutional",
    "how": "session"
   },
   {
@@ -61571,24 +61181,6 @@
     "White, H."
    ],
    "year": "",
-   "title": "Identity and Control",
-   "venue": "",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    4
-   ],
-   "sessions": [
-    "4|Required Books"
-   ],
-   "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "White, H."
-   ],
-   "year": "",
    "title": "An Anatomy of Kinship",
    "venue": "",
    "type": "book",
@@ -61897,24 +61489,6 @@
   },
   {
    "authors": [
-    "Williamson, O."
-   ],
-   "year": "1985",
-   "title": "Contractual man (Chp 2) and The governance of contractual relations (Chp 3)",
-   "venue": "The Economic Institutions of Capitalism. New York: Free Press",
-   "type": "chapter",
-   "n": 1,
-   "courses": [
-    1
-   ],
-   "sessions": [
-    "1|10. Questions of Markets and Hierarchies (11/6)"
-   ],
-   "topic": "orgecon",
-   "how": "session"
-  },
-  {
-   "authors": [
     "Williamson, O.",
     "Winter, S."
    ],
@@ -61954,24 +61528,6 @@
    "authors": [
     "Williamson, O. E."
    ],
-   "year": "1975",
-   "title": "Markets and Hierarchies: Analysis and Anti-Trust Implications (especially chapters 1, 2, 5-8)",
-   "venue": "New York: Free Press",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    8
-   ],
-   "sessions": [
-    "8|Topics not covered: Boundaries of the firm and TCE"
-   ],
-   "topic": "orgecon",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Williamson, O. E."
-   ],
    "year": "1999",
    "title": "Strategy Research: Governance and Competence Perspectives",
    "venue": "Strategic Management Journal, 20: 1087-1108",
@@ -61982,24 +61538,6 @@
    ],
    "sessions": [
     "14|WEEK 4 September 11 (NJ): Property Rights Theory & Transaction Cost Economics"
-   ],
-   "topic": "orgecon",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Williamson, O. E."
-   ],
-   "year": "1985",
-   "title": "Contractual Man",
-   "venue": "Chapter 2 in The Economic Institutions of Capitalism, 43-67. New York: Free Press",
-   "type": "chapter",
-   "n": 1,
-   "courses": [
-    16
-   ],
-   "sessions": [
-    "16|S2. Transaction cost economics (TCE)"
    ],
    "topic": "orgecon",
    "how": "session"
@@ -64036,25 +63574,6 @@
    "title": "Business Model Innovation: Creating value in times of change",
    "venue": "Sloan Management Review, 53(3): 41-49",
    "type": "article",
-   "n": 1,
-   "courses": [
-    23
-   ],
-   "sessions": [
-    "23|Session 4: Designing the entrepreneurial firm"
-   ],
-   "topic": "entre",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Zott, C.",
-    "Amit, R."
-   ],
-   "year": "2012",
-   "title": "The Business Model",
-   "venue": "In M. H. Morris and D. F. Kuratko (Eds.), Encyclopedia of Entrepreneurship Research, Third Edition. Chichester: John Wiley and Sons",
-   "type": "chapter",
    "n": 1,
    "courses": [
     23

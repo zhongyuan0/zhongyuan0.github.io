@@ -6,6 +6,7 @@ import os
 import json, html, re, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from classify import TOPICS
+from subtopics import SUBTOPICS, OTHER, reading_key
 import tree
 
 D = os.path.dirname(os.path.abspath(__file__)) + '/'
@@ -85,7 +86,8 @@ def li(r, count=True):
         return f'            <li><span class="rl-ref">{fmt_ref(r)}</span></li>\n'
     label = f"Listed in {r['n']} of {N} sources"
     c = f'<span class="rl-count" title="{label}" aria-label="{label}">{r["n"]}</span>'
-    return f'            <li><span class="rl-ref">{fmt_ref(r)}</span>{c}</li>\n'
+    cls = ' class="core"' if r['n'] >= CORE else ''
+    return f'            <li{cls}><span class="rl-ref">{fmt_ref(r)}</span>{c}</li>\n'
 
 
 def sortkey(r):
@@ -99,28 +101,52 @@ for r in readings:
 names = {k: n for k, n, _ in TOPICS}
 main_sections, more_sections, toc, more_toc = [], [], [], []
 counts, more_counts = {}, {}
+SUBMAP = json.load(open(D + 'subtopics.json')) if os.path.exists(D + 'subtopics.json') else {}
+
+
+def groups(key, rs):
+    """Split a stream's readings into (sub-key, label, readings); a single unnamed group if the stream isn't subdivided."""
+    if key not in SUBTOPICS:
+        return [(None, None, rs)]
+    by = collections.defaultdict(list)
+    for r in rs:
+        by[SUBMAP.get(reading_key(r), 'other')].append(r)
+    return [(k, lab, by[k]) for k, lab in SUBTOPICS[key] + [OTHER] if by.get(k)]
+
+
+def ol(rs, count=True):
+    return '          <ol class="rl-list">\n' + ''.join(li(r, count) for r in rs) + '          </ol>\n'
+
+
 for key, name, desc in TOPICS:
     rs = sorted(by_topic.get(key, []), key=sortkey)
-    core = [r for r in rs if r['n'] >= CORE]
-    multi = [r for r in rs if 2 <= r['n'] < CORE]
+    main = [r for r in rs if r['n'] >= 2]
     single = [r for r in rs if r['n'] < 2]
-    counts[key] = len(core) + len(multi)
+    counts[key] = len(main)
     more_counts[key] = len(single)
-    if core or multi:
-        src = collections.Counter(c for r in core + multi for c in r['courses'])
+    if main:
+        src = collections.Counter(c for r in main for c in r['courses'])
         src_txt = '; '.join(dict.fromkeys(credit(courses[c]) for c, _ in src.most_common()))
-        toc.append(f'          <li><a href="#{key}">{esc(name)}</a> <span class="rl-n">{counts[key]}</span></li>\n')
+        gs = groups(key, main)
+        sub_toc = ''.join(f'            <li><a href="#{key}-{k}">{esc(lab)}</a> <span class="rl-n">{len(g)}</span></li>\n'
+                          for k, lab, g in gs if k)
+        toc.append(f'          <li><a href="#{key}">{esc(name)}</a> <span class="rl-n">{counts[key]}</span>'
+                   + (f'\n            <ol class="rl-subtoc">\n{sub_toc}            </ol>\n          ' if sub_toc else '') + '</li>\n')
         s = [f'      <section class="band rl-topic" id="{key}" aria-labelledby="{key}-h">\n',
              f'        <h2 class="label" id="{key}-h">{esc(name)}</h2>\n',
              '        <div class="body">\n',
              f'          <p class="rl-desc">{esc(desc)}</p>\n',
              f'          <p class="rl-src">Drawn from: {esc(src_txt)}.</p>\n']
-        if core:
-            s.append(f'          <h3 class="rl-h">Core readings, in {CORE} or more sources</h3>\n'
-                     '          <ol class="rl-list">\n' + ''.join(li(r) for r in core) + '          </ol>\n')
-        if multi:
-            s.append(f'          <h3 class="rl-h">Also assigned, in 2 to {CORE - 1} sources</h3>\n'
-                     '          <ol class="rl-list">\n' + ''.join(li(r) for r in multi) + '          </ol>\n')
+        if gs[0][0] is None:
+            core = [r for r in main if r['n'] >= CORE]
+            multi = [r for r in main if r['n'] < CORE]
+            if core:
+                s.append(f'          <h3 class="rl-h">Core readings, in {CORE} or more sources</h3>\n' + ol(core))
+            if multi:
+                s.append(f'          <h3 class="rl-h">Also assigned, in 2 to {CORE - 1} sources</h3>\n' + ol(multi))
+        else:
+            for k, lab, g in gs:
+                s.append(f'          <h3 class="rl-h" id="{key}-{k}">{esc(lab)}</h3>\n' + ol(g))
         if single:
             s.append(f'          <p class="more"><a href="/readings/more/#{key}">{len(single)} further '
                      f'{"reading" if len(single) == 1 else "readings"} listed in one source</a></p>\n')
@@ -128,13 +154,14 @@ for key, name, desc in TOPICS:
         main_sections.append(''.join(s))
     if single:
         more_toc.append(f'          <li><a href="#{key}">{esc(name)}</a> <span class="rl-n">{len(single)}</span></li>\n')
+        body = ''.join((f'          <h3 class="rl-h" id="{key}-{k}">{esc(lab)}</h3>\n' if k else '') + ol(g, count=False)
+                       for k, lab, g in groups(key, single))
         more_sections.append(
             f'      <section class="band rl-topic" id="{key}" aria-labelledby="{key}-h">\n'
             f'        <h2 class="label" id="{key}-h">{esc(name)}</h2>\n'
             '        <div class="body">\n'
             f'          <p class="rl-src"><a href="/readings/#{key}">Back to the main list for this stream</a></p>\n'
-            '          <ol class="rl-list rl-list-plain">\n' + ''.join(li(r, count=False) for r in single) + '          </ol>\n'
-            '        </div>\n      </section>\n\n')
+            + body + '        </div>\n      </section>\n\n')
 
 srcs = sorted(used, key=lambda i: credit(courses[i]))
 src_items = ''.join(
@@ -218,8 +245,8 @@ tree_names = dict(names, classics='Classical foundations', socialtheory='Social 
 main_head = f'''          <h1>Reading lists</h1>
           <p>
             {main_total:,} readings that appear in at least two of {N} PhD syllabi and reading lists in organization theory and strategy, merged and regrouped by
-            theoretical stream. The number beside each reading is how many sources assign it. Each stream opens with its core readings, the {core_n} that appear in
-            {CORE} or more sources. A further {more_total:,} readings listed in only one source are on a <a href="/readings/more/">separate page</a>. Credit for
+            theoretical stream, and the larger streams into sub-streams. The number beside each reading is how many sources assign it; the {core_n} core
+            readings, in {CORE} or more sources, have that number in bold. A further {more_total:,} readings listed in only one source are on a <a href="/readings/more/">separate page</a>. Credit for
             the selections belongs to the instructors and authors listed <a href="#sources">at the end of the page</a>.
           </p>
 '''

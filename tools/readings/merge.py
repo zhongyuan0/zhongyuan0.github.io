@@ -27,6 +27,11 @@ def title_key(t):
     return ' '.join(w)
 
 
+def main_title(t):
+    """Title before any subtitle, edition or chapter note."""
+    return title_key(re.split(r'[:(;]|, (?:second|2nd|third|3rd) edition', t or '', maxsplit=1)[0])
+
+
 def year_num(y):
     m = re.search(r'(1[89]\d\d|20\d\d)', y or '')
     return int(m.group(1)) if m else None
@@ -56,12 +61,16 @@ for r in items:
         ratio = SequenceMatcher(None, tk, c['tkey']).ratio()
         short = min(len(tk), len(c['tkey']))
         prefix = short >= 25 and (tk.startswith(c['tkey'][:short]) or c['tkey'].startswith(tk[:short]))
+        # the same book cited with and without its subtitle, e.g. "Structural Holes" vs "Structural Holes: The Social ..."
+        if not prefix and (y is None or c['year'] is None or y == c['year']):
+            mt, mc = main_title(r.get('title', '')), main_title(c['raw'])
+            prefix = len(mt) >= 12 and (mt == mc or mt == title_key(c['raw']) or mc == tk)
         close_year = y is None or c['year'] is None or abs(y - c['year']) <= 2
         if (ratio >= 0.88 or prefix) and (close_year or ratio >= 0.97):
             match = c
             break
     if match is None:
-        match = {'first': fs, 'tkey': tk, 'year': y, 'members': []}
+        match = {'first': fs, 'tkey': tk, 'year': y, 'raw': r.get('title', ''), 'members': []}
         clusters.append(match)
         index.setdefault(fs, []).append(match)
     match['members'].append(r)
