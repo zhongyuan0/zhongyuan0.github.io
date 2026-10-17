@@ -2,3 +2,4 @@ _site/
 .DS_Store
 Thumbs.db
 __pycache__/
+tools/readings/.cache/
