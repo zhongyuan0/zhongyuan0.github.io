@@ -1,0 +1,2498 @@
+{
+ "file": "6d1ce671-2005_Zuckerman_The_Sociology_of_Strategy.txt",
+ "course": "15.968 The Sociology of Strategy",
+ "instructor": "Ezra W. Zuckerman",
+ "institution": "MIT Sloan School of Management",
+ "term": "Spring 2005",
+ "readings": [
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Barney, J.B."
+   ],
+   "year": "1986",
+   "title": "Strategic Factor Markets: Expectations, Luck, and Business Strategy",
+   "venue": "Management Science, 32: 1231-1241",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Carroll, G.R."
+   ],
+   "year": "1993",
+   "title": "A Sociological View on Why Firms Differ",
+   "venue": "Strategic Management Journal, 14: 237-249",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Porter, M.E."
+   ],
+   "year": "1996",
+   "title": "What is Strategy?",
+   "venue": "Harvard Business Review, 74: 61-78",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Sorensen, A.B."
+   ],
+   "year": "1996",
+   "title": "The Structural Basis of Social Inequality",
+   "venue": "American Journal of Sociology, 101: 1333-1365",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Teece, D.J.",
+    "Pisano, G.",
+    "Shuen, A."
+   ],
+   "year": "1997",
+   "title": "Dynamic capabilities and strategic management",
+   "venue": "Strategic Management Journal, 18(7): 509-533",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Dierickx, I.",
+    "Cool, K."
+   ],
+   "year": "1989",
+   "title": "Asset Stock Accumulation and Sustainability of Competitive Advantage",
+   "venue": "Management Science, 35(12): 1504-1511",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Barney, J.B."
+   ],
+   "year": "1989",
+   "title": "Asset Stocks and Sustained Competitive Advantage: A Comment",
+   "venue": "Management Science, 35(12): 1511-1513",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "McGee, J.",
+    "Thomas, H."
+   ],
+   "year": "1986",
+   "title": "Strategic Groups: Theory, Research and Taxonomy",
+   "venue": "Strategic Management Journal, 7(2): 141-160",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Porter, M.E."
+   ],
+   "year": "1996",
+   "title": "Competitive Strategy",
+   "venue": "New York, NY: Free Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Spanos, Y.E.",
+    "Lioukas, S."
+   ],
+   "year": "2001",
+   "title": "An examination into the causal logic of rent generation: Contrasting Porter's competitive strategy framework and the resource-based perspective",
+   "venue": "Strategic Management Journal, 22: 907-924",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Saloner, G.",
+    "Shepard, A.",
+    "Podolny, J.M."
+   ],
+   "year": "2001",
+   "title": "Strategic Management",
+   "venue": "New York, NY: John Wiley",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Wernerfelt, B."
+   ],
+   "year": "1984",
+   "title": "A Resource-Based View of the Firm",
+   "venue": "Strategic Management Journal, 5: 171-180",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. An Overview of Strategic Management and its Links to Sociology",
+   "authors": [
+    "Wernerfelt, B."
+   ],
+   "year": "1995",
+   "title": "The Resource-Based View of the Firm: Ten Years After",
+   "venue": "Strategic Management Journal, 16: 171-175",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Burt, R.S."
+   ],
+   "year": "1992",
+   "title": "Structural Holes: The Social Structure of Competition",
+   "venue": "Cambridge, MA: Harvard University Press, Chapters 1-3",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Fernandez, R.M.",
+    "Gould, R.V."
+   ],
+   "year": "1994",
+   "title": "A Dilemma of State Power: Brokerage and Influence in the National Health Policy Domain",
+   "venue": "American Journal of Sociology, 99: 1455-1491",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Granovetter, M.S."
+   ],
+   "year": "1973",
+   "title": "The Strength of Weak Ties",
+   "venue": "American Journal of Sociology, 78: 1360-1380",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Coleman, J.S."
+   ],
+   "year": "1988",
+   "title": "Social Capital in the Creation of Human Capital",
+   "venue": "American Journal of Sociology, 94: S95-S120",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Caro, R.A."
+   ],
+   "year": "1982",
+   "title": "The Years of Lyndon Johnson: The Path to Power",
+   "venue": "New York, NY: Alfred A. Knopf, Chapters 31 and 32 (Case)",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Burt, R.S."
+   ],
+   "year": "1982",
+   "title": "Towards a Structural Theory of Action",
+   "venue": "New York, NY: Academic Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Burt, R.S."
+   ],
+   "year": "1983",
+   "title": "Range",
+   "venue": "In R.S. Burt & M.J. Minor (eds.), Applied Network Analysis",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Burt, R.S."
+   ],
+   "year": "2002",
+   "title": "Bridge Decay",
+   "venue": "Social Networks (forthcoming)",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Burt, R.S."
+   ],
+   "year": "2001",
+   "title": "Structural Holes vs. Network Closure as Social Capital",
+   "venue": "In N. Lin, K.S. Cook & R.S. Burt (eds.), Social Capital: Theory and Research, Aldine de Gruyter",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Cook, K.S.",
+    "Emerson, R.M.",
+    "Gillmore, M.R.",
+    "Yamagishi, T."
+   ],
+   "year": "1983",
+   "title": "The distribution of power in exchange networks: Theory and experimental results",
+   "venue": "American Journal of Sociology, 89: 275-305",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Freeman, L.C."
+   ],
+   "year": "",
+   "title": "A Set of Measures of Centrality Based on Betweenness",
+   "venue": "Sociometry, 40: 35-41",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Gargiulo, M."
+   ],
+   "year": "1993",
+   "title": "Two-Step Leverage: Managing Constraint in Organizational Politics",
+   "venue": "Administrative Science Quarterly, 38(1): 1-19",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Hansen, M.T."
+   ],
+   "year": "1999",
+   "title": "The Search-Transfer Problem: The Role of Weak Ties in Sharing Knowledge across Organization Subunits",
+   "venue": "Administrative Science Quarterly, 44(1): 82-111",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Marsden, P.V."
+   ],
+   "year": "1983",
+   "title": "Restricted Access in Networks and Models of Power",
+   "venue": "American Journal of Sociology, 88(4): 686-717",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "McEvily, B.",
+    "Zaheer, A."
+   ],
+   "year": "1999",
+   "title": "Bridging Ties: A Source of Firm Heterogeneity in Competitive Capabilities",
+   "venue": "Strategic Management Journal, 20: 1133-1156",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Pfeffer, J.",
+    "Salancik, G."
+   ],
+   "year": "1978",
+   "title": "The External Control of Organizations: A Resource Dependence Perspective",
+   "venue": "New York, NY: Harper and Row",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Podolny, J.M.",
+    "Baron, J.N."
+   ],
+   "year": "1997",
+   "title": "Resources and Relationships: Social Networks and Mobility in the Workplace",
+   "venue": "American Sociological Review, 62: 673-693",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Reagans, R.E.",
+    "Zuckerman, E.W.",
+    "McEvily, B."
+   ],
+   "year": "2004",
+   "title": "How to Make the Team: Social Networks vs. Demography as Criteria for Designing Effective Projects in a Contract R&D Firm",
+   "venue": "Administrative Science Quarterly, 49: 101-133",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Reagans, R.E.",
+    "Zuckerman, E.W.",
+    "McEvily, B."
+   ],
+   "year": "",
+   "title": "Two Holes in One? Information and Control in the Analysis of Structural Advantage",
+   "venue": "Working Paper, MIT Sloan School of Management",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "2. Networks I: Theories Relating Brokerage to Success",
+   "authors": [
+    "Simmel, G."
+   ],
+   "year": "1964",
+   "title": "Quantitative Aspects of the Group",
+   "venue": "In The Sociology of Georg Simmel, New York, NY: Free Press, pp. 122-136, 145-169",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Ingram, P.",
+    "Roberts, P.W."
+   ],
+   "year": "2000",
+   "title": "Friendships among Competitors in the Sydney Hotel Industry",
+   "venue": "American Journal of Sociology, 106: 387-423",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Powell, W.W.",
+    "Koput, K.W.",
+    "Smith-Doerr, L."
+   ],
+   "year": "1996",
+   "title": "Interorganizational Collaboration and the Locus of Innovation: Networks of Learning in Biotechnology",
+   "venue": "Administrative Science Quarterly, 41: 116-145",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Uzzi, B."
+   ],
+   "year": "1997",
+   "title": "Social Structure and Competition in Interfirm Networks: The Paradox of Embeddedness",
+   "venue": "Administrative Science Quarterly, 42: 35-67",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Lincoln, J.R.",
+    "Gerlach, M.L.",
+    "Ahmadjian, C.L."
+   ],
+   "year": "1996",
+   "title": "Keiretsu Networks and Corporate Performance in Japan",
+   "venue": "American Sociological Review, 67-88",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Badaracco, J."
+   ],
+   "year": "1984",
+   "title": "Mark Twain Bancshares, Inc.",
+   "venue": "Harvard Business School Case 9-385-178 (Case)",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Azoulay, P."
+   ],
+   "year": "2004",
+   "title": "Agents of Embeddedness",
+   "venue": "Working Paper, Columbia University Graduate School of Business",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Baker, W.E."
+   ],
+   "year": "1984",
+   "title": "The Social Structure of a National Securities Market",
+   "venue": "American Journal of Sociology, 89(4): 775-833",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Baker, W.E."
+   ],
+   "year": "1990",
+   "title": "Market Networks and Corporate Behavior",
+   "venue": "American Journal of Sociology, 96(3): 589-625",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Granovetter, M."
+   ],
+   "year": "1985",
+   "title": "Economic Action and Social Structure: The Problem of Embeddedness",
+   "venue": "American Journal of Sociology, 91: 481-510",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Granovetter, M."
+   ],
+   "year": "1995",
+   "title": "Business Groups",
+   "venue": "In N.J. Smelser & R. Swedberg (eds.), Handbook of Economic Sociology, Princeton, NJ: Princeton University Press, pp. 453-465",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Gulati, R.",
+    "Gargiulo, M."
+   ],
+   "year": "1999",
+   "title": "Where Do Interorganizational Networks Come From?",
+   "venue": "American Journal of Sociology, 104(5): 1439-1493",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Keister, L.A."
+   ],
+   "year": "1998",
+   "title": "Engineering Growth: Business Group Structure and Firm Performance in China's Transition Economy",
+   "venue": "American Journal of Sociology, 104: 404-440",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Mizruchi, M.S."
+   ],
+   "year": "1996",
+   "title": "What Do Interlocks Do? An Analysis, Critique, and Assessment of Research on Interlocking Directorates",
+   "venue": "Annual Review of Sociology, 22: 271-298",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Page, K.L.",
+    "Podolny, J.M."
+   ],
+   "year": "",
+   "title": "Network Forms of Organization",
+   "venue": "Annual Review of Sociology, 24: 57-76",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Polanyi, K."
+   ],
+   "year": "1944",
+   "title": "The Great Transformation",
+   "venue": "New York, NY: Farrar & Rinehart",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Powell, W.W."
+   ],
+   "year": "1990",
+   "title": "Neither Market nor Hierarchy: Network Forms of Organization",
+   "venue": "Research in Organizational Behavior, 12: 295-396",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Robinson, D.T.",
+    "Stuart, T.E."
+   ],
+   "year": "2002",
+   "title": "Just How Incomplete Are Incomplete Contracts? Evidence from Biotech Strategic Alliances",
+   "venue": "Unpublished manuscript, University of Chicago Graduate School of Business",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Sorenson, O.",
+    "Stuart, T.E."
+   ],
+   "year": "2001",
+   "title": "Syndication Networks and the Spatial Distribution of Venture Capital Investments",
+   "venue": "American Journal of Sociology, 106: 1546-1588",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Uzzi, B."
+   ],
+   "year": "1996",
+   "title": "The Sources and Consequences of Embeddedness for the Economic Performance of Organizations: The Network Effect",
+   "venue": "American Sociological Review, 61: 674-698",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Uzzi, B."
+   ],
+   "year": "1999",
+   "title": "Embeddedness in the Making of Financial Capital: How Social Relations and Networks Benefit Firms Seeking Financing",
+   "venue": "American Sociological Review, 64(4): 481-505",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Networks II: Networks as Competitive Advantage",
+   "authors": [
+    "Zuckerman, E.W."
+   ],
+   "year": "2003",
+   "title": "On Networks and Markets, edited by Rauch and Casella",
+   "venue": "Journal of Economic Literature, 46: 545-565",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Abbott, A."
+   ],
+   "year": "1988",
+   "title": "The System of Professions",
+   "venue": "Chicago, IL: University of Chicago Press, Chapters 1-4",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Baum, J.A.C.",
+    "Singh, J.V."
+   ],
+   "year": "1994",
+   "title": "Organizational Niches and the Dynamics of Organizational Mortality",
+   "venue": "American Journal of Sociology, 100(2): 346-380",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Popielarz, P.A.",
+    "McPherson, J.M."
+   ],
+   "year": "1995",
+   "title": "On the Edge or In Between: Niche Position, Niche Overlap, and the Duration of Voluntary Association Memberships",
+   "venue": "American Journal of Sociology, 101: 698-720",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Podolny, J.M.",
+    "Stuart, T.E.",
+    "Hannan, M.T."
+   ],
+   "year": "1996",
+   "title": "Networks, Knowledge, and Niches: Competition in the Worldwide Semiconductor Industry, 1984-1991",
+   "venue": "American Journal of Sociology, 102: 659-689",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Barnett, W.P."
+   ],
+   "year": "1997",
+   "title": "The Dynamics of Competitive Intensity",
+   "venue": "Administrative Science Quarterly, 42: 128-160",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "DiMaggio, P.J."
+   ],
+   "year": "1986",
+   "title": "Structural Analysis of Organizational Fields: A Blockmodel Approach",
+   "venue": "Research in Organizational Behavior, 8: 335-370",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Dobrev, S.D.",
+    "Kim, T.-Y.",
+    "Carroll, G.R."
+   ],
+   "year": "2002",
+   "title": "The evolution of organizational niches: US automobile manufacturers, 1885-1981",
+   "venue": "Administrative Science Quarterly, 47(2): 233-264",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Freeman, J.",
+    "Hannan, M.T."
+   ],
+   "year": "1983",
+   "title": "Niche Width and the Dynamics of Organizational Populations",
+   "venue": "American Journal of Sociology, 88(6): 1116-1145",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Hilgartner, S.",
+    "Bosk, C.L."
+   ],
+   "year": "1988",
+   "title": "The Rise and Fall of Social Problems: A Public Arenas Model",
+   "venue": "American Journal of Sociology, 94(1): 53-78",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "McPherson, M."
+   ],
+   "year": "1983",
+   "title": "An Ecology of Affiliation",
+   "venue": "American Sociological Review, 48(4): 519-532",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "McPherson, J.M.",
+    "Popielarz, P.A.",
+    "Drobnic, S."
+   ],
+   "year": "1992",
+   "title": "Social Networks and Organizational Dynamics",
+   "venue": "American Sociological Review, 57(2): 153-170",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Podolny, J.M.",
+    "Stuart, T.E."
+   ],
+   "year": "1995",
+   "title": "A Role-Based Ecology of Technological Change",
+   "venue": "American Journal of Sociology, 100(5): 1224-1260",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Models of Competition I: Ecological",
+   "authors": [
+    "Sørensen, J.B."
+   ],
+   "year": "2004",
+   "title": "Recruitment-Based Competition between Industries: A Community Ecology",
+   "venue": "Industrial and Corporate Change, 13: 149-170",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Abbott, A."
+   ],
+   "year": "1981",
+   "title": "Status and Status Strain in the Professions",
+   "venue": "American Journal of Sociology, 86(4): 819-835",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Benjamin, B.A.",
+    "Podolny, J.M."
+   ],
+   "year": "1999",
+   "title": "Social Order and Status in the California Wine Industry",
+   "venue": "Administrative Science Quarterly, 44: 563-589",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Gould, R.V."
+   ],
+   "year": "2002",
+   "title": "The Origins of Status Hierarchies: A Formal Theory and Empirical Test",
+   "venue": "American Journal of Sociology, 107: 1143-1178",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Gusfield, J.R."
+   ],
+   "year": "1963",
+   "title": "Symbolic Crusade: Status Politics and the American Temperance Movement",
+   "venue": "Urbana, IL: University of Illinois Press, pp. 1-29",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Heinz, J.P.",
+    "Laumann, E.O."
+   ],
+   "year": "1994 [1982]",
+   "title": "Chicago Lawyers: The Social Structure of the Bar",
+   "venue": "Revised edition, Evanston, IL: Northwestern University Press, Chapter 4",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Podolny, J.M."
+   ],
+   "year": "1993",
+   "title": "A Status-Based Model of Market Competition",
+   "venue": "American Journal of Sociology, 98: 829-872",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Berger, J.",
+    "Norman, R.Z.",
+    "Balkwell, J.W.",
+    "Smith, R.F."
+   ],
+   "year": "1992",
+   "title": "Status Inconsistency in Task Situations: A Test of Four Status Processing Principles",
+   "venue": "American Sociological Review, 57(6): 843-855",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Carter, R.",
+    "Manaster, S."
+   ],
+   "year": "1990",
+   "title": "Initial Public Offerings and Underwriter Reputation",
+   "venue": "The Journal of Finance, 45(4): 1045-1067",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Chung, S.",
+    "Singh, H.",
+    "Lee, K."
+   ],
+   "year": "2000",
+   "title": "Complementarity, status similarity and social capital as drivers of alliance formation",
+   "venue": "Strategic Management Journal, 21: 1-22",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Dumont, L."
+   ],
+   "year": "1970",
+   "title": "Homo Hierarchicus: The Caste System and its Implications",
+   "venue": "Chicago, IL: University of Chicago Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Frank, R.H."
+   ],
+   "year": "1985",
+   "title": "Choosing The Right Pond: Human Behavior and the Quest for Status",
+   "venue": "New York, NY: Oxford University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Frank, R.H.",
+    "Cook, P.J."
+   ],
+   "year": "1995",
+   "title": "The Winner-Take-All Society",
+   "venue": "New York, NY: Penguin USA",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Goode, W.J."
+   ],
+   "year": "1979",
+   "title": "The Celebration of Heroes",
+   "venue": "Berkeley, CA: University of California Press, pp. 1-15, 16-21, 66-97",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Han, S.-K."
+   ],
+   "year": "1994",
+   "title": "Mimetic Isomorphism and Its Effect on the Audit Services Market",
+   "venue": "Social Forces, 73: 637-663",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Hirsch, F."
+   ],
+   "year": "1976",
+   "title": "Social Limits to Growth",
+   "venue": "Cambridge, MA: Harvard University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Lang, G.E.",
+    "Lang, K."
+   ],
+   "year": "1988",
+   "title": "Recognition and Renown: The Survival of Artistic Reputation",
+   "venue": "American Journal of Sociology, 94(1): 79-109",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Laumann, E.O.",
+    "Senter, R."
+   ],
+   "year": "1976",
+   "title": "Subjective Social Distance, Occupational Stratification, and Forms of Status and Class Consciousness: A Cross-national Replication and Extension",
+   "venue": "American Journal of Sociology, 81(6): 1304-1338",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Merton, R.K."
+   ],
+   "year": "1968",
+   "title": "The Matthew Effect in Science",
+   "venue": "Science, 159: 56-63",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Podolny, J.M.",
+    "Scott Morton, F.M."
+   ],
+   "year": "1999",
+   "title": "Social Status, Entry and Predation: The Case of British Shipping Cartels 1879-1929",
+   "venue": "Journal of Industrial Economics, 47(1): 41-67",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Podolny, J.M."
+   ],
+   "year": "",
+   "title": "Market Uncertainty and the Social Character of Economic Exchange",
+   "venue": "Administrative Science Quarterly, 39(3): 458-483",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Podolny, J.M.",
+    "Phillips, D.J."
+   ],
+   "year": "1996",
+   "title": "The Dynamics of Organizational Status",
+   "venue": "Industrial and Corporate Change, 5: 453-472",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Roberts, P.W.",
+    "Dowling, G.R."
+   ],
+   "year": "2002",
+   "title": "Corporate reputation and sustained superior financial performance",
+   "venue": "Strategic Management Journal, 23: 1077-1093",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Schwartz, B."
+   ],
+   "year": "1981",
+   "title": "Vertical Classification: A Study in Structuralism and the Sociology of Knowledge",
+   "venue": "Chicago, IL: University of Chicago Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Shils, E."
+   ],
+   "year": "1965",
+   "title": "Charisma, Order, and Status",
+   "venue": "American Sociological Review, 30: 199-213",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Sorensen, A.B."
+   ],
+   "year": "2001",
+   "title": "The Basic Concepts of Stratification Research: Class, Status, and Power",
+   "venue": "In D.B. Grusky (ed.), Social Stratification, Boulder, CO: Westview Press, pp. 287-300",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Weber, M."
+   ],
+   "year": "1958",
+   "title": "Class, Status, Party",
+   "venue": "In H. Gerth & C.W. Mills (eds.), From Max Weber, New York, NY: Oxford University Press, pp. 180-195",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "5. Models of Competition II: Status-based",
+   "authors": [
+    "Weber, M."
+   ],
+   "year": "2001",
+   "title": "Status Groups and Classes",
+   "venue": "In D.B. Grusky (ed.), Social Stratification, Boulder, CO: Westview Press, pp. 122-126",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Padgett, J.F.",
+    "Ansell, C.K."
+   ],
+   "year": "1993",
+   "title": "Robust Action and the Rise of the Medici, 1400-1434",
+   "venue": "American Journal of Sociology, 98(6): 1259-1319",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Carroll, G.R.",
+    "Swaminathan, A."
+   ],
+   "year": "2000",
+   "title": "Why the Microbrewery Movement? Organizational Dynamics of Resource Partitioning in the American Brewery Industry after Prohibition",
+   "venue": "American Journal of Sociology, 106: 715-762",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Peterson, R.A.",
+    "Berger, D.G."
+   ],
+   "year": "1975",
+   "title": "Cycles in Cultural Production: The Case of Popular Music",
+   "venue": "American Sociological Review, 40: 158-173",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Zuckerman, E.W."
+   ],
+   "year": "1999",
+   "title": "The Categorical Imperative: Securities Analysts and the Illegitimacy Discount",
+   "venue": "American Journal of Sociology, 104: 1398-1438",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Zuckerman, E.W.",
+    "Kim, T.-Y.",
+    "Ukanwa, K.",
+    "von Rittmann, J."
+   ],
+   "year": "2003",
+   "title": "Robust Identities or Non-Entities? Typecasting in the Feature Film Labor Market",
+   "venue": "American Journal of Sociology, 108: 1018-1075",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Baker, W.E.",
+    "Faulkner, R.R."
+   ],
+   "year": "1991",
+   "title": "Role as Resource in the Hollywood Film Industry",
+   "venue": "American Journal of Sociology, 97: 279-309",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Becker, H.S."
+   ],
+   "year": "1973",
+   "title": "Labelling Theory Reconsidered",
+   "venue": "In H.S. Becker, Outsiders: Studies in the Sociology of Deviance, 2nd ed., New York, NY: The Free Press, pp. 177-208",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Caplow, T."
+   ],
+   "year": "1982",
+   "title": "Christmas Gifts and Kin Networks",
+   "venue": "American Sociological Review, 47(3): 383-392",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Carroll, G.R."
+   ],
+   "year": "1985",
+   "title": "Concentration and Specialization: Dynamics of Niche Width in Populations of Organizations",
+   "venue": "American Journal of Sociology, 90: 1262-1283",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "DiMaggio, P.M."
+   ],
+   "year": "1987",
+   "title": "Classification in Art",
+   "venue": "American Sociological Review, 52: 440-455",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Douglas, M."
+   ],
+   "year": "1966",
+   "title": "Purity and Danger: An Analysis of the Concepts of Pollution and Taboo",
+   "venue": "London, UK: Routledge & Kegan Paul, Chapter 2",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Faulkner, R.R."
+   ],
+   "year": "1983",
+   "title": "Music on Demand: Composers and Careers in the Hollywood Film Industry",
+   "venue": "New Brunswick, NJ: Transaction, Chapter 3",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Friedman, R.A.",
+    "Podolny, J.M."
+   ],
+   "year": "1992",
+   "title": "Differentiation of Boundary Spanning Roles: Labor Negotiations and Implications for Role Conflict",
+   "venue": "Administrative Science Quarterly, 37: 28-47",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Goffman, E."
+   ],
+   "year": "1961",
+   "title": "Role Distance",
+   "venue": "In Encounters: Two Studies in the Sociology of Interaction, Indianapolis, IN: Bobbs-Merrill",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Goffman, E."
+   ],
+   "year": "1952",
+   "title": "On Cooling the Mark Out",
+   "venue": "Psychiatry, 15: 451-463",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Goffman, E."
+   ],
+   "year": "1959",
+   "title": "The Moral Career of the Mental Patient",
+   "venue": "Psychiatry, 22: 23-42",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Goode, W.J."
+   ],
+   "year": "1960",
+   "title": "Norm Commitment and Conformity to Role-Status Obligations",
+   "venue": "American Journal of Sociology, 66(3): 246-258",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Goode, W.J."
+   ],
+   "year": "1960",
+   "title": "A Theory of Role Strain",
+   "venue": "American Sociological Review, 25(4): 483-496",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Leifer, E.M."
+   ],
+   "year": "1988",
+   "title": "Interaction Preludes to Role Setting: Exploratory Local Action",
+   "venue": "American Sociological Review, 53: 865-878",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Lopes, P.D."
+   ],
+   "year": "1992",
+   "title": "Innovation and Diversity in the Popular Music Industry, 1969-1990",
+   "venue": "American Sociological Review, 57: 56-71",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Merton, R.K."
+   ],
+   "year": "1968",
+   "title": "Continuities in the Theory of Reference Groups and Social Structure",
+   "venue": "In Social Theory and Social Structure, Chapter XI, New York, NY: Free Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Merton, R.K."
+   ],
+   "year": "1957",
+   "title": "The Role-Set: Problems in Sociological Theory",
+   "venue": "British Journal of Sociology, 8: 106-120",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Polos, L.",
+    "Hannan, M.T.",
+    "Carroll, G.R."
+   ],
+   "year": "2002",
+   "title": "Foundations of a Theory of Social Forms",
+   "venue": "Industrial and Corporate Change, 11(1): 85-115",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Rosa, J.A.",
+    "Porac, J.F.",
+    "Runser-Spanjol, J.",
+    "Saxon, M.S."
+   ],
+   "year": "1999",
+   "title": "Sociocognitive Dynamics in a Product Market",
+   "venue": "Journal of Marketing, 63 (Special Issue): 64-77",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Slater, P.E."
+   ],
+   "year": "1955",
+   "title": "Role Differentiation in Small Groups",
+   "venue": "American Sociological Review, 20(3): 300-310",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Stryker, S.",
+    "Macke, A.S."
+   ],
+   "year": "1978",
+   "title": "Status Inconsistency and Role Conflict",
+   "venue": "Annual Review of Sociology, 4: 57-90",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Turner, R.H."
+   ],
+   "year": "1968",
+   "title": "Role: Sociological Aspects",
+   "venue": "International Encyclopedia of the Social Sciences, 13: 552-557, New York, NY: Macmillan and Free Press",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "White, H.C."
+   ],
+   "year": "1981",
+   "title": "Where Do Markets Come From?",
+   "venue": "American Journal of Sociology, 87: 517-547",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "White, H.C."
+   ],
+   "year": "2002",
+   "title": "Markets from Networks: Socioeconomic Models of Production",
+   "venue": "Princeton, NJ: Princeton University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Zerubavel, E."
+   ],
+   "year": "1996",
+   "title": "Lumping and Splitting: Notes on Social Classification",
+   "venue": "Sociological Forum, 11(3): 421-433",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Zuckerman, E.W."
+   ],
+   "year": "2000",
+   "title": "Focusing the Corporate Product: Securities Analysts and De-diversification",
+   "venue": "Administrative Science Quarterly, 45: 591-619",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Zuckerman, E.W."
+   ],
+   "year": "2003",
+   "title": "Structural Incoherence and Stock Market Activity",
+   "venue": "Unpublished manuscript, MIT Sloan School of Management",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "6. Models of Competition III: Role and Category-based",
+   "authors": [
+    "Zuckerman, E.W.",
+    "Kim, T.-Y."
+   ],
+   "year": "2003",
+   "title": "The Identity Trade-Off: Market Mediation and Success in the Film Industry",
+   "venue": "Industrial and Corporate Change (forthcoming)",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Carroll, G.R.",
+    "Hannan, M.T."
+   ],
+   "year": "1989",
+   "title": "Density Dependence in the Evolution of Populations of Newspaper Organizations",
+   "venue": "American Sociological Review, 54: 524-541",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Phillips, D.J."
+   ],
+   "year": "2002",
+   "title": "A Genealogical Approach to Organizational Life Chances: The Parent-Progeny Transfer among Silicon Valley Law Firms, 1946-1996",
+   "venue": "Administrative Science Quarterly (June 2002 issue)",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Sorenson, O.",
+    "Audia, P.G."
+   ],
+   "year": "2000",
+   "title": "The Social Structure of Entrepreneurial Activity: Geographic Concentration of Footwear Production in the United States, 1940-1989",
+   "venue": "American Journal of Sociology, 106: 424-462",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Burton, M.D.",
+    "Sørensen, J.",
+    "Beckman, C."
+   ],
+   "year": "2002",
+   "title": "Coming from Good Stock: Career Histories and New Venture Formation",
+   "venue": "Research in the Sociology of Organizations, 19: 229-262",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Dobbin, F.",
+    "Dowd, T.J."
+   ],
+   "year": "1997",
+   "title": "How policy shapes competition: Early railroad foundings in Massachusetts",
+   "venue": "Administrative Science Quarterly, 42: 501-529",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Baum, J.A.C.",
+    "Powell, W.W."
+   ],
+   "year": "1995",
+   "title": "Cultivating an Institutional Ecology of Organizations: Comment on Hannan, Carroll, Dundon, and Torres",
+   "venue": "American Sociological Review, 60: 529-538",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Hannan, M.T.",
+    "Carroll, G.R."
+   ],
+   "year": "1995",
+   "title": "Theory Building and Cheap Talk About Legitimation: Reply to Baum and Powell",
+   "venue": "American Sociological Review, 60: 539-544",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Hannan, M.T.",
+    "Carroll, G.R."
+   ],
+   "year": "1989",
+   "title": "On Using Institutional Theory in Studying Organizational Populations",
+   "venue": "American Sociological Review, 54(4): 545-548",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Rao, H."
+   ],
+   "year": "1994",
+   "title": "The Social Construction of Reputation: Certification Contests, Legitimation, and the Survival of Organizations in the American Automobile Industry: 1895-1912",
+   "venue": "Strategic Management Journal, 15: 29-44",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Stuart, T.E.",
+    "Sorenson, O."
+   ],
+   "year": "2003",
+   "title": "Liquidity Events and the Geographic Distribution of Entrepreneurial Activity",
+   "venue": "Administrative Science Quarterly, 48: 175-201",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Stuart, T.",
+    "Hoang, H.",
+    "Hybels, R."
+   ],
+   "year": "1999",
+   "title": "Interorganizational Endorsements and the Performance of Entrepreneurial Ventures",
+   "venue": "Administrative Science Quarterly, 43: 668-698",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Origins I: The Founding of New Firms",
+   "authors": [
+    "Zucker, L.G."
+   ],
+   "year": "1989",
+   "title": "Combining Institutional Theory and Population Ecology: No Legitimacy, No History",
+   "venue": "American Sociological Review, 54(4): 542-545",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "Ruef, M."
+   ],
+   "year": "2000",
+   "title": "The Emergence of Organizational Forms: A Community Ecology Approach",
+   "venue": "American Journal of Sociology, 106: 658-714",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "Rao, H."
+   ],
+   "year": "1998",
+   "title": "Caveat Emptor: The Construction of Nonprofit Consumer Watchdog Organizations",
+   "venue": "American Journal of Sociology, 103: 912-961",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "McKendrick, D.G.",
+    "Jaffee, J.J.",
+    "Carroll, G.R.",
+    "Khessina, O.M."
+   ],
+   "year": "2003",
+   "title": "In the bud? Disk array producers as a (possibly) emergent organizational form",
+   "venue": "Administrative Science Quarterly, 48: 60-93",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "Padgett, J.F."
+   ],
+   "year": "2001",
+   "title": "Organizational genesis, identity, and control: The transformation of banking in Renaissance Florence",
+   "venue": "In J.E. Rauch & A. Casella (eds.), Networks and Markets, New York, NY: Russell Sage",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "Ingram, P.",
+    "Rao, H."
+   ],
+   "year": "2004",
+   "title": "Store Wars: The Enactment and Repeal of Anti-Chain-Store Legislation in America",
+   "venue": "American Journal of Sociology, 110: 446-487",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "DiMaggio, P."
+   ],
+   "year": "1982",
+   "title": "Cultural Entrepreneurship in 19th-Century Boston: The Creation of an Organizational Base for High Culture in America",
+   "venue": "Media Culture & Society, 4(1): 33-50",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "DiMaggio, P."
+   ],
+   "year": "1982",
+   "title": "Cultural Entrepreneurship in 19th-Century Boston, 2: The Classification and Framing of American Art",
+   "venue": "Media Culture & Society, 4(4): 303-322",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "Dobbin, F.",
+    "Dowd, T.J."
+   ],
+   "year": "2000",
+   "title": "The market that antitrust built: Public policy, private coercion, and railroad acquisitions, 1825 to 1922",
+   "venue": "American Sociological Review, 65: 631-657",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "Stinchcombe, A.L."
+   ],
+   "year": "1965",
+   "title": "Social Structure and Organizations",
+   "venue": "In J.G. March (ed.), Handbook of Organizations, Chicago, IL: Rand McNally, pp. 142-193",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "8. Origins II: The Founding of New Forms",
+   "authors": [
+    "White, H.C.",
+    "White, C.A."
+   ],
+   "year": "1965",
+   "title": "Canvases and Careers: Institutional Change in the French Painting World",
+   "venue": "New York, NY: Wiley",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Jensen, M."
+   ],
+   "year": "2003",
+   "title": "The Role of Network Resources in Market Entry: Commercial Banks' Entry into Investment Banking, 1991-1997",
+   "venue": "Administrative Science Quarterly, 48: 466-497",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Phillips, D.J.",
+    "Zuckerman, E.W."
+   ],
+   "year": "2001",
+   "title": "Middle Status Conformity: Theoretical Restatement and Empirical Demonstration in Two Markets",
+   "venue": "American Journal of Sociology, 107: 379-429",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Podolny, J.M."
+   ],
+   "year": "2001",
+   "title": "Networks as Pipes and Prisms of the Market",
+   "venue": "American Journal of Sociology, 107: 33-60",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Haveman, H.A."
+   ],
+   "year": "1993",
+   "title": "Follow the Leader: Mimetic Isomorphism and Entry into New Markets",
+   "venue": "Administrative Science Quarterly, 38(4): 593-627",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Greve, H.R."
+   ],
+   "year": "1998",
+   "title": "Performance, aspirations, and risky organizational change",
+   "venue": "Administrative Science Quarterly, 43: 58-86",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Baum, J.A.C.",
+    "Haveman, H.A."
+   ],
+   "year": "1997",
+   "title": "Love thy neighbor? Differentiation and agglomeration in the Manhattan hotel industry, 1898-1990",
+   "venue": "Administrative Science Quarterly, 42: 304-338",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Deephouse, D.L."
+   ],
+   "year": "1999",
+   "title": "To be different, or to be the same? It's a question (and theory) of strategic balance",
+   "venue": "Strategic Management Journal, 20(2): 147-166",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Denrell, J.",
+    "March, J.G."
+   ],
+   "year": "2001",
+   "title": "Adaptation as Information Restriction: The Hot Stove Effect",
+   "venue": "Organization Science, 12(5): 523-538",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Greve, H.R.",
+    "Taylor, A."
+   ],
+   "year": "2000",
+   "title": "Innovations as catalysts for organizational change: Shifts in organizational cognition and search",
+   "venue": "Administrative Science Quarterly, 45: 54-80",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Greve, H.R."
+   ],
+   "year": "1995",
+   "title": "Jumping Ship: The Diffusion of Strategy Abandonment",
+   "venue": "Administrative Science Quarterly, 40: 444-473",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Hannan, M.T.",
+    "Freeman, J."
+   ],
+   "year": "1984",
+   "title": "Structural Inertia and Organizational Change",
+   "venue": "American Sociological Review, 49(2): 149-164",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Hannan, M.T.",
+    "Polos, L.",
+    "Carroll, G.R."
+   ],
+   "year": "2003",
+   "title": "The Fog of Change: Opacity and Asperity in Organizations",
+   "venue": "Administrative Science Quarterly, 48: 399-432",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Henderson, R.M.",
+    "Clark, K.B."
+   ],
+   "year": "1990",
+   "title": "Architectural Innovation: The Reconfiguration of Existing Product Technologies and the Failure of Existing Firms",
+   "venue": "Administrative Science Quarterly, 35: 9-30",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Strategic Change",
+   "authors": [
+    "Nickerson, J.A.",
+    "Silverman, B.S."
+   ],
+   "year": "2003",
+   "title": "Why Firms Want to Organize Efficiently and What Keeps Them from Doing So: Inappropriate Governance, Performance, and Adaptation in a Deregulated Industry",
+   "venue": "Administrative Science Quarterly, 48: 433",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Baron, J.N.",
+    "Hannan, M.T."
+   ],
+   "year": "2001",
+   "title": "Labor Pains: Change in Organizational Models and Employee Turnover in Young, High-Tech Firms",
+   "venue": "American Journal of Sociology, 106: 960-1012",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Barnett, W.P.",
+    "Sorenson, O."
+   ],
+   "year": "2002",
+   "title": "The Red Queen in organizational creation and development",
+   "venue": "Industrial and Corporate Change, 11: 289-325",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Sørensen, J.B.",
+    "Stuart, T.E."
+   ],
+   "year": "2000",
+   "title": "Aging, obsolescence, and organizational innovation",
+   "venue": "Administrative Science Quarterly, 45: 81-112",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Sørensen, J.B."
+   ],
+   "year": "2002",
+   "title": "The strength of corporate culture and the reliability of firm performance",
+   "venue": "Administrative Science Quarterly, 47: 70-91",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Haveman, H.A."
+   ],
+   "year": "1992",
+   "title": "Between a Rock and a Hard Place: Organizational Change and Performance Under Conditions of Fundamental Environmental Transformation",
+   "venue": "Administrative Science Quarterly, 37: 48-75",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Grant, R.M."
+   ],
+   "year": "1996",
+   "title": "Toward a Knowledge-Based Theory of the Firm",
+   "venue": "Strategic Management Journal, 17 (Special Issue: Knowledge and the Firm): 109-122",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Henderson, R.",
+    "Cockburn, I."
+   ],
+   "year": "1994",
+   "title": "Measuring Competence? Exploring Firm Effects in Pharmaceutical Research",
+   "venue": "Strategic Management Journal, 15 (Special Issue): 63-84",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Kogut, B.",
+    "Zander, U."
+   ],
+   "year": "1996",
+   "title": "What Firms Do? Coordination, Identity, and Learning",
+   "venue": "Organization Science, 7: 502-518",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Milgrom, P.",
+    "Roberts, J."
+   ],
+   "year": "1995",
+   "title": "Complementarities and fit: Strategy, structure, and organizational change in manufacturing",
+   "venue": "Journal of Accounting and Economics, 19: 179-208",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Nonaka, I."
+   ],
+   "year": "1994",
+   "title": "A Dynamic Theory of Organizational Knowledge Creation",
+   "venue": "Organization Science, 5: 14-37",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Liebeskind, J.P."
+   ],
+   "year": "1996",
+   "title": "Knowledge, Strategy, and the Theory of the Firm",
+   "venue": "Strategic Management Journal, 17: 93-107",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Penrose, E.T."
+   ],
+   "year": "1959",
+   "title": "The Theory of the Growth of the Firm",
+   "venue": "New York, NY: Wiley",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Peteraf, M.A."
+   ],
+   "year": "1993",
+   "title": "The Cornerstones of Competitive Advantage: A Resource-Based View",
+   "venue": "Strategic Management Journal, 14: 179-191",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Rivkin, J.W."
+   ],
+   "year": "2000",
+   "title": "Imitation of complex strategies",
+   "venue": "Management Science, 46: 824-844",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Rivkin, J.W."
+   ],
+   "year": "2001",
+   "title": "Reproducing knowledge: Replication without imitation at moderate complexity",
+   "venue": "Organization Science, 12: 274",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Selznick, P."
+   ],
+   "year": "1957",
+   "title": "Leadership in Administration: A Sociological Interpretation",
+   "venue": "Berkeley, CA: University of California Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Siggelkow, N."
+   ],
+   "year": "2001",
+   "title": "Change in the presence of fit: The rise, the fall, and the renaissance of Liz Claiborne",
+   "venue": "Academy of Management Journal, 44: 838-857",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Winter, S.G."
+   ],
+   "year": "2003",
+   "title": "Understanding dynamic capabilities",
+   "venue": "Strategic Management Journal, 24: 991-1011",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Capabilities",
+   "authors": [
+    "Winter, S.G.",
+    "Szulanski, G."
+   ],
+   "year": "2001",
+   "title": "Replication as strategy",
+   "venue": "Organization Science, 12: 730-735",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Abrahamson, E.",
+    "Fairchild, G."
+   ],
+   "year": "1999",
+   "title": "Management Fashion: Lifecycles, Triggers, and Collective Learning Processes",
+   "venue": "Administrative Science Quarterly, 44: 708-740",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Strang, D.",
+    "Soule, S.A."
+   ],
+   "year": "1998",
+   "title": "Diffusion in Organizations and Social Movements: From Hybrid Corn to Poison Pills",
+   "venue": "Annual Review of Sociology, 24: 265-290",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Westphal, J.D.",
+    "Gulati, R.",
+    "Shortell, S.M."
+   ],
+   "year": "1997",
+   "title": "Customization or Conformity? An Institutional and Network Perspective on the Content and Consequences of TQM Adoption",
+   "venue": "Administrative Science Quarterly, 42: 366-394",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Zbaracki, M.J."
+   ],
+   "year": "1998",
+   "title": "The Rhetoric and Reality of Total Quality Management",
+   "venue": "Administrative Science Quarterly, 43: 602-636",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Strang, D.",
+    "Macy, M.W."
+   ],
+   "year": "2001",
+   "title": "In Search of Excellence: Fads, Success Stories, and Adaptive Emulation",
+   "venue": "American Journal of Sociology, 107: 147-182",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Baum, J.A.C.",
+    "Ingram, P."
+   ],
+   "year": "1998",
+   "title": "Survival-Enhancing Learning in the Manhattan Hotel Industry, 1898-1980",
+   "venue": "Management Science, 44: 996-1017",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Beckman, C.M.",
+    "Haunschild, P.R."
+   ],
+   "year": "2002",
+   "title": "Network learning: The effects of partners' heterogeneity of experience on corporate acquisitions",
+   "venue": "Administrative Science Quarterly, 47: 92-124",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Bothner, M.S."
+   ],
+   "year": "2003",
+   "title": "Competition and Social Influence: The Diffusion of the Sixth-Generation Processor in the Global Computer Industry",
+   "venue": "American Journal of Sociology, 108: 1175-1210",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Carroll, G.R.",
+    "Harrison, J.R."
+   ],
+   "year": "1994",
+   "title": "On the Historical Efficiency of Competition Between Organizational Populations",
+   "venue": "American Journal of Sociology, 100(3): 720-749",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Cohen, W.M.",
+    "Levinthal, D.A."
+   ],
+   "year": "1990",
+   "title": "Absorptive Capacity: A New Perspective on Learning and Innovation",
+   "venue": "Administrative Science Quarterly, 35: 128-153",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Darr, E.D.",
+    "Argote, L.",
+    "Epple, D."
+   ],
+   "year": "1995",
+   "title": "The Acquisition, Transfer, and Depreciation of Knowledge in Service Organizations: Productivity in Franchises",
+   "venue": "Management Science, 41: 1750-1763",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Denrell, J."
+   ],
+   "year": "2003",
+   "title": "Vicarious Learning, Undersampling of Failure, and the Myths of Management",
+   "venue": "Organization Science, 14: 227-243",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Levinthal, D.A.",
+    "March, J.G."
+   ],
+   "year": "1993",
+   "title": "The Myopia of Learning",
+   "venue": "Strategic Management Journal, 14 (Special Issue): 95-112",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Levitt, B.",
+    "March, J.G."
+   ],
+   "year": "1988",
+   "title": "Organizational Learning",
+   "venue": "Annual Review of Sociology, 14: 319-340",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "March, J.G."
+   ],
+   "year": "1991",
+   "title": "Exploration and Exploitation in Organizational Learning",
+   "venue": "Organization Science, 2 (Special Issue): 71-87",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Rao, H.",
+    "Greve, H.R.",
+    "Davis, G.F."
+   ],
+   "year": "2001",
+   "title": "Fool's Gold: Social Proof in the Initiation and Abandonment of Coverage by Wall Street Analysts",
+   "venue": "Administrative Science Quarterly, 46: 502-526",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Saxenian, A."
+   ],
+   "year": "1994",
+   "title": "Regional Advantage",
+   "venue": "Cambridge, MA: Harvard University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Sorenson, O.",
+    "Sørensen, J.B."
+   ],
+   "year": "2001",
+   "title": "Finding the Right Mix: Franchising, Organizational Learning, and Chain Performance",
+   "venue": "Strategic Management Journal, 22: 713-724",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Sorenson, O."
+   ],
+   "year": "2003",
+   "title": "Interdependence and adaptability: Organizational learning and the long-term effect of integration",
+   "venue": "Management Science, 49(4): 446-463",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Tolbert, P.S.",
+    "Zucker, L.G."
+   ],
+   "year": "1983",
+   "title": "Institutional Sources of Change in the Formal Structure of Organizations: The Diffusion of Civil Service Reform, 1880-1935",
+   "venue": "Administrative Science Quarterly, 28: 22-39",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Zajac, E.J.",
+    "Westphal, J.D."
+   ],
+   "year": "2004",
+   "title": "The Social Construction of Market Value: Institutionalization and Learning Perspectives on Stock Market Reactions",
+   "venue": "American Sociological Review, 69: 433-457",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Zajac, E.J.",
+    "Westphal, J.D."
+   ],
+   "year": "2004",
+   "title": "Should Sociological Theories Venture into 'Economic Territory?' Yes!",
+   "venue": "American Sociological Review, 69: 466-471",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Zajac, E.J.",
+    "Westphal, J.D."
+   ],
+   "year": "2004",
+   "title": "Erratum for: The Social Construction of Market Value: Institutionalization and Learning Perspectives on Stock Market Reactions",
+   "venue": "American Sociological Review, 69: 748-749",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Zuckerman, E.W."
+   ],
+   "year": "2004",
+   "title": "Towards the Social Reconstruction of an Interdisciplinary Turf War: Comment on Zajac and Westphal, ASR, June 2004",
+   "venue": "American Sociological Review, 69: 458-465",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Diffusion and Learning I: Process",
+   "authors": [
+    "Zuckerman, E.W.",
+    "Rao, H."
+   ],
+   "year": "2004",
+   "title": "Shrewd, Crude, or Simply Deluded? Comovement and the Internet Stock Phenomenon",
+   "venue": "Industrial and Corporate Change, 13: 171-213",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Diffusion and Learning II: Channels",
+   "authors": [
+    "Appleyard, M.M."
+   ],
+   "year": "1996",
+   "title": "How Does Knowledge Flow? Interfirm Patterns in the Semiconductor Industry",
+   "venue": "Strategic Management Journal, 17 (Special Issue: Knowledge and the Firm): 137-154",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Diffusion and Learning II: Channels",
+   "authors": [
+    "Hayek, F."
+   ],
+   "year": "1945",
+   "title": "The Use of Knowledge in Society",
+   "venue": "American Economic Review, 35: 519-530",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Diffusion and Learning II: Channels",
+   "authors": [
+    "Zollo, M.",
+    "Winter, S.G."
+   ],
+   "year": "2002",
+   "title": "Deliberate learning and the evolution of dynamic capabilities",
+   "venue": "Organization Science, 13: 339-352",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Diffusion and Learning II: Channels",
+   "authors": [
+    "Sgourev, S.",
+    "Zuckerman, E.W."
+   ],
+   "year": "",
+   "title": "Peer Capitalism",
+   "venue": "Unpublished manuscript, MIT Sloan School of Management",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "12. Diffusion and Learning II: Channels",
+   "authors": [
+    "Winter, S.G."
+   ],
+   "year": "1998",
+   "title": "Competition and Selection",
+   "venue": "In J. Eatwell, M. Milgate & P. Newman (eds.), The New Palgrave, Palgrave Macmillan",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "12. Diffusion and Learning II: Channels",
+   "authors": [
+    "Dyer, J.H.",
+    "Nobeoka, K."
+   ],
+   "year": "2000",
+   "title": "Creating and Managing a High-Performance Knowledge-Sharing Network: The Toyota case",
+   "venue": "Strategic Management Journal, 21: 345-367",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Diffusion and Learning II: Channels",
+   "authors": [
+    "Schrader, S."
+   ],
+   "year": "1991",
+   "title": "Informal Technology-transfer Between Firms: Cooperation Through Information Trading",
+   "venue": "Research Policy, 20: 153-170",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Diffusion and Learning II: Channels",
+   "authors": [
+    "von Hippel, E."
+   ],
+   "year": "1987",
+   "title": "Cooperation Between Rivals: Informal Know-How Trading",
+   "venue": "Research Policy, 16: 291-302",
+   "type": "article",
+   "required": false
+  }
+ ]
+}

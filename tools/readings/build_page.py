@@ -2,6 +2,7 @@ import os
 import json, html, re, sys, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from classify import TOPICS
+import tree
 
 D = os.path.dirname(os.path.abspath(__file__)) + '/'
 OUT = sys.argv[1]
@@ -72,6 +73,9 @@ def li(r):
     return f'              <li><span class="rl-ref">{fmt_ref(r)}</span>{count}</li>\n'
 
 
+d['readings'] = [r for r in d['readings'] if not r.get('drop')]
+used = sorted({c for r in d['readings'] for c in r['courses']})
+N = len(used)
 by_topic = collections.defaultdict(list)
 for r in d['readings']:
     by_topic[r['topic']].append(r)
@@ -107,13 +111,16 @@ for key, name, desc in TOPICS:
     s.append('        </div>\n      </section>\n\n')
     sections.append(''.join(s))
 
-srcs = sorted(range(N), key=lambda i: credit(courses[i]))
+srcs = sorted(used, key=lambda i: credit(courses[i]))
 src_items = ''.join(
     f'            <li>{esc(courses[i]["instructor"] or "Instructor not stated")}. <cite>{esc(courses[i]["course"])}</cite>'
     f'{". " + esc(courses[i]["institution"]) if courses[i]["institution"] else ""}{", " + esc(courses[i]["term"]) if courses[i]["term"] else ""}.</li>\n'
     for i in srcs)
 
 total = len(d['readings'])
+counts = {k: len(v) for k, v in by_topic.items()}
+names = {k: n for k, n, _ in TOPICS}
+names['classics'] = 'Classical foundations'
 core_n = sum(r['n'] >= CORE for r in d['readings'])
 
 page = f'''<!doctype html>
@@ -122,7 +129,7 @@ page = f'''<!doctype html>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Reading Lists | Zhongyuan Sun</title>
-    <meta name="description" content="Readings from {N} PhD seminar syllabi in organization theory and strategy, merged and grouped by theoretical stream." />
+    <meta name="description" content="Readings from {N} PhD syllabi and reading lists in organization theory and strategy, merged and grouped by theoretical stream." />
     <link rel="canonical" href="https://zhongyuan0.github.io/readings/" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon.ico" sizes="any" />
@@ -159,7 +166,7 @@ page = f'''<!doctype html>
         <div>
           <h1>Reading lists</h1>
           <p>
-            {total:,} readings from {N} PhD seminar syllabi in organization theory and strategy, merged and regrouped by theoretical stream. The number beside each
+            {total:,} readings from {N} PhD syllabi and reading lists in organization theory and strategy, merged and regrouped by theoretical stream. The number beside each
             reading is how many of the {N} syllabi assign it. Each stream opens with its core readings, the {core_n} that appear in {CORE} or more syllabi,
             followed by those assigned in two or three; readings that appear in only one syllabus are folded away at the end. Credit for the selections belongs to the instructors listed
             <a href="#sources">at the end of the page</a>.
@@ -167,8 +174,26 @@ page = f'''<!doctype html>
         </div>
       </header>
 
+      <section class="rl-tree" aria-labelledby="tree-h">
+        <h2 class="visually-hidden" id="tree-h">Theory tree</h2>
+        <div class="rl-tree-figure">
+          {tree.svg(counts, names)}
+        </div>
+        <p class="rl-tree-note">
+          Each box is a stream, with its number of readings; click a box to jump to its list. Arrows show which streams grew out of which; hover over an arrow
+          for a one-line explanation. Outside the tree: <a href="#theory">Theory and theorizing</a> ({counts.get('theory', 0)}),
+          <a href="#socialtheory">Social theory</a> ({counts.get('socialtheory', 0)}), <a href="#methods">Research methods</a> ({counts.get('methods', 0)}) and
+          <a href="#profession">The academic profession</a> ({counts.get('profession', 0)}).
+        </p>
+        <details class="rl-more rl-lineage">
+          <summary>Lineage, in words</summary>
+          <ul class="plain-list">
+{tree.lineage_list(names)}          </ul>
+        </details>
+      </section>
+
       <nav class="band rl-toc" aria-labelledby="toc-h">
-        <h2 class="label" id="toc-h">Streams</h2>
+        <h2 class="label" id="toc-h">All streams</h2>
         <ol class="body">
 {''.join(toc)}        </ol>
       </nav>

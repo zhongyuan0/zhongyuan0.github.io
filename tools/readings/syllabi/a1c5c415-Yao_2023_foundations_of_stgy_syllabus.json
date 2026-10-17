@@ -1,0 +1,2340 @@
+{
+ "file": "a1c5c415-Yao_2023_foundations_of_stgy_syllabus.txt",
+ "course": "HBS 4110: Foundations of Strategy",
+ "instructor": "Dennis Yao",
+ "institution": "Harvard Business School",
+ "term": "Fall 2023",
+ "readings": [
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Porter, M. E."
+   ],
+   "year": "1996",
+   "title": "What Is Strategy?",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Sadun, R.",
+    "Bloom, N.",
+    "Van Reenen, J."
+   ],
+   "year": "2017",
+   "title": "Why Do We Undervalue Competent Management? Neither Great Leadership Nor Brilliant Strategy Matters Without Operational Excellence",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Porter, M. E."
+   ],
+   "year": "1979",
+   "title": "How Competitive Forces Shape Strategy",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Rumelt, R. P."
+   ],
+   "year": "1991",
+   "title": "How Much Does Industry Matter?",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "McGahan, A. M.",
+    "Porter, M. E."
+   ],
+   "year": "1997",
+   "title": "How Much Does Industry Matter, Really?",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Bowman, E. H.",
+    "Helfat, C. E."
+   ],
+   "year": "2001",
+   "title": "Does corporate strategy matter?",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Khanna, T."
+   ],
+   "year": "2014",
+   "title": "Contextual Intelligence",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Bloom, N.",
+    "Sadun, R.",
+    "Van Reenen, J."
+   ],
+   "year": "2012",
+   "title": "Americans Do IT Better: US Multinationals and the Productivity Miracle",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Bloom, N.",
+    "Genakos, C.",
+    "Sadun, R.",
+    "Van Reenen, J."
+   ],
+   "year": "2012",
+   "title": "Management Practices Across Firms and Countries",
+   "venue": "Academy of Management Perspectives",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Schmalensee, R."
+   ],
+   "year": "1985",
+   "title": "Do Markets Differ Much?",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Waring, G."
+   ],
+   "year": "1996",
+   "title": "Industry differences in the persistence of firm-specific returns",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Ruefli, T.",
+    "Wiggins, R."
+   ],
+   "year": "2003",
+   "title": "Industry, corporate, and segment effects and performance: A non-parametric approach",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "McGahan, A.",
+    "Porter, M."
+   ],
+   "year": "2005",
+   "title": "Comment on Industry, corporate and business-segment effects and business performance: a non-parametric approach by Ruefli and Wiggins",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Ruefli, T.",
+    "Wiggins, R."
+   ],
+   "year": "2005",
+   "title": "Response to McGahan and Porter's commentary on Industry, corporate and business-segment effects and business performance: a non-parametric approach",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Vanneste, B. S."
+   ],
+   "year": "2017",
+   "title": "How Much Do Industry, Corporation, and Business Matter, Really? A Meta-Analysis",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Khanna, T.",
+    "Rivkin, J."
+   ],
+   "year": "2000",
+   "title": "The Structure of Profitability Around the World",
+   "venue": "Working paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "1. What is Strategy? (September 11)",
+   "authors": [
+    "Khanna, T.",
+    "Rivkin, J."
+   ],
+   "year": "2001",
+   "title": "Estimating the Performance Effects of Business Groups in Emerging Markets",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18)",
+   "authors": [
+    "Christensen, C. R.",
+    "Andrews, K. R.",
+    "Bower, J. L."
+   ],
+   "year": "1978",
+   "title": "Business Policy: Text and Cases (4th ed.), pp. 125-142, 593-602",
+   "venue": "Irwin",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18)",
+   "authors": [
+    "Collis, D. J.",
+    "Rukstad, M. G."
+   ],
+   "year": "2008",
+   "title": "Can You Say What Your Strategy Is?",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18)",
+   "authors": [
+    "Ghemawat, P."
+   ],
+   "year": "1991",
+   "title": "Commitment: The Dynamic of Strategy, pp. 1-51",
+   "venue": "Free Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18)",
+   "authors": [
+    "Van den Steen, E."
+   ],
+   "year": "2018",
+   "title": "The Strategy in Competitive Interactions",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18)",
+   "authors": [
+    "Leiblein, M. J.",
+    "Reuer, J. J.",
+    "Zenger, T."
+   ],
+   "year": "2018",
+   "title": "What Makes a Decision Strategic?",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18): Overview of the Strategy Field",
+   "authors": [
+    "Ghemawat, P."
+   ],
+   "year": "2002",
+   "title": "Competition and Business Strategy in Historical Perspective",
+   "venue": "Business History Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18): Overview of the Strategy Field",
+   "authors": [
+    "Rumelt, R.",
+    "Schendel, D.",
+    "Teece, D."
+   ],
+   "year": "1991",
+   "title": "Strategic management and economics",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18): Overview of the Strategy Field",
+   "authors": [
+    "Mintzberg, H.",
+    "Waters, J. A."
+   ],
+   "year": "1985",
+   "title": "Of Strategies, Deliberate and Emergent",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18): Overview of the Strategy Field",
+   "authors": [
+    "Mintzberg, H."
+   ],
+   "year": "1990",
+   "title": "The Design School: Reconsidering the Basic Premise of Strategic Management",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18): Overview of the Strategy Field",
+   "authors": [
+    "Ansoff, I."
+   ],
+   "year": "1991",
+   "title": "Critique of H. Mintzberg's 'The Design School: Reconsidering the Basic Premise of Strategic Management'",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2. Strategic choices: Guidance (September 18): Overview of the Strategy Field",
+   "authors": [
+    "Mintzberg, H."
+   ],
+   "year": "",
+   "title": "Learning 1, Planning 0: Reply to Igor Ansoff",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Positioning and Value-Based Strategy",
+   "authors": [
+    "Porter, M. E."
+   ],
+   "year": "1985",
+   "title": "Competitive Advantage",
+   "venue": "Free Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "3. Positioning and Value-Based Strategy",
+   "authors": [
+    "Brandenburger, A. M.",
+    "Stuart, H. W., Jr."
+   ],
+   "year": "1996",
+   "title": "Value-Based Business Strategy",
+   "venue": "Journal of Economics & Management Strategy",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3. Positioning and Value-Based Strategy",
+   "authors": [
+    "Brandenburger, A.",
+    "Nalebuff, B."
+   ],
+   "year": "1996",
+   "title": "Co-Opetition (Chapter 2, pp. 11-39)",
+   "venue": "Doubleday",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "3. Positioning and Value-Based Strategy",
+   "authors": [
+    "Teece, D. J."
+   ],
+   "year": "1985",
+   "title": "Applying concepts of economic analysis to strategic management",
+   "venue": "In J. Pennings (Ed.), Organizational Strategy and Change. Jossey-Bass",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "3. Positioning and Value-Based Strategy",
+   "authors": [
+    "Lippman, S. A.",
+    "Rumelt, R."
+   ],
+   "year": "1982",
+   "title": "Uncertain Imitability: An Analysis of Interfirm Differences in Efficiency under Competition",
+   "venue": "Bell Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Positioning and Value-Based Strategy",
+   "authors": [
+    "Porter, M. E."
+   ],
+   "year": "1991",
+   "title": "Towards a dynamic theory of strategy",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Positioning and Value-Based Strategy",
+   "authors": [
+    "Adner, R.",
+    "Ruiz-Aliseda, F.",
+    "Zemsky, P."
+   ],
+   "year": "2016",
+   "title": "Specialist versus Generalist Positioning: Demand Heterogeneity, Technology Scalability and Endogenous Market Segmentation",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Positioning and Value-Based Strategy",
+   "authors": [
+    "Lieberman, M.",
+    "Balasubramanian, N.",
+    "Garcia-Castro, R."
+   ],
+   "year": "2018",
+   "title": "Toward a dynamic notion of value creation and appropriation in firms: The concept and measurement of economic gain",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3. Positioning and Value-Based Strategy",
+   "authors": [
+    "Casadesus-Masanell, R.",
+    "Ricart, J. E."
+   ],
+   "year": "2010",
+   "title": "From Strategy to Business Models and onto Tactics",
+   "venue": "Long Range Planning",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Penrose, E."
+   ],
+   "year": "1959",
+   "title": "Theory of the Growth of the Firm, Chapter V: 'Inherited' Resources and the Direction of Expansion",
+   "venue": "Oxford University Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Wernerfelt, B."
+   ],
+   "year": "1984",
+   "title": "A Resource-based View of the Firm",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Prahalad, C. K.",
+    "Hamel, G."
+   ],
+   "year": "1990",
+   "title": "The Core Competence of the Corporation",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Dierickx, I.",
+    "Cool, K."
+   ],
+   "year": "1989",
+   "title": "Asset Stock Accumulation and Sustainability of Competitive Advantage",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Barney, J."
+   ],
+   "year": "1991",
+   "title": "Firm Resources and Sustained Competitive Advantage",
+   "venue": "Journal of Management",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Peteraf, M. A."
+   ],
+   "year": "1993",
+   "title": "The Cornerstones of Competitive Advantage: A Resource-Based View",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Capron, L.",
+    "Dussauge, P.",
+    "Mitchell, W."
+   ],
+   "year": "1998",
+   "title": "Resource Redeployment Following Horizontal Acquisitions in Europe and North America, 1988-1992",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Ahuja, G.",
+    "Katila, R."
+   ],
+   "year": "2004",
+   "title": "Where Do Resources Come From? The Role of Idiosyncratic Situations",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Wernerfelt, B."
+   ],
+   "year": "1995",
+   "title": "A Resource-based View of the Firm: 10 years later",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Barney, J.",
+    "Wright, M.",
+    "Ketchen, D. J."
+   ],
+   "year": "2001",
+   "title": "The Resource-Based View of the firm: ten years after 1991",
+   "venue": "Journal of Management",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Priem, R. L.",
+    "Butler, J."
+   ],
+   "year": "2001",
+   "title": "Is the resource-based \"view\" a useful perspective for strategic management research?",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4. Resource-Based View of the Firm",
+   "authors": [
+    "Barney, J. B."
+   ],
+   "year": "2001",
+   "title": "Is the resource-based \"view\" a useful perspective for strategic management research? Yes",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Dynamic Capabilities",
+   "authors": [
+    "Teece, D. J.",
+    "Pisano, G.",
+    "Shuen, A."
+   ],
+   "year": "1997",
+   "title": "Dynamic Capabilities and Strategic Management",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5. Dynamic Capabilities",
+   "authors": [
+    "Eisenhardt, K. M.",
+    "Martin, J."
+   ],
+   "year": "2000",
+   "title": "Dynamic capabilities: What are they?",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5. Dynamic Capabilities",
+   "authors": [
+    "Tripsas, M."
+   ],
+   "year": "1997",
+   "title": "Surviving Radical Technological Change through Dynamic Capability: Evidence from the Typesetter Industry",
+   "venue": "Industrial and Corporate Change",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5. Dynamic Capabilities",
+   "authors": [
+    "Pisano, G. P."
+   ],
+   "year": "2017",
+   "title": "Toward a Prescriptive Theory of Dynamic Capabilities: Connecting Strategic Choice, Learning, and Competition",
+   "venue": "Industrial and Corporate Change",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5. Dynamic Capabilities",
+   "authors": [
+    "O'Reilly, C. A., III",
+    "Tushman, M. L."
+   ],
+   "year": "2008",
+   "title": "Ambidexterity as a Dynamic Capability: Resolving the Innovator's Dilemma",
+   "venue": "Research in Organizational Behavior",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5. Dynamic Capabilities",
+   "authors": [],
+   "year": "2018",
+   "title": "Various short responses to Pisano 2017 (skim Helfat, Winter, Linden/Teece)",
+   "venue": "Industrial and Corporate Change 27(6)",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "5. Dynamic Capabilities",
+   "authors": [
+    "Henderson, R.",
+    "Cockburn, I."
+   ],
+   "year": "1994",
+   "title": "Measuring Competence? Exploring firm Effects in Pharmaceutical Research",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Dynamic Capabilities",
+   "authors": [
+    "King, A. A.",
+    "Tucci, C. L."
+   ],
+   "year": "2002",
+   "title": "Incumbent Entry into New Market Niches: The Role of Experience and Managerial Choice in the Creation of Dynamic Capabilities",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5. Dynamic Capabilities",
+   "authors": [
+    "Newbert, S. L."
+   ],
+   "year": "2007",
+   "title": "Empirical research on the resource-based view of the firm: An assessment and suggestions for future research",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Sutton, J."
+   ],
+   "year": "1991",
+   "title": "Sunk Costs and Market Structure: Price Competition, Advertising, and the Evolution of Concentration, pp. 1-81 (skim)",
+   "venue": "MIT Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Barney, J. B."
+   ],
+   "year": "1986",
+   "title": "Strategic Factor Markets: Expectations, Luck, and Business Strategy",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Oberholzer-Gee, F.",
+    "Yao, D. A."
+   ],
+   "year": "2018",
+   "title": "Integrated Strategy: Residual Market and Exchange Imperfections as the Foundation of Sustainable Competitive Advantage",
+   "venue": "",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Coase, R."
+   ],
+   "year": "1937",
+   "title": "The Nature of the Firm",
+   "venue": "Economica",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Williamson, O. E."
+   ],
+   "year": "1981",
+   "title": "The Economics of Organization: The Transaction Cost Approach",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Williamson, O. E."
+   ],
+   "year": "2002",
+   "title": "The Theory of the Firm as Governance Structure: From Choice to Contract",
+   "venue": "Journal of Economic Perspectives",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Ghoshal, S.",
+    "Moran, P."
+   ],
+   "year": "1996",
+   "title": "Bad for practice: A critique of the transaction cost theory",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Podolny, J. M."
+   ],
+   "year": "1993",
+   "title": "A status-based model of market competition",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Pontikes, E. G."
+   ],
+   "year": "2018",
+   "title": "Category Strategy for Firm Advantage",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Caves, R. E."
+   ],
+   "year": "1980",
+   "title": "Industrial Organization, Corporate Strategy, and Structure",
+   "venue": "Journal of Economic Literature",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Yao, D. A."
+   ],
+   "year": "1988",
+   "title": "Beyond the Reach of the Invisible Hand: Impediments to Economic Activity, Market Failures, and Profitability",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Sutton, J."
+   ],
+   "year": "2007",
+   "title": "Market Share Dynamics and the \"Persistence of Leadership\" Debate",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Makowski, L.",
+    "Ostroy, J. M."
+   ],
+   "year": "2001",
+   "title": "Perfect competition and the creativity of the market",
+   "venue": "Journal of Economic Literature",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Katz, M.",
+    "Shapiro, C."
+   ],
+   "year": "1994",
+   "title": "Systems Competition and Network Effects",
+   "venue": "Journal of Economic Perspectives",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Goolsbee, A.",
+    "Syverson, C."
+   ],
+   "year": "2008",
+   "title": "How do Incumbents Respond to the Threat of Entry? Evidence from the Major Airlines",
+   "venue": "Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Bronnenberg, B.",
+    "Dhar, S.",
+    "Dubé, J."
+   ],
+   "year": "2009",
+   "title": "Brand History, Geography, and the Persistence of Brand Shares",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Saloner, G."
+   ],
+   "year": "1991",
+   "title": "Modeling, Game Theory, and Strategic Management",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Yoffie, D. B.",
+    "Kwak, M."
+   ],
+   "year": "2001",
+   "title": "Judo Strategy: Turning Your Competitors' Strength to Your Advantage, pp. 1-16, 65-90",
+   "venue": "Harvard Business School Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Winter, S. G."
+   ],
+   "year": "1988",
+   "title": "On Coase, competence, and the corporation",
+   "venue": "Journal of Law, Economics, and Organization",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Hart, O."
+   ],
+   "year": "1995",
+   "title": "Firms, contracts, and financial structure (Chapters 1 and 2)",
+   "venue": "",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Williamson, O. E."
+   ],
+   "year": "1996",
+   "title": "Economic organization: The case for candor",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Oxley, J."
+   ],
+   "year": "1997",
+   "title": "Appropriability hazards and governance in alliances: A transaction cost approach",
+   "venue": "Journal of Law, Economics and Organization",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Gibbons, R."
+   ],
+   "year": "1999",
+   "title": "Taking Coase seriously",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Gartenberg, C.",
+    "Zenger, T."
+   ],
+   "year": "2023",
+   "title": "The Firm as a Subsociety: Purpose, Justice, and the Theory of the Firm",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Podolny, J. M."
+   ],
+   "year": "1994",
+   "title": "Market uncertainty and the social character of economic exchange",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Pontikes, E."
+   ],
+   "year": "2012",
+   "title": "Two Sides of the Same Coin: How Ambiguous Classification Affects Multiple Audiences' Evaluations",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6. Market Competition",
+   "authors": [
+    "Navis, C.",
+    "Glynn, M. A."
+   ],
+   "year": "2010",
+   "title": "How New Market Categories Emerge: Temporal Dynamics of Legitimacy, Identity, and Entrepreneurship in Satellite Radio 1990-2005",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Kogut, B.",
+    "Zander, U."
+   ],
+   "year": "1992",
+   "title": "Knowledge of the Firm, Combinative Capabilities, and the Replication of Technology",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Argote, L.",
+    "Epple, D."
+   ],
+   "year": "1990",
+   "title": "Learning Curves in Manufacturing",
+   "venue": "Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Cohen, W. M.",
+    "Levinthal, D. A."
+   ],
+   "year": "1990",
+   "title": "Absorptive Capacity: A New Perspective on Learning and Innovation",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "March, J. G."
+   ],
+   "year": "1991",
+   "title": "Exploration and Exploitation in Organizational Learning",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Rivkin, J. W."
+   ],
+   "year": "2000",
+   "title": "Imitation of Complex Strategies",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Winter, S. G.",
+    "Szulanski, G."
+   ],
+   "year": "2001",
+   "title": "Replication as Strategy",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Rapping, L."
+   ],
+   "year": "1965",
+   "title": "Learning and World War II production functions",
+   "venue": "Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Lieberman, M."
+   ],
+   "year": "1984",
+   "title": "The Learning Curve and Pricing in the Chemical Processing Industries",
+   "venue": "RAND Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Darr, E.",
+    "Argote, L.",
+    "Epple, D."
+   ],
+   "year": "1995",
+   "title": "The acquisition, transfer and depreciation of knowledge in service organizations: Productivity in franchises",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Thompson, P."
+   ],
+   "year": "2001",
+   "title": "How much did the Liberty shipbuilders learn? New evidence for an old case study",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Schilling, M. A.",
+    "Vidal, P.",
+    "Ployhart, R. E.",
+    "Marangoni, A."
+   ],
+   "year": "2003",
+   "title": "Learning by doing something else: Variation, relatedness and the learning curve",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "7. Knowledge and Learning Processes",
+   "authors": [
+    "Sorenson, O."
+   ],
+   "year": "2003",
+   "title": "Interdependence and adaptability: Organizational learning and the long-term effect of integration",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Schumpeter, J."
+   ],
+   "year": "1934",
+   "title": "The Theory of Economic Development (Chapter 4)",
+   "venue": "",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Arrow, K."
+   ],
+   "year": "1962",
+   "title": "Economic welfare and the allocation of resources for invention",
+   "venue": "In R. Nelson (Ed.), The rate and direction of inventive activity. Princeton University Press, pp. 609-626",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Alcacer, J.",
+    "Chung, W."
+   ],
+   "year": "2007",
+   "title": "Location Strategies and Knowledge Spillovers",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Christensen, C. M.",
+    "Rosenbloom, R. S."
+   ],
+   "year": "1995",
+   "title": "Explaining the Attacker's Advantage: Technological Paradigms, Organizational Dynamics, and the Value Network",
+   "venue": "Research Policy",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Levinthal, D. A."
+   ],
+   "year": "1997",
+   "title": "Adaptation on Rugged Landscapes",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Nelson, R. R.",
+    "Winter, S. G."
+   ],
+   "year": "1982",
+   "title": "An Evolutionary Theory of Economic Change (Chapters 4 & 5, pp. 72-136)",
+   "venue": "Belknap Press of Harvard University Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Gort, M.",
+    "Klepper, S."
+   ],
+   "year": "1982",
+   "title": "Time paths in the diffusion of product innovations",
+   "venue": "Economic Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Jovanovic, B.",
+    "MacDonald, G."
+   ],
+   "year": "1994",
+   "title": "The life cycle of a competitive industry",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Cabral, L.",
+    "Mata, J."
+   ],
+   "year": "2003",
+   "title": "On the Evolution of the Firm Size Distribution: Facts and Theory",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Adner, R.",
+    "Zemsky, P."
+   ],
+   "year": "2005",
+   "title": "Disruptive Technologies and the Emergence of Competition",
+   "venue": "RAND Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Henderson, R. M.",
+    "Clark, K. B."
+   ],
+   "year": "1990",
+   "title": "Architectural Innovation: The Reconfiguration of Existing Product Technologies and the Failure of Established Firms",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Christensen, C. M.",
+    "Bower, J. L."
+   ],
+   "year": "1996",
+   "title": "Customer Power, Strategic Investment, and the Failure of Leading Firms",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Rosenbloom, R. S.",
+    "Christensen, C. M."
+   ],
+   "year": "1994",
+   "title": "Technological Discontinuities, Organizational Capabilities, and Strategic Commitments",
+   "venue": "Industrial and Corporate Change",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Sutton, J."
+   ],
+   "year": "1998",
+   "title": "Technology and Market Structure (Chapter 3)",
+   "venue": "In Technology and Market Structure: Theory and History. MIT Press, pp. 63-91",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Thompson, P.",
+    "Klepper, S."
+   ],
+   "year": "2006",
+   "title": "Intra-Industry Spinoffs",
+   "venue": "Florida International University, Department of Economics Working Papers, No. 605",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Adner, R.",
+    "Puranam, P.",
+    "Zhu, F."
+   ],
+   "year": "2019",
+   "title": "What is Different About Digital Strategy? From Quantitative to Qualitative Change",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Lenox, M.",
+    "Rockart, S.",
+    "Lewin, A."
+   ],
+   "year": "2006",
+   "title": "Interdependency, Competition, and the Distribution of Firm and Industry Profits",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Nelson, R. R.",
+    "Winter, S. G."
+   ],
+   "year": "2002",
+   "title": "Evolutionary Theorizing in Economics",
+   "venue": "Journal of Economic Perspectives",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Tushman, M. L.",
+    "Anderson, P."
+   ],
+   "year": "1986",
+   "title": "Technological Discontinuities and Organizational Environments",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Knott, A. M."
+   ],
+   "year": "2001",
+   "title": "The Dynamic Value of Hierarchy",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Stuart, T. R.",
+    "Podolny, J. M."
+   ],
+   "year": "1996",
+   "title": "Local Search and the Evolution of Technological Capabilities",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Klepper, S.",
+    "Graddy, E."
+   ],
+   "year": "1990",
+   "title": "The Evolution of New Industries and the Determinants of Market Structure",
+   "venue": "RAND Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Barnett, W. P.",
+    "Hansen, M. T."
+   ],
+   "year": "1996",
+   "title": "The red queen in organizational evolution",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Barnett, W. P.",
+    "Sorenson, O."
+   ],
+   "year": "2002",
+   "title": "The Red Queen in organizational creation and development",
+   "venue": "Industrial and Corporate Change",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "8. Innovation Processes",
+   "authors": [
+    "Pontikes, E. G.",
+    "Barnett, W. P."
+   ],
+   "year": "2017",
+   "title": "The Coevolution of Organizational Knowledge and Market Technology",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Simon, H. A."
+   ],
+   "year": "1997",
+   "title": "Administrative Behavior: A Study of Decision-making Processes (4th ed., Chapters 1, 5)",
+   "venue": "Free Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Meyer, J. W.",
+    "Rowan, B."
+   ],
+   "year": "1977",
+   "title": "Institutionalized Organizations: Formal Structure as Myth and Ceremony",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Piskorski, M. J."
+   ],
+   "year": "2014",
+   "title": "A Social Strategy: How We Profit from Social Media, pp. 1-24",
+   "venue": "Princeton University Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Ocasio, W."
+   ],
+   "year": "1997",
+   "title": "Towards an Attention-Based View of the Firm",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Powell, T. C.",
+    "Lovallo, D.",
+    "Fox, C. R."
+   ],
+   "year": "2011",
+   "title": "Behavioral Strategy",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Gavetti, G."
+   ],
+   "year": "2011",
+   "title": "Toward a Behavioral Theory of Strategy",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Winter, S."
+   ],
+   "year": "2012",
+   "title": "Purpose and Progress in the Theory of Strategy: Comments on Gavetti",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Kaplan, S."
+   ],
+   "year": "2008",
+   "title": "Framing contests: Strategy making under uncertainty",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Kim, W. C.",
+    "Mauborgne, R."
+   ],
+   "year": "2004",
+   "title": "Blue Ocean Strategy",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "March, J. G.",
+    "Simon, H. A."
+   ],
+   "year": "1958",
+   "title": "Organizations (Chapter 6)",
+   "venue": "",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Gulati, R."
+   ],
+   "year": "1995",
+   "title": "Does familiarity breed trust? The implications of repeated ties for contractual choice in alliances",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Brandenburger, A.",
+    "Vinokurova, N."
+   ],
+   "year": "2012",
+   "title": "Comment on \"Toward a Behavioral Theory of Strategy\"",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Gavetti, G. M.",
+    "Menon, A."
+   ],
+   "year": "2016",
+   "title": "Evolution Cum Agency: Toward a Model of Strategic Foresight",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Gavetti, G. M.",
+    "Lecuona Torras, J. R."
+   ],
+   "year": "2021",
+   "title": "A Neo-Carnegie Approach to the Agency Question: Bridging Evolutionary and Cognitive Views of Strategy",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Gavetti, G.",
+    "Greve, D.",
+    "Levinthal, D.",
+    "Ocasio, W."
+   ],
+   "year": "2012",
+   "title": "The Behavioral Theory of the Firm: Assessment and Prospects",
+   "venue": "Academy of Management Annals",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Camerer, C.",
+    "Lovallo, D."
+   ],
+   "year": "1999",
+   "title": "Overconfidence and Excess Entry: An Experimental Approach",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Gavetti, G.",
+    "Levinthal, D."
+   ],
+   "year": "2000",
+   "title": "Looking Backward and Looking Forward: Cognitive and experiential learning",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Kaplan, S."
+   ],
+   "year": "2011",
+   "title": "Research in Cognition and Strategy: Reflections on Two Decades of Progress and a Look to the Future",
+   "venue": "Journal of Management Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [],
+   "year": "2021",
+   "title": "Special issue on Culture and its Link to Strategy",
+   "venue": "Strategy Science",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Merton, R. K."
+   ],
+   "year": "1968",
+   "title": "The Matthew effect in science",
+   "venue": "Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Raffaelli, R.",
+    "Glynn, M. A.",
+    "Tushman, M."
+   ],
+   "year": "2019",
+   "title": "Frame Flexibility: The Role of Cognitive and Emotional Framing in Innovation Adoption by Incumbent Firms",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Amabile, T. M."
+   ],
+   "year": "1983",
+   "title": "The Social Psychology of Creativity: A Componential Conceptualization",
+   "venue": "Journal of Personality and Social Psychology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "9. Social and Cognitive Processes",
+   "authors": [
+    "Menon, A. R.",
+    "Yao, D. A."
+   ],
+   "year": "2022",
+   "title": "Rationalizing Outcomes: Interdependent Learning in Competitive Markets",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Allison, G. T."
+   ],
+   "year": "1969",
+   "title": "Conceptual Models and the Cuban Missile Crisis",
+   "venue": "American Political Science Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Allison, G. T."
+   ],
+   "year": "1971",
+   "title": "Essence of Decision: Explaining the Cuban Missile Crisis",
+   "venue": "",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Bower, J. L.",
+    "Gilbert, C. G."
+   ],
+   "year": "2005",
+   "title": "From Resource Allocation to Strategy (Chapters 1, 4, & 20)",
+   "venue": "Oxford University Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Burgelman, R. A."
+   ],
+   "year": "1991",
+   "title": "Intraorganizational Ecology of Strategy Making and Organizational Adaptation: Theory and Field Research",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Noda, T.",
+    "Bower, J. L."
+   ],
+   "year": "1996",
+   "title": "Strategy Making as Iterated Processes of Resource Allocation",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Cohen, M. D.",
+    "March, J. G.",
+    "Olsen, J. P."
+   ],
+   "year": "1972",
+   "title": "A Garbage Can Model of Organizational Choice",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Quinn, J. B."
+   ],
+   "year": "1978",
+   "title": "Strategic Change: \"Logical Incrementalism\"",
+   "venue": "Sloan Management Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Bower, J. L."
+   ],
+   "year": "1970",
+   "title": "Managing the Resource Allocation Process (Chapters 1-3)",
+   "venue": "Harvard Business School Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Pfeffer, J."
+   ],
+   "year": "1978",
+   "title": "The Micropolitics of Organizations",
+   "venue": "In M. W. Meyer (Ed.), Environments and Organizations. Jossey-Bass, pp. 29-50",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Gavetti, G.",
+    "Rivkin, J. W."
+   ],
+   "year": "2007",
+   "title": "On the Origin of Strategy: Action and Cognition over Time",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Kaplan, R. S.",
+    "Norton, D. P."
+   ],
+   "year": "2007",
+   "title": "Using the Balanced Scorecard as a Strategic Management System",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Simons, R."
+   ],
+   "year": "1995",
+   "title": "Control in an Age of Empowerment",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Shleifer, A.",
+    "Vishny, R. W."
+   ],
+   "year": "1997",
+   "title": "A Survey of Corporate Governance",
+   "venue": "Journal of Finance",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "10. Organizational Decision-Making",
+   "authors": [
+    "Downs, A."
+   ],
+   "year": "1967",
+   "title": "Inside Bureaucracy",
+   "venue": "",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Hannan, M. T.",
+    "Freeman, J. H."
+   ],
+   "year": "1977",
+   "title": "The Population Ecology of Organizations",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Zuzul, T.",
+    "Tripsas, M."
+   ],
+   "year": "2020",
+   "title": "Start-up Inertia versus Flexibility: The Role of Founder Identity in a Nascent Industry",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Raffaelli, R."
+   ],
+   "year": "2019",
+   "title": "Technology Reemergence: Creating New Value for Old Technologies in Swiss Mechanical Watchmaking, 1970-2008",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Menon, A. R.",
+    "Yao, D. A."
+   ],
+   "year": "2017",
+   "title": "Elevating Repositioning Costs: Strategy Dynamics and Competitive Interactions",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Baum, J. A. C.",
+    "Singh, J. V."
+   ],
+   "year": "1994",
+   "title": "Organizational niches and the dynamics of organizational mortality",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Marquis, C."
+   ],
+   "year": "2003",
+   "title": "The Pressure of the Past: Network Imprinting in Intercorporate Communities",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Siggelkow, N."
+   ],
+   "year": "2001",
+   "title": "Change in the Presence of Fit: The Rise, the Fall, and the Renaissance of Liz Claiborne",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Wang, R.",
+    "Shaver, J. M."
+   ],
+   "year": "2014",
+   "title": "Competition-Driven Repositioning",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Benner, M. J.",
+    "Waldfogel, J."
+   ],
+   "year": "2016",
+   "title": "The Song Remains the Same? Technological Change and Positioning in the Recorded Music Industry",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "Cyert, R. M.",
+    "March, J. G."
+   ],
+   "year": "1963",
+   "title": "A Behavioral Theory of the Firm (pp. 26-66, 98-113)",
+   "venue": "",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "11. Strategic change",
+   "authors": [
+    "March, J. G.",
+    "Olsen, J."
+   ],
+   "year": "1983",
+   "title": "Organizing Political Life: What Administrative Reorganization Tells Us about Government",
+   "venue": "American Political Science Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Dorobantu, S.",
+    "Kaul, A.",
+    "Zelner, B."
+   ],
+   "year": "2017",
+   "title": "Nonmarket Strategy Research Through the Lens of New Institutional Economics: An integrative review and future directions",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Ahuja, G.",
+    "Capron, L.",
+    "Lenox, M.",
+    "Yao, D. A."
+   ],
+   "year": "2018",
+   "title": "Strategy and the Institutional Envelope",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Baron, D. P."
+   ],
+   "year": "2003",
+   "title": "Private Politics",
+   "venue": "Journal of Economics & Management Strategy",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Baron, D. P."
+   ],
+   "year": "1995",
+   "title": "Integrated strategy: Market and nonmarket components",
+   "venue": "California Management Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Porter, M. E.",
+    "Kramer, M. R."
+   ],
+   "year": "2006",
+   "title": "Strategy & Society: The Link Between Competitive Advantage and Corporate Social Responsibility",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Eccles, R. G.",
+    "Ioannou, I.",
+    "Serafeim, G."
+   ],
+   "year": "2014",
+   "title": "The Impact of Corporate Sustainability on Organizational Processes and Performance",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Gavetti, G.",
+    "Levinthal, D."
+   ],
+   "year": "2004",
+   "title": "The Strategy Field from the Perspective of Management Science: Divergent Strands and Possible Integration",
+   "venue": "Management Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Baron, D. P."
+   ],
+   "year": "2001",
+   "title": "Private politics, corporate social responsibility, and integrated strategy",
+   "venue": "Journal of Economics & Management Strategy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Baron, D. P.",
+    "Diermeier, D."
+   ],
+   "year": "2007",
+   "title": "Strategic Activism and Nonmarket Strategy",
+   "venue": "Journal of Economics & Management Strategy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Fisman, R."
+   ],
+   "year": "2001",
+   "title": "Estimating the Value of Political Connections",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Fresh, J. E."
+   ],
+   "year": "2005",
+   "title": "How Do Corporations Play Politics?: The FedEx Story",
+   "venue": "Vanderbilt Law Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "McDonnell, M.-H.",
+    "King, B.",
+    "Soule, S."
+   ],
+   "year": "2015",
+   "title": "A Dynamic Process Model of Contentious Politics: Activist Targeting and Corporate Receptivity to Social Challenges",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Hillman, A.",
+    "et al."
+   ],
+   "year": "2016",
+   "title": "Corporate Political Activity: A Review and Research Agenda",
+   "venue": "Journal of Management",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Jia, N.",
+    "Mayer, K."
+   ],
+   "year": "2016",
+   "title": "Complementarity in Firms' Market and Political Capabilities: An Integrated Theoretical Perspective",
+   "venue": "Advances in Strategic Management",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Capron, L.",
+    "Chatain, O."
+   ],
+   "year": "2008",
+   "title": "Competitors' Resource-Oriented Strategies: Acting on Competitors' Resources Through Intervention in Factor Markets and Political Markets",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Greene, H.",
+    "Yao, D. A."
+   ],
+   "year": "2016",
+   "title": "Navigating Natural Monopolies: Market Strategy and Non-Market Challenges in Radio and Television Audience Measurement Markets",
+   "venue": "Advances in Strategic Management",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Baron, D. P."
+   ],
+   "year": "2018",
+   "title": "Disruptive Entrepreneurship and Dual Purpose Strategies: The Case of Uber",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Gao, C.",
+    "McDonald, R."
+   ],
+   "year": "2022",
+   "title": "Shaping Nascent Industries: Innovation Strategy and Regulatory Uncertainty in Personal Genomics",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Friedman, M."
+   ],
+   "year": "1970",
+   "title": "The Social Responsibility of Business is to Increase its Profits",
+   "venue": "New York Times Magazine",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Minor, D.",
+    "Morgan, J."
+   ],
+   "year": "2011",
+   "title": "CSR as Reputation Insurance: Primum Non Nocere",
+   "venue": "California Management Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Flammer, C."
+   ],
+   "year": "2015",
+   "title": "Does Product Market Competition Foster Corporate Social Responsibility? Evidence From Trade Liberalization",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "McGahan, A."
+   ],
+   "year": "2023",
+   "title": "The New Stakeholder Theory on Organizational Purpose",
+   "venue": "Strategy Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "12. Nonmarket Strategy and Summary of Course",
+   "authors": [
+    "Paine, L."
+   ],
+   "year": "2023",
+   "title": "What Does 'Stakeholder Capitalism' Mean to You?",
+   "venue": "Harvard Business Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Non-profit or governmental organizations (not covered)",
+   "authors": [
+    "Hansmann, H."
+   ],
+   "year": "1996",
+   "title": "The Ownership of Enterprise",
+   "venue": "Belknap Press of Harvard University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Non-profit or governmental organizations (not covered)",
+   "authors": [
+    "Oster, S. M."
+   ],
+   "year": "1995",
+   "title": "Strategic Management for Nonprofit Organizations: Theory and Cases, pp. 1-28",
+   "venue": "Oxford University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Non-profit or governmental organizations (not covered)",
+   "authors": [
+    "Moore, M. H."
+   ],
+   "year": "2000",
+   "title": "Managing for Value: Organizational Strategy in for-Profit, Nonprofit, and Governmental Organizations",
+   "venue": "Nonprofit and Voluntary Sector Quarterly",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Non-profit or governmental organizations (not covered)",
+   "authors": [
+    "Battilana, J.",
+    "Dorado, S."
+   ],
+   "year": "2010",
+   "title": "Building Sustainable Hybrid Organizations: The Case of Commercial Microfinance Organizations",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "Non-profit or governmental organizations (not covered)",
+   "authors": [
+    "Heymann, P. B."
+   ],
+   "year": "1987",
+   "title": "The Politics of Public Management, pp. 1-73",
+   "venue": "Yale University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Non-profit or governmental organizations (not covered)",
+   "authors": [
+    "Hirschman, A. O."
+   ],
+   "year": "1970",
+   "title": "Exit, Voice, and Loyalty, pp. 1-54",
+   "venue": "",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "Non-profit or governmental organizations (not covered)",
+   "authors": [
+    "Heclo, H."
+   ],
+   "year": "1977",
+   "title": "A Government of Strangers: Executive Politics in Washington, pp. 84-234",
+   "venue": "Brookings Institution",
+   "type": "book",
+   "required": false
+  }
+ ]
+}

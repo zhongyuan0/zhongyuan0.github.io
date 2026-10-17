@@ -1,0 +1,2066 @@
+{
+ "file": "0e30bcc5-lounsburyzhao_Neo-institutionalTheory.txt",
+ "course": "Neo-institutional Theory",
+ "instructor": "Michael Lounsbury, Eric Yanfei Zhao",
+ "institution": "",
+ "term": "",
+ "readings": [
+  {
+   "session": "Reference Resources",
+   "authors": [
+    "Greenwood, R.",
+    "Oliver, C.",
+    "Sahlin, K.",
+    "Suddaby, R."
+   ],
+   "year": "2008",
+   "title": "The SAGE Handbook of Organizational Institutionalism",
+   "venue": "Thousand Oaks, CA: SAGE",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Reference Resources",
+   "authors": [
+    "Greenwood, R.",
+    "Oliver, C.",
+    "Sahlin, K.",
+    "Suddaby, R."
+   ],
+   "year": "2012",
+   "title": "Institutional Theory in Organization Studies",
+   "venue": "London: SAGE",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Reference Resources",
+   "authors": [
+    "Meyer, J. W.",
+    "Scott, W. R."
+   ],
+   "year": "1983",
+   "title": "Organizational Environments: Ritual and Rationality",
+   "venue": "Beverly Hills, CA: SAGE",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Reference Resources",
+   "authors": [
+    "Meyer, J. W.",
+    "Thomas, G.",
+    "Ramirez, F.",
+    "Boli, J."
+   ],
+   "year": "1987",
+   "title": "Institutional Structure: Constituting State, Society, and the Individual",
+   "venue": "Beverly Hills, CA: SAGE",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Reference Resources",
+   "authors": [
+    "Powell, W. W.",
+    "DiMaggio, P. J."
+   ],
+   "year": "1991",
+   "title": "The New Institutionalism in Organizational Analysis",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Reference Resources",
+   "authors": [
+    "Scott, W. R."
+   ],
+   "year": "2008",
+   "title": "Institutions and Organizations: Ideas and Interests",
+   "venue": "London: SAGE",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Reference Resources",
+   "authors": [
+    "Scott, W. R.",
+    "Meyer, J. W."
+   ],
+   "year": "1994",
+   "title": "Institutional Environments and Organizations: Structural Complexity and Individualism",
+   "venue": "Thousand Oaks, CA: SAGE",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Reference Resources",
+   "authors": [
+    "Zucker, L. G."
+   ],
+   "year": "1988",
+   "title": "Institutional Patterns and Organizations: Culture and Environment",
+   "venue": "Cambridge, MA: Ballinger",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes",
+   "authors": [
+    "DiMaggio, P. J.",
+    "Powell, W. W."
+   ],
+   "year": "1983",
+   "title": "The Iron Cage Revisited: Institutional Isomorphism and Collective Rationality in Organizational Fields",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes",
+   "authors": [
+    "DiMaggio, P. J.",
+    "Powell, W. W."
+   ],
+   "year": "1991",
+   "title": "Introduction",
+   "venue": "The New Institutionalism in Organizational Analysis. Edited by Walter W. Powell and Paul J. DiMaggio, 1–40. Chicago: University of Chicago Press",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes",
+   "authors": [
+    "Meyer, J. W.",
+    "Rowan, B."
+   ],
+   "year": "1977",
+   "title": "Institutionalized Organizations: Formal Structure as Myth and Ceremony",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes",
+   "authors": [
+    "Schneiberg, M.",
+    "Clemens, E. S."
+   ],
+   "year": "2006",
+   "title": "The Typical Tools for the Job: Research Strategies in Institutional Analysis",
+   "venue": "Sociological Theory",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes",
+   "authors": [
+    "Selznick, P."
+   ],
+   "year": "1949",
+   "title": "TVA and the Grass Roots",
+   "venue": "Berkeley: University of California Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes",
+   "authors": [
+    "Weber, M."
+   ],
+   "year": "1978",
+   "title": "Economy and Society: An Outline of Interpretive Sociology",
+   "venue": "Berkeley: University of California Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes",
+   "authors": [
+    "Zucker, L. G."
+   ],
+   "year": "1977",
+   "title": "The Role of Institutionalization in Cultural Persistence",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Legitimacy",
+   "authors": [
+    "Aldrich, H. E.",
+    "Fiol, C. M."
+   ],
+   "year": "1994",
+   "title": "Fools Rush In? The Institutional Context of Industry Creation",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Legitimacy",
+   "authors": [
+    "Deephouse, D. L."
+   ],
+   "year": "1996",
+   "title": "Does Isomorphism Legitimate?",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Legitimacy",
+   "authors": [
+    "Deephouse, D. L.",
+    "Suchman, M. C."
+   ],
+   "year": "2008",
+   "title": "Legitimacy in Organizational Institutionalism",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 49–77. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Legitimacy",
+   "authors": [
+    "Greenwood, R.",
+    "Oliver, C.",
+    "Sahlin, K.",
+    "Suddaby, R."
+   ],
+   "year": "2008",
+   "title": "Introduction",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 1–46. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Legitimacy",
+   "authors": [
+    "Lounsbury, M.",
+    "Glynn, M. A."
+   ],
+   "year": "2001",
+   "title": "Cultural Entrepreneurship: Stories, Legitimacy, and the Acquisition of Resources",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Legitimacy",
+   "authors": [
+    "Rao, H."
+   ],
+   "year": "1994",
+   "title": "The Social Construction of Reputation: Certification Contests, Legitimation, and the Survival of Organizations in the American Automobile Industry; 1895–1912",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Legitimacy",
+   "authors": [
+    "Ruef, M.",
+    "Scott, W. R."
+   ],
+   "year": "1998",
+   "title": "A Multidimensional Model of Organizational Legitimacy: Hospital Survival in Changing Institutional Environments",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Legitimacy",
+   "authors": [
+    "Suchman, M. C."
+   ],
+   "year": "1995",
+   "title": "Managing Legitimacy: Strategic and Institutional Approaches",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Isomorphism and Diffusion",
+   "authors": [
+    "Ansari, S. M.",
+    "Fiss, P. C.",
+    "Zajac, E. J."
+   ],
+   "year": "2010",
+   "title": "Made to Fit: How Practices Vary as They Diffuse",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Isomorphism and Diffusion",
+   "authors": [
+    "Boxenbaum, E.",
+    "Jonsson, S."
+   ],
+   "year": "2008",
+   "title": "Isomorphism, Diffusion and Decoupling",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 78–98. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Isomorphism and Diffusion",
+   "authors": [
+    "Marquis, C.",
+    "Glynn, M. A.",
+    "Davis, G. F."
+   ],
+   "year": "2007",
+   "title": "Community Isomorphism and Corporate Social Action",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Isomorphism and Diffusion",
+   "authors": [
+    "Mezias, S. J."
+   ],
+   "year": "1990",
+   "title": "An Institutional Model of Organizational Practice: Financial Reporting at the Fortune 200",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Isomorphism and Diffusion",
+   "authors": [
+    "Palmer, D. A.",
+    "Jennings, P. D.",
+    "Zhou, X."
+   ],
+   "year": "1993",
+   "title": "Late Adoption of the Multidivisional Form by Large U.S. Corporations: Institutional, Political, and Economic Accounts",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Isomorphism and Diffusion",
+   "authors": [
+    "Strang, D. A.",
+    "Soule, S. A."
+   ],
+   "year": "1998",
+   "title": "Diffusion in Organizations and Social Movements: From Hybrid Corn to Poison Pills",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Isomorphism and Diffusion",
+   "authors": [
+    "Sutton, J. R.",
+    "Dobbin, F.",
+    "Meyer, J. W.",
+    "Scott, W. R."
+   ],
+   "year": "1994",
+   "title": "The Legalization of the Workplace",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Isomorphism and Diffusion",
+   "authors": [
+    "Tolbert, P. S.",
+    "Zucker, L. G."
+   ],
+   "year": "1983",
+   "title": "Institutional Sources of Change in the Formal Structure of Organizations: The Diffusion of Civil Service Reform, 1880–1935",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Decoupling and Recoupling",
+   "authors": [
+    "Bromley, P.",
+    "Powell, W. W."
+   ],
+   "year": "2012",
+   "title": "From Smoke and Mirrors to Walking the Talk: Decoupling in the Contemporary World",
+   "venue": "Academy of Management Annals",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Decoupling and Recoupling",
+   "authors": [
+    "Brunsson, N."
+   ],
+   "year": "1989",
+   "title": "The Organization of Hypocrisy: Talk, Decisions, and Actions in Organizations",
+   "venue": "Chichester, UK: Wiley",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Decoupling and Recoupling",
+   "authors": [
+    "Espeland, W. N."
+   ],
+   "year": "1998",
+   "title": "The Struggle for Water: Politics, Rationality, and Identity in the American Southwest",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Decoupling and Recoupling",
+   "authors": [
+    "Fiss, P. C.",
+    "Zajac, E. J."
+   ],
+   "year": "2006",
+   "title": "The Symbolic Management of Strategic Change: Sensegiving via Framing and Decoupling",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Decoupling and Recoupling",
+   "authors": [
+    "Hallett, T."
+   ],
+   "year": "2010",
+   "title": "The Myth Incarnate: Recoupling Processes, Turmoil, and Inhabited Institutions in an Urban Elementary School",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Decoupling and Recoupling",
+   "authors": [
+    "Lounsbury, M."
+   ],
+   "year": "2001",
+   "title": "Institutional Sources of Practice Variation: Staffing College and University Recycling Programs",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Decoupling and Recoupling",
+   "authors": [
+    "Westphal, J. D.",
+    "Zajac, E. J."
+   ],
+   "year": "1994",
+   "title": "Substance and Symbolism in CEOs’ Long-Term Incentive Plans",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Decoupling and Recoupling",
+   "authors": [
+    "Westphal, J. D.",
+    "Zajac, E. J."
+   ],
+   "year": "2001",
+   "title": "Decoupling Policy from Practice: The Case of Stock Repurchase Programs",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Organizational Field",
+   "authors": [
+    "Greenwood, R.",
+    "Suddaby, R."
+   ],
+   "year": "2006",
+   "title": "Institutional Entrepreneurship in Mature Fields: The Big Five Accounting Firms",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Organizational Field",
+   "authors": [
+    "Hoffman, A. J."
+   ],
+   "year": "1999",
+   "title": "Institutional Evolution and Change: Environmentalism and the U.S. Chemical Industry",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Organizational Field",
+   "authors": [
+    "Leblebici, H.",
+    "Salancik, G. R.",
+    "Copay, A.",
+    "King, T."
+   ],
+   "year": "1991",
+   "title": "Institutional Change and the Transformation of Interorganizational Fields: An Organizational History of the U.S. Radio Broadcasting Industry",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Organizational Field",
+   "authors": [
+    "Marquis, C.",
+    "Lounsbury, M.",
+    "Greenwood, R."
+   ],
+   "year": "2011",
+   "title": "Communities and Organizations",
+   "venue": "Bingley, UK: Emerald",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Organizational Field",
+   "authors": [
+    "Meyer, J.",
+    "Scott, W. R.",
+    "Strang, D."
+   ],
+   "year": "1987",
+   "title": "Centralization, Fragmentation, and School District Complexity",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Organizational Field",
+   "authors": [
+    "Schneiberg, M."
+   ],
+   "year": "2007",
+   "title": "What’s on the Path? Path Dependence, Organizational Diversity and the Problem of Institutional Change in the US Economy, 1900–1950",
+   "venue": "Socio-Economic Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Organizational Field",
+   "authors": [
+    "Scott, W. R.",
+    "Ruef, M.",
+    "Mendel, P. J.",
+    "Caronna, C. A."
+   ],
+   "year": "2000",
+   "title": "Institutional Change and Healthcare Organizations: From Professional Dominance to Managed Care",
+   "venue": "Chicago: University of Chicago Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Organizational Field",
+   "authors": [
+    "Wooten, M. E.",
+    "Hoffman, A. J."
+   ],
+   "year": "2008",
+   "title": "Organizational Fields: Past, Present and Future",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 130–147. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Logics",
+   "authors": [
+    "Dunn, M. B.",
+    "Jones, C."
+   ],
+   "year": "2010",
+   "title": "Institutional Logics and Institutional Pluralism: The Contestation of Care and Science Logics in Medical Education, 1967–2005",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Logics",
+   "authors": [
+    "Friedland, R.",
+    "Alford, R. R."
+   ],
+   "year": "1991",
+   "title": "Bringing Society Back In: Symbols, Practices, and Institutional Contradictions",
+   "venue": "The New Institutionalism in Organizational Analysis. Edited by Walter W. Powell and Paul J. DiMaggio, 232–263. Chicago: University of Chicago Press",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Logics",
+   "authors": [
+    "Greenwood, R.",
+    "Raynard, M.",
+    "Kodeih, F.",
+    "Micelotta, E. R.",
+    "Lounsbury, M."
+   ],
+   "year": "2011",
+   "title": "Institutional Complexity and Organizational Responses",
+   "venue": "Academy of Management Annals",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Logics",
+   "authors": [
+    "Lounsbury, M."
+   ],
+   "year": "2007",
+   "title": "A Tale of Two Cities: Competing Logics and Practice Variation in the Professionalizing of Mutual Funds",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Logics",
+   "authors": [
+    "Reay, T.",
+    "Hinings, C. R."
+   ],
+   "year": "2009",
+   "title": "Managing the Rivalry of Competing Institutional Logics",
+   "venue": "Organization Studies",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Logics",
+   "authors": [
+    "Thornton, P. H."
+   ],
+   "year": "2004",
+   "title": "Markets from Culture: Institutional Logics and Organizational Decisions in Higher Education Publishing",
+   "venue": "Stanford, CA: Stanford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Logics",
+   "authors": [
+    "Thornton, P. H.",
+    "Ocasio, W."
+   ],
+   "year": "1999",
+   "title": "Institutional Logics and the Historical Contingency of Power in Organizations: Executive Succession in the Higher Education Publishing Industry, 1958–1990",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Logics",
+   "authors": [
+    "Thornton, P. H.",
+    "Ocasio, W.",
+    "Lounsbury, M."
+   ],
+   "year": "2012",
+   "title": "The Institutional Logics Perspective: A New Approach to Culture, Structure, and Process",
+   "venue": "Oxford: Oxford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: World Society",
+   "authors": [
+    "Drori, G. S."
+   ],
+   "year": "2008",
+   "title": "Institutionalism and Globalization Studies",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 449–472. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: World Society",
+   "authors": [
+    "Drori, G. S.",
+    "Meyer, J. W.",
+    "Hwang, H."
+   ],
+   "year": "2006",
+   "title": "Globalization and Organization: World Society and Organizational Change",
+   "venue": "Oxford: Oxford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: World Society",
+   "authors": [
+    "Drori, G. S.",
+    "Meyer, J. W.",
+    "Ramirez, F. O.",
+    "Schofer, E."
+   ],
+   "year": "2003",
+   "title": "Science in the Modern World Polity: Institutionalization and Globalization",
+   "venue": "Stanford, CA: Stanford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: World Society",
+   "authors": [
+    "Jepperson, R. L."
+   ],
+   "year": "2002",
+   "title": "The Development and Application of Sociological Neoinstitutionalism",
+   "venue": "New Directions in Contemporary Sociological Theory. Edited by Joseph Berger and Morris Zelditch Jr., 229–266. Lanham, MD: Rowman & Littlefield",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: World Society",
+   "authors": [
+    "Krücken, G.",
+    "Drori, G. S."
+   ],
+   "year": "2009",
+   "title": "World Society: The Writings of John W. Meyer",
+   "venue": "Oxford: Oxford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: World Society",
+   "authors": [
+    "Meyer, J. W."
+   ],
+   "year": "2008",
+   "title": "Reflections on Institutional Theories of Organizations",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 790–812. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: World Society",
+   "authors": [
+    "Meyer, J. W.",
+    "Boli, J.",
+    "Thomas, G. M.",
+    "Ramirez, F. O."
+   ],
+   "year": "1997",
+   "title": "World Society and the Nation-State",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Meanings and Meaning Systems",
+   "authors": [
+    "Loewenstein, J.",
+    "Ocasio, W.",
+    "Jones, C."
+   ],
+   "year": "2012",
+   "title": "Vocabularies and Vocabulary Structure: A New Approach Linking Categories, Practices, and Institutions",
+   "venue": "Academy of Management Annals",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Meanings and Meaning Systems",
+   "authors": [
+    "Meyer, R. E.",
+    "Höllerer, M. A."
+   ],
+   "year": "2010",
+   "title": "Meaning Structures in a Contested Issue Field: A Topographic Map of Shareholder Value in Austria",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Meanings and Meaning Systems",
+   "authors": [
+    "Mohr, J. W."
+   ],
+   "year": "1998",
+   "title": "Measuring Meaning Structures",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Meanings and Meaning Systems",
+   "authors": [
+    "Phillips, N.",
+    "Lawrence, T. B.",
+    "Hardy, C."
+   ],
+   "year": "2004",
+   "title": "Discourse and Institutions",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Meanings and Meaning Systems",
+   "authors": [
+    "Phillips, N.",
+    "Malhotra, N."
+   ],
+   "year": "2008",
+   "title": "Taking Social Construction Seriously: Extending the Discursive Approach in Institutional Theory",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 702–720. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Meanings and Meaning Systems",
+   "authors": [
+    "Suddaby, R.",
+    "Greenwood, R."
+   ],
+   "year": "2005",
+   "title": "Rhetorical Strategies of Legitimacy",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Meanings and Meaning Systems",
+   "authors": [
+    "Zilber, T. B."
+   ],
+   "year": "2002",
+   "title": "Institutionalization as an Interplay between Actions, Meanings, and Actors: The Case of a Rape Crisis Center in Israel",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Meanings and Meaning Systems",
+   "authors": [
+    "Zilber, T. B."
+   ],
+   "year": "2008",
+   "title": "The Work of Meanings in Institutional Processes and Thinking",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 151–169. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Agency and Institutional Process",
+   "authors": [
+    "Clemens, E. S.",
+    "Cook, J. M."
+   ],
+   "year": "1999",
+   "title": "Politics and Institutionalism: Explaining Durability and Change",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Agency and Institutional Process",
+   "authors": [
+    "DiMaggio, P. J."
+   ],
+   "year": "1988",
+   "title": "Interest and Agency in Institutional Theory",
+   "venue": "Institutional Patterns and Organizations: Culture and Environment. Edited by Lynne G. Zucker, 3–21. Cambridge, MA: Ballinger",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Agency and Institutional Process",
+   "authors": [
+    "Hallett, T.",
+    "Ventresca, M. J."
+   ],
+   "year": "2006",
+   "title": "Inhabited Institutions: Social Interactions and Organizational Forms in Gouldner’s Patterns of Industrial Bureaucracy",
+   "venue": "Theory and Society",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Agency and Institutional Process",
+   "authors": [
+    "Lawrence, T. B.",
+    "Suddaby, R."
+   ],
+   "year": "2006",
+   "title": "Institutions and Institutional Work",
+   "venue": "The SAGE Handbook of Organizational Studies. Edited by Stewart R. Clegg, Cynthia Hardy, Thomas B. Lawrence, and Water R. Nord, 215–254. London: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Agency and Institutional Process",
+   "authors": [
+    "Oliver, C."
+   ],
+   "year": "1991",
+   "title": "Strategic Responses to Institutional Processes",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Agency and Institutional Process",
+   "authors": [
+    "Powell, W. W.",
+    "Colyvas, J. A."
+   ],
+   "year": "2008",
+   "title": "Microfoundations of Institutional Theory",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 276–298. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Agency and Institutional Process",
+   "authors": [
+    "Seo, M.-G.",
+    "Cre, W. E. D."
+   ],
+   "year": "2002",
+   "title": "Institutional Contradictions, Praxis, and Institutional Change: A Dialectical Perspective",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Entrepreneurship",
+   "authors": [
+    "Battilana, J.",
+    "Leca, B.",
+    "Boxenbaum, E."
+   ],
+   "year": "2009",
+   "title": "How Actors Change Institutions: Towards a Theory of Institutional Entrepreneurship",
+   "venue": "Academy of Management Annals",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Entrepreneurship",
+   "authors": [
+    "DiMaggio, P. J."
+   ],
+   "year": "1991",
+   "title": "Constructing an Organizational Field as a Professional Project: U.S. Art Museums, 1920–1940",
+   "venue": "The New Institutionalism in Organizational Analysis. Edited by Walter W. Powell and Paul J. DiMaggio, 267–292. Chicago: University of Chicago Press",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Entrepreneurship",
+   "authors": [
+    "Greenwood, R.",
+    "Hinings, C. R.",
+    "Suddaby, R."
+   ],
+   "year": "2002",
+   "title": "Theorizing Change: The Role of Professional Associations in the Transformation of Institutionalized Fields",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Entrepreneurship",
+   "authors": [
+    "Lounsbury, M.",
+    "Crumley, E. T."
+   ],
+   "year": "2007",
+   "title": "New Practice Creation: An Institutional Perspective on Innovation",
+   "venue": "Organization Studies",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Entrepreneurship",
+   "authors": [
+    "Maguire, S.",
+    "Hardy, C.",
+    "Lawrence, T. B."
+   ],
+   "year": "2004",
+   "title": "Institutional Entrepreneurship in Emerging Fields: HIV/AIDS Treatment Advocacy in Canada",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Entrepreneurship",
+   "authors": [
+    "Munir, K. A.",
+    "Phillips, N."
+   ],
+   "year": "2005",
+   "title": "The Birth of the ‘Kodak Moment’: Institutional Entrepreneurship and the Adoption of New Technologies",
+   "venue": "Organization Studies",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Institutional Entrepreneurship",
+   "authors": [
+    "Strang, D. A.",
+    "Meyer, J. W."
+   ],
+   "year": "1993",
+   "title": "Institutional Conditions for Diffusion",
+   "venue": "Theory and Society",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Social Movements",
+   "authors": [
+    "Davis, G. F.",
+    "McAdam, D.",
+    "Scott, W. R.",
+    "Zald, M. N."
+   ],
+   "year": "2005",
+   "title": "Social Movements and Organization Theory",
+   "venue": "New York: Cambridge University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Social Movements",
+   "authors": [
+    "Davis, G. F.",
+    "Thompson, T. A."
+   ],
+   "year": "1994",
+   "title": "A Social Movement Perspective on Corporate Control",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Social Movements",
+   "authors": [
+    "Fligstein, N."
+   ],
+   "year": "1996",
+   "title": "Markets as Politics: A Political-Cultural Approach to Market Institutions",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Social Movements",
+   "authors": [
+    "King, B. G.",
+    "Soule, S. A."
+   ],
+   "year": "2007",
+   "title": "Social Movements as Extra-institutional Entrepreneurs: The Effect of Protests on Stock Price Returns",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Social Movements",
+   "authors": [
+    "Lounsbury, M.",
+    "Ventresca, M. J.",
+    "Hirsch, P. M."
+   ],
+   "year": "2003",
+   "title": "Social Movements, Field Frames and Industry Emergence: A Cultural–Political Perspective on US Recycling",
+   "venue": "Socio-Economic Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Social Movements",
+   "authors": [
+    "Rao, H.",
+    "Monin, P.",
+    "Durand, R."
+   ],
+   "year": "2003",
+   "title": "Institutional Change in Toque Ville: Nouvelle Cuisine as an Identity Movement in French Gastronomy",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Social Movements",
+   "authors": [
+    "Schneiberg, M.",
+    "Bartley, T."
+   ],
+   "year": "2001",
+   "title": "Regulating American Industries: Markets, Politics, and the Institutional Determinants of Fire Insurance Regulation",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Social Movements",
+   "authors": [
+    "Schneiberg, M.",
+    "Lounsbury, M."
+   ],
+   "year": "2008",
+   "title": "Social Movements and Institutional Analysis",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 650–672. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Translation",
+   "authors": [
+    "Boxenbaum, E."
+   ],
+   "year": "2006",
+   "title": "Lost in Translation: The Making of Danish Diversity Management",
+   "venue": "American Behavioral Scientist",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Translation",
+   "authors": [
+    "Czarniawska-Joerges, B.",
+    "Sevón, G."
+   ],
+   "year": "1996",
+   "title": "Translating Organizational Change",
+   "venue": "Berlin and New York: de Gruyter",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Translation",
+   "authors": [
+    "Djelic, M.-L."
+   ],
+   "year": "1998",
+   "title": "Exporting the American Model: The Post-war Transformation of European Business",
+   "venue": "Oxford: Oxford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Translation",
+   "authors": [
+    "Meyer, R. E."
+   ],
+   "year": "2008",
+   "title": "New Sociology of Knowledge: Historical Legacy and Contributions to Current Debates in Institutional Research",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 519–538. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Translation",
+   "authors": [
+    "Sahlin, K.",
+    "Wedlin, L."
+   ],
+   "year": "2008",
+   "title": "Circulating Ideas: Imitation, Translation and Editing",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 218–242. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Translation",
+   "authors": [
+    "Zilber, T. B."
+   ],
+   "year": "2006",
+   "title": "The Work of the Symbolic in Institutional Processes: Translations of Rational Myths in Israeli Hi Tech",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Categorization",
+   "authors": [
+    "Hsu, G."
+   ],
+   "year": "2006",
+   "title": "Jacks of All Trades and Masters of None: Audiences’ Reactions to Spanning Genres in Feature Film Production",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Categorization",
+   "authors": [
+    "Hsu, G.",
+    "Negro, G.",
+    "Koçak, Ö."
+   ],
+   "year": "2010",
+   "title": "Categories in Markets: Origins and Evolution",
+   "venue": "Bingley, UK: Emerald",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Categorization",
+   "authors": [
+    "Kennedy, M. T."
+   ],
+   "year": "2008",
+   "title": "Getting Counted: Markets, Media, and Reality",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Categorization",
+   "authors": [
+    "Lounsbury, M.",
+    "Rao, H."
+   ],
+   "year": "2004",
+   "title": "Sources of Durability and Change in Market Classifications: A Study of the Reconstitution of Product Categories in the American Mutual Fund Industry, 1944–1985",
+   "venue": "Social Forces",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Categorization",
+   "authors": [
+    "Rao, H.",
+    "Monin, P.",
+    "Durand, R."
+   ],
+   "year": "2005",
+   "title": "Border Crossing: Bricolage and the Erosion of Categorical Boundaries in French Gastronomy",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Categorization",
+   "authors": [
+    "Ruef, M.",
+    "Patterson, K."
+   ],
+   "year": "2009",
+   "title": "Credit and Classification: The Impact of Industry Boundaries in Nineteenth-Century America",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Categorization",
+   "authors": [
+    "Zuckerman, E. W."
+   ],
+   "year": "1999",
+   "title": "The Categorical Imperative: Securities Analysts and the Illegitimacy Discount",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Critiques and Challenges",
+   "authors": [
+    "Barley, S. R."
+   ],
+   "year": "2008",
+   "title": "Coalface Institutionalism",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 491–518. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Critiques and Challenges",
+   "authors": [
+    "Cooper, D. J.",
+    "Ezzamel, M.",
+    "Willmott, H."
+   ],
+   "year": "2008",
+   "title": "Examining ‘Institutionalization’: A Critical Theoretic Perspective",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 673–701. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Critiques and Challenges",
+   "authors": [
+    "Donaldson, L."
+   ],
+   "year": "1995",
+   "title": "American Anti-management Theories of Organization: A Critique of Paradigm Proliferation",
+   "venue": "Cambridge, UK: Cambridge University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Critiques and Challenges",
+   "authors": [
+    "Greenwood, R.",
+    "Hinings, C. R."
+   ],
+   "year": "1996",
+   "title": "Understanding Radical Organizational Change: Bringing Together the Old and the New Institutionalism",
+   "venue": "Academy of Management Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Critiques and Challenges",
+   "authors": [
+    "Hirsch, P. M.",
+    "Lounsbury, M."
+   ],
+   "year": "1997",
+   "title": "Ending the Family Quarrel: Toward a Reconciliation of ‘Old’ and ‘New’ Institutionalisms",
+   "venue": "American Behavioral Scientist",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Critiques and Challenges",
+   "authors": [
+    "Kraatz, M. S.",
+    "Zajac, E. J."
+   ],
+   "year": "1996",
+   "title": "Exploring the Limits of the New Institutionalism: The Causes and Consequences of Illegitimate Organizational Change",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Critiques and Challenges",
+   "authors": [
+    "Mizruchi, M. S.",
+    "Fein, L. C."
+   ],
+   "year": "1999",
+   "title": "The Social Construction of Organizational Knowledge: A Study of the Uses of Coercive, Mimetic, and Normative Isomorphism",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Key Concepts and Themes: Critiques and Challenges",
+   "authors": [
+    "Perrow, C."
+   ],
+   "year": "1986",
+   "title": "Complex Organizations: A Critical Essay",
+   "venue": "New York: McGraw-Hill",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Resource Dependence and Neo-institutional Theory",
+   "authors": [
+    "Aldrich, H. E."
+   ],
+   "year": "1979",
+   "title": "Organizations and Environments",
+   "venue": "Englewood Cliffs, NJ: Prentice-Hall",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Resource Dependence and Neo-institutional Theory",
+   "authors": [
+    "Goodstein, J. D."
+   ],
+   "year": "1994",
+   "title": "Institutional Pressures and Strategic Responsiveness: Employer Involvement in Work-Family Issues",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Resource Dependence and Neo-institutional Theory",
+   "authors": [
+    "Ingram, P. L.",
+    "Simons, T."
+   ],
+   "year": "1995",
+   "title": "Institutional and Resource Dependence Determinants of Responsiveness to Work-Family Issues",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Resource Dependence and Neo-institutional Theory",
+   "authors": [
+    "Pfeffer, J.",
+    "Salancik, G."
+   ],
+   "year": "1978",
+   "title": "The External Control of Organizations: A Resource Dependence Perspective",
+   "venue": "New York: Harper and Row",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Resource Dependence and Neo-institutional Theory",
+   "authors": [
+    "Tolbert, P. S."
+   ],
+   "year": "1985",
+   "title": "Institutional Environments and Resource Dependence: Sources of Administrative Structure in Institutions of Higher Education",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Identity and Neo-institutional Theory",
+   "authors": [
+    "Albert, S.",
+    "Whetten, D. A."
+   ],
+   "year": "1985",
+   "title": "Organizational Identity",
+   "venue": "Research in Organizational Behavior",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Identity and Neo-institutional Theory",
+   "authors": [
+    "Czarniawska, B.",
+    "Wolff, R."
+   ],
+   "year": "1998",
+   "title": "Constructing New Identities in Established Organization Fields: Young Universities in Old Europe",
+   "venue": "International Studies of Management & Organization",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Identity and Neo-institutional Theory",
+   "authors": [
+    "Elsbach, K. D.",
+    "Kramer, R. M."
+   ],
+   "year": "1996",
+   "title": "Members’ Responses to Organizational Identity Threats: Encountering and Countering the Business Week Rankings",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Identity and Neo-institutional Theory",
+   "authors": [
+    "Glynn, M. A."
+   ],
+   "year": "2008",
+   "title": "Beyond Constraint: How Institutions Enable Identities",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 413–430. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Identity and Neo-institutional Theory",
+   "authors": [
+    "Glynn, M. A.",
+    "Abzug, R."
+   ],
+   "year": "2002",
+   "title": "Institutionalizing Identity: Symbolic Isomorphism and Organizational Names",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Identity and Neo-institutional Theory",
+   "authors": [
+    "Pedersen, J. S.",
+    "Dobbin, F."
+   ],
+   "year": "2006",
+   "title": "In Search of Identity and Legitimation: Bridging Organizational Culture and Neoinstitutionalism",
+   "venue": "American Behavioral Scientist",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Identity and Neo-institutional Theory",
+   "authors": [
+    "Weber, K.",
+    "Heinze, K. L.",
+    "DeSoucey, M."
+   ],
+   "year": "2008",
+   "title": "Forage for Thought: Mobilizing Codes in the Movement for Grass- Fed Meat and Dairy Products",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Identity and Neo-institutional Theory",
+   "authors": [
+    "Wry, T.",
+    "Lounsbury, M.",
+    "Glynn, M. A."
+   ],
+   "year": "2011",
+   "title": "Legitimizing Nascent Collective Identities: Coordinating Cultural Entrepreneurship",
+   "venue": "Organization Science",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Ecology and Neo-institutional Theory",
+   "authors": [
+    "Baum, J. A. C.",
+    "Oliver, C."
+   ],
+   "year": "1991",
+   "title": "Institutional Linkages and Organizational Mortality",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Ecology and Neo-institutional Theory",
+   "authors": [
+    "Baum, J. A. C.",
+    "Powell, W. W."
+   ],
+   "year": "1995",
+   "title": "Cultivating an Institutional Ecology of Organizations: Comment on Hannan, Carroll, Dundon, and Torres",
+   "venue": "American Sociological Review",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Ecology and Neo-institutional Theory",
+   "authors": [
+    "Carroll, G. R.",
+    "Hannan, M. T."
+   ],
+   "year": "2004",
+   "title": "The Demography of Corporations and Industries",
+   "venue": "Princeton, NJ: Princeton University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Ecology and Neo-institutional Theory",
+   "authors": [
+    "Hannan, M. T.",
+    "Freeman, J."
+   ],
+   "year": "1977",
+   "title": "The Population Ecology of Organizations",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Ecology and Neo-institutional Theory",
+   "authors": [
+    "Haveman, H. A."
+   ],
+   "year": "1993",
+   "title": "Follow the Leader: Mimetic Isomorphism and Entry into New Markets",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Ecology and Neo-institutional Theory",
+   "authors": [
+    "Haveman, H. A.",
+    "David, R. J."
+   ],
+   "year": "2008",
+   "title": "Ecologists and Institutionalists: Friends or Foes?",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 573–595. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Ecology and Neo-institutional Theory",
+   "authors": [
+    "Haveman, H. A.",
+    "Rao, H."
+   ],
+   "year": "1997",
+   "title": "Structuring a Theory of Moral Sentiments: Institutional and Organizational Coevolution in the Early Thrift Industry",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Ecology and Neo-institutional Theory",
+   "authors": [
+    "Ruef, M."
+   ],
+   "year": "2000",
+   "title": "The Emergence of Organizational Forms: A Community Ecology Approach",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Entrepreneurship and Neo-institutional Theory",
+   "authors": [
+    "Aldrich, H. E.",
+    "Ruef, M."
+   ],
+   "year": "2006",
+   "title": "Organizations Evolving",
+   "venue": "London: SAGE",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Entrepreneurship and Neo-institutional Theory",
+   "authors": [
+    "Hargadon, A. B.",
+    "Douglas, Y."
+   ],
+   "year": "2001",
+   "title": "When Innovations Meet Institutions: Edison and the Design of the Electric Light",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Entrepreneurship and Neo-institutional Theory",
+   "authors": [
+    "Martens, M. L.",
+    "Jennings, J. E.",
+    "Jennings, P. D."
+   ],
+   "year": "2007",
+   "title": "Do the Stories They Tell Get Them the Money They Need? The Role of Entrepreneurial Narratives in Resource Acquisition",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Entrepreneurship and Neo-institutional Theory",
+   "authors": [
+    "Navis, C.",
+    "Glynn, M. A."
+   ],
+   "year": "2010",
+   "title": "How New Market Categories Emerge: Temporal Dynamics of Legitimacy, Identity, and Entrepreneurship in Satellite Radio, 1990–2005",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Entrepreneurship and Neo-institutional Theory",
+   "authors": [
+    "Shane, S."
+   ],
+   "year": "2003",
+   "title": "A General Theory of Entrepreneurship: The Individual-Opportunity Nexus",
+   "venue": "Northampton, MA: Edward Elgar",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Entrepreneurship and Neo-institutional Theory",
+   "authors": [
+    "Sine, W. D.",
+    "David, R. J."
+   ],
+   "year": "2010",
+   "title": "Institutions and Entrepreneurship",
+   "venue": "Bingley, UK: Emerald",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Entrepreneurship and Neo-institutional Theory",
+   "authors": [
+    "Sine, W. D.",
+    "Lee, B. H."
+   ],
+   "year": "2009",
+   "title": "Tilting at Windmills? The Environmental Movement and the Emergence of the U.S. Wind Energy Sector",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Learning and Neo-institutional Theory",
+   "authors": [
+    "Beckman, C. M.",
+    "Haunschild, P. R."
+   ],
+   "year": "2002",
+   "title": "Network Learning: The Effects of Partners’ Heterogeneity of Experience on Corporate Acquisitions",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Learning and Neo-institutional Theory",
+   "authors": [
+    "Cyert, R. M.",
+    "March, J. G."
+   ],
+   "year": "1992",
+   "title": "A Behavioral Theory of the Firm",
+   "venue": "Malden, MA: Blackwell",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Learning and Neo-institutional Theory",
+   "authors": [
+    "Gavetti, G.",
+    "Greve, H. R.",
+    "Levinthal, D. A.",
+    "Ocasio, W."
+   ],
+   "year": "2012",
+   "title": "The Behavioral Theory of the Firm: Assessment and Prospects",
+   "venue": "Academy of Management Annals",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Learning and Neo-institutional Theory",
+   "authors": [
+    "Greve, H. R."
+   ],
+   "year": "2005",
+   "title": "Interorganizational Learning and Heterogeneous Social Structure",
+   "venue": "Organization Studies",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Learning and Neo-institutional Theory",
+   "authors": [
+    "Haunschild, P. R."
+   ],
+   "year": "1993",
+   "title": "Interorganizational Imitation: The Impact of Interlocks on Corporate Acquisition Activity",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Learning and Neo-institutional Theory",
+   "authors": [
+    "Haunschild, P. R.",
+    "Chandler, D."
+   ],
+   "year": "2008",
+   "title": "Institutional-Level Learning: Learning as a Source of Institutional Change",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 624–649. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Organizational Learning and Neo-institutional Theory",
+   "authors": [
+    "Kraatz, M. S."
+   ],
+   "year": "1998",
+   "title": "Learning by Association? Interorganizational Networks and Adaptation to Environmental Change",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Networks and Neo-institutional Theory",
+   "authors": [
+    "Brass, D. J.",
+    "Galaskiewicz, J.",
+    "Greve, H. R.",
+    "Tsai, W."
+   ],
+   "year": "2004",
+   "title": "Taking Stock of Networks and Organizations: A Multilevel Perspective",
+   "venue": "Academy of Management Journal",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Networks and Neo-institutional Theory",
+   "authors": [
+    "Davis, G. F."
+   ],
+   "year": "1991",
+   "title": "Agents without Principles? The Spread of the Poison Pill through the Intercorporate Network",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Networks and Neo-institutional Theory",
+   "authors": [
+    "Guler, I.",
+    "Guillén, M. F.",
+    "Macpherson, J. M."
+   ],
+   "year": "2002",
+   "title": "Global Competition, Institutions, and the Diffusion of Organizational Practices: The International Spread of ISO 9000 Quality Certificates",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Networks and Neo-institutional Theory",
+   "authors": [
+    "Mohr, J. W.",
+    "Duquenne, V."
+   ],
+   "year": "1997",
+   "title": "The Duality of Culture and Practice: Poverty Relief in New York City, 1888–1917",
+   "venue": "Theory and Society",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Networks and Neo-institutional Theory",
+   "authors": [
+    "Owen-Smith, J.",
+    "Powell, W. W."
+   ],
+   "year": "2008",
+   "title": "Networks and Institutions",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 596–623. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Networks and Neo-institutional Theory",
+   "authors": [
+    "Powell, W. W.",
+    "White, D. R.",
+    "Koput, K. W.",
+    "Owen-Smith, J."
+   ],
+   "year": "2005",
+   "title": "Network Dynamics and Field Evolution: The Growth of Interorganizational Collaboration in the Life Sciences",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Networks and Neo-institutional Theory",
+   "authors": [
+    "Wasserman, S.",
+    "Faust, K."
+   ],
+   "year": "1994",
+   "title": "Social Network Analysis: Methods and Applications",
+   "venue": "Cambridge, UK: Cambridge University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Networks and Neo-institutional Theory",
+   "authors": [
+    "Westphal, J. D.",
+    "Gulati, R.",
+    "Shortell, S. M."
+   ],
+   "year": "1997",
+   "title": "Customization or Conformity? An Institutional and Network Perspective on the Content and Consequences of TQM Adoption",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Transnationalization and Neo-institutional Theory",
+   "authors": [
+    "Djelic, M.-L.",
+    "Quack, S."
+   ],
+   "year": "2008",
+   "title": "Institutions and Transnationalization",
+   "venue": "The SAGE Handbook of Organizational Institutionalism. Edited by Royston Greenwood, Christine Oliver, Kerstin Sahlin, and Roy Suddaby, 299–324. Thousand Oaks, CA: SAGE",
+   "type": "chapter",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Transnationalization and Neo-institutional Theory",
+   "authors": [
+    "Djelic, M.-L.",
+    "Quack, S."
+   ],
+   "year": "2010",
+   "title": "Transnational Communities: Shaping Global Economic Governance",
+   "venue": "Cambridge, UK: Cambridge University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Transnationalization and Neo-institutional Theory",
+   "authors": [
+    "Djelic, M.-L.",
+    "Sahlin-Andersson, K."
+   ],
+   "year": "2006",
+   "title": "Transnational Governance: Institutional Dynamics of Regulation",
+   "venue": "Cambridge, UK: Cambridge University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Transnationalization and Neo-institutional Theory",
+   "authors": [
+    "Dobbin, F."
+   ],
+   "year": "1994",
+   "title": "Forging Industrial Policy: The United States, Britain, and France in the Railway Age",
+   "venue": "Cambridge, UK: Cambridge University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Transnationalization and Neo-institutional Theory",
+   "authors": [
+    "Hall, P. A.",
+    "Soskice, D."
+   ],
+   "year": "2001",
+   "title": "Varieties of Capitalism: The Institutional Foundations of Comparative Advantage",
+   "venue": "Oxford: Oxford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Transnationalization and Neo-institutional Theory",
+   "authors": [
+    "Morgan, G.",
+    "Campbell, J. L.",
+    "Crouch, C.",
+    "Pedersen, O. K.",
+    "Whitley, R."
+   ],
+   "year": "2010",
+   "title": "The Oxford Handbook of Comparative Institutional Analysis",
+   "venue": "Oxford: Oxford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Transnationalization and Neo-institutional Theory",
+   "authors": [
+    "Whitley, R."
+   ],
+   "year": "2007",
+   "title": "Business Systems and Organizational Capabilities: The Institutional Structuring of Competitive Competences",
+   "venue": "Oxford: Oxford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Law and Social Policy and Neo-institutional Theory",
+   "authors": [
+    "Dobbin, F.",
+    "Dowd, T. J."
+   ],
+   "year": "1997",
+   "title": "How Policy Shapes Competition: Early Railroad Foundings in Massachusetts",
+   "venue": "Administrative Science Quarterly",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Law and Social Policy and Neo-institutional Theory",
+   "authors": [
+    "Dobbin, F.",
+    "Kelly, E. L."
+   ],
+   "year": "2007",
+   "title": "How to Stop Harassment: Professional Construction of Legal Compliance in Organizations",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Law and Social Policy and Neo-institutional Theory",
+   "authors": [
+    "Dobbin, F.",
+    "Sutton, J. R.",
+    "Meyer, J. W.",
+    "Scott, W. R."
+   ],
+   "year": "1993",
+   "title": "Equal Opportunity Law and the Construction of Internal Labor Markets",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Law and Social Policy and Neo-institutional Theory",
+   "authors": [
+    "Edelman, L. B.",
+    "Suchman, M. C."
+   ],
+   "year": "1997",
+   "title": "The Legal Environments of Organizations",
+   "venue": "Annual Review of Sociology",
+   "type": "article",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Law and Social Policy and Neo-institutional Theory",
+   "authors": [
+    "Edelman, L. B.",
+    "Suchman, M. C."
+   ],
+   "year": "2007",
+   "title": "The Legal Lives of Private Organizations",
+   "venue": "Aldershot, UK: Ashgate",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Law and Social Policy and Neo-institutional Theory",
+   "authors": [
+    "Hoffman, A. J.",
+    "Ventresca, M. J."
+   ],
+   "year": "2002",
+   "title": "Organizations, Policy and the Natural Environment: Institutional and Strategic Perspectives",
+   "venue": "Stanford, CA: Stanford University Press",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Law and Social Policy and Neo-institutional Theory",
+   "authors": [
+    "Lounsbury, M.",
+    "Hirsch, P. M."
+   ],
+   "year": "2010",
+   "title": "Markets on Trial: The Economic Sociology of the U.S",
+   "venue": "Bingley, UK: Emerald",
+   "type": "book",
+   "required": null
+  },
+  {
+   "session": "Interfaces: Law and Social Policy and Neo-institutional Theory",
+   "authors": [
+    "Posner, R. A."
+   ],
+   "year": "2011",
+   "title": "Economic Analysis of Law",
+   "venue": "New York: Aspen",
+   "type": "book",
+   "required": null
+  }
+ ]
+}

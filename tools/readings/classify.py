@@ -27,12 +27,30 @@ TOPICS = [
     ('governance', 'Corporate governance and upper echelons', 'Boards, top management teams, executives and shareholders.'),
     ('nonmarket', 'Nonmarket strategy and corporate social responsibility', 'Political strategy, stakeholders, CSR and the moral economy.'),
     ('international', 'International business and multinationals', 'Internationalization, MNEs, FDI, trade and institutions across countries.'),
+    ('socialtheory', 'Social theory', 'General sociological theory: action, structure, rational choice, critical theory and their successors.'),
+    ('methods', 'Research methods', 'Qualitative and field methods, research design and data for organizational research.'),
     ('profession', 'The academic profession', 'Publishing, writing and management scholarship as a profession.'),
 ]
 GENERIC = 'generic'
 
 # (regex on session heading, topic). First match wins. Order matters.
 RULES = [
+    (r'qualitative|ethnograph|interviewing|theoretical sampling|visual methods|mixed methods|deductive inductive|method papers|experiments in entrepreneurship|high-frequency data|getting started', 'methods'),
+    (r'microsociolog|habermas|postmodern|complex system|visions of theory|individualism and rational choice|structuralism|conflict theory|parsons', 'socialtheory'),
+    (r'bourdieu|cultural consumption|programs and prescriptions|meanings? and meaning', 'culture'),
+    (r'entrepreneur|startups|founding of new|founders|origins i', 'entre'),
+    (r'key concepts and themes|reference resources|world society|decoupling|organizational field|institutional school|national institutions', 'institutional'),
+    (r'social capital|centrality|properties of nodes|mutual support|friendship|small worlds|random graphs|algebras|probability models|peer effects|contagion|diffusion|economic relations|learning and information aggregation', 'networks'),
+    (r'market competition|positioning and value|what is strategy|industry and market structure|strategic choices|productivity, management practices|non-profit or governmental', 'stratecon'),
+    (r'organizational capabilities', 'rbv'),
+    (r'behavioral strategy|social and cognitive processes', 'stratproc'),
+    (r'organizational decision-making|knowledge and learning', 'carnegie'),
+    (r'creativity', 'evolution'),
+    (r'models of competition i: ecolog', 'ecology'),
+    (r'stratification|labor markets', 'work'),
+    (r'modern corporation and power|power and purpose|values, ideology', 'movements'),
+    (r'identity and impression', 'categories'),
+    (r'division of labor|rationalization|human relations|natural system|rational system|sociological foundations of management', 'classics'),
     (r'appendix 5|useful references|final paper|publishing|writing theory|course requirements', 'profession'),
     (r'publishing game|rigor-relevance|search for impact|process and professionalism|social/intellectual movement|global competition in management scholarship|overview of management scholarship|programmatic research', 'profession'),
     (r'what is theory|theoretical contribution|research on organizational theory|philosophy of science|theorizing strategy|future of organization theory', 'theory'),
@@ -93,10 +111,21 @@ KEYWORDS = [
 ]
 
 
-def topic_for_session(h):
+# Fallback stream for headings no rule recognizes, by course title.
+COURSE_DEFAULT = [
+    (r'innovation|creativity', 'evolution'), (r'entrepreneurship', 'entre'), (r'social networks|economic networks', 'networks'),
+    (r'neo-institutional', 'institutional'), (r'qualitative|prosem', 'methods'), (r'contemporary theory', 'socialtheory'),
+    (r'sociology of culture', 'culture'), (r'strategy', 'stratecon'),
+]
+
+
+def topic_for_session(h, course=''):
     t = h.lower()
     for rx, k in RULES:
         if re.search(rx, t):
+            return k
+    for rx, k in COURSE_DEFAULT:
+        if re.search(rx, course.lower()):
             return k
     return None
 
@@ -108,7 +137,7 @@ def main():
         votes = collections.Counter()
         for s in r['sessions']:
             cid, h = s.split('|', 1)
-            k = topic_for_session(h)
+            k = topic_for_session(h, d['courses'][int(cid)]['course'])
             if k is None:
                 unmatched[s] += 1
                 continue
@@ -153,6 +182,11 @@ OVERRIDES = {  # (first-author surname, year) -> topic, for readings outside any
     ('henisz', '2018'): 'nonmarket', ('hill', '1998'): 'nonmarket', ('henisz', '2016'): 'nonmarket',
     ('lifshitz', '2017'): 'evolution', ('mintzberg', '2008'): 'stratproc', ('augier', '2005'): 'carnegie',
     ('penrose', '2009'): 'rbv', ('penrose', '1959'): 'rbv', ('barney', '1986'): 'rbv', ('podolny', '1993'): 'status',
+    ('amit', '1993'): 'entre', ('bono', '2011'): 'profession', ('dodds', '2003'): 'networks', ('erdos', '1960'): 'networks',
+    ('fisher', '1989'): 'stratecon', ('gartner', '1985'): 'entre', ('haidt', '2001'): 'culture', ('katz', '1988'): 'entre',
+    ('kilduff', '2003'): 'networks', ('knight', '1921'): 'entre', ('mcclelland', '1961'): 'entre', ('mcgee', '1986'): 'stratecon',
+    ('schumpeter', '1947'): 'entre', ('suddaby', '2011'): 'theory', ('carroll', '1993'): 'stratecon', ('cannella', '1994'): 'theory',
+    ('berger', '1991'): 'culture', ('barnett', '2012'): 'status', ('barney', '1989'): 'rbv',
 }
 
 
@@ -175,5 +209,26 @@ def apply_overrides():
     print('overrides applied', hits)
 
 
+# Courses whose readings are mostly economics (trade, FDI, network economics). Their readings are kept
+# only if another syllabus also lists them, or they appeared in a management or sociology outlet.
+ECON_COURSE_PAT = r'Multinational Firms in the Global Economy|Social and Economic Networks'
+MGMT_VENUES = (r'management|organization|administrative science|strateg|sociolog|business|academy|journal of '
+               r'international business|research policy|entrepreneur|industrial and corporate change|harvard business|'
+               r'california management|sloan|annual review of sociology|social networks|social forces|science\b')
+
+
+def mark_drops():
+    d = json.load(open(D + 'classified.json'))
+    econ = {i for i, c in enumerate(d['courses']) if re.search(ECON_COURSE_PAT, c['course'])}
+    dropped = 0
+    for r in d['readings']:
+        if set(r['courses']) <= econ and not re.search(MGMT_VENUES, (r.get('venue') or '').lower()):
+            r['drop'] = True
+            dropped += 1
+    json.dump(d, open(D + 'classified.json', 'w'), ensure_ascii=False, indent=1)
+    print('dropped (economics-only)', dropped)
+
+
 if __name__ == '__main__':
     apply_overrides()
+    mark_drops()

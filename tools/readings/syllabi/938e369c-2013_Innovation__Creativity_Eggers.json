@@ -1,0 +1,951 @@
+{
+ "file": "938e369c-2013_Innovation__Creativity_Eggers.txt",
+ "course": "Special Topics: Innovation & Creativity (Doctoral Seminar, Management & Organizations Department)",
+ "instructor": "J.P. Eggers",
+ "institution": "NYU Stern School of Business",
+ "term": "Spring 2013",
+ "readings": [
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Dosi, G."
+   ],
+   "year": "1982",
+   "title": "Technological paradigms and technological trajectories: A suggested interpretation of the determinants and directions of technical change",
+   "venue": "Research Policy, 11(3): 147-162",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Utterback, J.M.",
+    "Abernathy, W.J."
+   ],
+   "year": "1975",
+   "title": "A dynamic model of process and product innovation",
+   "venue": "Omega, 3(6): 639-656",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Anderson, P.",
+    "Tushman, M.L."
+   ],
+   "year": "1990",
+   "title": "Technological discontinuities and dominant designs: A cyclical model of technological change",
+   "venue": "Administrative Science Quarterly, 35(4): 604-633",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Fleming, L."
+   ],
+   "year": "2001",
+   "title": "Recombinant uncertainty in technological search",
+   "venue": "Management Science, 47(1): 117",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Klepper, S."
+   ],
+   "year": "1996",
+   "title": "Entry, exit, growth, and innovation over the product life cycle",
+   "venue": "American Economic Review, 86(3): 562-583",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Jones, B.F."
+   ],
+   "year": "2009",
+   "title": "The Burden of Knowledge and the Death of the Renaissance Man: Is Innovation Getting Harder?",
+   "venue": "Review of Economic Studies, 76(1): 283-317",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Henderson, R.M.",
+    "Clark, K.B."
+   ],
+   "year": "1990",
+   "title": "Architectural innovation: The reconfiguration of existing product technologies and the failure of established firms",
+   "venue": "Administrative Science Quarterly, 35(1): 9-30",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Abernathy, W.J.",
+    "Clark, K.B."
+   ],
+   "year": "1985",
+   "title": "Innovation: Mapping the winds of creative destruction",
+   "venue": "Research Policy, 14(1): 3",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Adner, R."
+   ],
+   "year": "2002",
+   "title": "When are technologies disruptive? A demand-based view of the emergence of competition",
+   "venue": "Strategic Management Journal, 23(8): 667-688",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Almeida, P.",
+    "Kogut, B."
+   ],
+   "year": "1999",
+   "title": "Localization of Knowledge and the Mobility of Engineers in Regional Networks",
+   "venue": "Management Science, 45(7): 905-917",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Arthur, W.B."
+   ],
+   "year": "1989",
+   "title": "Competing technologies, increasing returns, and lock-in by historical events",
+   "venue": "Economic Journal, 99(394): 116-131",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Bresnahan, T.F.",
+    "Trajtenberg, M."
+   ],
+   "year": "1995",
+   "title": "General purpose technologies: Engines of growth?",
+   "venue": "Journal of Econometrics, 65(1): 83",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Bresnahan, T.",
+    "Gambardella, A.",
+    "Saxenian, A."
+   ],
+   "year": "2001",
+   "title": "'Old Economy' Inputs for 'New Economy' Outcomes: Cluster Formation in the New Silicon Valleys",
+   "venue": "Industrial and Corporate Change, 10(4): 835-860",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "1) Technology & Innovation – Macro (Industry) Perspectives (February 6, 2013)",
+   "authors": [
+    "Dosi, G."
+   ],
+   "year": "1988",
+   "title": "Sources, procedures, and microeconomic effects of innovation",
+   "venue": "Journal of Economic Literature, 26(3): 1120-1171",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Amabile, T."
+   ],
+   "year": "1985",
+   "title": "The Social Psychology of Creativity",
+   "venue": "Springer-Verlag, Chapter 4, 65-96",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Csikszentmihalyi, M."
+   ],
+   "year": "1988",
+   "title": "Society, culture & the person",
+   "venue": "In R. Sternberg (ed.), The Nature of Creativity, Cambridge Press, 325-339",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Oldham, G.R.",
+    "Cummings, A."
+   ],
+   "year": "1996",
+   "title": "Employee Creativity: Personal and Contextual Factors at Work",
+   "venue": "Academy of Management Journal, 39(3): 607-634",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Elsbach, K.D.",
+    "Kramer, R.M."
+   ],
+   "year": "2003",
+   "title": "Assessing creativity in Hollywood pitch meetings: Evidence for a dual-process model of creativity judgements",
+   "venue": "Academy of Management Journal, 46(3): 283",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Mueller, J.S.",
+    "Melwani, S.",
+    "Goncalo, J.A."
+   ],
+   "year": "2012",
+   "title": "The Bias Against Creativity: Why People Desire but Reject Creative Ideas",
+   "venue": "Psychological Science, 23(1): 13-17",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Kilgour, M.",
+    "Koslow, S."
+   ],
+   "year": "2009",
+   "title": "Why and how do creative thinking techniques work?: Trading off originality and appropriateness to make more creative advertising",
+   "venue": "Journal of the Academy of Marketing Science, 37(3): 298-309",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Hennessey, B.A.",
+    "Amabile, T.M."
+   ],
+   "year": "2010",
+   "title": "Creativity",
+   "venue": "Annual Review of Psychology, 61: 569-598",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Davis, M.A."
+   ],
+   "year": "2009",
+   "title": "Understanding the relationship between mood and creativity: A meta-analysis",
+   "venue": "Organizational Behavior and Human Decision Processes, 108(1): 25-38",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Ford, C.M.",
+    "Gioia, D.A."
+   ],
+   "year": "2000",
+   "title": "Factors Influencing Creativity in the Domain of Managerial Decision Making",
+   "venue": "Journal of Management, 26(4): 705-732",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Maddux, W.W.",
+    "Adam, H.",
+    "Galinsky, A.D."
+   ],
+   "year": "2010",
+   "title": "When in Rome ... Learn Why the Romans Do What They Do: How Multicultural Learning Experiences Facilitate Creativity",
+   "venue": "Personality and Social Psychology Bulletin, 36(6): 731-741",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Mumford, M.D."
+   ],
+   "year": "2003",
+   "title": "Where Have We Been, Where Are We Going? Taking Stock in Creativity Research",
+   "venue": "Creativity Research Journal, 15(2-3): 107-120",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Perry-Smith, J.E.",
+    "Shalley, C.E."
+   ],
+   "year": "2003",
+   "title": "The social side of creativity: A static and dynamic social network perspective",
+   "venue": "Academy of Management Review, 28(1): 89",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Schilling, M.A."
+   ],
+   "year": "2005",
+   "title": "A \"Small-World\" Network Model of Cognitive Insight",
+   "venue": "Creativity Research Journal, 17(2-3): 131-154",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Shalley, C.E.",
+    "Zhou, J.",
+    "Oldham, G.R."
+   ],
+   "year": "2004",
+   "title": "The Effects of Personal and Contextual Characteristics on Creativity: Where Should We Go from Here?",
+   "venue": "Journal of Management, 30(6): 933",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "2) Creativity in Organizations – Individual Perspectives (February 13, 2013)",
+   "authors": [
+    "Weisberg, R."
+   ],
+   "year": "1993",
+   "title": "Creativity: Beyond the Myth of Genius",
+   "venue": "New York: W.H. Freeman, pp. 1-25",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "3) Creativity in Organizations – Incentives & Motivation (February 20, 2013)",
+   "authors": [
+    "Amabile, T.M."
+   ],
+   "year": "1985",
+   "title": "Motivation and creativity: Effects of motivation orientation on creative writers",
+   "venue": "Journal of Personality and Social Psychology, 48: 393-397",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3) Creativity in Organizations – Incentives & Motivation (February 20, 2013)",
+   "authors": [
+    "Grant, A.M.",
+    "Berry, J.W."
+   ],
+   "year": "2011",
+   "title": "The Necessity of Others is The Mother of Invention: Intrinsic and Prosocial Motivations, Perspective Taking, and Creativity",
+   "venue": "Academy of Management Journal, 54(1): 73-96",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3) Creativity in Organizations – Incentives & Motivation (February 20, 2013)",
+   "authors": [
+    "Lerner, J.",
+    "Wulf, J."
+   ],
+   "year": "2007",
+   "title": "Innovation and incentives: Evidence from corporate R&D",
+   "venue": "Review of Economics & Statistics, 89(4): 634-644",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3) Creativity in Organizations – Incentives & Motivation (February 20, 2013)",
+   "authors": [
+    "Sauermann, H.",
+    "Cohen, W.M."
+   ],
+   "year": "2010",
+   "title": "What Makes Them Tick? Employee Motives and Firm Innovation",
+   "venue": "Management Science, 56(12): 2134-2153",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3) Creativity in Organizations – Incentives & Motivation (February 20, 2013)",
+   "authors": [
+    "Azoulay, P.",
+    "Graff Zivin, J.S.",
+    "Manso, G."
+   ],
+   "year": "2011",
+   "title": "Incentives and creativity: evidence from the academic life sciences",
+   "venue": "Rand Journal of Economics, 42(3): 527-554",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3) Creativity in Organizations – Incentives & Motivation (February 20, 2013)",
+   "authors": [
+    "Boudreau, K.J.",
+    "Lacetera, N.",
+    "Lakhani, K.R."
+   ],
+   "year": "2011",
+   "title": "Incentives and Problem Uncertainty in Innovation Contests: An Empirical Analysis",
+   "venue": "Management Science, 57(5): 843-863",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "3) Creativity in Organizations – Incentives & Motivation (February 20, 2013)",
+   "authors": [
+    "Mueller, J.S.",
+    "Kamdar, D."
+   ],
+   "year": "2011",
+   "title": "Why seeking help from teammates is a blessing and a curse: A theory of help seeking and individual creativity in team contexts",
+   "venue": "Journal of Applied Psychology, 96(2): 263-276",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "3) Creativity in Organizations – Incentives & Motivation (February 20, 2013)",
+   "authors": [
+    "Toubia, O."
+   ],
+   "year": "2006",
+   "title": "Idea Generation, Creativity, and Incentives",
+   "venue": "Marketing Science, 25(5): 411-425",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Taylor, D.W.",
+    "Berry, P.C.",
+    "Block, C.H."
+   ],
+   "year": "1958",
+   "title": "Does Group Participation When Using Brainstorming Facilitate or Inhibit Creative Thinking?",
+   "venue": "Administrative Science Quarterly, 3(1): 23-47",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Drazin, R.",
+    "Glynn, M.A.",
+    "Kazanjian, R.K."
+   ],
+   "year": "1999",
+   "title": "Multilevel Theorizing about Creativity in Organizations: A Sensemaking Perspective",
+   "venue": "Academy of Management Review, 24(2): 286-307",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Paulus, P.B.",
+    "Yang, H.-C."
+   ],
+   "year": "2000",
+   "title": "Idea Generation in Groups: A Basis for Creativity in Organizations",
+   "venue": "Organizational Behavior and Human Decision Processes, 82(1): 76-87",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Perry-Smith, J.E."
+   ],
+   "year": "2006",
+   "title": "Social yet creative: The role of social relationships in facilitating individual creativity",
+   "venue": "Academy of Management Journal, 49(1): 85-101",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Taylor, A.",
+    "Greve, H.R."
+   ],
+   "year": "2006",
+   "title": "Superman or the Fantastic Four? Knowledge combination and experience in innovative teams",
+   "venue": "Academy of Management Journal, 49(4): 723-740",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Fleming, L.",
+    "Mingo, S.",
+    "Chen, D."
+   ],
+   "year": "2007",
+   "title": "Collaborative Brokerage, Generative Creativity, and Creative Success",
+   "venue": "Administrative Science Quarterly, 52(3): 443-475",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Diehl, M.",
+    "Stroebe, W."
+   ],
+   "year": "1987",
+   "title": "Productivity loss in brainstorming groups: Toward the solution of a riddle",
+   "venue": "Journal of Personality and Social Psychology, 53(3): 497-509",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Ford, C.M."
+   ],
+   "year": "1996",
+   "title": "A Theory of Individual Creative Action in Multiple Social Domains",
+   "venue": "Academy of Management Review, 21(4): 1112-1142",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Hargadon, A.",
+    "Sutton, R.I."
+   ],
+   "year": "1997",
+   "title": "Technology brokering and innovation in a product development firm",
+   "venue": "Administrative Science Quarterly, 42(4): 716-749",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Hirst, G.",
+    "Van Knippenberg, D.",
+    "Zhou, J."
+   ],
+   "year": "2009",
+   "title": "A Cross-Level Perspective on Employee Creativity: Goal Orientation, Team Learning Behavior, and Individual Creativity",
+   "venue": "Academy of Management Journal, 52(2): 280-293",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Litchfield, R.C."
+   ],
+   "year": "2008",
+   "title": "Brainstorming Reconsidered: A Goal-Based View",
+   "venue": "Academy of Management Review, 33(3): 649-668",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "Shalley, C.E.",
+    "Gilson, L.L."
+   ],
+   "year": "2004",
+   "title": "What leaders need to know: A review of social and contextual factors that can foster or hinder creativity",
+   "venue": "The Leadership Quarterly, 15(1): 33-53",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "4) Creativity in Organizations – Groups & the Dynamics of Interaction (February 27, 2013)",
+   "authors": [
+    "West, M.A."
+   ],
+   "year": "2002",
+   "title": "Sparkling Fountains or Stagnant Ponds: An Integrative Model of Creativity and Innovation Implementation in Work Groups",
+   "venue": "Applied Psychology, 51(3): 355-387",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Kanter, R.M."
+   ],
+   "year": "1988",
+   "title": "When a thousand flowers bloom: Structural, collective, and social conditions for innovation in organizations",
+   "venue": "In B. Staw & L. Cummings (eds.), Research in Organizational Behavior, Volume 10 (SKIM)",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Van de Ven, A.H."
+   ],
+   "year": "1986",
+   "title": "Central Problems in the Management of Innovation",
+   "venue": "Management Science, 32(5): 590-607",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Zirger, B.J.",
+    "Maidique, M.A."
+   ],
+   "year": "1990",
+   "title": "A model of new product development: An empirical test",
+   "venue": "Management Science, 36(7): 867-883",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Dougherty, D."
+   ],
+   "year": "1992",
+   "title": "Interpretive Barriers to Successful Product Innovation in Large Firms",
+   "venue": "Organization Science, 3(2): 179-202",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Argyres, N.S.",
+    "Silverman, B.S."
+   ],
+   "year": "2004",
+   "title": "R&D, organization structure, and the development of corporate technological knowledge",
+   "venue": "Strategic Management Journal, 25(8-9): 929-958",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Puranam, P.",
+    "Singh, H.",
+    "Zollo, M."
+   ],
+   "year": "2006",
+   "title": "Organizing for innovation: Managing the coordination-autonomy dilemma in technology acquisitions",
+   "venue": "Academy of Management Journal, 49(2): 263-280",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Bernstein, S."
+   ],
+   "year": "2012",
+   "title": "Does going public affect innovation?",
+   "venue": "Stanford University working paper",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Amabile, T."
+   ],
+   "year": "1988",
+   "title": "A model of creativity and innovation in organizations",
+   "venue": "In B. Staw & L. Cummings (eds.), Research in Organizational Behavior, Volume 10",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Baer, M."
+   ],
+   "year": "2012",
+   "title": "Putting creativity to work: The implementation of creative ideas in organizations",
+   "venue": "Academy of Management Journal, 55(5): 1102-1119",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Cassiman, B.",
+    "Ueda, M."
+   ],
+   "year": "2006",
+   "title": "Optimal Project Rejection and New Firm Start-ups",
+   "venue": "Management Science, 52(2): 262-275",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Davis, J.P.",
+    "Eisenhardt, K.M."
+   ],
+   "year": "2011",
+   "title": "Rotating Leadership and Collaborative Innovation: Recombination Processes in Symbiotic Relationships",
+   "venue": "Administrative Science Quarterly, 56(2): 159-201",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Galunic, D.C.",
+    "Rodan, S."
+   ],
+   "year": "1998",
+   "title": "Resource Recombinations in the Firm: Knowledge Structures and the Potential for Schumpeterian Innovation",
+   "venue": "Strategic Management Journal, 19(12): 1193-1201",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Nohria, N.",
+    "Gulati, R."
+   ],
+   "year": "1996",
+   "title": "Is Slack Good or Bad for Innovation?",
+   "venue": "Academy of Management Journal, 39(5): 1245-1264",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Rietzschel, E.F.",
+    "Nijstad, B.A.",
+    "Stroebe, W."
+   ],
+   "year": "2010",
+   "title": "The selection of creative ideas after individual idea generation: Choosing between creativity and impact",
+   "venue": "British Journal of Psychology, 101(1): 47-68",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Staw, B."
+   ],
+   "year": "1995",
+   "title": "Why no one really wants creativity",
+   "venue": "In C. Ford & D. Gioia (eds.), Creative Action in Organizations, Sage Publications: 162-166",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "Taylor, A."
+   ],
+   "year": "2009",
+   "title": "The next generation: Technology adoption and integration through internal competition in new product development",
+   "venue": "Organization Science, 21(1): 23-41",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "5) Creativity in Organizations – Management of Innovation (March 6, 2013)",
+   "authors": [
+    "George, J.M."
+   ],
+   "year": "2007",
+   "title": "Creativity in Organizations",
+   "venue": "Academy of Management Annals, 1(1): 439-477 (for reference)",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Pavitt, K."
+   ],
+   "year": "1984",
+   "title": "Sectoral Patterns of Technical Change: Towards a Taxonomy and a Theory",
+   "venue": "Research Policy, 13(6): 343",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Henderson, R."
+   ],
+   "year": "1993",
+   "title": "Underinvestment and incompetence as responses to radical innovation: Evidence from the photolithographic alignment equipment industry",
+   "venue": "Rand Journal of Economics, 24(2): 248-270",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Katila, R.",
+    "Ahuja, G."
+   ],
+   "year": "2002",
+   "title": "Something old, something new: A longitudinal study of search behavior and new product introduction",
+   "venue": "Academy of Management Journal, 45(6): 1183-1194",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Breschi, S.",
+    "Lissoni, F.",
+    "Malerba, F."
+   ],
+   "year": "2003",
+   "title": "Knowledge-relatedness in firm technological diversification",
+   "venue": "Research Policy, 32(1): 69-87",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Eggers, J.P."
+   ],
+   "year": "forthcoming",
+   "title": "Competing technologies and industry evolution: The benefits of making mistakes in the flat panel display industry",
+   "venue": "Strategic Management Journal",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Ahuja, G.",
+    "Lampert, C.M.",
+    "Tandon, V."
+   ],
+   "year": "2008",
+   "title": "Moving Beyond Schumpeter: Management Research on the Determinants of Technological Innovation",
+   "venue": "Academy of Management Annals, 2: 1-98",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Teece, D.J."
+   ],
+   "year": "1986",
+   "title": "Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy",
+   "venue": "Research Policy, 15(6): 285-305",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Tripsas, M."
+   ],
+   "year": "1997",
+   "title": "Unraveling the process of creative destruction: Complementary assets and incumbent survival in the typesetter industry",
+   "venue": "Strategic Management Journal, 18: 119-142",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Han, J.K.",
+    "Kim, N.",
+    "Srivastava, R.K."
+   ],
+   "year": "1998",
+   "title": "Market Orientation and Organizational Performance: Is Innovation a Missing Link?",
+   "venue": "Journal of Marketing, 62(4): 30-45",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Klepper, S.",
+    "Simons, K.L."
+   ],
+   "year": "2000",
+   "title": "Dominance by birthright: Entry of prior radio producers and competitive ramifications in the U.S. television receiver industry",
+   "venue": "Strategic Management Journal, 21(10/11): 997-1016",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Schilling, M.A.",
+    "Phelps, C.C."
+   ],
+   "year": "2007",
+   "title": "Interfirm Collaboration Networks: The Impact of Large-Scale Network Structure on Firm Innovation",
+   "venue": "Management Science, 53(7): 1113-1126",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Stuart, T.E.",
+    "Podolny, J.M."
+   ],
+   "year": "1996",
+   "title": "Local search and the evolution of technological capabilities",
+   "venue": "Strategic Management Journal, 17: 5-19",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "6) Technology & Innovation – Micro (Firm) Perspectives (March 20, 2013)",
+   "authors": [
+    "Tushman, M.L.",
+    "Anderson, P."
+   ],
+   "year": "1986",
+   "title": "Technological discontinuities and organizational environments",
+   "venue": "Administrative Science Quarterly, 31(3): 439-465",
+   "type": "article",
+   "required": false
+  }
+ ]
+}

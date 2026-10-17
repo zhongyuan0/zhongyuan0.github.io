@@ -1,0 +1,1921 @@
+{
+ "file": "0280159c-Stanford_SOCIAL_AND_ECONOMIC_NETWORKS.txt",
+ "course": "ECON 291: Social and Economic Networks",
+ "instructor": "Arun Chandrasekhar and Matthew O. Jackson",
+ "institution": "Stanford University",
+ "term": "",
+ "readings": [
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Jackson, M. O."
+   ],
+   "year": "2008",
+   "title": "Social and Economic Networks",
+   "venue": "Princeton University Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Jackson, M. O."
+   ],
+   "year": "2019",
+   "title": "The Human Network: How Your Social Position Determines Your Power, Beliefs, and Behaviors",
+   "venue": "Pantheon Books",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Bearman, P. S.",
+    "Moody, J.",
+    "Stovel, K."
+   ],
+   "year": "2004",
+   "title": "Chains of Affection: The Structure of Adolescent Romantic and Sexual Networks",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Soramäki, K.",
+    "Bech, M. L.",
+    "Arnold, J.",
+    "Glass, R. J.",
+    "Beyeler, W. E."
+   ],
+   "year": "2007",
+   "title": "The topology of interbank payment flows",
+   "venue": "Physica A",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Ugander, J.",
+    "Karrer, B.",
+    "Backstrom, L.",
+    "Marlow, C."
+   ],
+   "year": "2011",
+   "title": "The Anatomy of the Facebook Social Graph",
+   "venue": "arXiv preprint arXiv:1111.4503",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Milgram, S."
+   ],
+   "year": "1967",
+   "title": "The small world problem",
+   "venue": "Psychology Today",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Dodds, P. S.",
+    "Muhamad, R.",
+    "Watts, D. J."
+   ],
+   "year": "2003",
+   "title": "An Experimental Study of Search in Global Social Networks",
+   "venue": "Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Erdös, P.",
+    "Rényi, A."
+   ],
+   "year": "1959",
+   "title": "On random graphs",
+   "venue": "Publicationes Mathematicae Debrecen",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Erdös, P.",
+    "Rényi, A."
+   ],
+   "year": "1960",
+   "title": "On the evolution of random graphs",
+   "venue": "Publications of the Mathematical Institute of the Hungarian Academy of Sciences",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Jackson, M. O."
+   ],
+   "year": "2008",
+   "title": "Average Distance, Diameter, and Clustering in Social Networks with Homophily",
+   "venue": "In C. Papadimitriou and S. Zhang (Eds.), Proceedings of the Workshop in Internet and Network Economics (WINE 2008), Lecture Notes in Computer Science. Springer-Verlag",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Coleman, J. S."
+   ],
+   "year": "1988",
+   "title": "Social Capital in the Creation of Human Capital",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Introduction, Illustrations, Basic Measurements",
+   "authors": [
+    "Jackson, M. O.",
+    "Rodriguez-Barraquer, T. R.",
+    "Tan, X."
+   ],
+   "year": "2012",
+   "title": "Social Capital and Social Quilts: Network Patterns of Favor Exchange",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: Preview of Some Economic Networks and Implications",
+   "authors": [
+    "Banerjee, A.",
+    "Chandrasekhar, A. G.",
+    "Duflo, E.",
+    "Jackson, M. O."
+   ],
+   "year": "2019",
+   "title": "Using gossips to spread information: Theory and evidence from two randomized controlled trials",
+   "venue": "The Review of Economic Studies",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Feld, S. L."
+   ],
+   "year": "1991",
+   "title": "Why Your Friends Have More Friends Than You Do",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Borgatti, S. P.",
+    "Everett, M. G."
+   ],
+   "year": "1992",
+   "title": "Notions of position in social network analysis",
+   "venue": "Sociological Methodology",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Bonacich, P."
+   ],
+   "year": "1972",
+   "title": "Factoring and weighting approaches to status scores and clique identification",
+   "venue": "Journal of Mathematical Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Bonacich, P."
+   ],
+   "year": "1987",
+   "title": "Power and centrality: A family of measures",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Jackson, M. O."
+   ],
+   "year": "2019",
+   "title": "The Friendship Paradox and Systematic Biases in Perceptions and Social Norms",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Banerjee, A. V.",
+    "Chandrasekhar, A. G.",
+    "Duflo, E.",
+    "Jackson, M. O."
+   ],
+   "year": "2013",
+   "title": "Diffusion of Microfinance",
+   "venue": "Science",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Kearns, M. J.",
+    "Judd, S.",
+    "Tan, J.",
+    "Wortman, J."
+   ],
+   "year": "2009",
+   "title": "Behavioral Experiments on Biased Voting in Networks",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Bloch, F.",
+    "Jackson, M. O.",
+    "Tebaldi, P."
+   ],
+   "year": "2016",
+   "title": "Centrality Measures in Networks",
+   "venue": "SSRN working paper 2749124",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Sadler, E."
+   ],
+   "year": "2022",
+   "title": "Ordinal centrality",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "I. Introduction, Fundamentals, Measurements: More Measurements, Centrality",
+   "authors": [
+    "Evtushenko, A.",
+    "Kleinberg, J."
+   ],
+   "year": "2021",
+   "title": "The paradox of second-order homophily in networks",
+   "venue": "Scientific Reports",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "II. Peer Effects: Reflection problem, Intransitive triads, Causality, Panel methods, Experiments",
+   "authors": [
+    "Manski, C. F."
+   ],
+   "year": "1993",
+   "title": "Identification of endogenous social effects: The reflection problem",
+   "venue": "The Review of Economic Studies",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "II. Peer Effects: Reflection problem, Intransitive triads, Causality, Panel methods, Experiments",
+   "authors": [
+    "Bramoullé, Y.",
+    "Djebbari, H.",
+    "Fortin, B."
+   ],
+   "year": "2009",
+   "title": "Identification of peer effects through social networks",
+   "venue": "Journal of Econometrics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "II. Peer Effects: Reflection problem, Intransitive triads, Causality, Panel methods, Experiments",
+   "authors": [
+    "Aronow, P. M.",
+    "Samii, C."
+   ],
+   "year": "2017",
+   "title": "Estimating average causal effects under general interference, with application to a social network experiment",
+   "venue": "The Annals of Applied Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "II. Peer Effects: Reflection problem, Intransitive triads, Causality, Panel methods, Experiments",
+   "authors": [
+    "Athey, S.",
+    "Eckles, D.",
+    "Imbens, G. W."
+   ],
+   "year": "2018",
+   "title": "Exact p-values for network interference",
+   "venue": "Journal of the American Statistical Association",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "II. Peer Effects: Reflection problem, Intransitive triads, Causality, Panel methods, Experiments",
+   "authors": [
+    "Shalizi, C. R.",
+    "Thomas, A. C."
+   ],
+   "year": "2011",
+   "title": "Homophily and contagion are generically confounded in observational social network studies",
+   "venue": "Sociological Methods & Research",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "II. Peer Effects: Reflection problem, Intransitive triads, Causality, Panel methods, Experiments",
+   "authors": [
+    "Manresa, E."
+   ],
+   "year": "2013",
+   "title": "Estimating the structure of social interactions using panel data",
+   "venue": "Unpublished manuscript, CEMFI, Madrid",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "II. Peer Effects: Reflection problem, Intransitive triads, Causality, Panel methods, Experiments",
+   "authors": [
+    "Hampole, M.",
+    "Truffa, F.",
+    "Wong, A."
+   ],
+   "year": "2021",
+   "title": "Peer effects and the gender gap in corporate leadership: Evidence from MBA students",
+   "venue": "Working paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "II. Peer Effects: Reflection problem, Intransitive triads, Causality, Panel methods, Experiments",
+   "authors": [
+    "Auerbach, E."
+   ],
+   "year": "2019",
+   "title": "Testing for Differences in Stochastic Network Structure",
+   "venue": "arXiv preprint arXiv:1903.11117",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Random networks",
+   "authors": [
+    "Bollobás, B."
+   ],
+   "year": "1988",
+   "title": "The chromatic number of random graphs",
+   "venue": "Combinatorica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Random networks",
+   "authors": [
+    "Watts, D. J.",
+    "Strogatz, S. H."
+   ],
+   "year": "1998",
+   "title": "Collective dynamics of small-world networks",
+   "venue": "Nature",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "III. Network Formation: Random networks",
+   "authors": [
+    "Watts, D. J."
+   ],
+   "year": "1999",
+   "title": "Small worlds: The dynamics of networks between order and randomness",
+   "venue": "Princeton University Press",
+   "type": "book",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Random networks",
+   "authors": [
+    "Barabási, A.-L.",
+    "Albert, R."
+   ],
+   "year": "1999",
+   "title": "Emergence of scaling in random networks",
+   "venue": "Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Random networks",
+   "authors": [
+    "Albert, R.",
+    "Jeong, H.",
+    "Barabási, A.-L."
+   ],
+   "year": "1999",
+   "title": "Internet: Diameter of the world-wide web",
+   "venue": "Nature",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Random networks",
+   "authors": [
+    "Jackson, M. O.",
+    "Rogers, B. W."
+   ],
+   "year": "2007",
+   "title": "Meeting strangers and friends of friends: How random are social networks?",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Random networks",
+   "authors": [
+    "Broido, A. D.",
+    "Clauset, A."
+   ],
+   "year": "2019",
+   "title": "Scale-free networks are rare",
+   "venue": "Nature Communications",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Jackson, M. O.",
+    "Wolinsky, A."
+   ],
+   "year": "1996",
+   "title": "A Strategic Model of Social and Economic Networks",
+   "venue": "Journal of Economic Theory",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Bala, V.",
+    "Goyal, S."
+   ],
+   "year": "2000",
+   "title": "A noncooperative model of network formation",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Herings, P.",
+    "Zhan, Y."
+   ],
+   "year": "2021",
+   "title": "The computation of pairwise stable networks",
+   "venue": "Working paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Currarini, S.",
+    "Jackson, M. O.",
+    "Pin, P."
+   ],
+   "year": "2009",
+   "title": "An economic model of friendship: Homophily, minorities, and segregation",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Currarini, S.",
+    "Jackson, M. O.",
+    "Pin, P."
+   ],
+   "year": "2010",
+   "title": "Identifying the roles of race-based choice and chance in high school friendship network formation",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Mele, A."
+   ],
+   "year": "2017",
+   "title": "A Structural Model of Segregation in Social Networks",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Banerjee, A. V.",
+    "Breza, E.",
+    "Chandrasekhar, A. G.",
+    "Duflo, E.",
+    "Jackson, M. O.",
+    "Kinnan, C."
+   ],
+   "year": "2020",
+   "title": "Changes in Social Network Structure in Response to Exposure to Formal Credit Markets",
+   "venue": "SSRN paper 3245656",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Friebel, G.",
+    "Lalanne, M.",
+    "Richter, B.",
+    "Schwardmann, P.",
+    "Seabright, P."
+   ],
+   "year": "2021",
+   "title": "Gender differences in social interactions",
+   "venue": "Journal of Economic Behavior & Organization",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Mosleh, M.",
+    "Martel, C.",
+    "Eckles, D.",
+    "Rand, D. G."
+   ],
+   "year": "2021",
+   "title": "Shared partisanship dramatically increases social tie formation in a Twitter field experiment",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Boucher, V.",
+    "Tumen, S.",
+    "Vlassopoulos, M.",
+    "Wahba, J.",
+    "Zenou, Y.",
+    "et al."
+   ],
+   "year": "2020",
+   "title": "Ethnic mixing in early childhood",
+   "venue": "CEPR Discussion Papers",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Olaizola, N.",
+    "Valenciano, F."
+   ],
+   "year": "2014",
+   "title": "Asymmetric flow networks",
+   "venue": "European Journal of Operational Research",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Olaizola, N.",
+    "Valenciano, F."
+   ],
+   "year": "2018",
+   "title": "A unifying model of strategic network formation",
+   "venue": "International Journal of Game Theory",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Olaizola, N.",
+    "Valenciano, F."
+   ],
+   "year": "2020",
+   "title": "Dominance of weighted nested split graph networks in connections models",
+   "venue": "International Journal of Game Theory",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Strategic network formation",
+   "authors": [
+    "Olaizola, N.",
+    "Valenciano, F."
+   ],
+   "year": "2021",
+   "title": "Efficiency and stability in the connections model with heterogeneous nodes",
+   "venue": "Journal of Economic Behavior & Organization",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Penrose, M."
+   ],
+   "year": "2003",
+   "title": "Random geometric graphs",
+   "venue": "Oxford University Press",
+   "type": "book",
+   "required": true
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Bickel, P. J.",
+    "Chen, A."
+   ],
+   "year": "2009",
+   "title": "A nonparametric view of network models and Newman-Girvan and other modularities",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Chatterjee, S.",
+    "Diaconis, P.",
+    "Sly, A."
+   ],
+   "year": "2010",
+   "title": "Random graphs with a given degree sequence",
+   "venue": "arXiv preprint arXiv:1005.1136",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Hoff, P. D.",
+    "Raftery, A. E.",
+    "Handcock, M. S."
+   ],
+   "year": "2002",
+   "title": "Latent Space Approaches to Social Network Analysis",
+   "venue": "Journal of the American Statistical Association",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Chatterjee, S.",
+    "Diaconis, P."
+   ],
+   "year": "2013",
+   "title": "Estimating and understanding exponential random graph models",
+   "venue": "The Annals of Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Chandrasekhar, A. G."
+   ],
+   "year": "2016",
+   "title": "Econometrics of Network Formation",
+   "venue": "Oxford Handbook on the Economics of Networks",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Chandrasekhar, A. G.",
+    "Jackson, M. O."
+   ],
+   "year": "2016",
+   "title": "A network formation model based on subgraphs",
+   "venue": "SSRN paper no. 2660381",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Leung, M. P."
+   ],
+   "year": "2015",
+   "title": "Two-step estimation of network-formation models with incomplete information",
+   "venue": "Journal of Econometrics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Leung, M. P."
+   ],
+   "year": "2019",
+   "title": "A weak law for moments of pairwise stable networks",
+   "venue": "Journal of Econometrics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "McCormick, T. H.",
+    "Zheng, T."
+   ],
+   "year": "2015",
+   "title": "Latent surface models for networks using aggregated relational data",
+   "venue": "Journal of the American Statistical Association",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Breza, E.",
+    "Chandrasekhar, A. G.",
+    "McCormick, T. H.",
+    "Pan, M."
+   ],
+   "year": "2020",
+   "title": "Using aggregated relational data to feasibly identify network structure without network data",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Graham, B. S."
+   ],
+   "year": "2015",
+   "title": "Methods of identification in social networks",
+   "venue": "Annual Review of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Graham, B. S."
+   ],
+   "year": "2017",
+   "title": "An econometric model of network formation with degree heterogeneity",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "De Paula, Á.",
+    "Richards-Shubik, S.",
+    "Tamer, E."
+   ],
+   "year": "2018",
+   "title": "Identifying preferences in networks with bounded degree",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Badev, A."
+   ],
+   "year": "2021",
+   "title": "Nash equilibria on (un) stable networks",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "III. Network Formation: Statistical and econometric models of network formation",
+   "authors": [
+    "Comola, M.",
+    "Prina, S."
+   ],
+   "year": "2021",
+   "title": "Treatment effect accounting for network changes",
+   "venue": "Review of Economics and Statistics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "IV. Contagion and Diffusion: Contagion, SIS, SIR, Bass",
+   "authors": [
+    "Jackson, M. O.",
+    "Yariv, L."
+   ],
+   "year": "2011",
+   "title": "Diffusion, strategic interaction, and social structure",
+   "venue": "In J. Benhabib, A. Bisin and M. O. Jackson (Eds.), Handbook of Social Economics. North Holland",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "IV. Contagion and Diffusion: Contagion, SIS, SIR, Bass",
+   "authors": [
+    "Jackson, M. O.",
+    "Lopez-Pintado, D."
+   ],
+   "year": "2013",
+   "title": "Diffusion and Contagion in Networks with Heterogeneous Agents and Homophily",
+   "venue": "Network Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "IV. Contagion and Diffusion: Contagion, SIS, SIR, Bass",
+   "authors": [
+    "Merlino, L. P.",
+    "Pin, P.",
+    "Tabasso, N."
+   ],
+   "year": "2020",
+   "title": "Debunking rumors in networks",
+   "venue": "arXiv preprint arXiv:2010.01018",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "IV. Contagion and Diffusion: Diffusion, Identifying seeds",
+   "authors": [
+    "Golub, B.",
+    "Sadler, E."
+   ],
+   "year": "2016",
+   "title": "Learning in Social Networks",
+   "venue": "The Oxford Handbook of the Economics of Networks",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "IV. Contagion and Diffusion: Diffusion, Identifying seeds",
+   "authors": [
+    "Beaman, L.",
+    "BenYishay, A.",
+    "Magruder, J.",
+    "Mobarak, A. M."
+   ],
+   "year": "2021",
+   "title": "Can network theory-based targeting increase technology adoption?",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "IV. Contagion and Diffusion: Diffusion, Identifying seeds",
+   "authors": [
+    "Jackson, M. O.",
+    "Storms, E. C."
+   ],
+   "year": "2017",
+   "title": "Behavioral Communities and the Atomic Structure of Networks",
+   "venue": "arXiv preprint arXiv:1710.04656",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "IV. Contagion and Diffusion: Diffusion, Identifying seeds",
+   "authors": [
+    "Akbarpour, M.",
+    "Malladi, S.",
+    "Saberi, A."
+   ],
+   "year": "2017",
+   "title": "Diffusion, Seeding and the Value of Network Information",
+   "venue": "mimeo: Stanford University",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "IV. Contagion and Diffusion: Diffusion, Identifying seeds",
+   "authors": [
+    "Sadler, E."
+   ],
+   "year": "2022",
+   "title": "Seeding a Simple Contagion",
+   "venue": "SSRN working paper 4032812",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "IV. Contagion and Diffusion: Diffusion, Identifying seeds",
+   "authors": [
+    "Stoica, A.-A.",
+    "Han, J. X.",
+    "Chaintreau, A."
+   ],
+   "year": "2020",
+   "title": "Seeding network influence in biased networks and the benefits of diversity",
+   "venue": "Proceedings of The Web Conference 2020",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "Banerjee, A. V."
+   ],
+   "year": "1992",
+   "title": "A simple model of herd behavior",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "Bikhchandani, S.",
+    "Hirshleifer, D.",
+    "Welch, I."
+   ],
+   "year": "1992",
+   "title": "A theory of fads, fashion, custom, and cultural change as informational cascades",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "Bala, V.",
+    "Goyal, S."
+   ],
+   "year": "1998",
+   "title": "Learning from neighbours",
+   "venue": "Review of Economic Studies",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "DeMarzo, P. M.",
+    "Vayanos, D.",
+    "Zwiebel, J."
+   ],
+   "year": "2003",
+   "title": "Persuasion Bias, Social Influence, and Unidimensional Opinions",
+   "venue": "Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "Acemoglu, D.",
+    "Autor, D."
+   ],
+   "year": "2011",
+   "title": "Skills, Tasks and Technologies: Implications for Employment and Earnings",
+   "venue": "Handbook of Labor Economics 4B: 1043-1171",
+   "type": "chapter",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "Mossel, E.",
+    "Sly, A.",
+    "Tamuz, O."
+   ],
+   "year": "2014",
+   "title": "Asymptotic learning on bayesian social networks",
+   "venue": "Probability Theory and Related Fields",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "Mossel, E.",
+    "Mueller-Frank, M.",
+    "Sly, A.",
+    "Tamuz, O."
+   ],
+   "year": "2020",
+   "title": "Social learning equilibria",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "Board, S.",
+    "Meyer-ter-Vehn, M."
+   ],
+   "year": "2021",
+   "title": "Learning dynamics in social networks",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "Bikhchandani, S.",
+    "Hirshleifer, D.",
+    "Tamuz, O.",
+    "Welch, I."
+   ],
+   "year": "2021",
+   "title": "Information cascades and social learning",
+   "venue": "National Bureau of Economic Research working paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Bayesian learning, Boundedly rational learning",
+   "authors": [
+    "Pedersen, L. H."
+   ],
+   "year": "2021",
+   "title": "Game on: Social networks and markets",
+   "venue": "SSRN working paper 3794616",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Information Aggregation: Frictions and Experiments",
+   "authors": [
+    "Sadler, E."
+   ],
+   "year": "2017",
+   "title": "Diffusion games",
+   "venue": "SSRN paper 2624865",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Information Aggregation: Frictions and Experiments",
+   "authors": [
+    "Banerjee, A.",
+    "Breza, E.",
+    "Chandrasekhar, A. G.",
+    "Mobius, M."
+   ],
+   "year": "2019",
+   "title": "Naive learning with uninformed agents",
+   "venue": "National Bureau of Economic Research working paper (DOI 10.3386/w25497)",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Information Aggregation: Frictions and Experiments",
+   "authors": [
+    "Grimm, V.",
+    "Mengel, F."
+   ],
+   "year": "2020",
+   "title": "Experiments on belief formation in networks",
+   "venue": "Journal of the European Economic Association",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Information Aggregation: Frictions and Experiments",
+   "authors": [
+    "Chandrasekhar, A. G.",
+    "Larreguy, H.",
+    "Xandri, J. P."
+   ],
+   "year": "2013",
+   "title": "Testing Models of Social Learning on Networks: Evidence from a Framed Field Experiment",
+   "venue": "mimeo: Stanford University",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Information Aggregation: Frictions and Experiments",
+   "authors": [
+    "Mueller-Frank, M.",
+    "Neri, C."
+   ],
+   "year": "2013",
+   "title": "Social learning in networks: Theory and experiments",
+   "venue": "SSRN working paper 2328281",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Information Aggregation: Frictions and Experiments",
+   "authors": [
+    "Banerjee, A.",
+    "Breza, E.",
+    "Chandrasekhar, A. G.",
+    "Golub, B."
+   ],
+   "year": "2018",
+   "title": "When less is more: Experimental evidence on information delivery during India's demonetization",
+   "venue": "National Bureau of Economic Research working paper (DOI 10.3386/w24679)",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Information Aggregation: Frictions and Experiments",
+   "authors": [
+    "Gallo, E.",
+    "Riyanto, Y. E.",
+    "Roy, N.",
+    "Teh, T.-H."
+   ],
+   "year": "2022",
+   "title": "Cooperation and punishment mechanisms in uncertain and dynamic networks",
+   "venue": "arXiv preprint arXiv:2203.04001",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Information Aggregation: Frictions and Experiments",
+   "authors": [
+    "García-Jimeno, C.",
+    "Iglesias, A.",
+    "Yildirim, P."
+   ],
+   "year": "2022",
+   "title": "Information Networks and Collective Action: Evidence from the Women's Temperance Crusade",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Speed of Convergence, Information Aggregation",
+   "authors": [
+    "Golub, B.",
+    "Jackson, M. O."
+   ],
+   "year": "2010",
+   "title": "Naive Learning in Social Networks and the Wisdom of Crowds",
+   "venue": "American Economic Journal: Microeconomics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Speed of Convergence, Information Aggregation",
+   "authors": [
+    "Golub, B.",
+    "Jackson, M. O."
+   ],
+   "year": "2012",
+   "title": "How Homophily Affects the Speed of Learning and Best-Response Dynamics",
+   "venue": "Quarterly Journal of Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Speed of Convergence, Information Aggregation",
+   "authors": [
+    "Mossel, E.",
+    "Sly, A.",
+    "Tamuz, O."
+   ],
+   "year": "2015",
+   "title": "Strategic learning and the topology of social networks",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Speed of Convergence, Information Aggregation",
+   "authors": [
+    "Kuchler, T.",
+    "Stroebel, J."
+   ],
+   "year": "2021",
+   "title": "Social finance",
+   "venue": "Annual Review of Financial Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Speed of Convergence, Information Aggregation",
+   "authors": [
+    "Sethi, R.",
+    "Yildiz, M."
+   ],
+   "year": "2016",
+   "title": "Communication with unknown perspectives",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Speed of Convergence, Information Aggregation",
+   "authors": [
+    "Jackson, M. O.",
+    "Malladi, S.",
+    "McAdams, D."
+   ],
+   "year": "2021",
+   "title": "Learning Through the Grapevine: The Impact of Noise and the Breadth and Depth of Social Networks",
+   "venue": "SSRN working paper 3269543",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Speed of Convergence, Information Aggregation",
+   "authors": [
+    "Mostagir, M.",
+    "Siderius, J."
+   ],
+   "year": "2022",
+   "title": "Naive and Bayesian Learning with Misinformation Policies",
+   "venue": "mimeo",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "V. Learning and Information Aggregation: Speed of Convergence, Information Aggregation",
+   "authors": [
+    "Mostagir, M.",
+    "Siderius, J."
+   ],
+   "year": "2022",
+   "title": "Learning in a post-truth world",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Games of complements, substitutes",
+   "authors": [
+    "Ballester, C.",
+    "Calvó-Armengol, A.",
+    "Zenou, Y."
+   ],
+   "year": "2006",
+   "title": "Who's who in networks, wanted: the key player",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "VI. Games played on networks: Games of complements, substitutes",
+   "authors": [
+    "Galeotti, A.",
+    "Goyal, S.",
+    "Jackson, M. O.",
+    "Vega-Redondo, F.",
+    "Yariv, L."
+   ],
+   "year": "2010",
+   "title": "Network games",
+   "venue": "Review of Economic Studies",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Games of complements, substitutes",
+   "authors": [
+    "Jackson, M. O.",
+    "Zenou, Y."
+   ],
+   "year": "2014",
+   "title": "Games on Networks",
+   "venue": "In H. P. Young and S. Zamir (Eds.), Handbook of Game Theory. Elsevier",
+   "type": "chapter",
+   "required": true
+  },
+  {
+   "session": "VI. Games played on networks: Games of complements, substitutes",
+   "authors": [
+    "Centola, D.",
+    "Eguíluz, V. M.",
+    "Macy, M. W."
+   ],
+   "year": "2007",
+   "title": "Cascade dynamics of complex propagation",
+   "venue": "Physica A: Statistical Mechanics and its Applications",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Games of complements, substitutes",
+   "authors": [
+    "Centola, D."
+   ],
+   "year": "2011",
+   "title": "An experimental study of homophily in the adoption of health behavior",
+   "venue": "Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Games of complements, substitutes",
+   "authors": [
+    "Parise, F.",
+    "Ozdaglar, A. E."
+   ],
+   "year": "2020",
+   "title": "Graphon Games: A Statistical Framework for Network Games and Interventions",
+   "venue": "SSRN working paper 3437293",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Games of complements, substitutes",
+   "authors": [
+    "Sadler, E.",
+    "Golub, B."
+   ],
+   "year": "2021",
+   "title": "Games on endogenous networks",
+   "venue": "arXiv preprint arXiv:2102.01587",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Informal Insurance, Giving, Reputation",
+   "authors": [
+    "Ligon, E.",
+    "Schechter, L."
+   ],
+   "year": "2012",
+   "title": "Motives for sharing in social networks",
+   "venue": "Journal of Development Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Informal Insurance, Giving, Reputation",
+   "authors": [
+    "Ambrus, A.",
+    "Mobius, M.",
+    "Szeidl, A."
+   ],
+   "year": "2014",
+   "title": "Consumption Risk-Sharing in Social Networks",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Informal Insurance, Giving, Reputation",
+   "authors": [
+    "Goeree, J. K.",
+    "McConnell, M. A.",
+    "Mitchell, T.",
+    "Tromp, T.",
+    "Yariv, L."
+   ],
+   "year": "2010",
+   "title": "The 1/d law of giving",
+   "venue": "American Economic Journal: Microeconomics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Informal Insurance, Giving, Reputation",
+   "authors": [
+    "Leider, S.",
+    "Mobius, M.",
+    "Rosenblat, T.",
+    "Do, Q.-A."
+   ],
+   "year": "2009",
+   "title": "Directed altruism and enforced reciprocity in social networks",
+   "venue": "Quarterly Journal of Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "VI. Games played on networks: Informal Insurance, Giving, Reputation",
+   "authors": [
+    "Breza, E.",
+    "Chandrasekhar, A. G."
+   ],
+   "year": "2016",
+   "title": "Social networks, reputation and commitment: Evidence from a savings monitors experiment",
+   "venue": "National Bureau of Economic Research working paper no. 21169",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "VI. Games played on networks: Informal Insurance, Giving, Reputation",
+   "authors": [
+    "Chandrasekhar, A. G.",
+    "Kinnan, C.",
+    "Larreguy, H."
+   ],
+   "year": "2018",
+   "title": "Social networks as contract enforcement: Evidence from a lab experiment in the field",
+   "venue": "American Economic Journal: Applied Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Informal Insurance, Giving, Reputation",
+   "authors": [
+    "Bloch, F.",
+    "Genicot, G.",
+    "Ray, D."
+   ],
+   "year": "2008",
+   "title": "Informal insurance in social networks",
+   "venue": "Journal of Economic Theory",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Informal Insurance, Giving, Reputation",
+   "authors": [
+    "Eubank, N.",
+    "Kronick, D.",
+    "et al."
+   ],
+   "year": "2021",
+   "title": "Friends Don't Let Friends Free Ride",
+   "venue": "Quarterly Journal of Political Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Public Goods",
+   "authors": [
+    "Bramoullé, Y.",
+    "Kranton, R."
+   ],
+   "year": "2007",
+   "title": "Risk-sharing networks",
+   "venue": "Journal of Economic Behavior & Organization",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Public Goods",
+   "authors": [
+    "Bramoullé, Y.",
+    "Kranton, R."
+   ],
+   "year": "2014",
+   "title": "Strategic Interaction and Networks",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Public Goods",
+   "authors": [
+    "Bramoullé, Y.",
+    "Kranton, R.",
+    "D'Amours, M."
+   ],
+   "year": "2014",
+   "title": "Strategic interaction and networks",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Public Goods",
+   "authors": [
+    "Elliott, M.",
+    "Golub, B."
+   ],
+   "year": "2012",
+   "title": "A Network Approach to Public Goods",
+   "venue": "mimeo: Caltech",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VI. Games played on networks: Public Goods",
+   "authors": [
+    "Acemoglu, D.",
+    "García-Jimeno, C.",
+    "Robinson, J. A."
+   ],
+   "year": "2015",
+   "title": "State capacity and economic development: A network approach",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Granovetter, M. S."
+   ],
+   "year": "1973",
+   "title": "The Strength of Weak Ties",
+   "venue": "American Journal of Sociology",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Montgomery, J. D."
+   ],
+   "year": "1991",
+   "title": "Social networks and labor-market outcomes: Toward an economic analysis",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Calvó-Armengol, A.",
+    "Jackson, M. O."
+   ],
+   "year": "2004",
+   "title": "The effects of social networks on employment and inequality",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Calvó-Armengol, A.",
+    "Jackson, M. O."
+   ],
+   "year": "2007",
+   "title": "Networks in labor markets: Wage and employment dynamics and inequality",
+   "venue": "Journal of Economic Theory",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Bolte, L.",
+    "Immorlica, N.",
+    "Jackson, M. O."
+   ],
+   "year": "2020",
+   "title": "The Role of Referrals in Inequality, Immobility, and Inefficiency in Labor Markets",
+   "venue": "SSRN working paper 3512293",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Beaman, L. A.",
+    "Magruder, J."
+   ],
+   "year": "2012",
+   "title": "Who gets the job referral? Evidence from a social networks experiment",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Munshi, K."
+   ],
+   "year": "2003",
+   "title": "Networks in the Modern Economy: Mexican Migrants in the US Labor Market",
+   "venue": "Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Pallais, A.",
+    "Sands, E. G."
+   ],
+   "year": "2016",
+   "title": "Why the referential treatment? Evidence from field experiments on referrals",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Jackson, M. O."
+   ],
+   "year": "2021",
+   "title": "Inequality's Economic and Social Roots: The Role of Social Networks and Homophily",
+   "venue": "SSRN working paper 3795626",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Buhai, S.",
+    "van der Leij, M."
+   ],
+   "year": "2020",
+   "title": "A social network analysis of occupational segregation",
+   "venue": "arXiv preprint arXiv:2004.09293",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Labor Markets, homophily and inequality",
+   "authors": [
+    "Egger, D.",
+    "Auer, D.",
+    "Kunz, J."
+   ],
+   "year": "2022",
+   "title": "Effects of Migrant Networks on Labor Market Integration, Local Firms and Employees",
+   "venue": "Working Paper",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Allen, F.",
+    "Gale, D."
+   ],
+   "year": "2000",
+   "title": "Financial Contagion",
+   "venue": "Journal of Political Economy",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Eisenberg, L.",
+    "Noe, T. H."
+   ],
+   "year": "2001",
+   "title": "Systemic Risk in Financial Systems",
+   "venue": "Management Science",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Gai, P.",
+    "Kapadia, S."
+   ],
+   "year": "2010",
+   "title": "Contagion in financial networks",
+   "venue": "Proceedings of the Royal Society A",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Elliott, M.",
+    "Golub, B.",
+    "Jackson, M. O."
+   ],
+   "year": "2014",
+   "title": "Financial Networks and Contagion",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Acemoglu, D.",
+    "Ozdaglar, A.",
+    "Tahbaz-Salehi, A."
+   ],
+   "year": "2015",
+   "title": "Systemic Risk and Stability in Financial Networks",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Jackson, M. O.",
+    "Pernoud, A."
+   ],
+   "year": "2021",
+   "title": "Systemic Risk in Financial Networks: A Survey",
+   "venue": "Annual Review of Economics",
+   "type": "article",
+   "required": true
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Jackson, M. O.",
+    "Pernoud, A."
+   ],
+   "year": "2021",
+   "title": "Credit Freezes, Equilibrium Multiplicity, and Optimal Bailouts in Financial Networks",
+   "venue": "SSRN working paper 3735251",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Jackson, M. O.",
+    "Pernoud, A."
+   ],
+   "year": "2021",
+   "title": "Investment Incentives and Regulation in Financial Networks",
+   "venue": "SSRN working paper 3311839",
+   "type": "other",
+   "required": true
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Wang, C."
+   ],
+   "year": "2017",
+   "title": "Core-periphery trading networks",
+   "venue": "Dissertation, Stanford University",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Roukny, T.",
+    "Battiston, S.",
+    "Stiglitz, J. E."
+   ],
+   "year": "2018",
+   "title": "Interconnectedness as a source of uncertainty in systemic risk",
+   "venue": "Journal of Financial Stability",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Gofman, M."
+   ],
+   "year": "2017",
+   "title": "Efficiency and stability of a financial architecture with too-interconnected-to-fail institutions",
+   "venue": "Journal of Financial Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Financial Networks",
+   "authors": [
+    "Kanik, Z."
+   ],
+   "year": "2020",
+   "title": "From Lombard Street to Wall Street: systemic risk, rescues, and stability in financial networks",
+   "venue": "NET Institute Working Paper 17-17",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Supply Chains",
+   "authors": [
+    "Carvalho, V. M.",
+    "Tahbaz-Salehi, A."
+   ],
+   "year": "2019",
+   "title": "Production networks: A primer",
+   "venue": "Annual Review of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Supply Chains",
+   "authors": [
+    "Carvalho, V. M.",
+    "Nirei, M.",
+    "Saito, Y. U.",
+    "Tahbaz-Salehi, A."
+   ],
+   "year": "2021",
+   "title": "Supply chain disruptions: Evidence from the great east japan earthquake",
+   "venue": "The Quarterly Journal of Economics",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Supply Chains",
+   "authors": [
+    "Acemoglu, D.",
+    "Carvalho, V. M.",
+    "Ozdaglar, A.",
+    "Tahbaz-Salehi, A."
+   ],
+   "year": "2012",
+   "title": "The network origins of aggregate fluctuations",
+   "venue": "Econometrica",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Supply Chains",
+   "authors": [
+    "Chaney, T."
+   ],
+   "year": "2014",
+   "title": "The network structure of international trade",
+   "venue": "American Economic Review",
+   "type": "article",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Supply Chains",
+   "authors": [
+    "Jackson, M. O.",
+    "Kanik, Z."
+   ],
+   "year": "2020",
+   "title": "How automation that substitutes for labor affects production networks, growth, and income inequality",
+   "venue": "SSRN working paper 3375523",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Supply Chains",
+   "authors": [
+    "Elliott, M.",
+    "Golub, B.",
+    "Leduc, M. V."
+   ],
+   "year": "2022",
+   "title": "Supply network formation and fragility",
+   "venue": "SSRN working paper 3525459",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "VII. Networked Markets: Supply Chains",
+   "authors": [
+    "Elliott, M. L.",
+    "Jackson, M. O."
+   ],
+   "year": "2022",
+   "title": "Globalizing Supply Chains: The Impact on Fragility and Innovation",
+   "venue": "mimeo",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Referee reports (papers to choose from)",
+   "authors": [
+    "He, X.",
+    "Song, K."
+   ],
+   "year": "2018",
+   "title": "Measuring diffusion over a large network",
+   "venue": "arXiv preprint arXiv:1812.04195",
+   "type": "other",
+   "required": false
+  },
+  {
+   "session": "Referee reports (papers to choose from)",
+   "authors": [
+    "Lubold, S.",
+    "Chandrasekhar, A. G.",
+    "McCormick, T. H."
+   ],
+   "year": "2020",
+   "title": "Identifying the latent space geometry of network models through analysis of curvature",
+   "venue": "National Bureau of Economic Research working paper",
+   "type": "other",
+   "required": false
+  }
+ ]
+}

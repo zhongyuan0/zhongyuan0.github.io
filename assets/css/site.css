@@ -581,6 +581,86 @@ address {
   font-size: var(--step--1);
 }
 
+/* ---------- Theory tree (Readings page) ---------- */
+.rl-tree {
+  padding-top: 3rem;
+}
+.rl-tree-figure {
+  margin-left: calc(var(--margin-col) + var(--gap));
+}
+.tree {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: var(--serif);
+}
+.tree-family {
+  font-size: 13px;
+  font-style: italic;
+  fill: var(--ink-soft);
+  stroke: var(--paper);
+  stroke-width: 6px;
+  stroke-linejoin: round;
+  paint-order: stroke; /* a halo so the fan lines pass behind the heading */
+}
+.tree a {
+  text-decoration: none;
+}
+.tree-edge {
+  fill: none;
+  stroke: var(--ink-soft);
+  stroke-width: 1.2;
+  opacity: 0.55;
+}
+.tree-edge:hover {
+  opacity: 1;
+  stroke: var(--indigo);
+  stroke-width: 2;
+}
+.tree-arrowhead {
+  fill: var(--ink-soft);
+}
+.tree-node rect {
+  fill: var(--paper);
+  stroke: var(--indigo);
+  stroke-width: 1.2;
+}
+.tree-node text {
+  font-size: 14.5px;
+  fill: var(--ink);
+}
+.tree-node .tree-count {
+  font-size: 12px;
+  fill: var(--ink-soft);
+  font-variant-numeric: lining-nums;
+}
+.tree-root rect {
+  fill: var(--indigo-wash);
+}
+.tree-node:hover rect,
+.tree-node:focus-visible rect {
+  fill: var(--indigo-wash);
+  stroke-width: 2;
+}
+.tree-node:focus-visible {
+  outline: none;
+}
+.rl-tree-note,
+.rl-lineage {
+  margin-left: calc(var(--margin-col) + var(--gap));
+  max-width: var(--measure);
+}
+.rl-tree-note {
+  margin-top: 1rem;
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+  line-height: 1.5;
+}
+.rl-lineage ul {
+  margin-top: 0.6rem;
+  font-size: var(--step--1);
+}
+
 /* ---------- Reading lists ---------- */
 .rl-toc ol {
   columns: 2;
@@ -848,6 +928,9 @@ address {
   }
   .rl-toc ol {
     columns: 1;
+  }
+  .rl-tree {
+    display: none; /* the tree is unreadable at phone width; the stream list below serves instead */
   }
   .stills {
     row-gap: 3.2rem;
