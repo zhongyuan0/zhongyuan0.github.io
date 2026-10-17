@@ -44,6 +44,7 @@ PREF = {
     'book': ['book', 'monograph', 'edited-book', 'reference-book'],
     'other': ['journal-article', 'book-chapter', 'report', 'posted-content'],
 }
+WORKING = re.compile(r'work|paper|proceed|ssrn|nber|manuscript|mimeo|draft|unpublished|conference|meeting', re.I)
 NOTICE = re.compile(r'^(erratum|errata|correction|corrigendum|addendum|retraction|retracted|expression of concern|reply|rejoinder|comment on)\b')
 
 
@@ -146,6 +147,11 @@ def judge(r, it):
     gap = min((abs(y - v) for v in ys), default=99) if y else 99
     venue = itype in ('journal-article', 'book-chapter') and rtype != 'book' and same_venue(r, it)
     reasons = []
+    container = ' '.join(it.get('container-title') or []).lower()
+    preprint = (itype in ('posted-content', 'report') or 'proceedings' in container or 'ssrn' in container
+                or it.get('DOI', '').lower().startswith(('10.2139/ssrn', '10.3386/w', '10.5465/ambpp')))
+    if preprint and not WORKING.search(r.get('venue') or '') and rtype != 'other':
+        reasons.append('preprint or conference version of a published paper')
     if s < 0.9:
         reasons.append(f'title {s:.2f}')
     if gap > 1 and not (venue and s >= 0.95):
@@ -187,9 +193,12 @@ def best_match(r, items):
 _last = [0.0]
 
 
-def query(r):
-    q = ' '.join(x for x in (r.get('title', ''), surname(r), str(year_of(r.get('year')) or '')) if x)
-    url = API + '?' + urllib.parse.urlencode({'query.bibliographic': q, 'rows': 5, 'select': FIELDS})
+def query(r, second=False):
+    if second:  # narrower second try for articles: title and author separately, journal articles only
+        params = {'query.bibliographic': r.get('title', ''), 'query.author': surname(r), 'filter': 'type:journal-article'}
+    else:
+        params = {'query.bibliographic': ' '.join(x for x in (r.get('title', ''), surname(r), str(year_of(r.get('year')) or '')) if x)}
+    url = API + '?' + urllib.parse.urlencode(dict(params, rows=5, select=FIELDS))
     for attempt in range(6):
         wait = _last[0] + MIN_INTERVAL - time.time()
         if wait > 0:
@@ -275,6 +284,18 @@ def main():
                     print(f'  {i}/{len(todo)}', flush=True)
         finally:
             save_cache()
+        # Second try for articles the first query did not settle.
+        todo = [r for r in rs if r.get('type') in ('article', 'other') and reading_key(r) in cache and reading_key(r) not in manual
+                and '2|' + reading_key(r) not in cache and not best_match(r, cache[reading_key(r)])[0] and surname(r)][:limit]
+        print(f'{len(todo)} articles to query again', flush=True)
+        try:
+            for i, r in enumerate(todo, 1):
+                cache['2|' + reading_key(r)] = query(r, second=True)
+                if i % 50 == 0:
+                    save_cache()
+                    print(f'  {i}/{len(todo)}', flush=True)
+        finally:
+            save_cache()
 
     out, review = {}, {}
     for r in rs:
@@ -284,7 +305,7 @@ def main():
             continue
         if k not in cache:
             continue
-        doi, rev = best_match(r, cache[k])
+        doi, rev = best_match(r, cache[k] + cache.get('2|' + k, []))
         out[k] = doi
         if rev:
             review[k] = dict(rev, reading=f"{'; '.join(r['authors'][:3])} ({r['year']}). {r['title']}. {r['venue']} [{r['type']}] n={r['n']}")

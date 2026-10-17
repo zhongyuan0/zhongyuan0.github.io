@@ -286,7 +286,7 @@ main_head = f'''          <h1>Reading lists</h1>
           <p>
             {main_total:,} readings that appear in at least two of {N} PhD syllabi and reading lists in organization theory and strategy, merged and regrouped by
             theoretical stream, and the larger streams into sub-streams. The number beside each reading is how many sources assign it; the {core_n} core
-            readings, in {CORE} or more sources, have that number in bold. A further {more_total:,} readings listed in only one source are on a <a href="/readings/more/">separate page</a>. Credit for
+            readings, in {CORE} or more sources, have that number in bold. Readings with a DOI link to the published version. A further {more_total:,} readings listed in only one source are on a <a href="/readings/more/">separate page</a>. Credit for
             the selections belongs to the instructors and authors listed <a href="#sources">at the end of the page</a>.
           </p>
 '''
