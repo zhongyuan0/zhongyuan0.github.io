@@ -94,6 +94,13 @@ def sortkey(r):
     return (-r['n'], re.sub(r'\D', '', r['year'] or '9999')[:4] or '9999', r['title'])
 
 
+SUBMAP = json.load(open(D + 'subtopics.json')) if os.path.exists(D + 'subtopics.json') else {}
+for r in readings:
+    v = SUBMAP.get(reading_key(r))
+    if v and v.startswith('@'):  # misfiled: move to another stream
+        r['topic'], _, v = v[1:].partition(':')
+    r['sub'] = v or None
+
 by_topic = collections.defaultdict(list)
 for r in readings:
     by_topic[r['topic']].append(r)
@@ -101,16 +108,14 @@ for r in readings:
 names = {k: n for k, n, _ in TOPICS}
 main_sections, more_sections, toc, more_toc = [], [], [], []
 counts, more_counts = {}, {}
-SUBMAP = json.load(open(D + 'subtopics.json')) if os.path.exists(D + 'subtopics.json') else {}
-
-
 def groups(key, rs):
     """Split a stream's readings into (sub-key, label, readings); a single unnamed group if the stream isn't subdivided."""
     if key not in SUBTOPICS:
         return [(None, None, rs)]
     by = collections.defaultdict(list)
+    valid = {k for k, _ in SUBTOPICS[key]}
     for r in rs:
-        by[SUBMAP.get(reading_key(r), 'other')].append(r)
+        by[r['sub'] if r['sub'] in valid else 'other'].append(r)
     return [(k, lab, by[k]) for k, lab in SUBTOPICS[key] + [OTHER] if by.get(k)]
 
 

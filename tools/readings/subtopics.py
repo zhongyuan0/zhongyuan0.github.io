@@ -1,34 +1,43 @@
 """Sub-streams within the larger streams. Order here is display order.
 
 Assignments live in subtopics.json, keyed by reading_key(); readings with no assignment fall under 'other'.
+A value of the form '@stream' or '@stream:sub' moves the reading to another stream (used for misfiled readings).
 """
 import re, unicodedata
 
 SUBTOPICS = {
     'networks': [
         ('embeddedness', 'Embeddedness and network forms of organization'),
+        ('markets', 'Networks and markets'),
         ('ties', 'Strong and weak ties, social capital'),
         ('brokerage', 'Structural holes, brokerage and closure'),
         ('interorg', 'Interorganizational networks, alliances and interlocks'),
         ('intraorg', 'Networks inside organizations and careers'),
-        ('diffusion', 'Diffusion and contagion'),
-        ('structure', 'Network structure: centrality, power, exchange and small worlds'),
         ('formation', 'Homophily and how networks form'),
+        ('diffusion', 'Diffusion and contagion'),
+        ('centrality', 'Centrality, power and exchange'),
+        ('roles', 'Roles, positions and duality'),
+        ('topology', 'Small worlds and network topology'),
+        ('relational', 'Relational sociology: networks, culture, identity and fields'),
     ],
     'institutional': [
         ('foundations', 'Foundations: myth, ceremony and isomorphism'),
         ('legitimacy', 'Legitimacy and decoupling'),
-        ('diffusion', 'Diffusion and adoption of practices'),
+        ('diffusion', 'Diffusion, adoption and translation of practices'),
         ('logics', 'Institutional logics and complexity'),
-        ('change', 'Institutional change, entrepreneurship and work'),
-        ('fields', 'Organizational fields and world society'),
-        ('comparative', 'Comparative institutions and the institution-based view'),
+        ('change', 'Institutional change, entrepreneurship, work and microfoundations'),
+        ('fields', 'Organizational fields, communities and world society'),
+        ('law', 'Law, regulation and the state'),
+        ('national', 'National business systems and comparative institutions'),
+        ('ibv', 'The institution-based view and emerging markets'),
     ],
     'culture': [
         ('foundations', 'Culture and cognition: foundations'),
         ('sensemaking', 'Sensemaking and enactment'),
-        ('framing', 'Framing, rhetoric and symbolic management'),
-        ('orgculture', 'Organizational culture and control'),
+        ('cognition', 'Managerial and strategic cognition'),
+        ('symbolic', 'Impression and symbolic management'),
+        ('discourse', 'Discourse, rhetoric and narrative'),
+        ('orgculture', 'Culture in organizations and groups'),
         ('practice', 'Practice, materiality and technology'),
         ('production', 'Production and consumption of culture'),
         ('meaning', 'Meaning, boundaries and evaluation in social life'),
@@ -59,12 +68,13 @@ SUBTOPICS = {
         ('critique', 'Assessments and critiques'),
     ],
     'carnegie': [
-        ('bounded', 'Bounded rationality and decision making'),
+        ('foundations', 'Foundations: the behavioral theory of the firm'),
+        ('bounded', 'Bounded rationality, goals, coalitions and decision making'),
         ('feedback', 'Aspirations and performance feedback'),
         ('learning', 'Organizational learning'),
         ('exploration', 'Exploration and exploitation'),
         ('knowledge', 'Knowledge, absorptive capacity and transfer'),
-        ('attention', 'Attention, search and adaptation'),
+        ('attention', 'Cognition, attention, search and adaptation'),
     ],
     'stratecon': [
         ('field', 'What strategy is: the field and its foundations'),
