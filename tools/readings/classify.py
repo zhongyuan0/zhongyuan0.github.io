@@ -221,9 +221,13 @@ def mark_drops():
     d = json.load(open(D + 'classified.json'))
     econ = {i for i, c in enumerate(d['courses']) if re.search(ECON_COURSE_PAT, c['course'])}
     dropped = 0
+    math = re.compile(r'random graphs|algebras|probability models|advanced module')
     for r in d['readings']:
         if set(r['courses']) <= econ and not re.search(MGMT_VENUES, (r.get('venue') or '').lower()):
             r['drop'] = True
+            dropped += 1
+        elif all(math.search(x.split('|', 1)[1].lower()) for x in r['sessions']):
+            r['drop'] = True  # mathematical network modelling, out of scope
             dropped += 1
     json.dump(d, open(D + 'classified.json', 'w'), ensure_ascii=False, indent=1)
     print('dropped (economics-only)', dropped)
