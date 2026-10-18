@@ -128,8 +128,9 @@ def tab(x, y, n):
             f'<text class="tree-num" x="{x - 4 + TAB_W / 2}" y="{y + 4}" text-anchor="middle">{n}</text>')
 
 
-def svg(counts, names, more=None, nums=None):
-    more, nums = more or {}, nums or {}
+def svg(counts, names, nums=None, href=None):
+    nums = nums or {}
+    href = href or (lambda k: f'#{k}')
     e = lambda s: html.escape(s, quote=True)
     out = [f'<svg class="tree" viewBox="0 0 {W} {H}" role="group" aria-labelledby="tree-title tree-desc">',
            '<title id="tree-title">Theory tree</title>',
@@ -143,13 +144,13 @@ def svg(counts, names, more=None, nums=None):
         out.append(f'<path class="tree-edge" d="{edge_path(a, b, how)}" marker-end="url(#arrow)"><title>{e(LINEAGE[(a, b)])}</title></path>')
     for key, (rx, ry, label) in ROOTS.items():
         n = counts.get(key, 0)
-        href, sub = (f'#{key}', f'{n} reading' + ('s' if n != 1 else '')) if n else (f'/readings/more/#{key}', f'{more.get(key, 0)} further readings')
-        out.append(f'<a href="{href}" class="tree-node tree-root"><rect x="{rx - 100}" y="{ry - 22}" width="200" height="44" rx="4"/>{tab(rx - 100, ry - 22, nums.get(key))}'
+        sub = f'{n} reading' + ('s' if n != 1 else '')
+        out.append(f'<a href="{href(key)}" class="tree-node tree-root"><rect x="{rx - 100}" y="{ry - 22}" width="200" height="44" rx="4"/>{tab(rx - 100, ry - 22, nums.get(key))}'
                    f'<text x="{rx}" y="{ry - 1}" text-anchor="middle">{e(label)}</text>'
                    f'<text class="tree-count" x="{rx}" y="{ry + 15}" text-anchor="middle">{sub}</text></a>')
     for key, (c, r, lines) in NODES.items():
         x, y = COLX[c], ROWY[r]
-        out.append(f'<a href="#{key}" class="tree-node"><rect x="{x - BW / 2}" y="{y - BH / 2}" width="{BW}" height="{BH}" rx="4"/>'
+        out.append(f'<a href="{href(key)}" class="tree-node"><rect x="{x - BW / 2}" y="{y - BH / 2}" width="{BW}" height="{BH}" rx="4"/>'
                    + tab(x - BW / 2, y - BH / 2, nums.get(key)))
         top = y - (8 if len(lines) == 2 else 0) - 2
         for i, ln in enumerate(lines):
@@ -159,10 +160,11 @@ def svg(counts, names, more=None, nums=None):
     return ''.join(out)
 
 
-def lineage_list(names, nums=None):
+def lineage_list(names, nums=None, href=None):
+    href = href or (lambda k: f'#{k}')
     e = lambda s: html.escape(s, quote=False)
     n = lambda k: f'{nums[k]} ' if nums and k in nums else ''
     items = ''.join(
-        f'            <li>{n(a)}{e(names[a])} → <a href="#{b}">{n(b)}{e(names[b])}</a>. {e(LINEAGE[(a, b)])}</li>\n'
+        f'            <li>{n(a)}{e(names[a])} → <a href="{href(b)}">{n(b)}{e(names[b])}</a>. {e(LINEAGE[(a, b)])}</li>\n'
         for a, b, _ in EDGES)
     return items

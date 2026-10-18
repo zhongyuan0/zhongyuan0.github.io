@@ -776,6 +776,62 @@ address {
   margin-top: 0.6rem;
 }
 
+/* Stream pages */
+.page-mark.rl-mark {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: var(--step-3);
+  line-height: 1.05;
+  font-variant-numeric: lining-nums;
+  padding-top: 1.45rem; /* level with the h1 below the breadcrumb */
+}
+.page-head p.rl-crumb {
+  margin: 0 0 0.6rem;
+  font-size: var(--step--1);
+}
+.page-head p.rl-key,
+.page-head p.rl-tree-line,
+.page-head p.rl-src {
+  margin-top: 0.6rem;
+  font-size: var(--step--1);
+  line-height: 1.45;
+}
+.rl-subindex li {
+  grid-template-columns: 2.6rem minmax(0, 1fr);
+}
+.rl-none {
+  margin-top: 0.1rem;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.rl-further {
+  margin-top: 1rem;
+}
+.rl-further summary {
+  font-size: var(--step--1);
+}
+.rl-further[open] summary {
+  margin-bottom: 0.4rem;
+}
+.rl-further .rl-list {
+  margin-top: 0.4rem;
+}
+.rl-pager .body {
+  grid-column: 2;
+  max-width: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 2rem;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--rule);
+}
+.rl-pager .rl-next {
+  margin-left: auto;
+  text-align: right;
+}
+
 .rl-more {
   margin-top: 1.2rem;
 }
