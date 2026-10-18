@@ -9,7 +9,7 @@
     {"session": "Recommended Books", "authors": ["Blau"], "year": "1964", "title": "Exchange and Power in Social Life", "venue": "", "type": "book", "required": false},
     {"session": "Recommended Books", "authors": ["Perrow"], "year": "1986", "title": "Complex Organizations", "venue": "", "type": "book", "required": false},
     {"session": "Recommended Books", "authors": ["Hannan", "Freeman"], "year": "1989", "title": "Organizational Ecology", "venue": "", "type": "book", "required": false},
-    {"session": "Recommended Books", "authors": ["Coleman"], "year": "1990", "title": "Foundations of Social Capital", "venue": "", "type": "book", "required": false},
+    {"session": "Recommended Books", "authors": ["Coleman, J. S."], "year": "1990", "title": "Foundations of Social Theory", "venue": "Cambridge, MA: Harvard University Press", "type": "book", "required": false},
     {"session": "Recommended Books", "authors": ["DiMaggio", "Powell"], "year": "1991", "title": "The New Institutionalism in Organization Analysis", "venue": "", "type": "book", "required": false},
     {"session": "Recommended Books", "authors": ["Smelser", "Swedberg"], "year": "1994", "title": "Handbook of Economic Sociology", "venue": "2nd edition in 2005", "type": "book", "required": false},
     {"session": "Recommended Books", "authors": ["Weick"], "year": "1995", "title": "Sensemaking in Organizations", "venue": "", "type": "book", "required": false},

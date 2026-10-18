@@ -12,7 +12,7 @@
     {"session": "Course Materials: Recommended Books", "authors": ["Kilduff", "Tsai"], "year": "2003", "title": "Social Networks and Organizations", "venue": "", "type": "book", "required": false},
     {"session": "Course Materials: Recommended Books", "authors": ["Aldrich", "Ruef"], "year": "2006", "title": "Organizations Evolving, 2nd edition", "venue": "", "type": "book", "required": false},
     {"session": "Course Materials: Recommended Books", "authors": ["Blau"], "year": "1964", "title": "Exchange and Power in Social Life", "venue": "", "type": "book", "required": false},
-    {"session": "Course Materials: Recommended Books", "authors": ["Coleman"], "year": "1990", "title": "Foundations of Social Capital", "venue": "", "type": "book", "required": false},
+    {"session": "Course Materials: Recommended Books", "authors": ["Coleman, J. S."], "year": "1990", "title": "Foundations of Social Theory", "venue": "Cambridge, MA: Harvard University Press", "type": "book", "required": false},
     {"session": "Course Materials: Recommended Books", "authors": ["Pfeffer"], "year": "1997", "title": "New Directions for Organization Theory", "venue": "", "type": "book", "required": false},
     {"session": "Course Materials: Recommended Books", "authors": ["Perrow"], "year": "1986", "title": "Complex Organizations", "venue": "", "type": "book", "required": false},
     {"session": "Course Materials: Recommended Books", "authors": ["Smith", "Hitt"], "year": "2005", "title": "Great Minds in Management", "venue": "", "type": "book", "required": false},

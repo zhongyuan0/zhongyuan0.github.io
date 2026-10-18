@@ -4099,6 +4099,28 @@
   },
   {
    "authors": [
+    "Coleman, J."
+   ],
+   "year": "1990",
+   "title": "Foundations of Social Theory",
+   "venue": "Cambridge: Harvard Univ. Press. Pp. 1-44, 65-78, 91-108, 119-56, 163-196, 241-250, 256-58, 263-76, 283-99, 503-20",
+   "type": "book",
+   "n": 3,
+   "courses": [
+    7,
+    9,
+    27
+   ],
+   "sessions": [
+    "27|Recommended Books",
+    "7|Week 4 (February 26): Individualism and rational choice",
+    "9|Course Materials: Recommended Books"
+   ],
+   "topic": "socialtheory",
+   "how": "session"
+  },
+  {
+   "authors": [
     "Cook, K. S.",
     "Emerson, R. M.",
     "Gillmore, M. R.",
@@ -7873,26 +7895,6 @@
    ],
    "topic": "ecology",
    "how": "session"
-  },
-  {
-   "authors": [
-    "Coleman"
-   ],
-   "year": "1990",
-   "title": "Foundations of Social Capital",
-   "venue": "",
-   "type": "book",
-   "n": 2,
-   "courses": [
-    9,
-    27
-   ],
-   "sessions": [
-    "27|Recommended Books",
-    "9|Course Materials: Recommended Books"
-   ],
-   "topic": "networks",
-   "how": "keyword"
   },
   {
    "authors": [
@@ -24081,24 +24083,6 @@
     "4|Week #7: A. Diffusion — 2) Ideas and Attitudes"
    ],
    "topic": "networks",
-   "how": "session"
-  },
-  {
-   "authors": [
-    "Coleman, J."
-   ],
-   "year": "1990",
-   "title": "Foundations of Social Theory",
-   "venue": "Cambridge: Harvard Univ. Press. Pp. 1-44, 65-78, 91-108, 119-56, 163-196, 241-250, 256-58, 263-76, 283-99, 503-20",
-   "type": "book",
-   "n": 1,
-   "courses": [
-    7
-   ],
-   "sessions": [
-    "7|Week 4 (February 26): Individualism and rational choice"
-   ],
-   "topic": "socialtheory",
    "how": "session"
   },
   {

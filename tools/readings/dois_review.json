@@ -419,19 +419,12 @@
   "why": "type journal-article",
   "reading": "Coleman, J.; Katz, E.; Menzel, H. (1966). Medical Innovation: A Diffusion Study. Indianapolis: Bobbs-Merrill (selections) [book] n=1"
  },
- "coleman|1990|foundations-of-social-capital": {
-  "doi": "10.2307/2579680",
-  "record": "Foundations of Social Theory. | Social Forces | Oxford University Press (OUP) | [1990] | journal-article",
-  "score": 0.807,
-  "why": "title 0.81; type journal-article",
-  "reading": "Coleman (1990). Foundations of Social Capital.  [book] n=2"
- },
  "coleman|1990|foundations-of-social-theory": {
   "doi": "10.2307/2579680",
   "record": "Foundations of Social Theory. | Social Forces | Oxford University Press (OUP) | [1990] | journal-article",
   "score": 1.0,
   "why": "type journal-article",
-  "reading": "Coleman, J. (1990). Foundations of Social Theory. Cambridge: Harvard Univ. Press. Pp. 1-44, 65-78, 91-108, 119-56, 163-196, 241-250, 256-58, 263-76, 283-99, 503-20 [book] n=1"
+  "reading": "Coleman, J. (1990). Foundations of Social Theory. Cambridge: Harvard Univ. Press. Pp. 1-44, 65-78, 91-108, 119-56, 163-196, 241-250, 256-58, 263-76, 283-99, 503-20 [book] n=3"
  },
  "coleman|1994|foundations-of-social-theory-chapter-1": {
   "doi": "10.2307/2579680",
