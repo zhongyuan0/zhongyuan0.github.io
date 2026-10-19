@@ -776,6 +776,75 @@ address {
   margin-top: 0.6rem;
 }
 
+/* Search */
+.rl-search-form {
+  margin-top: 1.4rem;
+}
+.rl-search-form > label:first-child {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+.rl-search-row {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 30rem;
+}
+.rl-search-row input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.45rem 0.7rem;
+  font: inherit;
+  font-size: var(--step--1);
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+}
+.rl-search-row input:focus {
+  outline: 2px solid var(--indigo);
+  outline-offset: 1px;
+  border-color: var(--indigo);
+}
+.rl-search-row button {
+  padding: 0.45rem 1rem;
+  font: inherit;
+  font-size: var(--step--1);
+  color: var(--paper);
+  background: var(--indigo);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.rl-search-row button:focus-visible {
+  outline: 2px solid var(--indigo);
+  outline-offset: 2px;
+}
+.page-head .rl-check {
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+  margin-top: 0.7rem;
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+.rl-check input {
+  accent-color: var(--indigo);
+}
+.rl-crumb-search {
+  margin-left: 1.2rem;
+}
+.rl-where {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: var(--step--1);
+  color: var(--ink-soft);
+}
+.rl-where a {
+  color: var(--ink-soft);
+}
+
 /* Stream pages */
 .page-mark.rl-mark {
   font-family: var(--serif);

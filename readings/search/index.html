@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search the Readings | Zhongyuan Sun</title>
+    <meta name="description" content="Search 2,937 organization theory and strategy readings compiled from 30 PhD syllabi." />
+    <link rel="canonical" href="https://zhongyuan0.github.io/readings/search/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#f5f7f9" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1620" media="(prefers-color-scheme: dark)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Search the Readings | Zhongyuan Sun" />
+    <meta property="og:description" content="Search 2,937 organization theory and strategy readings compiled from 30 PhD syllabi." />
+    <meta property="og:url" content="https://zhongyuan0.github.io/readings/search/" />
+    <meta property="og:image" content="https://zhongyuan0.github.io/assets/img/og-image.jpg" />
+    <link rel="preload" href="/assets/fonts/crimson-pro-regular.woff" as="font" type="font/woff" crossorigin />
+    <link rel="stylesheet" href="/assets/css/site.css?v=2026-10-20" />
+    <script src="/assets/js/readings-search.js?v=2026-10-20" data-index="/readings/search/readings.json?v=2026-10-20" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <a class="site-name" href="/">Zhongyuan Sun</a>
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="/">About</a></li>
+            <li><a href="/research/">Research</a></li>
+            <li><a href="/cv/">CV</a></li>
+            <li><a href="/readings/" aria-current="page">Readings</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="wrap">
+      <header class="page-head">
+        <div>
+          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Search</p>
+          <h1>Search the readings</h1>
+          <p>Search all 2,937 readings by author, title, journal, year or DOI. Every word must match; results assigned in more sources come first.</p>
+          <form class="rl-search-form" action="/readings/search/" method="get" role="search">
+            <label class="visually-hidden" for="rl-q">Search</label>
+            <span class="rl-search-row"><input id="rl-q" name="q" type="search" placeholder="e.g. Granovetter, legitimacy, Organization Science 2010" autocomplete="off" autofocus /><button type="submit">Search</button></span>
+            <label class="rl-check"><input id="rl-multi" name="multi" type="checkbox" value="1" /> Only readings assigned in two or more sources</label>
+          </form>
+        </div>
+      </header>
+
+      <section class="band" aria-labelledby="res-h">
+        <h2 class="label" id="res-h">Results</h2>
+        <div class="body">
+          <p class="rl-desc" id="rl-status" aria-live="polite">Type to search.</p>
+          <noscript><p class="rl-desc">Search needs JavaScript. You can browse the streams from the <a href="/readings/">reading lists page</a>.</p></noscript>
+          <ol class="rl-list rl-results" id="rl-results"></ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Last updated October 2026.</p>
+      </div>
+    </footer>
+  </body>
+</html>
