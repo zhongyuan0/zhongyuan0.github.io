@@ -104,6 +104,11 @@ def li(r, count=True):
     return f'            <li{cls}><span class="rl-ref">{fmt_ref(r)}</span>{c}</li>\n'
 
 
+def year_num(r):
+    m = re.search(r'(1[6-9]\d\d|20\d\d)', r.get('year') or '')
+    return int(m.group(1)) if m else 0
+
+
 def sortkey(r):
     return (-r['n'], re.sub(r'\D', '', r['year'] or '9999')[:4] or '9999', r['title'])
 
@@ -207,7 +212,8 @@ def stream_page(i, key):
     rs = main + single
     src = collections.Counter(c for r in rs for c in r['courses'])
     src_txt = '; '.join(dict.fromkeys(credit(courses[c]) for c, _ in src.most_common()))
-    head = (f'          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Stream {NUM[key]}</p>\n'
+    head = (f'          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Stream {NUM[key]}'
+            f'<a class="rl-crumb-search" href="/readings/search/">Search all readings</a></p>\n'
             f'          <h1>{esc(names[key])}</h1>\n'
             f'          <p>{esc(descs[key])}</p>\n'
             f'          <p class="rl-key">Of its {len(rs)} readings, {len(main)} {"is" if len(main) == 1 else "are"} assigned in two or more sources and listed first, '
@@ -258,7 +264,7 @@ main_total = sum(len(m) for m, _ in streams.values())
 core_n = sum(r['n'] >= CORE for r in readings)
 
 
-def page(path, title, desc, current_main, head, body, mark=''):
+def page(path, title, desc, current_main, head, body, mark='', extra_head=''):
     return f'''<!doctype html>
 <html lang="en">
   <head>
@@ -279,7 +285,7 @@ def page(path, title, desc, current_main, head, body, mark=''):
     <meta property="og:image" content="https://zhongyuan0.github.io/assets/img/og-image.jpg" />
     <link rel="preload" href="/assets/fonts/crimson-pro-regular.woff" as="font" type="font/woff" crossorigin />
     <link rel="stylesheet" href="/assets/css/site.css?v={CSS_V}" />
-  </head>
+{extra_head}  </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
@@ -340,6 +346,10 @@ hub_head = f'''          <h1>Reading lists</h1>
             Each stream has its own page, where the readings assigned in two or more sources come first and those in only one are folded underneath.
             Credit for the selections belongs to the instructors and authors listed <a href="#sources">at the end of this page</a>.
           </p>
+          <form class="rl-search-form" action="/readings/search/" method="get" role="search">
+            <label for="rl-q">Search all readings</label>
+            <span class="rl-search-row"><input id="rl-q" name="q" type="search" placeholder="Author, title, journal or year" autocomplete="off" /><button type="submit">Search</button></span>
+          </form>
 '''
 outside = ', '.join(f'{NUM[k]} <a href="{url(k)}">{esc(names[k])}</a>' for k in ('theory', 'methods'))
 hub_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
@@ -366,6 +376,50 @@ hub_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
       </nav>
 
 {sources_section}'''
+
+# ---------- Search: a data file of every reading and a page that searches it in the browser ----------
+def anchor_of(key):
+    a = {}
+    if key in SUBTOPICS:
+        for k, lab, no, m, s_ in subgroups(key, streams[key][0] + streams[key][1]):
+            for r in m + s_:
+                a[id(r)] = (k, f'{no} {lab}')
+    else:
+        main, single = streams[key]
+        for r in main:
+            a[id(r)] = ('core' if r['n'] >= CORE else 'also', f'{NUM[key]} {names[key]}')
+        for r in single:
+            a[id(r)] = ('further', f'{NUM[key]} {names[key]}')
+    return a
+
+
+search_items = []
+for key in ORDER:
+    anchors = anchor_of(key)
+    for r in streams[key][0] + streams[key][1]:
+        k, lab = anchors[id(r)]
+        search_items.append({'h': fmt_ref(r), 'n': r['n'], 'y': year_num(r), 'u': f'{url(key)}#{k}', 'l': lab,
+                             's': f'{NUM[key]} {names[key]}' if key in SUBTOPICS else ''})
+search_json = json.dumps({'sources': N, 'core': CORE, 'items': search_items}, ensure_ascii=False, separators=(',', ':'))
+
+search_head = f'''          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Search</p>
+          <h1>Search the readings</h1>
+          <p>Search all {total:,} readings by author, title, journal, year or DOI. Every word must match; results assigned in more sources come first.</p>
+          <form class="rl-search-form" action="/readings/search/" method="get" role="search">
+            <label class="visually-hidden" for="rl-q">Search</label>
+            <span class="rl-search-row"><input id="rl-q" name="q" type="search" placeholder="e.g. Granovetter, legitimacy, Organization Science 2010" autocomplete="off" autofocus /><button type="submit">Search</button></span>
+            <label class="rl-check"><input id="rl-multi" name="multi" type="checkbox" value="1" /> Only readings assigned in two or more sources</label>
+          </form>
+'''
+search_body = '''      <section class="band" aria-labelledby="res-h">
+        <h2 class="label" id="res-h">Results</h2>
+        <div class="body">
+          <p class="rl-desc" id="rl-status" aria-live="polite">Type to search.</p>
+          <noscript><p class="rl-desc">Search needs JavaScript. You can browse the streams from the <a href="/readings/">reading lists page</a>.</p></noscript>
+          <ol class="rl-list rl-results" id="rl-results"></ol>
+        </div>
+      </section>
+'''
 
 redirect = '''<!doctype html>
 <html lang="en">
@@ -394,7 +448,12 @@ write(ROOT + '/readings/index.html',
 for i, key in enumerate(ORDER):
     write(ROOT + url(key) + 'index.html', stream_page(i, key))
 write(ROOT + '/readings/more/index.html', redirect)
-sitemap = ['https://zhongyuan0.github.io' + p for p in ['/', '/research/', '/cv/', '/readings/'] + [url(k) for k in ORDER]]
+write(ROOT + '/readings/search/readings.json', search_json)
+write(ROOT + '/readings/search/index.html',
+      page('/readings/search/', 'Search the Readings', f'Search {total:,} organization theory and strategy readings compiled from {N} PhD syllabi.',
+           True, search_head, search_body,
+           extra_head=f'    <script src="/assets/js/readings-search.js?v={CSS_V}" data-index="/readings/search/readings.json?v={CSS_V}" defer></script>\n'))
+sitemap = ['https://zhongyuan0.github.io' + p for p in ['/', '/research/', '/cv/', '/readings/', '/readings/search/'] + [url(k) for k in ORDER]]
 write(ROOT + '/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
       + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in sitemap) + '</urlset>\n')
 print('sources', N, 'readings', total, 'in 2+ sources', main_total, 'core', core_n, 'pages', len(ORDER) + 1)
