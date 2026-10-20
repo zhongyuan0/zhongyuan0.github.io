@@ -11,6 +11,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from classify import TOPICS
 from subtopics import SUBTOPICS, OTHER, reading_key
 import tree
+import network
 
 D = os.path.dirname(os.path.abspath(__file__)) + '/'
 ROOT = sys.argv[1].rstrip('/')
@@ -444,7 +445,8 @@ hub_head = f'''          <h1>Reading lists</h1>
             <label for="rl-q">Search all readings</label>
             <span class="rl-search-row"><input id="rl-q" name="q" type="search" placeholder="Author, title, journal or year" autocomplete="off" /><button type="submit">Search</button></span>
           </form>
-          <p class="rl-canon-link">Where to start: <a href="/readings/canon/">the {len(canon)} most assigned readings</a>, those in {CANON} or more of the {N} sources.</p>
+          <p class="rl-canon-link">Where to start: <a href="/readings/canon/">the {len(canon)} most assigned readings</a>, those in {CANON} or more of the {N} sources.
+            Or see <a href="/readings/network/">how the readings are assigned together</a>, a map drawn from the syllabi themselves.</p>
 '''
 outside = ', '.join(f'{NUM[k]} <a href="{url(k)}">{esc(names[k])}</a>' for k in ('theory', 'methods'))
 hub_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
@@ -522,6 +524,90 @@ canon_body = (decade_band(canon) + '      <section class="band rl-topic" id="lis
               '        <h2 class="label" id="list-h">Readings</h2>\n        <div class="body">\n          <ol class="rl-list">\n'
               + ''.join(canon_li(r) for r in canon) + '          </ol>\n        </div>\n      </section>\n')
 
+# ---------- Co-assignment network ----------
+net_readings = [r for r in readings if r['n'] >= 2]
+core, info = network.build(net_readings)
+pos, bc, comms = info['pos'], info['betweenness'], info['communities']
+nw_where = {}
+for key in ORDER:
+    for rid, (k, lab) in anchor_of(key).items():
+        nw_where[rid] = (key, k)
+
+
+def nw_item(i):
+    r = net_readings[i]
+    key, k = nw_where[id(r)]
+    return {'s': network.short(r), 'h': fmt_ref(r), 'n': r['n'], 'u': f'{url(key)}#{k}', 'st': f'{NUM[key]} {names[key]}',
+            'nb': [[j, w] for j, w in network.neighbours(core, i)]}
+
+
+nw_data = {str(i): nw_item(i) for i in core.nodes}
+bridges = sorted(core.nodes, key=lambda i: -bc[i])[:12]
+bridge_items = ''.join(
+    f'            <li><span class="rl-ref">{fmt_ref(net_readings[i])} <span class="rl-where">{NUM[net_readings[i]["topic"]]} {esc(names[net_readings[i]["topic"]])} · '
+    f'linked to {core.degree(i)} readings</span></span><span class="rl-count" title="Listed in {net_readings[i]["n"]} of {N} sources">{net_readings[i]["n"]}</span></li>\n'
+    for i in bridges)
+comm_rows = []
+for c in comms:
+    if len(c) < 12:
+        continue
+    cnt = collections.Counter(net_readings[i]['topic'] for i in c)
+    top = cnt.most_common(3)
+    main_key, main_n = top[0]
+    share = main_n / len(c)
+    others = ', '.join(f'{NUM[k]} {esc(names[k])} ({n})' for k, n in top[1:] if n >= 3)
+    comm_rows.append(f'            <tr><td>{len(c)}</td><td><a href="{url(main_key)}">{NUM[main_key]} {esc(names[main_key])}</a> ({share:.0%})</td><td>{others or "—"}</td></tr>\n')
+fam_legend = ''.join(f'            <li><span class="nw-sw f-{k}" aria-hidden="true"></span>{esc(lab)}</li>\n' for k, lab in network.FAMILIES)
+links_shown = sum(1 for _, _, d in core.edges(data=True) if d['weight'] >= 2)
+nw_head = f'''          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Network</p>
+          <h1>How the readings are assigned together</h1>
+          <p>A map of the {core.number_of_nodes()} readings in two or more sources. Two readings are linked when a syllabus assigns them in the same
+            session; the figure draws the {links_shown:,} links that recur in at least two syllabi ({core.number_of_edges():,} in all place the points). Readings
+            that are taught together sit close together, so the clusters are the streams as the {N} syllabi themselves draw them, not as I drew them.</p>
+          <p class="rl-key">Colour is the stream's family in the theory tree; size is the number of sources. Click or tap a reading to see it and what it is most
+            often assigned with; the lists below the figure give the same in words.</p>
+'''
+nw_body = f'''      <section class="rl-tree nw-figure" aria-labelledby="nw-h">
+        <h2 class="visually-hidden" id="nw-h">Map</h2>
+        <div class="rl-tree-figure">
+          {network.svg(core, pos, net_readings, names)}
+        </div>
+        <ul class="nw-legend plain-list" aria-label="Colours">
+{fam_legend}        </ul>
+        <div class="nw-panel" id="nw-panel" hidden>
+          <p class="rl-desc" id="nw-sel"></p>
+          <p class="rl-src">Most often assigned with:</p>
+          <ol class="rl-list" id="nw-nb"></ol>
+        </div>
+      </section>
+
+      <section class="band" id="bridges" aria-labelledby="bridges-h">
+        <h2 class="label" id="bridges-h">Bridges</h2>
+        <div class="body">
+          <p class="rl-desc">The readings that most often lie on the shortest path between two others (betweenness centrality): the ones that
+            connect streams, and that a reader of one stream is most likely to meet again in another.</p>
+          <ol class="rl-list">
+{bridge_items}          </ol>
+        </div>
+      </section>
+
+      <section class="band" id="communities" aria-labelledby="comm-h">
+        <h2 class="label" id="comm-h">Clusters in the data</h2>
+        <div class="body">
+          <p class="rl-desc">Communities found in the network by the Louvain method, compared with the hand-drawn streams. Each row is one cluster:
+            its size, the stream most of its readings belong to, and other streams with three or more readings in it.</p>
+          <table class="nw-table">
+            <thead><tr><th scope="col">Readings</th><th scope="col">Mainly</th><th scope="col">Also</th></tr></thead>
+            <tbody>
+{''.join(comm_rows)}            </tbody>
+          </table>
+          <p class="rl-src">Links counted within one session of one syllabus; sessions listing more than {network.MAX_SESSION} readings (whole reading lists) are left out.
+            Layout: force-directed (Fruchterman–Reingold). Computed with NetworkX.</p>
+        </div>
+      </section>
+'''
+
+
 search_json = json.dumps({'sources': N, 'core': CORE, 'items': search_items}, ensure_ascii=False, separators=(',', ':'))
 
 search_head = f'''          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Search</p>
@@ -571,6 +657,11 @@ for i, key in enumerate(ORDER):
     write(ROOT + url(key) + 'index.html', stream_page(i, key))
 write(ROOT + '/readings/more/index.html', redirect)
 write(ROOT + '/readings/search/readings.json', search_json)
+write(ROOT + '/readings/network/index.html',
+      page('/readings/network/', 'How the Readings Are Assigned Together', f'A co-assignment network of {core.number_of_nodes()} organization theory and strategy readings from {N} PhD syllabi.',
+           True, nw_head, nw_body,
+           extra_head=f'    <script src="/assets/js/readings-network.js?v={CSS_V}" defer></script>\n'
+                      f'    <script type="application/json" id="nw-data">{json.dumps(nw_data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")}</script>\n'))
 write(ROOT + '/readings/canon/index.html',
       page('/readings/canon/', 'The Most Assigned Readings', f'The {len(canon)} organization theory and strategy readings assigned in {CANON} or more of {N} PhD syllabi.',
            True, canon_head, canon_body))
@@ -578,7 +669,7 @@ write(ROOT + '/readings/search/index.html',
       page('/readings/search/', 'Search the Readings', f'Search {total:,} organization theory and strategy readings compiled from {N} PhD syllabi.',
            True, search_head, search_body,
            extra_head=f'    <script src="/assets/js/readings-search.js?v={CSS_V}" data-index="/readings/search/readings.json?v={CSS_V}" defer></script>\n'))
-sitemap = ['https://zhongyuan0.github.io' + p for p in ['/', '/research/', '/cv/', '/readings/', '/readings/canon/', '/readings/search/'] + [url(k) for k in ORDER]]
+sitemap = ['https://zhongyuan0.github.io' + p for p in ['/', '/research/', '/cv/', '/readings/', '/readings/canon/', '/readings/network/', '/readings/search/'] + [url(k) for k in ORDER]]
 write(ROOT + '/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
       + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in sitemap) + '</urlset>\n')
 print('sources', N, 'readings', total, 'in 2+ sources', main_total, 'core', core_n, 'pages', len(ORDER) + 1)
