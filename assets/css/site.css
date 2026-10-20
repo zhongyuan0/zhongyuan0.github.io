@@ -807,6 +807,55 @@ address {
 .rl-where a {
   color: var(--ink-soft);
 }
+.rl-ref .rl-where {
+  text-indent: 0; /* under the hanging indent of the reference */
+}
+
+/* Readings by decade (stream pages, canon) */
+.rl-dec {
+  margin: 0;
+}
+.rl-dec svg {
+  display: block;
+  width: 100%;
+  max-width: 40rem;
+  height: auto;
+  font-family: var(--serif);
+}
+.rl-dec-base {
+  stroke: var(--rule);
+  stroke-width: 1;
+}
+.rl-dec-bar {
+  fill: var(--indigo);
+}
+.rl-dec-hit {
+  fill: transparent;
+}
+.rl-dec g:hover .rl-dec-bar {
+  fill: var(--ink);
+}
+.rl-dec-lab {
+  font-size: 13px;
+  fill: var(--ink-soft);
+  font-variant-numeric: lining-nums;
+}
+.rl-dec-val {
+  font-size: 13px;
+  fill: var(--ink);
+  font-variant-numeric: lining-nums;
+}
+.rl-dec figcaption {
+  margin-top: 0.5rem;
+  color: var(--ink-soft);
+  font-size: var(--step--1);
+}
+.rl-decades {
+  padding-top: 2.4rem;
+}
+.page-head p.rl-canon-link {
+  margin-top: 1.2rem;
+}
 
 /* Stream pages */
 .page-mark.rl-mark {
