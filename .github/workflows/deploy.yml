@@ -1,5 +1,6 @@
 # Publishes the site to the gh-pages branch whenever main changes.
-# The site is plain HTML/CSS, so there is no build step: the files are copied as they are.
+# The site is plain HTML/CSS, so there is no build step: the files are copied as they are,
+# except that each page's "Last updated" line is set to the month of the last commit that changed it.
 name: Deploy site
 
 on:
@@ -20,6 +21,8 @@ jobs:
     steps:
       - name: Check out
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history, for each page's last-updated date
 
       - name: Collect site files
         run: |
@@ -27,6 +30,16 @@ jobs:
           rsync -a ./ _site/ \
             --exclude '.git' --exclude '.github' --exclude '.gitignore' \
             --exclude '_site' --exclude 'README.md' --exclude 'CLAUDE.md' --exclude 'tools'
+
+      - name: Date each page from its last commit
+        run: |
+          git ls-files '*.html' | while read -r f; do
+            [ -f "_site/$f" ] || continue
+            when=$(LC_ALL=C git log -1 --format=%cd --date=format:'%B %Y' -- "$f")
+            if [ -n "$when" ]; then
+              sed -i -E "s/Last updated [A-Z][a-z]+ [0-9]{4}\./Last updated $when./" "_site/$f"
+            fi
+          done
 
       - name: Publish to gh-pages
         uses: JamesIves/github-pages-deploy-action@v4

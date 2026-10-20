@@ -16,8 +16,9 @@ D = os.path.dirname(os.path.abspath(__file__)) + '/'
 ROOT = sys.argv[1].rstrip('/')
 CSS_V = sys.argv[2]
 CORE = 4
+BUILT = __import__('datetime').date.today().strftime('%B %Y')  # the deploy workflow resets it from git history
 
-d = json.load(open(D + 'classified.json'))
+d = json.load(open(D + 'standardized.json'))  # classified.json after standardize.py
 courses = d['courses']
 
 SHORT_INST = {
@@ -56,38 +57,70 @@ def esc(s):
 
 
 def fmt_authors(a):
+    """APA 7: up to 20 authors, '&' before the last; 21 or more: the first 19, an ellipsis, the last."""
     a = [x.strip() for x in a if x and x.strip()]
+    etal = bool(a) and a[-1] == 'et al.'
+    a = [x for x in a if x != 'et al.']
     if not a:
         return ''
-    if len(a) > 6:
-        return esc(a[0]) + ' et al.'
+    if len(a) > 20:
+        return ', '.join(esc(x) for x in a[:19]) + ', . . . ' + esc(a[-1])
+    if etal:
+        return ', '.join(esc(x) for x in a) + ' et al.'
     if len(a) == 1:
         return esc(a[0])
     return ', '.join(esc(x) for x in a[:-1]) + ', &amp; ' + esc(a[-1])
 
 
-DOIS = {k: v for k, v in json.load(open(D + 'dois.json')).items() if v} if os.path.exists(D + 'dois.json') else {}
-
-
-def fmt_doi(r):
-    doi = DOIS.get(reading_key(r))
+def fmt_doi(f):
+    doi = f.get('doi')
     if not doi:
         return ''
     url = 'https://doi.org/' + urllib.parse.quote(doi, safe="/()._-:;")
     return f' <a class="rl-doi" href="{html.escape(url, quote=True)}">https://doi.org/{esc(doi)}</a>'
 
 
+def stop(s):
+    """Text followed by a full stop, unless its visible text already ends with one (or ? or !)."""
+    s = s.rstrip(' ,;:')
+    return s if re.sub(r'<[^>]+>', '', s).rstrip().endswith(('.', '?', '!')) else s + '.'
+
+
 def fmt_ref(r):
-    au = fmt_authors(r['authors'])
-    y = esc(r['year']) or 'n.d.'
-    t = esc(r['title']).rstrip('.')
-    end = '' if t.endswith(('?', '!')) else '.'
-    v = esc(r['venue']).rstrip('.')
-    if r['type'] == 'book':
-        body = f'<cite>{t}</cite>{end}' + (f' {v}.' if v else '')
+    """One reference in APA 7 style, from the fields standardize.py prepared."""
+    f = r['ref']
+    au = fmt_authors(f['authors'])
+    if au and f.get('editors'):
+        au += ' (Eds.).' if len(f['authors']) > 1 else ' (Ed.).'
+    y = esc(f['year']) or 'n.d.'
+    t = esc(f['title'])
+    ed = f' ({esc(f["edition"])})' if f.get('edition') else ''
+    k = f['kind']
+    rest = ''
+    if k == 'article':
+        head = stop(t)
+        if f.get('venue'):
+            j = f'<cite>{esc(f["venue"])}</cite>'
+            if f.get('volume'):
+                j += f', <i>{esc(f["volume"])}</i>' + (f'({esc(f["issue"])})' if f.get('issue') else '')
+            if f.get('pages'):
+                j += f', {esc(f["pages"])}'
+            rest = stop(j)
+    elif k == 'book':
+        head = stop(f'<cite>{t}</cite>{ed}')
+        rest = stop(esc(f['venue'])) if f.get('venue') else ''
+    elif k == 'chapter' and f.get('book'):
+        head = stop(t)
+        inn = 'In ' + (esc(f['eds']) + ', ' if f.get('eds') else '') + f'<cite>{esc(f["book"])}</cite>'
+        bits = ', '.join(x for x in [esc(f['edition']) if f.get('edition') else '', f'Vol. {esc(f["vol"])}' if f.get('vol') else '',
+                                     f'pp. {esc(f["pages"])}' if f.get('pages') else ''] if x)
+        rest = stop(inn + (f' ({bits})' if bits else '')) + (' ' + stop(esc(f['publisher'])) if f.get('publisher') else '')
     else:
-        body = f'{t}{end}' + (f' <cite>{v}</cite>.' if v else '')
-    return (f'{au} ({y}). {body}' if au else f'{body} ({y}).') + fmt_doi(r)
+        head = stop(t + ed)
+        rest = stop(esc(f['venue'])) if f.get('venue') else ''
+    if au:
+        return f'{au}{"" if au.endswith(".") else ""} ({y}). {head}' + (f' {rest}' if rest else '') + fmt_doi(f)
+    return f'{head} ({y}).' + (f' {rest}' if rest else '') + fmt_doi(f)  # APA: no author, the title moves first
 
 
 readings = [r for r in d['readings'] if not r.get('drop')]
@@ -105,12 +138,12 @@ def li(r, count=True):
 
 
 def year_num(r):
-    m = re.search(r'(1[6-9]\d\d|20\d\d)', r.get('year') or '')
+    m = re.search(r'(1[6-9]\d\d|20\d\d)', r['ref'].get('year') or '')
     return int(m.group(1)) if m else 0
 
 
 def sortkey(r):
-    return (-r['n'], re.sub(r'\D', '', r['year'] or '9999')[:4] or '9999', r['title'])
+    return (-r['n'], year_num(r) or 9999, r['ref']['title'])
 
 
 SUBMAP = json.load(open(D + 'subtopics.json')) if os.path.exists(D + 'subtopics.json') else {}
@@ -313,7 +346,7 @@ def page(path, title, desc, current_main, head, body, mark='', extra_head=''):
 
     <footer class="site-footer">
       <div class="wrap">
-        <p>Last updated October 2026.</p>
+        <p>Last updated {BUILT}.</p>
       </div>
     </footer>
   </body>

@@ -532,7 +532,7 @@ address {
   color: var(--ink-soft);
 }
 
-/* ---------- Afterimages (film stills) ---------- */
+/* ---------- Page mark: the large number in the margin of a stream page ---------- */
 .page-mark {
   grid-column: 1;
   grid-row: 1;
@@ -542,43 +542,6 @@ address {
   line-height: 1;
   color: var(--indigo);
   padding-top: 0.3rem;
-}
-
-.stills {
-  display: grid;
-  row-gap: 5rem;
-  padding-top: 4rem;
-}
-
-.still,
-.stills-note {
-  margin: 0 0 0 calc(var(--margin-col) + var(--gap));
-}
-
-.still img {
-  width: 100%;
-  background: var(--indigo-wash);
-}
-
-.still figcaption {
-  margin-top: 0.9rem;
-  max-width: var(--measure);
-  line-height: 1.45;
-}
-.still-title,
-.still-credits {
-  display: block;
-}
-.still-credits {
-  margin-top: 0.15rem;
-  color: var(--ink-soft);
-  font-size: var(--step--1);
-}
-
-.stills-note {
-  margin-top: 4.5rem;
-  color: var(--ink-soft);
-  font-size: var(--step--1);
 }
 
 /* ---------- Theory tree (Readings page) ---------- */
@@ -1120,15 +1083,6 @@ address {
   .rl-tree {
     display: none; /* the tree is unreadable at phone width; the stream list below serves instead */
   }
-  .stills {
-    row-gap: 3.2rem;
-    padding-top: 2.4rem;
-  }
-  .still,
-  .stills-note {
-    margin-left: 0;
-  }
-
   .rows > li {
     grid-template-columns: minmax(0, 1fr);
   }
