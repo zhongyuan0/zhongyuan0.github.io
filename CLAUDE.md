@@ -1,6 +1,6 @@
 # Notes for editing this site
 
-- Plain static HTML/CSS. No Jekyll, no build step. No JavaScript except the readings search (`assets/js/readings-search.js`, loaded only by `/readings/search/`, which reads `readings/search/readings.json`). `.nojekyll` keeps GitHub Pages from processing files.
+- Plain static HTML/CSS. No Jekyll, no build step. No JavaScript except the readings search (`assets/js/readings-search.js`, loaded only by `/readings/search/`, which reads `readings/search/readings.json`) and, once switched on with `tools/set_goatcounter.py`, GoatCounter visit counting (self-hosted `assets/js/count.js`, no cookies). `.nojekyll` keeps GitHub Pages from processing files.
 - Pages: `index.html` (About), `research/index.html`, `cv/index.html`, `readings/` (reading lists compiled from PhD syllabi: a navigation page plus one page per stream, and `sitemap.xml`; all generated, see `tools/readings/README.md`, never hand-edit), `404.html`; `publications/` only redirects to `/research/`.
 - Header and footer markup is repeated in every page; change them everywhere at once.
 - All styling lives in `assets/css/site.css`; colours and type sizes are tokens at the top (light and dark mode).

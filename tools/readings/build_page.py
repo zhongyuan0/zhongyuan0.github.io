@@ -16,6 +16,9 @@ D = os.path.dirname(os.path.abspath(__file__)) + '/'
 ROOT = sys.argv[1].rstrip('/')
 CSS_V = sys.argv[2]
 CORE = 4
+_gc = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'goatcounter.txt')  # see tools/set_goatcounter.py
+GOATCOUNTER = (f'    <script data-goatcounter="https://{open(_gc).read().strip()}.goatcounter.com/count" async src="/assets/js/count.js"></script>\n'
+               if os.path.exists(_gc) else '')
 BUILT = __import__('datetime').date.today().strftime('%B %Y')  # the deploy workflow resets it from git history
 
 d = json.load(open(D + 'standardized.json'))  # classified.json after standardize.py
@@ -240,6 +243,62 @@ def lineage_line(key):
     return f'          <p class="rl-tree-line">In the theory tree: {txt[0].lower() + txt[1:]}.</p>\n'
 
 
+# ---------- Readings by decade: a small column chart (inline SVG, no script) ----------
+DECADES = [('Before 1950', None, 1949)] + [(f'{y}s', y, y + 9) for y in range(1950, 2030, 10)]
+
+
+def decade_counts(rs):
+    out = []
+    for label, lo, hi in DECADES:
+        out.append((label, sum(1 for r in rs if year_num(r) and (lo is None or year_num(r) >= lo) and year_num(r) <= hi)))
+    return out
+
+
+def decade_chart(rs, what='readings'):
+    """Columns by decade of publication. Tooltips come from <title>; a hidden table repeats the numbers for screen readers."""
+    counts = decade_counts(rs)
+    ys = sorted(year_num(r) for r in rs if year_num(r))
+    if not ys:
+        return ''
+    W, H, base, top = 640, 118, 92, 22
+    band, bw = W / len(counts), 24
+    peak = max(n for _, n in counts)
+    marks = []
+    for i, (label, n) in enumerate(counts):
+        cx = band * i + band / 2
+        x = cx - bw / 2
+        tip = f'{label}: {n} {what[:-1] if n == 1 else what}'
+        g = [f'<g><title>{tip}</title><rect class="rl-dec-hit" x="{band * i:.1f}" y="4" width="{band:.1f}" height="{H - 4}"/>']
+        if n:
+            h = max(2.0, (base - top) * n / peak)
+            yt = base - h
+            r = min(4.0, h)
+            g.append(f'<path class="rl-dec-bar" d="M{x:.1f},{base} L{x:.1f},{yt + r:.1f} Q{x:.1f},{yt:.1f} {x + r:.1f},{yt:.1f} '
+                     f'L{x + bw - r:.1f},{yt:.1f} Q{x + bw:.1f},{yt:.1f} {x + bw:.1f},{yt + r:.1f} L{x + bw:.1f},{base} Z"/>')
+            if n == peak:
+                g.append(f'<text class="rl-dec-val" x="{cx:.1f}" y="{yt - 6:.1f}" text-anchor="middle">{n}</text>')
+        g.append(f'<text class="rl-dec-lab" x="{cx:.1f}" y="{H - 6}" text-anchor="middle">{label.replace("Before ", "&lt;")}</text></g>')
+        marks.append(''.join(g))
+    med = ys[len(ys) // 2]
+    peak_label = max(counts, key=lambda c: c[1])[0]
+    peak_txt = 'before 1950' if peak_label.startswith('Before') else f'the {peak_label}'
+    summary = f'Most date from {peak_txt}; half were published in {med} or later.'
+    table = ''.join(f'<tr><th scope="row">{l}</th><td>{n}</td></tr>' for l, n in counts)
+    return (f'          <figure class="rl-dec">\n'
+            f'            <svg viewBox="0 0 {W} {H}" role="img" aria-label="{len(ys)} {what} by decade of publication. {summary}">'
+            f'<line class="rl-dec-base" x1="0" x2="{W}" y1="{base}" y2="{base}"/>{"".join(marks)}</svg>\n'
+            f'            <figcaption>{summary}</figcaption>\n'
+            f'            <table class="visually-hidden"><caption>{what.capitalize()} by decade</caption><tr><th scope="col">Decade</th><th scope="col">Readings</th></tr>{table}</table>\n'
+            f'          </figure>\n')
+
+
+def decade_band(rs, label='By decade'):
+    c = decade_chart(rs)
+    return ('      <section class="band rl-decades" aria-labelledby="dec-h">\n'
+            f'        <h2 class="label" id="dec-h">{label}</h2>\n'
+            f'        <div class="body">\n{c}        </div>\n      </section>\n\n') if c else ''
+
+
 def stream_page(i, key):
     main, single = streams[key]
     rs = main + single
@@ -254,7 +313,7 @@ def stream_page(i, key):
             + (f'; the {len(single)} listed in only one source are folded under each heading.' if single else '.') + '</p>\n'
             + lineage_line(key) +
             f'          <p class="rl-src">Drawn from: {esc(src_txt)}. Full details of the sources are on the <a href="/readings/#sources">reading lists page</a>.</p>\n')
-    body = []
+    body = [decade_band(rs)]
     if key in SUBTOPICS:
         gs = subgroups(key, rs)
         idx = ''.join(f'          <li><span class="rl-no">{no}</span><span><a href="#{k}">{esc(lab)}</a> <span class="rl-n">{len(m) + len(s)}</span></span></li>\n'
@@ -292,6 +351,8 @@ src_items = ''.join(
     f'{". " + esc(courses[i]["institution"]) if courses[i]["institution"] else ""}{", " + esc(courses[i]["term"]) if courses[i]["term"] else ""}.</li>\n'
     for i in srcs)
 
+CANON = 6
+canon = sorted((r for r in readings if r['n'] >= CANON), key=sortkey)
 total = len(readings)
 main_total = sum(len(m) for m, _ in streams.values())
 core_n = sum(r['n'] >= CORE for r in readings)
@@ -318,7 +379,7 @@ def page(path, title, desc, current_main, head, body, mark='', extra_head=''):
     <meta property="og:image" content="https://zhongyuan0.github.io/assets/img/og-image.jpg" />
     <link rel="preload" href="/assets/fonts/crimson-pro-regular.woff" as="font" type="font/woff" crossorigin />
     <link rel="stylesheet" href="/assets/css/site.css?v={CSS_V}" />
-{extra_head}  </head>
+{extra_head}{GOATCOUNTER}  </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
@@ -383,6 +444,7 @@ hub_head = f'''          <h1>Reading lists</h1>
             <label for="rl-q">Search all readings</label>
             <span class="rl-search-row"><input id="rl-q" name="q" type="search" placeholder="Author, title, journal or year" autocomplete="off" /><button type="submit">Search</button></span>
           </form>
+          <p class="rl-canon-link">Where to start: <a href="/readings/canon/">the {len(canon)} most assigned readings</a>, those in {CANON} or more of the {N} sources.</p>
 '''
 outside = ', '.join(f'{NUM[k]} <a href="{url(k)}">{esc(names[k])}</a>' for k in ('theory', 'methods'))
 hub_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
@@ -433,6 +495,33 @@ for key in ORDER:
         k, lab = anchors[id(r)]
         search_items.append({'h': fmt_ref(r), 'n': r['n'], 'y': year_num(r), 'u': f'{url(key)}#{k}', 'l': lab,
                              's': f'{NUM[key]} {names[key]}' if key in SUBTOPICS else ''})
+# ---------- The canon: readings in CANON or more sources ----------
+where = {}
+for key in ORDER:
+    for rid, (k, lab) in anchor_of(key).items():
+        where[rid] = (key, k, lab)
+
+
+def canon_li(r):
+    key, k, lab = where[id(r)]
+    label = f"Listed in {r['n']} of {N} sources"
+    loc = f'<a href="{url(key)}#{k}">{esc(lab)}</a>' + (f' · {NUM[key]} {esc(names[key])}' if key in SUBTOPICS else '')
+    return (f'            <li class="core"><span class="rl-ref">{fmt_ref(r)} <span class="rl-where">{loc}</span></span>'
+            f'<span class="rl-count" title="{label}" aria-label="{label}">{r["n"]}</span></li>\n')
+
+
+by_stream = collections.Counter(where[id(r)][0] for r in canon)
+top_streams = ', '.join(f'<a href="{url(k)}">{NUM[k]} {esc(names[k])}</a> ({n})' for k, n in by_stream.most_common(4))
+canon_head = f'''          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Most assigned</p>
+          <h1>The most assigned readings</h1>
+          <p>The {len(canon)} readings that {CANON} or more of the {N} PhD syllabi and reading lists assign: a rough canon of doctoral training in
+            organization theory and strategy. The number beside each is how many sources assign it; the line below gives its stream.</p>
+          <p class="rl-key">The streams with the most of them: {top_streams}.</p>
+'''
+canon_body = (decade_band(canon) + '      <section class="band rl-topic" id="list" aria-labelledby="list-h">\n'
+              '        <h2 class="label" id="list-h">Readings</h2>\n        <div class="body">\n          <ol class="rl-list">\n'
+              + ''.join(canon_li(r) for r in canon) + '          </ol>\n        </div>\n      </section>\n')
+
 search_json = json.dumps({'sources': N, 'core': CORE, 'items': search_items}, ensure_ascii=False, separators=(',', ':'))
 
 search_head = f'''          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Search</p>
@@ -482,11 +571,14 @@ for i, key in enumerate(ORDER):
     write(ROOT + url(key) + 'index.html', stream_page(i, key))
 write(ROOT + '/readings/more/index.html', redirect)
 write(ROOT + '/readings/search/readings.json', search_json)
+write(ROOT + '/readings/canon/index.html',
+      page('/readings/canon/', 'The Most Assigned Readings', f'The {len(canon)} organization theory and strategy readings assigned in {CANON} or more of {N} PhD syllabi.',
+           True, canon_head, canon_body))
 write(ROOT + '/readings/search/index.html',
       page('/readings/search/', 'Search the Readings', f'Search {total:,} organization theory and strategy readings compiled from {N} PhD syllabi.',
            True, search_head, search_body,
            extra_head=f'    <script src="/assets/js/readings-search.js?v={CSS_V}" data-index="/readings/search/readings.json?v={CSS_V}" defer></script>\n'))
-sitemap = ['https://zhongyuan0.github.io' + p for p in ['/', '/research/', '/cv/', '/readings/', '/readings/search/'] + [url(k) for k in ORDER]]
+sitemap = ['https://zhongyuan0.github.io' + p for p in ['/', '/research/', '/cv/', '/readings/', '/readings/canon/', '/readings/search/'] + [url(k) for k in ORDER]]
 write(ROOT + '/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
       + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in sitemap) + '</urlset>\n')
 print('sources', N, 'readings', total, 'in 2+ sources', main_total, 'core', core_n, 'pages', len(ORDER) + 1)
