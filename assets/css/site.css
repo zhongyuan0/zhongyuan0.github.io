@@ -1032,6 +1032,26 @@ address {
   display: block;
 }
 
+/* Writing the paper: the craft streams from the syllabi */
+.rl-craft .body {
+  max-width: var(--measure);
+}
+.rl-craft-list {
+  margin-top: 1rem;
+  columns: 1;
+}
+.rl-craft-list li {
+  display: grid;
+  grid-template-columns: 2.4rem minmax(0, 1fr);
+  column-gap: 0.4rem;
+  align-items: baseline;
+  margin-bottom: 0.6rem;
+}
+.rl-craft-list .rl-no {
+  color: var(--ink-soft);
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
 /* Stream pages */
 .page-mark.rl-mark {
   font-family: var(--serif);
