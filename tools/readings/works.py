@@ -35,7 +35,10 @@ def get(url):
 
 def main():
     works = json.load(open(CACHE)) if os.path.exists(CACHE) else {}
-    dois = sorted({v.lower() for v in json.load(open(D + 'dois.json')).values() if v})
+    dois = {v.lower() for v in json.load(open(D + 'dois.json')).values() if v}
+    if os.path.exists(D + 'writing.json'):  # the hand-picked readings on writing (writing_seed.py)
+        dois |= {i['doi'].lower() for i in json.load(open(D + 'writing.json'))['items'] if i.get('doi')}
+    dois = sorted(dois)
     todo = [d for d in dois if d not in works]
     print(f'{len(todo)} of {len(dois)} DOIs to fetch', flush=True)
     batches = [d for d in todo if ',' not in d]

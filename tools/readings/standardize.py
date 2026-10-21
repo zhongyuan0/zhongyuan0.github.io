@@ -30,6 +30,8 @@ def squash(s):
 def clean_markup(s):
     s = re.sub(r'<sup>.*?</sup>', '', s or '', flags=re.S)  # footnote markers
     s = re.sub(r'</scp>\s+(?=[a-z.,;:\'’)])', '</scp>', s)  # small capitals: "<scp>A</scp>\n rnold" is "Arnold"
+    s = re.sub(r'(?<=\w)<(i|em|b)>', r' <\1>', s)  # "Publishing in<i>AMJ</i>" keeps its spaces
+    s = re.sub(r'</(i|em|b)>(?=\w)', r'</\1> ', s)
     s = re.sub(r'<[^>]+>', '', s)
     return squash(html.unescape(s))
 
@@ -163,7 +165,7 @@ def clean_author(a):
 
 
 def authors_from_record(it, hint):
-    people = it.get('author') or []
+    people = [p for p in it.get('author') or [] if (p.get('family') or '').lower() not in ('editor', 'editors')]
     out = []
     for i, p in enumerate(people):
         if p.get('name') and not p.get('family'):
@@ -206,9 +208,12 @@ PLACE_TOKEN = re.compile(r"^[A-Z][\w.'’]*(?:\s+[A-Z][\w.'’]*){0,2}(?:;\s*[A-
 def short_name(n):
     """'Walter W. Powell' -> 'W. W. Powell'; leaves names with particles or already in initials alone."""
     toks = n.split()
+    suffix = ''
+    if len(toks) > 2 and toks[-1] in ('Jr.', 'Jr', 'Sr.', 'II', 'III', 'IV'):
+        suffix, toks = ' ' + toks[-1].rstrip('.') + ('.' if toks[-1].startswith(('Jr', 'Sr')) else ''), toks[:-1]
     if 2 <= len(toks) <= 4 and all(t[:1].isupper() for t in toks) and any(re.fullmatch(r'[A-Z][a-z\'’-]+', t) for t in toks[:-1]):
-        return ' '.join(t[0] + '.' if not t.endswith('.') else t for t in toks[:-1]) + ' ' + toks[-1]
-    return n
+        return ' '.join(t[0] + '.' if not t.endswith('.') else t for t in toks[:-1]) + ' ' + toks[-1] + suffix
+    return ' '.join(toks) + suffix
 
 
 def fmt_eds(e):

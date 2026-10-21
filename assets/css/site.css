@@ -1011,6 +1011,27 @@ address {
   font-variant-numeric: lining-nums tabular-nums;
 }
 
+/* Writing the paper */
+.rl-writing li {
+  grid-template-columns: minmax(0, 1fr);
+}
+.rl-writing li + li {
+  margin-top: 0.9rem;
+}
+.rl-note {
+  margin-top: 0.2rem;
+  padding-left: 1.4em;
+  color: var(--ink-soft);
+}
+.rl-writing .rl-where {
+  display: block;
+  padding-left: 1.4em;
+  margin-top: 0.1rem;
+}
+.rl-writing-toc li {
+  display: block;
+}
+
 /* Stream pages */
 .page-mark.rl-mark {
   font-family: var(--serif);

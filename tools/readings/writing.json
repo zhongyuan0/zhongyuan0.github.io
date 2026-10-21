@@ -1,0 +1,586 @@
+{
+ "sections": [
+  [
+   "topic",
+   "Choosing a topic and making it interesting",
+   "Before any section is written: what makes a question worth asking, and what makes readers care."
+  ],
+  [
+   "intro",
+   "The introduction",
+   "The first two pages decide whether the paper is read. They have to set up a gap, make it matter and promise what the paper delivers."
+  ],
+  [
+   "theory",
+   "Theory and the theoretical contribution",
+   "What counts as theory, what counts as a contribution, and how to build and position the theory section of an empirical paper or a theory paper."
+  ],
+  [
+   "hypotheses",
+   "Hypotheses",
+   "Hypotheses should follow from the argument, be precise, and be stated before the data are seen."
+  ],
+  [
+   "methods",
+   "Methods and results",
+   "Enough detail to be believed and repeated, and results reported so that they answer the hypotheses rather than decorate them."
+  ],
+  [
+   "discussion",
+   "The discussion",
+   "The discussion returns to the contribution promised at the start, and says honestly what the study does and does not show."
+  ],
+  [
+   "qualitative",
+   "Writing up qualitative research",
+   "Qualitative papers have no boilerplate; these pieces are about how to show rigour and tell the story without a template."
+  ],
+  [
+   "style",
+   "Clear writing and storytelling",
+   "Sentence-level craft and the narrative arc of a paper, from people who edit and write for a living."
+  ],
+  [
+   "review",
+   "Reviewing, revising and responding to reviewers",
+   "How reviewers read, why papers are rejected, and how to turn a revise-and-resubmit into an acceptance."
+  ]
+ ],
+ "items": [
+  {
+   "section": "topic",
+   "author": "Davis",
+   "year": 1971,
+   "title": "That's Interesting! Towards a Phenomenology of Sociology and a Sociology of Phenomenology",
+   "note": "The classic account of why some theories are interesting: they deny something the audience assumes.",
+   "doi": "10.1177/004839317100100211"
+  },
+  {
+   "section": "topic",
+   "author": "Colquitt",
+   "year": 2011,
+   "title": "Publishing in AMJ—Part 1: Topic Choice",
+   "note": "How editors judge whether a topic is novel, relevant and fit for a top journal.",
+   "doi": "10.5465/amj.2011.61965960"
+  },
+  {
+   "section": "topic",
+   "author": "Bartunek",
+   "year": 2006,
+   "title": "What Makes Management Research Interesting, and Why Does It Matter?",
+   "note": "Asks board members what made papers interesting to them: counterintuitive findings, good writing and real problems.",
+   "doi": "10.5465/amj.2006.20785494"
+  },
+  {
+   "section": "topic",
+   "author": "Alvesson",
+   "year": 2011,
+   "title": "Generating Research Questions Through Problematization",
+   "note": "A method for research questions that challenge the assumptions behind existing theory rather than filling gaps in it.",
+   "doi": "10.5465/amr.2011.59330882"
+  },
+  {
+   "section": "topic",
+   "author": "Ashford",
+   "year": 2013,
+   "title": "Having Scholarly Impact: The Art of Hitting Academic Home Runs",
+   "note": "What distinguishes the papers that end up mattering, from someone who has written several.",
+   "doi": "10.5465/amle.2013.0090"
+  },
+  {
+   "section": "intro",
+   "author": "Grant",
+   "year": 2011,
+   "title": "Publishing in AMJ—Part 3: Setting the Hook",
+   "note": "The best short guide to the opening pages: hooks, gaps and the promise the paper makes.",
+   "doi": "10.5465/amj.2011.4000"
+  },
+  {
+   "section": "intro",
+   "author": "Locke",
+   "year": 1997,
+   "title": "Constructing Opportunities for Contribution: Structuring Intertextual Coherence and \"Problematizing\" in Organizational Studies",
+   "note": "Shows, from published papers, the rhetorical moves that turn a literature into a space for a contribution.",
+   "doi": "10.2307/256926"
+  },
+  {
+   "section": "intro",
+   "author": "Barney",
+   "year": 2018,
+   "title": "Editor's Comments: Positioning a Theory Paper for Publication",
+   "note": "How to position a theory paper so that a reader sees what it adds, with the common ways this goes wrong.",
+   "doi": "10.5465/amr.2018.0112"
+  },
+  {
+   "section": "intro",
+   "author": "Lange",
+   "year": 2017,
+   "title": "Editors' Comments: Sense and Structure—The Core Building Blocks of an AMR Article",
+   "note": "The anatomy of a theory paper, section by section, from the editors who read them.",
+   "doi": "10.5465/amr.2016.0225"
+  },
+  {
+   "section": "intro",
+   "author": "Kilduff",
+   "year": 2006,
+   "title": "Editor's Comments: Publishing Theory",
+   "note": "On framing, voice and the courage a theory paper needs, in a few pages.",
+   "doi": "10.5465/amr.2006.20208678",
+   "authors": [
+    "Kilduff, M."
+   ]
+  },
+  {
+   "section": "theory",
+   "author": "Sutton",
+   "year": 1995,
+   "title": "What Theory is Not",
+   "note": "References, data, lists of variables, diagrams and hypotheses are not theory; the most assigned paper on the subject.",
+   "doi": "10.2307/2393788"
+  },
+  {
+   "section": "theory",
+   "author": "Weick",
+   "year": 1995,
+   "title": "What Theory is Not, Theorizing Is",
+   "note": "The reply to Sutton and Staw: theorizing is a process, and partial attempts at it have value.",
+   "doi": "10.2307/2393789"
+  },
+  {
+   "section": "theory",
+   "author": "DiMaggio",
+   "year": 1995,
+   "title": "Comments on \"What Theory is Not\"",
+   "note": "Theory as covering laws, as enlightenment and as narrative; a reminder that there is more than one kind.",
+   "doi": "10.2307/2393790"
+  },
+  {
+   "section": "theory",
+   "author": "Whetten",
+   "year": 1989,
+   "title": "What Constitutes a Theoretical Contribution?",
+   "note": "What, how, why, who, where, when: the checklist most reviewers still carry in their heads.",
+   "doi": "10.2307/258554"
+  },
+  {
+   "section": "theory",
+   "author": "Corley",
+   "year": 2011,
+   "title": "Building Theory about Theory Building: What Constitutes a Theoretical Contribution?",
+   "note": "Updates Whetten with two dimensions, originality and utility, and argues for prescience.",
+   "doi": "10.5465/amr.2009.0486"
+  },
+  {
+   "section": "theory",
+   "author": "Makadok",
+   "year": 2018,
+   "title": "A Practical Guide for Making Theory Contributions in Strategic Management",
+   "note": "Eight ways to make a theory contribution, with examples from strategy; useful for finding which one a paper is making.",
+   "doi": "10.1002/smj.2789"
+  },
+  {
+   "section": "theory",
+   "author": "Suddaby",
+   "year": 2010,
+   "title": "Editor's Comments: Construct Clarity in Theories of Management and Organization",
+   "note": "Definitions, scope conditions, relationships and coherence: how to make a construct clear enough to build on.",
+   "doi": "10.5465/amr.2010.51141319"
+  },
+  {
+   "section": "theory",
+   "author": "Rindova",
+   "year": 2008,
+   "title": "Editor's Comments: Publishing Theory When You are New to the Game",
+   "note": "Practical advice for first theory papers: scope, novelty and the reviewers you will meet.",
+   "doi": "10.5465/amr.2008.31193160"
+  },
+  {
+   "section": "theory",
+   "author": "Bergh",
+   "year": 2003,
+   "title": "From the Editors: Thinking Strategically about Contribution",
+   "note": "Two pages on asking, before writing, what the contribution is and to whom.",
+   "doi": "10.5465/amj.2003.17481820"
+  },
+  {
+   "section": "theory",
+   "author": "Shepherd",
+   "year": 2017,
+   "title": "Theory Building: A Review and Integration",
+   "note": "A review of how management scholars actually build theory, organised into a few recognisable approaches.",
+   "doi": "10.1177/0149206316647102"
+  },
+  {
+   "section": "theory",
+   "author": "Fisher",
+   "year": 2017,
+   "title": "Using Theory Elaboration to Make Theoretical Advancements",
+   "note": "For papers that refine an existing theory rather than test or generate one; names the moves and when to use them.",
+   "doi": "10.1177/1094428116689707"
+  },
+  {
+   "section": "theory",
+   "author": "Delbridge",
+   "year": 2013,
+   "title": "Editors' Comments: Styles of Theorizing and the Social Organization of Knowledge",
+   "note": "There is more than one legitimate style of theorizing; knowing which one you are using helps you write and defend it.",
+   "doi": "10.5465/amr.2013.0085",
+   "authors": [
+    "Delbridge, R.",
+    "Fiss, P. C."
+   ]
+  },
+  {
+   "section": "theory",
+   "author": "Hambrick",
+   "year": 2007,
+   "title": "The Field of Management's Devotion to Theory: Too Much of a Good Thing?",
+   "note": "The case that the field demands theory even where careful facts would serve better; worth reading before over-theorizing.",
+   "doi": "10.5465/amj.2007.28166119"
+  },
+  {
+   "section": "theory",
+   "author": "Shaw",
+   "year": 2017,
+   "title": "From the Editors: Advantages of Starting with Theory",
+   "note": "Why papers that begin from theory, rather than from a dataset, fare better in review.",
+   "doi": "10.5465/amj.2017.4003"
+  },
+  {
+   "section": "theory",
+   "author": "Cornelissen",
+   "year": 2021,
+   "title": "What Theory Is and Can Be: Forms of Theorizing in Organizational Scholarship",
+   "note": "A map of the forms theorizing can take, beyond the propositional model most journals assume.",
+   "doi": "10.1177/26317877211020328"
+  },
+  {
+   "section": "hypotheses",
+   "author": "Sparrowe",
+   "year": 2011,
+   "title": "Publishing in AMJ—Part 4: Grounding Hypotheses",
+   "note": "How to build the argument that makes each hypothesis follow, instead of citing a finding and asserting one.",
+   "doi": "10.5465/amj.2011.4001"
+  },
+  {
+   "section": "hypotheses",
+   "author": "Edwards",
+   "year": 2010,
+   "title": "The Presence of Something or the Absence of Nothing: Increasing Theoretical Precision in Management Research",
+   "note": "Why \"X is positively related to Y\" is a weak hypothesis, and how to state stronger ones.",
+   "doi": "10.1177/1094428110380467"
+  },
+  {
+   "section": "hypotheses",
+   "author": "Kerr",
+   "year": 1998,
+   "title": "HARKing: Hypothesizing After the Results are Known",
+   "note": "The original statement of the problem of writing hypotheses after seeing the results, and why it damages the literature.",
+   "doi": "10.1207/s15327957pspr0203_4"
+  },
+  {
+   "section": "hypotheses",
+   "author": "Hollenbeck",
+   "year": 2017,
+   "title": "Harking, Sharking, and Tharking: Making the Case for Post Hoc Analysis of Scientific Data",
+   "note": "Distinguishes the questionable from the legitimate ways of theorizing after the data, and how to report the latter honestly.",
+   "doi": "10.1177/0149206316679487"
+  },
+  {
+   "section": "hypotheses",
+   "author": "Leavitt",
+   "year": 2010,
+   "title": "Theory Pruning: Strategies to Reduce Our Dense Theoretical Landscape",
+   "note": "Designs and hypotheses that test theories against each other, rather than adding one more.",
+   "doi": "10.1177/1094428109345156"
+  },
+  {
+   "section": "methods",
+   "author": "Bono",
+   "year": 2011,
+   "title": "Publishing in AMJ—Part 2: Research Design",
+   "note": "The design problems editors see most often, and what a convincing design needs.",
+   "doi": "10.5465/amj.2011.64869103"
+  },
+  {
+   "section": "methods",
+   "author": "Zhang",
+   "year": 2012,
+   "title": "Publishing in AMJ—Part 5: Crafting the Methods and Results",
+   "note": "What to report, in what order, so that reviewers can follow and trust the analysis.",
+   "doi": "10.5465/amj.2012.4001"
+  },
+  {
+   "section": "methods",
+   "author": "Bettis",
+   "year": 2014,
+   "title": "Quantitative Empirical Analysis in Strategic Management",
+   "note": "The SMJ editors on endogeneity, significance, effect sizes and robustness: what they expect to see.",
+   "doi": "10.1002/smj.2278"
+  },
+  {
+   "section": "methods",
+   "author": "Bettis",
+   "year": 2016,
+   "title": "Creating Repeatable Cumulative Knowledge in Strategic Management",
+   "note": "On replication and cumulative evidence; why reporting enough to be repeated is part of the contribution.",
+   "doi": "10.1002/smj.2477"
+  },
+  {
+   "section": "methods",
+   "author": "Aguinis",
+   "year": 2018,
+   "title": "What You See Is What You Get? Enhancing Methodological Transparency in Management Research",
+   "note": "A checklist of the choices made between data and results that a paper should disclose.",
+   "doi": "10.5465/annals.2016.0011"
+  },
+  {
+   "section": "discussion",
+   "author": "Geletkanycz",
+   "year": 2012,
+   "title": "Publishing in AMJ–Part 6: Discussing the Implications",
+   "note": "How to write a discussion that returns to the contribution and says what the findings mean, without overreach.",
+   "doi": "10.5465/amj.2012.4002"
+  },
+  {
+   "section": "discussion",
+   "author": "Brutus",
+   "year": 2013,
+   "title": "Self-Reported Limitations and Future Directions in Scholarly Reports: Analysis and Recommendations",
+   "note": "What limitations sections actually say, and how to write one that is honest rather than ritual.",
+   "doi": "10.1177/0149206312455245"
+  },
+  {
+   "section": "discussion",
+   "author": "Rynes",
+   "year": 2001,
+   "title": "Across the Great Divide: Knowledge Creation and Transfer Between Practitioners and Academics",
+   "note": "Background for the \"implications for practice\" paragraph: what practitioners actually take from research.",
+   "doi": "10.2307/3069460",
+   "authors": [
+    "Rynes, S. L.",
+    "Bartunek, J. M.",
+    "Daft, R. L."
+   ]
+  },
+  {
+   "section": "qualitative",
+   "author": "Bansal",
+   "year": 2012,
+   "title": "Publishing in AMJ—Part 7: What's Different about Qualitative Research?",
+   "note": "How qualitative papers are read and judged differently, and what they need to show.",
+   "doi": "10.5465/amj.2012.4003"
+  },
+  {
+   "section": "qualitative",
+   "author": "Pratt",
+   "year": 2009,
+   "title": "From the Editors: For the Lack of a Boilerplate: Tips on Writing Up (and Reviewing) Qualitative Research",
+   "note": "The most practical guide to presenting qualitative data: what to show, how much, and how to link it to theory.",
+   "doi": "10.5465/amj.2009.44632557"
+  },
+  {
+   "section": "qualitative",
+   "author": "Gioia",
+   "year": 2013,
+   "title": "Seeking Qualitative Rigor in Inductive Research: Notes on the Gioia Methodology",
+   "note": "The data structure that has become the common template for inductive papers, by its authors.",
+   "doi": "10.1177/1094428112452151"
+  },
+  {
+   "section": "qualitative",
+   "author": "Eisenhardt",
+   "year": 2007,
+   "title": "Theory Building from Cases: Opportunities and Challenges",
+   "note": "How to present multiple-case research so that the theory is seen to emerge from the cases.",
+   "doi": "10.5465/amj.2007.24160888"
+  },
+  {
+   "section": "qualitative",
+   "author": "Golden-Biddle",
+   "year": 1993,
+   "title": "Appealing Work: An Investigation of How Ethnographic Texts Convince",
+   "note": "What makes an ethnographic account persuasive: authenticity, plausibility and criticality.",
+   "doi": "10.1287/orsc.4.4.595"
+  },
+  {
+   "section": "qualitative",
+   "author": "Bansal",
+   "year": 2018,
+   "title": "From the Editors: New Ways of Seeing through Qualitative Research",
+   "note": "On the range of qualitative approaches beyond the dominant template, and how to write them for a top journal.",
+   "doi": "10.5465/amj.2018.4004"
+  },
+  {
+   "section": "qualitative",
+   "author": "Pratt",
+   "year": 2022,
+   "title": "Moving Beyond Templates: A Bricolage Approach to Conducting Trustworthy Qualitative Research",
+   "note": "Why following a template is not the same as being trustworthy, and what to do instead.",
+   "doi": "10.1177/1094428120927466"
+  },
+  {
+   "section": "qualitative",
+   "author": "Van Maanen",
+   "year": 2011,
+   "title": "Tales of the Field: On Writing Ethnography",
+   "note": "The three voices an ethnography can be written in, and what each conceals.",
+   "venue": "University of Chicago Press",
+   "authors": [
+    "Van Maanen, J."
+   ]
+  },
+  {
+   "section": "style",
+   "author": "Pollock",
+   "year": 2013,
+   "title": "Being Scheherazade: The Importance of Storytelling in Academic Writing",
+   "note": "A paper is a story with a beginning, a complication and a resolution; how to find and tell yours.",
+   "doi": "10.5465/amj.2013.4003"
+  },
+  {
+   "section": "style",
+   "author": "Ragins",
+   "year": 2012,
+   "title": "Editor's Comments: Reflections on the Craft of Clear Writing",
+   "note": "Short, concrete advice on clear sentences, from an AMR editor who read thousands of unclear ones.",
+   "doi": "10.5465/amr.2012.0165",
+   "authors": [
+    "Ragins, B. R."
+   ]
+  },
+  {
+   "section": "style",
+   "author": "Barley",
+   "year": 2006,
+   "title": "When I Write My Masterpiece: Thoughts on What Makes a Paper Interesting",
+   "note": "An editor on voice, surprise and the difference between competent and memorable papers.",
+   "doi": "10.5465/amj.2006.20785495"
+  },
+  {
+   "section": "style",
+   "author": "Bem",
+   "year": 2004,
+   "title": "Writing the Empirical Journal Article",
+   "note": "The classic chapter on the shape of an empirical article, down to the hourglass structure of the introduction.",
+   "venue": "In J. M. Darley, M. P. Zanna & H. L. Roediger III (Eds.), The Compleat Academic: A Career Guide (2nd ed., pp. 185-219). American Psychological Association",
+   "authors": [
+    "Bem, D. J."
+   ]
+  },
+  {
+   "section": "style",
+   "author": "Zuckerman",
+   "year": 2008,
+   "title": "Tips to Article-Writers",
+   "note": "A sociologist's short list of the mistakes he sees most in drafts; blunt and widely assigned.",
+   "venue": "Unpublished notes, MIT Sloan School of Management",
+   "authors": [
+    "Zuckerman, E. W."
+   ]
+  },
+  {
+   "section": "style",
+   "author": "Huff",
+   "year": 1999,
+   "title": "Writing for Scholarly Publication",
+   "note": "Writing as joining a conversation: who you are talking to, and what you are saying that they have not.",
+   "venue": "Sage",
+   "authors": [
+    "Huff, A. S."
+   ]
+  },
+  {
+   "section": "style",
+   "author": "Becker",
+   "year": 1986,
+   "title": "Writing for Social Scientists: How to Start and Finish Your Thesis, Book, or Article",
+   "note": "On drafting, fear and getting the thing done; the book most often recommended to stuck writers.",
+   "venue": "University of Chicago Press",
+   "authors": [
+    "Becker, H. S."
+   ]
+  },
+  {
+   "section": "style",
+   "author": "Sword",
+   "year": 2012,
+   "title": "Stylish Academic Writing",
+   "note": "Evidence, from a thousand articles, on what readable academic prose does differently.",
+   "venue": "Harvard University Press",
+   "authors": [
+    "Sword, H."
+   ]
+  },
+  {
+   "section": "style",
+   "author": "Pollock",
+   "year": 2021,
+   "title": "How to Use Storytelling in Your Academic Writing: Engaging Readers and Hooking Reviewers",
+   "note": "The Scheherazade argument at book length, with exercises.",
+   "venue": "Edward Elgar",
+   "authors": [
+    "Pollock, T. G."
+   ]
+  },
+  {
+   "section": "review",
+   "author": "Daft",
+   "year": 1995,
+   "title": "Why I Recommended That Your Manuscript Be Rejected and What You Can Do About It",
+   "note": "The reasons papers are rejected, ranked by how often they occur; still accurate.",
+   "venue": "In L. L. Cummings & P. J. Frost (Eds.), Publishing in the Organizational Sciences (2nd ed., pp. 164-182). Sage",
+   "authors": [
+    "Daft, R. L."
+   ]
+  },
+  {
+   "section": "review",
+   "author": "Lepak",
+   "year": 2009,
+   "title": "Editor's Comments: What Is Good Reviewing?",
+   "note": "What editors want from a review, which is also what authors should expect and prepare for.",
+   "doi": "10.5465/amr.2009.40631320"
+  },
+  {
+   "section": "review",
+   "author": "Tsui",
+   "year": 2009,
+   "title": "Successful Authors and Effective Reviewers: Balancing Supply and Demand in the Organizational Sciences",
+   "note": "The review process from both sides, with advice on surviving it as an author.",
+   "doi": "10.1177/1094428108318429"
+  },
+  {
+   "section": "review",
+   "author": "Ragins",
+   "year": 2015,
+   "title": "Editor's Comments: Developing Our Authors",
+   "note": "How developmental reviewing works, and how to read a review for what it is really asking.",
+   "doi": "10.5465/amr.2014.0477"
+  },
+  {
+   "section": "review",
+   "author": "Seibert",
+   "year": 2006,
+   "title": "Anatomy of an R&R (or, Reviewers Are an Author's Best Friends…)",
+   "note": "A step-by-step account of turning a revise-and-resubmit into an acceptance, including the response letter.",
+   "venue": "In Y. Baruch, S. E. Sullivan & H. N. Schepmyer (Eds.), Winning Reviews: A Guide for Evaluating Scholarly Writing (pp. 212-223). Palgrave Macmillan",
+   "authors": [
+    "Seibert, S. E."
+   ]
+  },
+  {
+   "section": "review",
+   "author": "Cummings",
+   "year": 1995,
+   "title": "Publishing in the Organizational Sciences",
+   "note": "The edited volume on the whole process, from the first draft to the editor's decision.",
+   "venue": "Sage",
+   "authors": [
+    "Cummings, L. L.",
+    "Frost, P. J."
+   ],
+   "editors": true
+  }
+ ]
+}

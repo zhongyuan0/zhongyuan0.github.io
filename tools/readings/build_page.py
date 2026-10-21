@@ -12,6 +12,7 @@ from classify import TOPICS
 from subtopics import SUBTOPICS, OTHER, reading_key
 import tree
 import network
+import standardize
 
 D = os.path.dirname(os.path.abspath(__file__)) + '/'
 ROOT = sys.argv[1].rstrip('/')
@@ -447,6 +448,7 @@ hub_head = f'''          <h1>Reading lists</h1>
           </form>
           <p class="rl-canon-link">Where to start: <a href="/readings/canon/">the {len(canon)} most assigned readings</a>, those in {CANON} or more of the {N} sources.
             Or see <a href="/readings/network/">how the readings are assigned together</a>, a map drawn from the syllabi themselves.</p>
+          <p class="rl-canon-link">Writing one: <a href="/readings/writing/">what to read before writing each part of a paper</a>, from the introduction to the response to reviewers.</p>
 '''
 outside = ', '.join(f'{NUM[k]} <a href="{url(k)}">{esc(names[k])}</a>' for k in ('theory', 'methods'))
 hub_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
@@ -608,6 +610,65 @@ nw_body = f'''      <section class="rl-tree nw-figure" aria-labelledby="nw-h">
 '''
 
 
+# ---------- Writing the paper: hand-picked readings by section of a paper ----------
+WR = json.load(open(D + 'writing.json'))
+WORKS = json.load(open(D + '.cache/works.json')) if os.path.exists(D + '.cache/works.json') else {}
+by_doi = {r['doi']: r for r in readings if r.get('doi')}
+
+
+def writing_ref(it):
+    v = it.get('venue') or ''
+    r = {'authors': it.get('authors') or [it['author']], 'year': str(it['year']), 'title': it['title'], 'venue': v,
+         'type': 'chapter' if v.startswith('In ') else ('book' if v else 'article')}
+    ref = standardize.standardize(r, WORKS.get(it.get('doi', '')), {'The Academy of Management Review': 'Academy of Management Review'})
+    if it.get('authors'):  # a correction by hand beats the Crossref record
+        ref['authors'] = it['authors']
+    if it.get('editors'):
+        ref['editors'] = True
+    if it.get('doi'):
+        ref['doi'] = it['doi']
+    return ref
+
+
+def writing_li(it):
+    ref = writing_ref(it)
+    known = by_doi.get(it.get('doi', ''))
+    where = ''
+    if known:
+        key, k = nw_where.get(id(known)) or (None, None)
+        if key:
+            where = f' <span class="rl-where"><a href="{url(key)}#{k}">In the reading lists</a> · assigned in {known["n"]} of {N} sources</span>'
+        else:
+            where = f' <span class="rl-where">In the reading lists · assigned in {known["n"]} of {N} sources</span>'
+    return (f'            <li><span class="rl-ref">{fmt_ref({"ref": ref})}</span>'
+            f'<p class="rl-note">{esc(it["note"])}</p>{where}</li>\n')
+
+
+wr_sections = []
+for key, title, desc in WR['sections']:
+    its = [i for i in WR['items'] if i['section'] == key]
+    wr_sections.append(f'      <section class="band rl-topic" id="{key}" aria-labelledby="{key}-h">\n'
+                       f'        <h2 class="label" id="{key}-h">{esc(title)}</h2>\n        <div class="body">\n'
+                       f'          <p class="rl-desc">{esc(desc)}</p>\n          <ol class="rl-list rl-writing">\n'
+                       + ''.join(writing_li(i) for i in its) + '          </ol>\n        </div>\n      </section>\n\n')
+wr_toc = ''.join(f'          <li><a href="#{key}">{esc(title)}</a> <span class="rl-n">{sum(1 for i in WR["items"] if i["section"] == key)}</span></li>\n'
+                 for key, title, _ in WR['sections'])
+wr_in_lists = sum(1 for i in WR['items'] if i.get('doi') in by_doi)
+writing_head = f'''          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Writing</p>
+          <h1>Writing the paper</h1>
+          <p>What to read before writing each part of a paper: {len(WR['items'])} pieces, mostly editors' essays from the journals that will
+            review it, arranged by the section they help with. Unlike the reading lists, these are chosen by hand rather than counted
+            from syllabi, though {wr_in_lists} of them appear there too. The one-line notes are mine.</p>
+'''
+writing_body = f'''      <nav class="band rl-toc rl-writing-toc" aria-labelledby="wtoc-h">
+        <h2 class="label" id="wtoc-h">Sections</h2>
+        <ol class="body">
+{wr_toc}        </ol>
+      </nav>
+
+{''.join(wr_sections)}'''
+
+
 search_json = json.dumps({'sources': N, 'core': CORE, 'items': search_items}, ensure_ascii=False, separators=(',', ':'))
 
 search_head = f'''          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Search</p>
@@ -662,6 +723,9 @@ write(ROOT + '/readings/network/index.html',
            True, nw_head, nw_body,
            extra_head=f'    <script src="/assets/js/readings-network.js?v={CSS_V}" defer></script>\n'
                       f'    <script type="application/json" id="nw-data">{json.dumps(nw_data, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")}</script>\n'))
+write(ROOT + '/readings/writing/index.html',
+      page('/readings/writing/', 'Writing the Paper', f'{len(WR["items"])} readings on writing each part of a management paper: introduction, theory, hypotheses, methods, discussion, qualitative research, style and reviewing.',
+           True, writing_head, writing_body))
 write(ROOT + '/readings/canon/index.html',
       page('/readings/canon/', 'The Most Assigned Readings', f'The {len(canon)} organization theory and strategy readings assigned in {CANON} or more of {N} PhD syllabi.',
            True, canon_head, canon_body))
@@ -669,7 +733,7 @@ write(ROOT + '/readings/search/index.html',
       page('/readings/search/', 'Search the Readings', f'Search {total:,} organization theory and strategy readings compiled from {N} PhD syllabi.',
            True, search_head, search_body,
            extra_head=f'    <script src="/assets/js/readings-search.js?v={CSS_V}" data-index="/readings/search/readings.json?v={CSS_V}" defer></script>\n'))
-sitemap = ['https://zhongyuan0.github.io' + p for p in ['/', '/research/', '/cv/', '/readings/', '/readings/canon/', '/readings/network/', '/readings/search/'] + [url(k) for k in ORDER]]
+sitemap = ['https://zhongyuan0.github.io' + p for p in ['/', '/research/', '/cv/', '/readings/', '/readings/canon/', '/readings/writing/', '/readings/network/', '/readings/search/'] + [url(k) for k in ORDER]]
 write(ROOT + '/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
       + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in sitemap) + '</urlset>\n')
 print('sources', N, 'readings', total, 'in 2+ sources', main_total, 'core', core_n, 'pages', len(ORDER) + 1)
