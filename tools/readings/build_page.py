@@ -166,10 +166,14 @@ names = {k: n for k, n, _ in TOPICS}
 descs = {k: d for k, _, d in TOPICS}
 # Display order, which also gives each stream its number: theory first, then the two roots of the tree,
 # then the tree's columns left to right (each top to bottom), then the streams outside the tree.
-ORDER = (['theory', 'socialtheory', 'classics'] + sorted(tree.NODES, key=lambda k: tree.NODES[k][:2])
-         + ['methods', 'profession'])
+# The streams of theory (the tree's two roots, then its columns left to right) are numbered 1, 2, 3 ...; the three
+# streams on the craft of research live under "Writing the paper" and are numbered W1, W2, W3.
+THEORY = ['socialtheory', 'classics'] + sorted(tree.NODES, key=lambda k: tree.NODES[k][:2])
+CRAFT = ['theory', 'methods', 'profession']
+ORDER = THEORY + CRAFT
 assert sorted(ORDER) == sorted(names), set(names) ^ set(ORDER)
-NUM = {k: i + 1 for i, k in enumerate(ORDER)}
+NUM = {k: i + 1 for i, k in enumerate(THEORY)}
+NUM.update({k: f'W{i + 1}' for i, k in enumerate(CRAFT)})
 SLUG = {
     'theory': 'theory', 'socialtheory': 'social-theory', 'classics': 'classics', 'contingency': 'contingency',
     'rdt': 'resource-dependence', 'ecology': 'ecology', 'entre': 'entrepreneurship', 'culture': 'culture-cognition',
@@ -306,7 +310,10 @@ def stream_page(i, key):
     rs = main + single
     src = collections.Counter(c for r in rs for c in r['courses'])
     src_txt = '; '.join(dict.fromkeys(credit(courses[c]) for c, _ in src.most_common()))
-    head = (f'          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Stream {NUM[key]}'
+    craft = key in CRAFT
+    crumb = (f'<a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> <a href="/readings/writing/">Writing the paper</a> <span aria-hidden="true">›</span> {NUM[key]}'
+             if craft else f'<a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Stream {NUM[key]}')
+    head = (f'          <p class="rl-crumb">{crumb}'
             f'<a class="rl-crumb-search" href="/readings/search/">Search all readings</a></p>\n'
             f'          <h1>{esc(names[key])}</h1>\n'
             f'          <p>{esc(descs[key])}</p>\n'
@@ -335,11 +342,13 @@ def stream_page(i, key):
             body.append(band('also', 'Also assigned', f'          <p class="rl-desc">In 2 to {CORE - 1} sources.</p>\n' + ol(multi)))
         if single:
             body.append(band('further', 'Further readings', further(single, len(main))))
-    prev_k = ORDER[i - 1] if i > 0 else None
-    next_k = ORDER[i + 1] if i + 1 < len(ORDER) else None
+    seq = CRAFT if craft else THEORY
+    i = seq.index(key)
+    prev_k = seq[i - 1] if i > 0 else None
+    next_k = seq[i + 1] if i + 1 < len(seq) else None
     pager = ('      <nav class="band rl-pager" aria-label="Other streams">\n        <div class="body">\n'
              + (f'          <a class="rl-prev" href="{url(prev_k)}" rel="prev"><span aria-hidden="true">←</span> {esc(numbered(prev_k))}</a>\n' if prev_k else '')
-             + '          <a class="rl-all" href="/readings/#streams">All streams</a>\n'
+             + (f'          <a class="rl-all" href="/readings/writing/#lists">Writing the paper</a>\n' if craft else '          <a class="rl-all" href="/readings/#streams">All streams</a>\n')
              + (f'          <a class="rl-next" href="{url(next_k)}" rel="next">{esc(numbered(next_k))} <span aria-hidden="true">→</span></a>\n' if next_k else '')
              + '        </div>\n      </nav>\n')
     mark = f'        <p class="page-mark rl-mark" aria-hidden="true">{NUM[key]}</p>\n'
@@ -438,7 +447,8 @@ def toc_item(key):
 
 hub_head = f'''          <h1>Reading lists</h1>
           <p>
-            {total:,} readings in organization theory and strategy, compiled from {N} PhD syllabi and reading lists and grouped into {len(ORDER)} numbered streams.
+            {total:,} readings in organization theory and strategy, compiled from {N} PhD syllabi and reading lists and grouped into {len(THEORY)} numbered streams
+            of theory, plus three on the craft of research under <a href="/readings/writing/">Writing the paper</a>.
             Each stream has its own page, where the readings assigned in two or more sources come first and those in only one are folded underneath.
             Credit for the selections belongs to the instructors and authors listed <a href="#sources">at the end of this page</a>.
           </p>
@@ -450,7 +460,6 @@ hub_head = f'''          <h1>Reading lists</h1>
             Or see <a href="/readings/network/">how the readings are assigned together</a>, a map drawn from the syllabi themselves.</p>
           <p class="rl-canon-link">Writing one: <a href="/readings/writing/">what to read before writing each part of a paper</a>, from the introduction to the response to reviewers.</p>
 '''
-outside = ', '.join(f'{NUM[k]} <a href="{url(k)}">{esc(names[k])}</a>' for k in ('theory', 'methods'))
 hub_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
         <h2 class="visually-hidden" id="tree-h">Theory tree</h2>
         <div class="rl-tree-figure">
@@ -458,8 +467,8 @@ hub_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
         </div>
         <p class="rl-tree-note">
           Each box is a stream, with its number and its number of readings; click a box to open its page. Arrows show which streams grew out of which;
-          hover over an arrow for a one-line explanation. Three streams sit outside the tree: {outside}
-          and {NUM['profession']} <a href="{url('profession')}">{esc(names['profession'])}</a>.
+          hover over an arrow for a one-line explanation. Readings on theorizing, research methods and the academic profession are not theory and sit
+          outside the tree, under <a href="/readings/writing/#lists">Writing the paper</a>.
         </p>
         <details class="rl-more rl-lineage">
           <summary>Lineage, in words</summary>
@@ -471,7 +480,7 @@ hub_body = f'''      <section class="rl-tree" aria-labelledby="tree-h">
       <nav class="band rl-toc" id="streams" aria-labelledby="toc-h">
         <h2 class="label" id="toc-h">All streams</h2>
         <ol class="body">
-{''.join(toc_item(k) for k in ORDER)}        </ol>
+{''.join(toc_item(k) for k in THEORY)}        </ol>
       </nav>
 
 {sources_section}'''
@@ -644,15 +653,33 @@ def writing_li(it):
             f'<p class="rl-note">{esc(it["note"])}</p>{where}</li>\n')
 
 
+SEE = {'theory': 'theory', 'methods': 'methods', 'review': 'profession'}  # curated section -> full list from the syllabi
 wr_sections = []
 for key, title, desc in WR['sections']:
     its = [i for i in WR['items'] if i['section'] == key]
+    if key in SEE:
+        k = SEE[key]
+        desc += f' The full list from the syllabi is <a href="{url(k)}">{NUM[k]} {esc(names[k])}</a> ({totals[k]} readings).'
     wr_sections.append(f'      <section class="band rl-topic" id="{key}" aria-labelledby="{key}-h">\n'
                        f'        <h2 class="label" id="{key}-h">{esc(title)}</h2>\n        <div class="body">\n'
-                       f'          <p class="rl-desc">{esc(desc)}</p>\n          <ol class="rl-list rl-writing">\n'
+                       f'          <p class="rl-desc">{desc if key in SEE else esc(desc)}</p>\n          <ol class="rl-list rl-writing">\n'
                        + ''.join(writing_li(i) for i in its) + '          </ol>\n        </div>\n      </section>\n\n')
 wr_toc = ''.join(f'          <li><a href="#{key}">{esc(title)}</a> <span class="rl-n">{sum(1 for i in WR["items"] if i["section"] == key)}</span></li>\n'
                  for key, title, _ in WR['sections'])
+craft_items = ''.join(
+    f'            <li><span class="rl-no">{NUM[k]}</span><span><a href="{url(k)}">{esc(names[k])}</a> <span class="rl-n">{totals[k]}</span>'
+    f'<br><span class="rl-where">{esc(descs[k])}</span></span></li>\n' for k in CRAFT)
+craft_band = f'''      <section class="band rl-toc rl-craft" id="lists" aria-labelledby="lists-h">
+        <h2 class="label" id="lists-h">From the syllabi</h2>
+        <div class="body">
+          <p class="rl-desc">Three of the {N} syllabi's streams are about the craft rather than a theory. They are compiled and counted like the
+            streams of theory, and have the same pages, but belong here.</p>
+          <ol class="rl-craft-list">
+{craft_items}          </ol>
+        </div>
+      </section>
+
+'''
 wr_in_lists = sum(1 for i in WR['items'] if i.get('doi') in by_doi)
 writing_head = f'''          <p class="rl-crumb"><a href="/readings/">Reading lists</a> <span aria-hidden="true">›</span> Writing</p>
           <h1>Writing the paper</h1>
@@ -663,10 +690,11 @@ writing_head = f'''          <p class="rl-crumb"><a href="/readings/">Reading li
 writing_body = f'''      <nav class="band rl-toc rl-writing-toc" aria-labelledby="wtoc-h">
         <h2 class="label" id="wtoc-h">Sections</h2>
         <ol class="body">
-{wr_toc}        </ol>
+{wr_toc}          <li><a href="#lists">The full lists from the syllabi</a> <span class="rl-n">{', '.join(NUM[k] for k in CRAFT)}</span></li>
+        </ol>
       </nav>
 
-{''.join(wr_sections)}'''
+{''.join(wr_sections)}{craft_band}'''
 
 
 search_json = json.dumps({'sources': N, 'core': CORE, 'items': search_items}, ensure_ascii=False, separators=(',', ':'))
@@ -736,4 +764,4 @@ write(ROOT + '/readings/search/index.html',
 sitemap = ['https://zhongyuan0.github.io' + p for p in ['/', '/research/', '/cv/', '/readings/', '/readings/canon/', '/readings/writing/', '/readings/network/', '/readings/search/'] + [url(k) for k in ORDER]]
 write(ROOT + '/sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
       + ''.join(f'  <url><loc>{u}</loc></url>\n' for u in sitemap) + '</urlset>\n')
-print('sources', N, 'readings', total, 'in 2+ sources', main_total, 'core', core_n, 'pages', len(ORDER) + 1)
+print('sources', N, 'readings', total, 'in 2+ sources', main_total, 'core', core_n, 'pages', len(ORDER) + 1, 'theory streams', len(THEORY))
